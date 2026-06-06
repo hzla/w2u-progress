@@ -1,0 +1,818 @@
+[
+  {
+    "key": "MOVE_AROMATIC_MIST",
+    "id": 597,
+    "constant": "MOVE_AROMATIC_MIST",
+    "name": "Aromatic Mist",
+    "pp": "20",
+    "power": "--",
+    "accuracy": "100",
+    "description": "The user raises the Sp. Def stat of ally Pokemon with a mysterious aroma.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_BABYDOLL_EYES",
+    "id": 608,
+    "constant": "MOVE_BABYDOLL_EYES",
+    "name": "Baby-Doll Eyes",
+    "pp": "30",
+    "power": "--",
+    "accuracy": "100",
+    "description": "The user stares at the target with its baby-doll eyes, which lowers its Attack stat. This move always goes first.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_BELCH",
+    "id": 562,
+    "constant": "MOVE_BELCH",
+    "name": "Belch",
+    "pp": "10",
+    "power": "120",
+    "accuracy": "90",
+    "description": "The user lets out a damaging belch on the target. The user must eat a Berry to use this move.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_BOOMBURST",
+    "id": 586,
+    "constant": "MOVE_BOOMBURST",
+    "name": "Boomburst",
+    "pp": "10",
+    "power": "140",
+    "accuracy": "100",
+    "description": "The user attacks everything around it with the destructive power of a terrible, explosive sound.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_CELEBRATE",
+    "id": 606,
+    "constant": "MOVE_CELEBRATE",
+    "name": "Celebrate",
+    "pp": "40",
+    "power": "--",
+    "accuracy": "--",
+    "description": "The Pokemon congratulates you on your special day!",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_CONFIDE",
+    "id": 590,
+    "constant": "MOVE_CONFIDE",
+    "name": "Confide",
+    "pp": "20",
+    "power": "--",
+    "accuracy": "--",
+    "description": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target's Sp. Atk stat.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_CRAFTY_SHIELD",
+    "id": 578,
+    "constant": "MOVE_CRAFTY_SHIELD",
+    "name": "Crafty Shield",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "The user protects itself and its allies from status moves with a mysterious power. This does not stop moves that do damage.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_DAZZLING_GLEAM",
+    "id": 605,
+    "constant": "MOVE_DAZZLING_GLEAM",
+    "name": "Dazzling Gleam",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "The user damages opposing Pokemon by emitting a powerful flash.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_DISARMING_VOICE",
+    "id": 574,
+    "constant": "MOVE_DISARMING_VOICE",
+    "name": "Disarming Voice",
+    "pp": "15",
+    "power": "40",
+    "accuracy": "--",
+    "description": "Letting out a charming cry, the user does emotional damage to opposing Pokemon. This attack never misses.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_DRAINING_KISS",
+    "id": 577,
+    "constant": "MOVE_DRAINING_KISS",
+    "name": "Draining Kiss",
+    "pp": "10",
+    "power": "50",
+    "accuracy": "100",
+    "description": "The user steals the target's energy with a kiss. The user's HP is restored by over half of the damage taken by the target.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_EERIE_IMPULSE",
+    "id": 598,
+    "constant": "MOVE_EERIE_IMPULSE",
+    "name": "Eerie Impulse",
+    "pp": "15",
+    "power": "--",
+    "accuracy": "100",
+    "description": "The user's body generates an eerie impulse. Exposing the target to it harshly lowers the target's Sp. Atk stat.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_ELECTRIC_TERRAIN",
+    "id": 604,
+    "constant": "MOVE_ELECTRIC_TERRAIN",
+    "name": "Electric Terrain",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "The user electrifies the ground under everyone's feet for five turns. Pokemon on the ground no longer fall asleep.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_ELECTRIFY",
+    "id": 582,
+    "constant": "MOVE_ELECTRIFY",
+    "name": "Electrify",
+    "pp": "20",
+    "power": "--",
+    "accuracy": "--",
+    "description": "If the target is electrified before it uses a move during that turn, the target's move becomes Electric type.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_FAIRY_LOCK",
+    "id": 587,
+    "constant": "MOVE_FAIRY_LOCK",
+    "name": "Fairy Lock",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "By locking down the battlefield, the user keeps all Pokemon from fleeing during the next turn.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_FAIRY_WIND",
+    "id": 584,
+    "constant": "MOVE_FAIRY_WIND",
+    "name": "Fairy Wind",
+    "pp": "30",
+    "power": "40",
+    "accuracy": "100",
+    "description": "The user stirs up a fairy wind and strikes the target with it.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_FELL_STINGER",
+    "id": 565,
+    "constant": "MOVE_FELL_STINGER",
+    "name": "Fell Stinger",
+    "pp": "25",
+    "power": "30",
+    "accuracy": "100",
+    "description": "When the user knocks out a target with this move, the user's Attack stat rises sharply.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_FLOWER_SHIELD",
+    "id": 579,
+    "constant": "MOVE_FLOWER_SHIELD",
+    "name": "Flower Shield",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "The user raises the Defense stat of all Grass-type Pokemon in battle with a mysterious power.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_FLYING_PRESS",
+    "id": 560,
+    "constant": "MOVE_FLYING_PRESS",
+    "name": "Flying Press",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "95",
+    "description": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_FORESTS_CURSE",
+    "id": 571,
+    "constant": "MOVE_FORESTS_CURSE",
+    "name": "Forest's Curse",
+    "pp": "20",
+    "power": "--",
+    "accuracy": "100",
+    "description": "The user puts a forest curse on the target. Afflicted targets are now Grass type as well.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_FREEZEDRY",
+    "id": 573,
+    "constant": "MOVE_FREEZEDRY",
+    "name": "Freeze-Dry",
+    "pp": "20",
+    "power": "70",
+    "accuracy": "100",
+    "description": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_GEOMANCY",
+    "id": 601,
+    "constant": "MOVE_GEOMANCY",
+    "name": "Geomancy",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_GRASSY_TERRAIN",
+    "id": 580,
+    "constant": "MOVE_GRASSY_TERRAIN",
+    "name": "Grassy Terrain",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "The user turns the ground under everyone's feet to grass for five turns. This restores the HP of Pokemon on the ground a little every turn.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_HAPPY_HOUR",
+    "id": 603,
+    "constant": "MOVE_HAPPY_HOUR",
+    "name": "Happy Hour",
+    "pp": "30",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Using Happy Hour doubles the amount of Prize Money received after battle.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_HOLD_BACK",
+    "id": 610,
+    "constant": "MOVE_HOLD_BACK",
+    "name": "Hold Back",
+    "pp": "40",
+    "power": "40",
+    "accuracy": "100",
+    "description": "The user holds back when it attacks and the target is left with at least 1 HP.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_INFESTATION",
+    "id": 611,
+    "constant": "MOVE_INFESTATION",
+    "name": "Infestation",
+    "pp": "20",
+    "power": "20",
+    "accuracy": "100",
+    "description": "The target is infested and attacked for four to five turns. The target can't flee during this time.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_ION_DELUGE",
+    "id": 569,
+    "constant": "MOVE_ION_DELUGE",
+    "name": "Ion Deluge",
+    "pp": "25",
+    "power": "--",
+    "accuracy": "--",
+    "description": "The user disperses electrically charged particles, which changes Normal-type moves to Electric-type moves.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_KINGS_SHIELD",
+    "id": 588,
+    "constant": "MOVE_KINGS_SHIELD",
+    "name": "King's Shield",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "The user takes a defensive stance while it protects itself from damage. It also harshly lowers the Attack stat of any attacker who makes direct contact.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_LANDS_WRATH",
+    "id": 616,
+    "constant": "MOVE_LANDS_WRATH",
+    "name": "Land's Wrath",
+    "pp": "10",
+    "power": "90",
+    "accuracy": "100",
+    "description": "The user gathers the energy of the land and focuses that power on opposing Pokemon to damage them.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_MAGNETIC_FLUX",
+    "id": 602,
+    "constant": "MOVE_MAGNETIC_FLUX",
+    "name": "Magnetic Flux",
+    "pp": "20",
+    "power": "--",
+    "accuracy": "--",
+    "description": "The user manipulates magnetic fields which raises the Defense and Sp. Def stats of ally Pokemon with the Plus or Minus Ability.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_MAT_BLOCK",
+    "id": 561,
+    "constant": "MOVE_MAT_BLOCK",
+    "name": "Mat Block",
+    "pp": "15",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves. This does not stop status moves.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_MISTY_TERRAIN",
+    "id": 581,
+    "constant": "MOVE_MISTY_TERRAIN",
+    "name": "Misty Terrain",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "The user covers the ground under everyone's feet with mist for five turns. This protects Pokemon on the ground from status conditions.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_MOONBLAST",
+    "id": 585,
+    "constant": "MOVE_MOONBLAST",
+    "name": "Moonblast",
+    "pp": "15",
+    "power": "95",
+    "accuracy": "100",
+    "description": "Borrowing the power of the moon, the user attacks the target. This may also lower the target's Sp. Atk stat.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_MYSTICAL_FIRE",
+    "id": 595,
+    "constant": "MOVE_MYSTICAL_FIRE",
+    "name": "Mystical Fire",
+    "pp": "10",
+    "power": "65",
+    "accuracy": "100",
+    "description": "The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_NOBLE_ROAR",
+    "id": 568,
+    "constant": "MOVE_NOBLE_ROAR",
+    "name": "Noble Roar",
+    "pp": "30",
+    "power": "--",
+    "accuracy": "100",
+    "description": "Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk stats.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_NUZZLE",
+    "id": 609,
+    "constant": "MOVE_NUZZLE",
+    "name": "Nuzzle",
+    "pp": "20",
+    "power": "20",
+    "accuracy": "100",
+    "description": "The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_OBLIVION_WING",
+    "id": 613,
+    "constant": "MOVE_OBLIVION_WING",
+    "name": "Oblivion Wing",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "The user absorbs its target's HP. The user's HP is restored by over half of the damage taken by the target.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_PARABOLIC_CHARGE",
+    "id": 570,
+    "constant": "MOVE_PARABOLIC_CHARGE",
+    "name": "Parabolic Charge",
+    "pp": "20",
+    "power": "50",
+    "accuracy": "100",
+    "description": "The user attacks everything around it. The user's HP is restored by half the damage taken by those hit.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_PARTING_SHOT",
+    "id": 575,
+    "constant": "MOVE_PARTING_SHOT",
+    "name": "Parting Shot",
+    "pp": "20",
+    "power": "--",
+    "accuracy": "100",
+    "description": "With a parting threat, the user lowers the target's Attack and Sp. Atk stats. Then it switches with a party Pokemon.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_PETAL_BLIZZARD",
+    "id": 572,
+    "constant": "MOVE_PETAL_BLIZZARD",
+    "name": "Petal Blizzard",
+    "pp": "15",
+    "power": "90",
+    "accuracy": "100",
+    "description": "The user stirs up a violent petal blizzard and attacks everything around it.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_PHANTOM_FORCE",
+    "id": 566,
+    "constant": "MOVE_PHANTOM_FORCE",
+    "name": "Phantom Force",
+    "pp": "10",
+    "power": "90",
+    "accuracy": "100",
+    "description": "The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_PLAY_NICE",
+    "id": 589,
+    "constant": "MOVE_PLAY_NICE",
+    "name": "Play Nice",
+    "pp": "20",
+    "power": "--",
+    "accuracy": "--",
+    "description": "The user and the target become friends, and the target loses its will to fight. This lowers the target's Attack stat.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_PLAY_ROUGH",
+    "id": 583,
+    "constant": "MOVE_PLAY_ROUGH",
+    "name": "Play Rough",
+    "pp": "10",
+    "power": "90",
+    "accuracy": "90",
+    "description": "The user plays rough with the target and attacks it. This may also lower the target's Attack stat.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_POWDER",
+    "id": 600,
+    "constant": "MOVE_POWDER",
+    "name": "Powder",
+    "pp": "20",
+    "power": "--",
+    "accuracy": "100",
+    "description": "The user covers the target in a powder that explodes and damages the target if it uses a Fire-type move.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_POWERUP_PUNCH",
+    "id": 612,
+    "constant": "MOVE_POWERUP_PUNCH",
+    "name": "Power-Up Punch",
+    "pp": "20",
+    "power": "40",
+    "accuracy": "100",
+    "description": "Striking opponents over and over makes the user's fists harder. Hitting a target raises the Attack stat.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_ROTOTILLER",
+    "id": 563,
+    "constant": "MOVE_ROTOTILLER",
+    "name": "Rototiller",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Tilling the soil, the user makes it easier for plants to grow. This raises the Attack and Sp. Atk stats of Grass-type Pokemon.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_SPIKY_SHIELD",
+    "id": 596,
+    "constant": "MOVE_SPIKY_SHIELD",
+    "name": "Spiky Shield",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "In addition to protecting the user from attacks, this move also damages any attacker who makes direct contact.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_STICKY_WEB",
+    "id": 564,
+    "constant": "MOVE_STICKY_WEB",
+    "name": "Sticky Web",
+    "pp": "20",
+    "power": "--",
+    "accuracy": "--",
+    "description": "The user weaves a sticky net around the opposing team, which lowers their Speed stat upon switching into battle.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_TOPSYTURVY",
+    "id": 576,
+    "constant": "MOVE_TOPSYTURVY",
+    "name": "Topsy-Turvy",
+    "pp": "20",
+    "power": "--",
+    "accuracy": "100",
+    "description": "All stat changes affecting the target turn topsy-turvy and become the opposite of what they were.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_TRICKORTREAT",
+    "id": 567,
+    "constant": "MOVE_TRICKORTREAT",
+    "name": "Trick-or-Treat",
+    "pp": "20",
+    "power": "--",
+    "accuracy": "100",
+    "description": "The user takes the target trick-or-treating. This adds Ghost type to the target's type.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_VENOM_DRENCH",
+    "id": 599,
+    "constant": "MOVE_VENOM_DRENCH",
+    "name": "Venom Drench",
+    "pp": "20",
+    "power": "--",
+    "accuracy": "100",
+    "description": "Opposing Pokemon are drenched in an odd poisonous liquid. This lowers the Attack, Sp. Atk, and Speed stats of a poisoned target.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "MOVE_WATER_SHURIKEN",
+    "id": 594,
+    "constant": "MOVE_WATER_SHURIKEN",
+    "name": "Water Shuriken",
+    "pp": "20",
+    "power": "15",
+    "accuracy": "100",
+    "description": "The user hits the target with throwing stars two to five times in a row. This move always goes first.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    }
+  }
+]

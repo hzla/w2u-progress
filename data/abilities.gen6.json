@@ -1,0 +1,290 @@
+[
+  {
+    "key": "ABIL_AERILATE",
+    "id": 184,
+    "constant": "ABIL_AERILATE",
+    "name": "Aerilate",
+    "description": "Normal-type moves become Flying-type moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_AROMA_VEIL",
+    "id": 165,
+    "constant": "ABIL_AROMA_VEIL",
+    "name": "Aroma Veil",
+    "description": "Protects allies from attacks that effect their mental state.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_AURA_BREAK",
+    "id": 188,
+    "constant": "ABIL_AURA_BREAK",
+    "name": "Aura Break",
+    "description": "The effects of Aura Abilities are reversed.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_BULLETPROOF",
+    "id": 171,
+    "constant": "ABIL_BULLETPROOF",
+    "name": "Bulletproof",
+    "description": "Protects the Pokemon from some ball and bomb moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_CHEEK_POUCH",
+    "id": 167,
+    "constant": "ABIL_CHEEK_POUCH",
+    "name": "Cheek Pouch",
+    "description": "Restores HP as well when the Pokemon eats a Berry.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_COMPETITIVE",
+    "id": 172,
+    "constant": "ABIL_COMPETITIVE",
+    "name": "Competitive",
+    "description": "Boosts the Sp. Atk stat when a stat is lowered.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_DARK_AURA",
+    "id": 186,
+    "constant": "ABIL_DARK_AURA",
+    "name": "Dark Aura",
+    "description": "Powers up each Pokemon's Dark-type moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_FAIRY_AURA",
+    "id": 187,
+    "constant": "ABIL_FAIRY_AURA",
+    "name": "Fairy Aura",
+    "description": "Powers up each Pokemon's Fairy-type moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_FLOWER_VEIL",
+    "id": 166,
+    "constant": "ABIL_FLOWER_VEIL",
+    "name": "Flower Veil",
+    "description": "Prevents lowering of ally Grass-type Pokemon's stats.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_FUR_COAT",
+    "id": 169,
+    "constant": "ABIL_FUR_COAT",
+    "name": "Fur Coat",
+    "description": "Halves damage from physical moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_GALE_WINGS",
+    "id": 177,
+    "constant": "ABIL_GALE_WINGS",
+    "name": "Gale Wings",
+    "description": "Gives priority to Flying-type moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_GOOEY",
+    "id": 183,
+    "constant": "ABIL_GOOEY",
+    "name": "Gooey",
+    "description": "Contact with the Pokemon lowers the attacker's Speed stat.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_GRASS_PELT",
+    "id": 179,
+    "constant": "ABIL_GRASS_PELT",
+    "name": "Grass Pelt",
+    "description": "Boosts the Defense stat when the terrain is grass.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_MAGICIAN",
+    "id": 170,
+    "constant": "ABIL_MAGICIAN",
+    "name": "Magician",
+    "description": "The Pokemon steals the held item of a Pokemon it hits with a move.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_MEGA_LAUNCHER",
+    "id": 178,
+    "constant": "ABIL_MEGA_LAUNCHER",
+    "name": "Mega Launcher",
+    "description": "Powers up aura and pulse moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_PARENTAL_BOND",
+    "id": 185,
+    "constant": "ABIL_PARENTAL_BOND",
+    "name": "Parental Bond",
+    "description": "Parent and child attack together.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_PIXILATE",
+    "id": 182,
+    "constant": "ABIL_PIXILATE",
+    "name": "Pixilate",
+    "description": "Normal-type moves become Fairy-type moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_PROTEAN",
+    "id": 168,
+    "constant": "ABIL_PROTEAN",
+    "name": "Protean",
+    "description": "Changes the Pokemon's type to the type of the move it just used.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_REFRIGERATE",
+    "id": 174,
+    "constant": "ABIL_REFRIGERATE",
+    "name": "Refrigerate",
+    "description": "Normal-type moves become Ice-type moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_STANCE_CHANGE",
+    "id": 176,
+    "constant": "ABIL_STANCE_CHANGE",
+    "name": "Stance Change",
+    "description": "The Pokemon changes form depending on how it battles.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_STRONG_JAW",
+    "id": 173,
+    "constant": "ABIL_STRONG_JAW",
+    "name": "Strong Jaw",
+    "description": "The Pokemon's strong jaw gives it tremendous biting power.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_SWEET_VEIL",
+    "id": 175,
+    "constant": "ABIL_SWEET_VEIL",
+    "name": "Sweet Veil",
+    "description": "Prevents ally Pokemon from falling asleep.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_SYMBIOSIS",
+    "id": 180,
+    "constant": "ABIL_SYMBIOSIS",
+    "name": "Symbiosis",
+    "description": "The Pokemon can pass an item to an ally.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_TOUGH_CLAWS",
+    "id": 181,
+    "constant": "ABIL_TOUGH_CLAWS",
+    "name": "Tough Claws",
+    "description": "Powers up moves that make direct contact.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": ""
+    }
+  }
+]

@@ -1,0 +1,424 @@
+:root {
+  color-scheme: light;
+  --bg: #f4f6f8;
+  --panel: #ffffff;
+  --panel-soft: #eef3f5;
+  --ink: #172026;
+  --muted: #62707a;
+  --line: #d8e0e5;
+  --teal: #0f766e;
+  --teal-soft: #d9f1ee;
+  --amber: #b7791f;
+  --amber-soft: #fff3cf;
+  --coral: #bd4a3a;
+  --coral-soft: #ffe2dd;
+  --shadow: 0 18px 48px rgba(23, 32, 38, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: var(--bg);
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.app-shell {
+  width: min(1440px, 100%);
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.topbar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 0 22px;
+}
+
+.eyebrow {
+  margin: 0 0 4px;
+  color: var(--teal);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(28px, 5vw, 44px);
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.toolbar,
+.tabs,
+.controls,
+.segmented {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tool-button,
+.tab,
+.segment {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--ink);
+  font-weight: 750;
+  min-height: 38px;
+  padding: 0 14px;
+  transition: background 140ms ease, border-color 140ms ease, color 140ms ease, transform 140ms ease;
+}
+
+a.tool-button {
+  text-decoration: none;
+}
+
+.tool-button:hover,
+.tab:hover,
+.segment:hover {
+  border-color: #9fb2bd;
+  transform: translateY(-1px);
+}
+
+.tool-button.download {
+  color: var(--teal);
+}
+
+.tool-button.danger {
+  color: var(--coral);
+}
+
+.summary-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+  box-shadow: var(--shadow);
+}
+
+.summary-item {
+  min-width: 0;
+  background: var(--panel);
+  padding: 16px;
+}
+
+.summary-label {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+.summary-item strong {
+  display: block;
+  overflow: hidden;
+  margin-top: 4px;
+  font-size: 24px;
+  line-height: 1.1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tabs {
+  margin-top: 20px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+}
+
+.tab.is-active,
+.segment.is-active {
+  border-color: var(--teal);
+  background: var(--teal);
+  color: #ffffff;
+}
+
+.controls {
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 14px;
+}
+
+.search-wrap {
+  display: grid;
+  grid-template-columns: auto minmax(180px, 440px);
+  align-items: center;
+  gap: 10px;
+  width: min(100%, 560px);
+  color: var(--muted);
+  font-weight: 750;
+}
+
+.search-wrap input {
+  width: 100%;
+  min-height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--ink);
+  padding: 0 12px;
+  outline: none;
+}
+
+.search-wrap input:focus-visible,
+.notes-input:focus-visible,
+button:focus-visible {
+  outline: 3px solid rgba(15, 118, 110, 0.24);
+  outline-offset: 2px;
+}
+
+.tracker-panel {
+  margin-top: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.table-scroll {
+  overflow: auto;
+  max-height: calc(100vh - 280px);
+  min-height: 360px;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  min-width: 980px;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #172026;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1.2;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+th,
+td {
+  border-bottom: 1px solid var(--line);
+  padding: 10px 12px;
+  vertical-align: middle;
+}
+
+tbody tr:hover {
+  background: #f9fbfb;
+}
+
+.id-cell {
+  width: 70px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  font-weight: 750;
+}
+
+.name-cell {
+  min-width: 230px;
+}
+
+.name-cell strong {
+  display: block;
+  line-height: 1.2;
+}
+
+.meta-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 5px;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  min-height: 22px;
+  border-radius: 999px;
+  background: var(--panel-soft);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 750;
+  padding: 0 8px;
+  white-space: nowrap;
+}
+
+.pill.ok {
+  background: var(--teal-soft);
+  color: var(--teal);
+}
+
+.pill.warn {
+  background: var(--amber-soft);
+  color: var(--amber);
+}
+
+.readonly-cell {
+  max-width: 420px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.compact-cell {
+  width: 88px;
+  min-width: 88px;
+  text-align: center;
+}
+
+.check-cell {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+}
+
+.check-cell input {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  opacity: 0;
+}
+
+.check-cell span {
+  position: relative;
+  display: block;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #a8b6bf;
+  border-radius: 6px;
+  background: #ffffff;
+  transition: background 120ms ease, border-color 120ms ease;
+}
+
+.check-cell input:checked + span {
+  border-color: var(--teal);
+  background: var(--teal);
+}
+
+.check-cell input:checked + span::after {
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  width: 6px;
+  height: 11px;
+  border: solid #ffffff;
+  border-width: 0 2px 2px 0;
+  content: "";
+  transform: rotate(45deg);
+}
+
+.check-cell input:focus-visible + span {
+  outline: 3px solid rgba(15, 118, 110, 0.24);
+  outline-offset: 2px;
+}
+
+.check-cell input:disabled + span,
+.notes-input[readonly] {
+  cursor: default;
+}
+
+.check-cell input:disabled + span {
+  opacity: 0.82;
+}
+
+.is-readonly .check-cell,
+.is-readonly .notes-input {
+  cursor: default;
+}
+
+.notes-cell {
+  min-width: 220px;
+}
+
+.notes-input {
+  display: block;
+  width: 100%;
+  min-height: 36px;
+  max-height: 92px;
+  resize: vertical;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfd;
+  color: var(--ink);
+  padding: 8px 10px;
+}
+
+.empty-state {
+  margin: 0;
+  padding: 28px;
+  color: var(--muted);
+  font-weight: 750;
+  text-align: center;
+}
+
+@media (max-width: 760px) {
+  .app-shell {
+    padding: 14px;
+  }
+
+  .topbar,
+  .controls {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .toolbar,
+  .tabs,
+  .segmented {
+    flex-wrap: wrap;
+  }
+
+  .summary-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .search-wrap {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .table-scroll {
+    max-height: calc(100vh - 360px);
+  }
+}
