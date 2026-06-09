@@ -1,0 +1,561 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-09T18:39:03.569Z",
+  "progress": {
+    "pokemon": {
+      "SPECIES_CHESPIN": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_QUILLADIN": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_FENNEKIN": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_BRAIXEN": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_FROAKIE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_FLETCHLING": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_FLETCHINDER": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_DELPHOX": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_TALONFLAME": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_SCATTERBUG": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_SPEWPA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_VIVILLON": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_LITLEO": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_PYROAR": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_FLABEBE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_SKIDDO": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_PANCHAM": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_SWIRLIX": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_BINACLE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_CLAUNCHER": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_GOODRA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_CHESNAUGHT": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_FROGADIER": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_GRENINJA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_BUNNELBY": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_DIGGERSBY": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      }
+    },
+    "moves": {
+      "MOVE_BOOMBURST": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_BABYDOLL_EYES": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_DAZZLING_GLEAM": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_DISARMING_VOICE": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_DRAINING_KISS": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_EERIE_IMPULSE": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_FAIRY_WIND": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_CRAFTY_SHIELD": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": "Static W2U pos effect blocks status moves for allies."
+      },
+      "MOVE_BELCH": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": "Selection blocked until the user has consumed a Berry."
+      },
+      "MOVE_ELECTRIFY": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": "Static W2U pos effect rewrites the target's move type to Electric."
+      },
+      "MOVE_ION_DELUGE": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": "Static W2U pos effect rewrites Normal moves to Electric."
+      },
+      "MOVE_ROTOTILLER": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": "Static handler raises Attack and Sp. Atk for grounded Grass Pokemon."
+      },
+      "MOVE_CELEBRATE": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_CONFIDE": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_FAIRY_LOCK": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": "Reuses vanilla Spider Web as PW2's Fairy Lock approximation."
+      },
+      "MOVE_FELL_STINGER": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": "Static handler raises Attack by 2 after the user KOs a target."
+      },
+      "MOVE_FLOWER_SHIELD": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": "Reuses the Rototiller-style Grass-type stat handler."
+      },
+      "MOVE_FORESTS_CURSE": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": "Static handler adds Grass as a W2U extra type."
+      },
+      "MOVE_KINGS_SHIELD": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": "Static protect clone lowers contact attackers' Attack by 2."
+      },
+      "MOVE_MOONBLAST": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MYSTICAL_FIRE": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_NOBLE_ROAR": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_NUZZLE": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_OBLIVION_WING": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_PARABOLIC_CHARGE": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_PETAL_BLIZZARD": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_PLAY_NICE": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_PLAY_ROUGH": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_POWERUP_PUNCH": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_WATER_SHURIKEN": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_FREEZEDRY": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": "Type-effectiveness hook treats Water targets as super effective."
+      },
+      "MOVE_AROMATIC_MIST": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_TOPSYTURVY": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": "Static handler inverts target stat stages."
+      },
+      "MOVE_LANDS_WRATH": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
+      }
+    },
+    "items": {},
+    "abilities": {
+      "ABIL_AERILATE": {
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
+      },
+      "ABIL_REFRIGERATE": {
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
+      },
+      "ABIL_PIXILATE": {
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
+      },
+      "ABIL_STRONG_JAW": {
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade battle handler ported with expanded high-bit bite flag; needs in-game verification."
+      },
+      "ABIL_BULLETPROOF": {
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade battle handler ported with expanded high-bit move flag; message ID 210 still needs in-game verification."
+      },
+      "ABIL_MEGA_LAUNCHER": {
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade battle handler ported with expanded high-bit pulse flag; needs in-game verification."
+      },
+      "ABIL_TOUGH_CLAWS": {
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade battle handler ported using FLAG_CONTACT fallback because MakesContact is not exported here; needs in-game verification."
+      },
+      "ABIL_FUR_COAT": {
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
+      },
+      "ABIL_FAIRY_AURA": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_DARK_AURA": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_AURA_BREAK": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_COMPETITIVE": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_GALE_WINGS": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_MAGICIAN": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_PROTEAN": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_CHEEK_POUCH": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_GOOEY": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_PARENTAL_BOND": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_AROMA_VEIL": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_FLOWER_VEIL": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_SWEET_VEIL": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_SYMBIOSIS": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      }
+    }
+  }
+}

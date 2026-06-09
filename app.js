@@ -63,12 +63,19 @@
     search: "",
     canEdit: isLocalhost(),
     seeds: {},
+    publishedProgress: {
+      pokemon: {},
+      moves: {},
+      items: {},
+      abilities: {}
+    },
     progress: {
       pokemon: {},
       moves: {},
       items: {},
       abilities: {}
     },
+    publishedAt: "",
     savedAt: ""
   };
 
@@ -146,17 +153,27 @@
       (state.seeds[category] || []).forEach((row) => {
         snapshot[category][row.key] = mergeProgress(category, row);
       });
-      Object.entries(state.progress[category] || {}).forEach(([key, value]) => {
-        if (!snapshot[category][key]) {
-          snapshot[category][key] = value;
-        }
-      });
+      copyUnseededProgress(snapshot, category, state.publishedProgress);
+      copyUnseededProgress(snapshot, category, state.progress);
     });
     return snapshot;
   }
 
+  function copyUnseededProgress(snapshot, category, source) {
+    Object.entries(source[category] || {}).forEach(([key, value]) => {
+      if (!snapshot[category][key]) {
+        snapshot[category][key] = value;
+      }
+    });
+  }
+
   function mergeProgress(category, row) {
-    return Object.assign({}, row.defaultProgress || {}, state.progress[category][row.key] || {});
+    return Object.assign(
+      {},
+      row.defaultProgress || {},
+      state.publishedProgress[category][row.key] || {},
+      state.progress[category][row.key] || {}
+    );
   }
 
   function findSeedRow(category, key) {
@@ -235,7 +252,9 @@
     els.rows.textContent = String(rows.length);
     els.checked.textContent = `${checked} / ${rows.length * fields.length}`;
     els.verified.textContent = String(verified);
-    els.saved.textContent = state.canEdit ? formatSavedTime(state.savedAt) : "Published";
+    els.saved.textContent = state.canEdit
+      ? formatSavedTime(state.savedAt)
+      : state.publishedAt ? formatSavedTime(state.publishedAt) : "Published";
   }
 
   function syncEditControls() {
@@ -441,21 +460,40 @@
   }
 
   async function loadSeeds() {
-    const entries = await Promise.all(Object.entries(CATEGORIES).map(async ([key, config]) => {
-      const response = await fetch(config.url);
-      if (!response.ok) {
-        throw new Error(`Failed to load ${config.url}`);
-      }
-      return [key, await response.json()];
-    }));
+    const [entries, published] = await Promise.all([
+      Promise.all(Object.entries(CATEGORIES).map(async ([key, config]) => {
+        const response = await fetch(config.url);
+        if (!response.ok) {
+          throw new Error(`Failed to load ${config.url}`);
+        }
+        return [key, await response.json()];
+      })),
+      loadPublishedProgress()
+    ]);
     state.seeds = Object.fromEntries(entries);
+    state.publishedProgress = published.progress;
+    state.publishedAt = published.savedAt;
+  }
+
+  async function loadPublishedProgress() {
+    try {
+      const response = await fetch("data/published-progress.json");
+      if (!response.ok) {
+        return { progress: emptyProgress(), savedAt: "" };
+      }
+      return normalizeStoredProgress(await response.json());
+    } catch (_error) {
+      return { progress: emptyProgress(), savedAt: "" };
+    }
   }
 
   async function init() {
     syncEditControls();
-    const stored = loadStoredProgress();
-    state.progress = stored.progress;
-    state.savedAt = stored.savedAt;
+    if (state.canEdit) {
+      const stored = loadStoredProgress();
+      state.progress = stored.progress;
+      state.savedAt = stored.savedAt;
+    }
     bindEvents();
     try {
       await loadSeeds();
