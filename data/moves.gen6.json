@@ -42,9 +42,9 @@
     "description": "The user lets out a damaging belch on the target. The user must eat a Berry to use this move.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Selection blocked until the user has consumed a Berry."
     }
   },
   {
@@ -106,9 +106,9 @@
     "description": "The user protects itself and its allies from status moves with a mysterious power. This does not stop moves that do damage.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static W2U pos effect blocks status moves for allies."
     }
   },
   {
@@ -186,9 +186,9 @@
     "description": "The user electrifies the ground under everyone's feet for five turns. Pokemon on the ground no longer fall asleep.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static W2U terrain blocks sleep and boosts grounded Electric moves."
     }
   },
   {
@@ -202,9 +202,9 @@
     "description": "If the target is electrified before it uses a move during that turn, the target's move becomes Electric type.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static W2U pos effect rewrites the target's move type to Electric."
     }
   },
   {
@@ -218,9 +218,9 @@
     "description": "By locking down the battlefield, the user keeps all Pokemon from fleeing during the next turn.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Reuses vanilla Spider Web as PW2's Fairy Lock approximation."
     }
   },
   {
@@ -250,9 +250,9 @@
     "description": "When the user knocks out a target with this move, the user's Attack stat rises sharply.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static handler raises Attack by 2 after the user KOs a target."
     }
   },
   {
@@ -266,9 +266,9 @@
     "description": "The user raises the Defense stat of all Grass-type Pokemon in battle with a mysterious power.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Reuses the Rototiller-style Grass-type stat handler."
     }
   },
   {
@@ -282,9 +282,9 @@
     "description": "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Type-effectiveness hook applies Fighting plus Flying effectiveness."
     }
   },
   {
@@ -298,9 +298,9 @@
     "description": "The user puts a forest curse on the target. Afflicted targets are now Grass type as well.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static handler adds Grass as a W2U extra type."
     }
   },
   {
@@ -314,9 +314,9 @@
     "description": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Type-effectiveness hook treats Water targets as super effective."
     }
   },
   {
@@ -330,9 +330,9 @@
     "description": "The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static handler adds the charge message; move data handles charge and stat boosts."
     }
   },
   {
@@ -346,9 +346,9 @@
     "description": "The user turns the ground under everyone's feet to grass for five turns. This restores the HP of Pokemon on the ground a little every turn.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static W2U terrain heals grounded Pokemon and boosts Grass moves."
     }
   },
   {
@@ -362,9 +362,9 @@
     "description": "Using Happy Hour doubles the amount of Prize Money received after battle.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static handler sets BW2's money-double battle flag."
     }
   },
   {
@@ -378,9 +378,9 @@
     "description": "The user holds back when it attacks and the target is left with at least 1 HP.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Reuses vanilla False Swipe handler."
     }
   },
   {
@@ -394,9 +394,9 @@
     "description": "The target is infested and attacked for four to five turns. The target can't flee during this time.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Reuses vanilla Bind handler."
     }
   },
   {
@@ -410,9 +410,9 @@
     "description": "The user disperses electrically charged particles, which changes Normal-type moves to Electric-type moves.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static W2U pos effect rewrites Normal moves to Electric."
     }
   },
   {
@@ -426,9 +426,9 @@
     "description": "The user takes a defensive stance while it protects itself from damage. It also harshly lowers the Attack stat of any attacker who makes direct contact.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static protect clone lowers contact attackers' Attack by 2."
     }
   },
   {
@@ -458,9 +458,9 @@
     "description": "The user manipulates magnetic fields which raises the Defense and Sp. Def stats of ally Pokemon with the Plus or Minus Ability.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static handler filters targets without Plus or Minus."
     }
   },
   {
@@ -474,9 +474,9 @@
     "description": "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves. This does not stop status moves.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static protect clone shields allies from damaging moves."
     }
   },
   {
@@ -490,9 +490,9 @@
     "description": "The user covers the ground under everyone's feet with mist for five turns. This protects Pokemon on the ground from status conditions.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static W2U terrain blocks status and weakens Dragon moves."
     }
   },
   {
@@ -602,9 +602,9 @@
     "description": "With a parting threat, the user lowers the target's Attack and Sp. Atk stats. Then it switches with a party Pokemon.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static handler lowers offenses, then queues the user switch."
     }
   },
   {
@@ -634,9 +634,9 @@
     "description": "The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Reuses vanilla Shadow Force as PW2's Phantom Force approximation."
     }
   },
   {
@@ -682,9 +682,9 @@
     "description": "The user covers the target in a powder that explodes and damages the target if it uses a Fire-type move.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static transient handler marks the target and cancels Fire moves with damage."
     }
   },
   {
@@ -714,9 +714,9 @@
     "description": "Tilling the soil, the user makes it easier for plants to grow. This raises the Attack and Sp. Atk stats of Grass-type Pokemon.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static handler raises Attack and Sp. Atk for grounded Grass Pokemon."
     }
   },
   {
@@ -730,9 +730,9 @@
     "description": "In addition to protecting the user from attacks, this move also damages any attacker who makes direct contact.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Protect clone with W2U contact damage hook."
     }
   },
   {
@@ -746,9 +746,9 @@
     "description": "The user weaves a sticky net around the opposing team, which lowers their Speed stat upon switching into battle.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static W2U side effect lowers grounded switch-ins' Speed."
     }
   },
   {
@@ -762,9 +762,9 @@
     "description": "All stat changes affecting the target turn topsy-turvy and become the opposite of what they were.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static handler inverts target stat stages."
     }
   },
   {
@@ -778,9 +778,9 @@
     "description": "The user takes the target trick-or-treating. This adds Ghost type to the target's type.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static handler adds Ghost as a W2U extra type."
     }
   },
   {
@@ -794,9 +794,9 @@
     "description": "Opposing Pokemon are drenched in an odd poisonous liquid. This lowers the Attack, Sp. Atk, and Speed stats of a poisoned target.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static handler filters targets that are not poisoned."
     }
   },
   {

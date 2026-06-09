@@ -1,18 +1,20 @@
 :root {
-  color-scheme: light;
-  --bg: #f4f6f8;
-  --panel: #ffffff;
-  --panel-soft: #eef3f5;
-  --ink: #172026;
-  --muted: #62707a;
-  --line: #d8e0e5;
-  --teal: #0f766e;
-  --teal-soft: #d9f1ee;
-  --amber: #b7791f;
-  --amber-soft: #fff3cf;
-  --coral: #bd4a3a;
-  --coral-soft: #ffe2dd;
-  --shadow: 0 18px 48px rgba(23, 32, 38, 0.12);
+  color-scheme: dark;
+  --bg: #101112;
+  --panel: #181b1e;
+  --panel-soft: #23272b;
+  --ink: #f0f4f7;
+  --muted: #a2acb7;
+  --line: #333940;
+  --teal: #5eead4;
+  --teal-soft: #123d3a;
+  --amber: #f4c96b;
+  --amber-soft: #3b3016;
+  --coral: #ff8a7a;
+  --coral-soft: #421f1c;
+  --accent-contrast: #061513;
+  --hover: #20252a;
+  --shadow: 0 18px 48px rgba(0, 0, 0, 0.38);
 }
 
 * {
@@ -26,6 +28,9 @@ html {
 
 body {
   margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(94, 234, 212, 0.08), transparent 32rem),
+    var(--bg);
   color: var(--ink);
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 14px;
@@ -104,7 +109,8 @@ a.tool-button {
 .tool-button:hover,
 .tab:hover,
 .segment:hover {
-  border-color: #9fb2bd;
+  border-color: #55616b;
+  background: var(--hover);
   transform: translateY(-1px);
 }
 
@@ -162,7 +168,7 @@ a.tool-button {
 .segment.is-active {
   border-color: var(--teal);
   background: var(--teal);
-  color: #ffffff;
+  color: var(--accent-contrast);
 }
 
 .controls {
@@ -195,7 +201,7 @@ a.tool-button {
 .search-wrap input:focus-visible,
 .notes-input:focus-visible,
 button:focus-visible {
-  outline: 3px solid rgba(15, 118, 110, 0.24);
+  outline: 3px solid rgba(94, 234, 212, 0.28);
   outline-offset: 2px;
 }
 
@@ -225,8 +231,8 @@ thead th {
   position: sticky;
   top: 0;
   z-index: 2;
-  background: #172026;
-  color: #ffffff;
+  background: #0b0d0f;
+  color: var(--ink);
   font-size: 12px;
   line-height: 1.2;
   text-align: left;
@@ -243,7 +249,7 @@ td {
 }
 
 tbody tr:hover {
-  background: #f9fbfb;
+  background: var(--hover);
 }
 
 .id-cell {
@@ -306,6 +312,7 @@ tbody tr:hover {
 }
 
 .check-cell {
+  position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -315,9 +322,13 @@ tbody tr:hover {
 
 .check-cell input {
   position: absolute;
-  inline-size: 1px;
-  block-size: 1px;
+  z-index: 1;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  margin: 0;
   opacity: 0;
+  cursor: pointer;
 }
 
 .check-cell span {
@@ -325,9 +336,10 @@ tbody tr:hover {
   display: block;
   width: 22px;
   height: 22px;
-  border: 2px solid #a8b6bf;
+  border: 2px solid #6b7782;
   border-radius: 6px;
-  background: #ffffff;
+  background: #111315;
+  pointer-events: none;
   transition: background 120ms ease, border-color 120ms ease;
 }
 
@@ -342,14 +354,14 @@ tbody tr:hover {
   left: 6px;
   width: 6px;
   height: 11px;
-  border: solid #ffffff;
+  border: solid var(--accent-contrast);
   border-width: 0 2px 2px 0;
   content: "";
   transform: rotate(45deg);
 }
 
 .check-cell input:focus-visible + span {
-  outline: 3px solid rgba(15, 118, 110, 0.24);
+  outline: 3px solid rgba(94, 234, 212, 0.28);
   outline-offset: 2px;
 }
 
@@ -379,7 +391,7 @@ tbody tr:hover {
   resize: vertical;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #fbfcfd;
+  background: #111315;
   color: var(--ink);
   padding: 8px 10px;
 }

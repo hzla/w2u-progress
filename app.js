@@ -78,6 +78,7 @@
     search: document.getElementById("search-input"),
     head: document.getElementById("tracker-head"),
     body: document.getElementById("tracker-body"),
+    tableScroll: document.querySelector(".table-scroll"),
     empty: document.getElementById("empty-state"),
     rows: document.getElementById("summary-rows"),
     checked: document.getElementById("summary-checked"),
@@ -118,10 +119,6 @@
   }
 
   function loadStoredProgress() {
-    if (!state.canEdit) {
-      return { progress: emptyProgress(), savedAt: "" };
-    }
-
     try {
       return normalizeStoredProgress(JSON.parse(localStorage.getItem(STORAGE_KEY)));
     } catch (_error) {
@@ -171,6 +168,10 @@
       row.name,
       row.key,
       row.constant,
+      row.kind,
+      row.baseSpecies,
+      row.baseSpeciesId,
+      row.megaItem,
       row.description,
       row.assetStatus,
       row.runtimeNotes,
@@ -317,6 +318,21 @@
     }).join("");
   }
 
+  function removeRowIfFilteredOut(rowElement, category, row) {
+    if (!rowElement || !row || rowMatchesFilter(category, row)) {
+      return;
+    }
+
+    const scrollTop = els.tableScroll ? els.tableScroll.scrollTop : 0;
+    const scrollLeft = els.tableScroll ? els.tableScroll.scrollLeft : 0;
+    rowElement.remove();
+    els.empty.hidden = els.body.children.length !== 0;
+    if (els.tableScroll) {
+      els.tableScroll.scrollTop = scrollTop;
+      els.tableScroll.scrollLeft = scrollLeft;
+    }
+  }
+
   function render() {
     renderHead();
     renderRows();
@@ -396,6 +412,7 @@
     els.body.addEventListener("change", (event) => {
       const target = event.target;
       if (target.matches("input[type='checkbox']")) {
+        const rowElement = target.closest("tr");
         if (!state.canEdit) {
           const seedRow = findSeedRow(state.activeTab, target.dataset.key);
           target.checked = mergeProgress(
@@ -404,8 +421,10 @@
           )[target.dataset.field] === true;
           return;
         }
-        updateRowProgress(state.activeTab, target.dataset.key, target.dataset.field, target.checked);
-        renderRows();
+        const category = state.activeTab;
+        const seedRow = findSeedRow(category, target.dataset.key);
+        updateRowProgress(category, target.dataset.key, target.dataset.field, target.checked);
+        removeRowIfFilteredOut(rowElement, category, seedRow);
       }
     });
 

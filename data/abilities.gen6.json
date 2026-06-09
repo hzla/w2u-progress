@@ -6,9 +6,9 @@
     "name": "Aerilate",
     "description": "Normal-type moves become Flying-type moves.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
     }
   },
   {
@@ -18,9 +18,9 @@
     "name": "Aroma Veil",
     "description": "Protects allies from attacks that effect their mental state.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "W2U static handler registered for condition-add fail checks; protects self/allies from Heal Block, Disable, Attract, Taunt, Encore, and Torment. Needs targeted double-battle verification."
     }
   },
   {
@@ -42,9 +42,9 @@
     "name": "Bulletproof",
     "description": "Protects the Pokemon from some ball and bomb moves.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static White2Upgrade battle handler ported with expanded high-bit move flag; message ID 210 still needs in-game verification."
     }
   },
   {
@@ -54,9 +54,9 @@
     "name": "Cheek Pouch",
     "description": "Restores HP as well when the Pokemon eats a Berry.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "W2U static handler registered with held-item consume dispatch hook; needs targeted berry-consumption verification."
     }
   },
   {
@@ -66,9 +66,9 @@
     "name": "Competitive",
     "description": "Boosts the Sp. Atk stat when a stat is lowered.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "W2U static handler registered; needs targeted battle verification."
     }
   },
   {
@@ -102,9 +102,9 @@
     "name": "Flower Veil",
     "description": "Prevents lowering of ally Grass-type Pokemon's stats.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "W2U static handler registered for Grass ally status and stat-drop prevention; needs targeted double-battle verification."
     }
   },
   {
@@ -114,9 +114,9 @@
     "name": "Fur Coat",
     "description": "Halves damage from physical moves.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
     }
   },
   {
@@ -126,9 +126,9 @@
     "name": "Gale Wings",
     "description": "Gives priority to Flying-type moves.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "W2U static handler registered with full-HP gate; needs targeted battle verification."
     }
   },
   {
@@ -138,9 +138,9 @@
     "name": "Gooey",
     "description": "Contact with the Pokemon lowers the attacker's Speed stat.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "W2U static handler registered using contact-flag fallback for MakesContact; needs targeted contact-hit verification."
     }
   },
   {
@@ -162,9 +162,9 @@
     "name": "Magician",
     "description": "The Pokemon steals the held item of a Pokemon it hits with a move.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "W2U static handler registered using vanilla Thief/item-swap helpers; needs targeted battle verification."
     }
   },
   {
@@ -174,9 +174,9 @@
     "name": "Mega Launcher",
     "description": "Powers up aura and pulse moves.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static White2Upgrade battle handler ported with expanded high-bit pulse flag; needs in-game verification."
     }
   },
   {
@@ -186,9 +186,9 @@
     "name": "Parental Bond",
     "description": "Parent and child attack together.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "W2U static handler and damage-root hook ported for Gen 6 two-hit behavior; excludes PW2's ignored moves and charge moves. Needs targeted battle verification."
     }
   },
   {
@@ -198,9 +198,9 @@
     "name": "Pixilate",
     "description": "Normal-type moves become Fairy-type moves.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
     }
   },
   {
@@ -210,9 +210,9 @@
     "name": "Protean",
     "description": "Changes the Pokemon's type to the type of the move it just used.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "W2U static handler registered using EVENT_MOVE_EXECUTE_CHECK2 and vanilla change-type effect; needs targeted battle verification."
     }
   },
   {
@@ -222,9 +222,9 @@
     "name": "Refrigerate",
     "description": "Normal-type moves become Ice-type moves.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
     }
   },
   {
@@ -246,9 +246,9 @@
     "name": "Strong Jaw",
     "description": "The Pokemon's strong jaw gives it tremendous biting power.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static White2Upgrade battle handler ported with expanded high-bit bite flag; needs in-game verification."
     }
   },
   {
@@ -258,9 +258,9 @@
     "name": "Sweet Veil",
     "description": "Prevents ally Pokemon from falling asleep.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "W2U static handler registered for self/ally sleep prevention; needs targeted double-battle verification."
     }
   },
   {
@@ -270,9 +270,9 @@
     "name": "Symbiosis",
     "description": "The Pokemon can pass an item to an ally.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "W2U static handler registered for ally item-consumption handoff via EFFECT_SWAP_ITEM; includes PW2-style delayed damage-reduction berry path; needs targeted double-battle verification."
     }
   },
   {
@@ -282,9 +282,9 @@
     "name": "Tough Claws",
     "description": "Powers up moves that make direct contact.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": ""
+      "notes": "Static White2Upgrade battle handler ported using FLAG_CONTACT fallback because MakesContact is not exported here; needs in-game verification."
     }
   }
 ]
