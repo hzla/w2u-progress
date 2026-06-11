@@ -787,8 +787,8 @@
     "icon": 1370,
     "iconFile": "OK",
     "iconPalette": "OK map[681]=0x00",
-    "credits": "diegotoon20",
-    "runtimeNotes": "Imported from diego-gifs at half speed; no shiny palette GIFs supplied",
+    "credits": "diegotoon20; skidmarc25",
+    "runtimeNotes": "Imported from diego-gifs at half speed; no shiny palette GIFs supplied; blade-form front/back PWAN imported from skidmarc25 as species 681 form 1",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,

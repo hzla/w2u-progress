@@ -1,23 +1,23 @@
 [
   {
     "key": "ITEM_ABILITY_CAPSULE",
-    "id": null,
-    "constant": null,
+    "id": 120,
+    "constant": "ITEM_ABILITY_CAPSULE",
     "name": "Ability Capsule",
     "description": "A capsule that allows a Pokemon with two Abilities to switch between these abilities when it is used",
     "defaultProgress": {
       "battleCode": false,
-      "itemIcon": false,
+      "itemIcon": true,
       "verified": false,
       "notes": ""
     }
   },
   {
     "key": "ITEM_ABOMASITE",
-    "id": 674,
+    "id": 608,
     "constant": "ITEM_ABOMASITE",
     "name": "Abomasite",
-    "description": "One of the mysterious Mega Stones. Have Abomasnow hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Abomasnow hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -27,10 +27,10 @@
   },
   {
     "key": "ITEM_ABSOLITE",
-    "id": 677,
+    "id": 599,
     "constant": "ITEM_ABSOLITE",
     "name": "Absolite",
-    "description": "One of the mysterious Mega Stones. Have Absol hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Absol hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -40,10 +40,10 @@
   },
   {
     "key": "ITEM_AERODACTYLITE",
-    "id": 672,
+    "id": 517,
     "constant": "ITEM_AERODACTYLITE",
     "name": "Aerodactylite",
-    "description": "One of the mysterious Mega Stones. Have Aerodactyl hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Aerodactyl hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -53,10 +53,10 @@
   },
   {
     "key": "ITEM_AGGRONITE",
-    "id": 667,
+    "id": 592,
     "constant": "ITEM_AGGRONITE",
     "name": "Aggronite",
-    "description": "One of the mysterious Mega Stones. Have Aggron hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Aggron hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -66,10 +66,23 @@
   },
   {
     "key": "ITEM_ALAKAZITE",
-    "id": 679,
+    "id": 511,
     "constant": "ITEM_ALAKAZITE",
     "name": "Alakazite",
-    "description": "One of the mysterious Mega Stones. Have Alakazam hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Alakazam hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ITEM_ALTARIANITE",
+    "id": 597,
+    "constant": "ITEM_ALTARIANITE",
+    "name": "Altarianite",
+    "description": "One of the mysterious Mega Stones. Have Altaria hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -79,10 +92,10 @@
   },
   {
     "key": "ITEM_AMPHAROSITE",
-    "id": 658,
+    "id": 520,
     "constant": "ITEM_AMPHAROSITE",
     "name": "Ampharosite",
-    "description": "One of the mysterious Mega Stones. Have Ampharos hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Ampharos hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -92,10 +105,23 @@
   },
   {
     "key": "ITEM_ASSAULT_VEST",
-    "id": null,
-    "constant": null,
+    "id": 121,
+    "constant": "ITEM_ASSAULT_VEST",
     "name": "Assault Vest",
     "description": "An item to be held by a Pokemon. This offensive vest raises Sp. Def but prevents the use of status moves.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ITEM_AUDINITE",
+    "id": 610,
+    "constant": "ITEM_AUDINITE",
+    "name": "Audinite",
+    "description": "One of the mysterious Mega Stones. Have Audino hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -105,10 +131,23 @@
   },
   {
     "key": "ITEM_BANETTITE",
-    "id": 668,
+    "id": 598,
     "constant": "ITEM_BANETTITE",
     "name": "Banettite",
-    "description": "One of the mysterious Mega Stones. Have Banette hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Banette hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ITEM_BEEDRILLITE",
+    "id": 509,
+    "constant": "ITEM_BEEDRILLITE",
+    "name": "Beedrillite",
+    "description": "One of the mysterious Mega Stones. Have Beedrill hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -118,10 +157,10 @@
   },
   {
     "key": "ITEM_BLASTOISINITE",
-    "id": 661,
+    "id": 508,
     "constant": "ITEM_BLASTOISINITE",
     "name": "Blastoisinite",
-    "description": "One of the mysterious Mega Stones. Have Blastoise hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Blastoise hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -131,10 +170,23 @@
   },
   {
     "key": "ITEM_BLAZIKENITE",
-    "id": 664,
+    "id": 527,
     "constant": "ITEM_BLAZIKENITE",
     "name": "Blazikenite",
-    "description": "One of the mysterious Mega Stones. Have Blaziken hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Blaziken hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ITEM_CAMERUPTITE",
+    "id": 596,
+    "constant": "ITEM_CAMERUPTITE",
+    "name": "Cameruptite",
+    "description": "One of the mysterious Mega Stones. Have Camerupt hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -144,10 +196,10 @@
   },
   {
     "key": "ITEM_CHARIZARDITE_X",
-    "id": 660,
+    "id": 506,
     "constant": "ITEM_CHARIZARDITE_X",
     "name": "Charizardite X",
-    "description": "One of the mysterious Mega Stones. Have Charizard hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Charizard hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -157,10 +209,23 @@
   },
   {
     "key": "ITEM_CHARIZARDITE_Y",
-    "id": 678,
+    "id": 507,
     "constant": "ITEM_CHARIZARDITE_Y",
     "name": "Charizardite Y",
-    "description": "One of the mysterious Mega Stones. Have Charizard hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Charizard hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ITEM_GALLADITE",
+    "id": 609,
+    "constant": "ITEM_GALLADITE",
+    "name": "Galladite",
+    "description": "One of the mysterious Mega Stones. Have Gallade hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -170,10 +235,10 @@
   },
   {
     "key": "ITEM_GARCHOMPITE",
-    "id": 683,
+    "id": 606,
     "constant": "ITEM_GARCHOMPITE",
     "name": "Garchompite",
-    "description": "One of the mysterious Mega Stones. Have Garchomp hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Garchomp hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -183,10 +248,10 @@
   },
   {
     "key": "ITEM_GARDEVOIRITE",
-    "id": 657,
+    "id": 529,
     "constant": "ITEM_GARDEVOIRITE",
     "name": "Gardevoirite",
-    "description": "One of the mysterious Mega Stones. Have Gardevoir hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Gardevoir hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -196,10 +261,23 @@
   },
   {
     "key": "ITEM_GENGARITE",
-    "id": 656,
+    "id": 513,
     "constant": "ITEM_GENGARITE",
     "name": "Gengarite",
-    "description": "One of the mysterious Mega Stones. Have Gengar hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Gengar hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ITEM_GLALITITE",
+    "id": 600,
+    "constant": "ITEM_GLALITITE",
+    "name": "Glalitite",
+    "description": "One of the mysterious Mega Stones. Have Glalie hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -209,10 +287,10 @@
   },
   {
     "key": "ITEM_GYARADOSITE",
-    "id": 676,
+    "id": 516,
     "constant": "ITEM_GYARADOSITE",
     "name": "Gyaradosite",
-    "description": "One of the mysterious Mega Stones. Have Gyarados hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Gyarados hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -222,10 +300,10 @@
   },
   {
     "key": "ITEM_HERACRONITE",
-    "id": 680,
+    "id": 523,
     "constant": "ITEM_HERACRONITE",
     "name": "Heracronite",
-    "description": "One of the mysterious Mega Stones. Have Heracross hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Heracross hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -235,10 +313,10 @@
   },
   {
     "key": "ITEM_HOUNDOOMINITE",
-    "id": 666,
+    "id": 524,
     "constant": "ITEM_HOUNDOOMINITE",
     "name": "Houndoominite",
-    "description": "One of the mysterious Mega Stones. Have Houndoom hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Houndoom hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -248,10 +326,49 @@
   },
   {
     "key": "ITEM_KANGASKHANITE",
-    "id": 675,
+    "id": 514,
     "constant": "ITEM_KANGASKHANITE",
     "name": "Kangaskhanite",
-    "description": "One of the mysterious Mega Stones. Have Kangaskhan hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Kangaskhan hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ITEM_LATIASITE",
+    "id": 603,
+    "constant": "ITEM_LATIASITE",
+    "name": "Latiasite",
+    "description": "One of the mysterious Mega Stones. Have Latias hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ITEM_LATIOSITE",
+    "id": 604,
+    "constant": "ITEM_LATIOSITE",
+    "name": "Latiosite",
+    "description": "One of the mysterious Mega Stones. Have Latios hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ITEM_LOPUNNITE",
+    "id": 605,
+    "constant": "ITEM_LOPUNNITE",
+    "name": "Lopunnite",
+    "description": "One of the mysterious Mega Stones. Have Lopunny hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -261,10 +378,10 @@
   },
   {
     "key": "ITEM_LUCARIONITE",
-    "id": 673,
+    "id": 607,
     "constant": "ITEM_LUCARIONITE",
     "name": "Lucarionite",
-    "description": "One of the mysterious Mega Stones. Have Lucario hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Lucario hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -274,23 +391,23 @@
   },
   {
     "key": "ITEM_LUMINOUS_MOSS",
-    "id": null,
-    "constant": null,
+    "id": 122,
+    "constant": "ITEM_LUMINOUS_MOSS",
     "name": "Luminous Moss",
     "description": "An item to be held by a Pokemon. It boosts Sp. Def if hit with a Water-type attack. It can only be used once.",
     "defaultProgress": {
-      "battleCode": false,
-      "itemIcon": false,
+      "battleCode": true,
+      "itemIcon": true,
       "verified": false,
       "notes": ""
     }
   },
   {
     "key": "ITEM_MANECTITE",
-    "id": 682,
+    "id": 594,
     "constant": "ITEM_MANECTITE",
     "name": "Manectite",
-    "description": "One of the mysterious Mega Stones. Have Manectric hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Manectric hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -300,23 +417,23 @@
   },
   {
     "key": "ITEM_MARANGA_BERRY",
-    "id": null,
-    "constant": null,
+    "id": 123,
+    "constant": "ITEM_MARANGA_BERRY",
     "name": "Maranga Berry",
     "description": "If held by a Pokemon, this Berry will increase the Pokemon's Sp. Defense stat when hit by a special attack",
     "defaultProgress": {
-      "battleCode": false,
-      "itemIcon": false,
+      "battleCode": true,
+      "itemIcon": true,
       "verified": false,
       "notes": ""
     }
   },
   {
     "key": "ITEM_MAWILITE",
-    "id": 681,
+    "id": 531,
     "constant": "ITEM_MAWILITE",
     "name": "Mawilite",
-    "description": "One of the mysterious Mega Stones. Have Mawile hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Mawile hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -326,10 +443,10 @@
   },
   {
     "key": "ITEM_MEDICHAMITE",
-    "id": 665,
+    "id": 593,
     "constant": "ITEM_MEDICHAMITE",
     "name": "Medichamite",
-    "description": "One of the mysterious Mega Stones. Have Medicham hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Medicham hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -339,10 +456,23 @@
   },
   {
     "key": "ITEM_MEGA_RING",
-    "id": null,
-    "constant": null,
+    "id": 124,
+    "constant": "ITEM_MEGA_RING",
     "name": "Mega Ring",
     "description": "This ring contains an untold power that somehow enables Pokemon carrying Mega Stones to Mega Evolve in Battle",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": true,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ITEM_METAGROSSITE",
+    "id": 602,
+    "constant": "ITEM_METAGROSSITE",
+    "name": "Metagrossite",
+    "description": "One of the mysterious Mega Stones. Have Metagross hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -352,10 +482,10 @@
   },
   {
     "key": "ITEM_MEWTWONITE_X",
-    "id": 662,
+    "id": 518,
     "constant": "ITEM_MEWTWONITE_X",
     "name": "Mewtwonite X",
-    "description": "One of the mysterious Mega Stones. Have Mewtwo hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Mewtwo hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -365,10 +495,23 @@
   },
   {
     "key": "ITEM_MEWTWONITE_Y",
-    "id": 663,
+    "id": 519,
     "constant": "ITEM_MEWTWONITE_Y",
     "name": "Mewtwonite Y",
-    "description": "One of the mysterious Mega Stones. Have Mewtwo hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Mewtwo hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ITEM_PIDGEOTITE",
+    "id": 510,
+    "constant": "ITEM_PIDGEOTITE",
+    "name": "Pidgeotite",
+    "description": "One of the mysterious Mega Stones. Have Pidgeot hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -378,10 +521,10 @@
   },
   {
     "key": "ITEM_PINSIRITE",
-    "id": 671,
+    "id": 515,
     "constant": "ITEM_PINSIRITE",
     "name": "Pinsirite",
-    "description": "One of the mysterious Mega Stones. Have Pinsir hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Pinsir hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -391,23 +534,36 @@
   },
   {
     "key": "ITEM_PIXIE_PLATE",
-    "id": null,
-    "constant": null,
+    "id": 125,
+    "constant": "ITEM_PIXIE_PLATE",
     "name": "Pixie Plate",
     "description": "An item to be held by a Pokemon. It is a stone tablet that boosts the power of Fairy-type moves",
     "defaultProgress": {
-      "battleCode": false,
-      "itemIcon": false,
+      "battleCode": true,
+      "itemIcon": true,
       "verified": false,
       "notes": ""
     }
   },
   {
     "key": "ITEM_ROSELI_BERRY",
-    "id": null,
-    "constant": null,
+    "id": 126,
+    "constant": "ITEM_ROSELI_BERRY",
     "name": "Roseli Berry",
     "description": "If held by a Pokemon, this Berry will lessen the damage taken from one supereffective Fairy-type attack",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ITEM_SABLENITE",
+    "id": 530,
+    "constant": "ITEM_SABLENITE",
+    "name": "Sablenite",
+    "description": "One of the mysterious Mega Stones. Have Sableye hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -417,10 +573,36 @@
   },
   {
     "key": "ITEM_SAFETY_GOGGLES",
-    "id": null,
-    "constant": null,
+    "id": 127,
+    "constant": "ITEM_SAFETY_GOGGLES",
     "name": "Safety Goggles",
     "description": "An item to be held by a Pokemon. These goggles protect the holder from both weather-related damage and powder.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ITEM_SALAMENCITE",
+    "id": 601,
+    "constant": "ITEM_SALAMENCITE",
+    "name": "Salamencite",
+    "description": "One of the mysterious Mega Stones. Have Salamence hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ITEM_SCEPTILITE",
+    "id": 526,
+    "constant": "ITEM_SCEPTILITE",
+    "name": "Sceptilite",
+    "description": "One of the mysterious Mega Stones. Have Sceptile hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -430,10 +612,36 @@
   },
   {
     "key": "ITEM_SCIZORITE",
-    "id": 670,
+    "id": 522,
     "constant": "ITEM_SCIZORITE",
     "name": "Scizorite",
-    "description": "One of the mysterious Mega Stones. Have Scizor hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Scizor hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ITEM_SHARPEDONITE",
+    "id": 595,
+    "constant": "ITEM_SHARPEDONITE",
+    "name": "Sharpedonite",
+    "description": "One of the mysterious Mega Stones. Have Sharpedo hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ITEM_SLOWBRONITE",
+    "id": 512,
+    "constant": "ITEM_SLOWBRONITE",
+    "name": "Slowbronite",
+    "description": "One of the mysterious Mega Stones. Have Slowbro hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -443,10 +651,36 @@
   },
   {
     "key": "ITEM_SNOWBALL",
-    "id": null,
-    "constant": null,
+    "id": 128,
+    "constant": "ITEM_SNOWBALL",
     "name": "Snowball",
     "description": "An item to be held by a Pokemon. It boosts Attack if hit with an Ice-type attack. It can only be used once.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ITEM_STEELIXITE",
+    "id": 521,
+    "constant": "ITEM_STEELIXITE",
+    "name": "Steelixite",
+    "description": "One of the mysterious Mega Stones. Have Steelix hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": ""
+    }
+  },
+  {
+    "key": "ITEM_SWAMPERTITE",
+    "id": 528,
+    "constant": "ITEM_SWAMPERTITE",
+    "name": "Swampertite",
+    "description": "One of the mysterious Mega Stones. Have Swampert hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -456,10 +690,10 @@
   },
   {
     "key": "ITEM_TYRANITARITE",
-    "id": 669,
+    "id": 525,
     "constant": "ITEM_TYRANITARITE",
     "name": "Tyranitarite",
-    "description": "One of the mysterious Mega Stones. Have Tyranitar hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Tyranitar hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -469,10 +703,10 @@
   },
   {
     "key": "ITEM_VENUSAURITE",
-    "id": 659,
+    "id": 505,
     "constant": "ITEM_VENUSAURITE",
     "name": "Venusaurite",
-    "description": "One of the mysterious Mega Stones. Have Venusaur hold it, and this stone will enable it to Mega Evolve in battle",
+    "description": "One of the mysterious Mega Stones. Have Venusaur hold it, and this stone will enable it to Mega Evolve in battle.",
     "defaultProgress": {
       "battleCode": false,
       "itemIcon": false,
@@ -482,13 +716,13 @@
   },
   {
     "key": "ITEM_WEAKNESS_POLICY",
-    "id": null,
-    "constant": null,
+    "id": 129,
+    "constant": "ITEM_WEAKNESS_POLICY",
     "name": "Weakness Policy",
     "description": "An item to be held by a Pokemon. Attack and Sp. Atk sharply increase if the holder is hit with a move it's weak to.",
     "defaultProgress": {
-      "battleCode": false,
-      "itemIcon": false,
+      "battleCode": true,
+      "itemIcon": true,
       "verified": false,
       "notes": ""
     }

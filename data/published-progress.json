@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-09T18:39:03.569Z",
+  "updatedAt": "2026-06-10T18:39:46.909Z",
   "progress": {
     "pokemon": {
       "SPECIES_CHESPIN": {
@@ -289,7 +289,7 @@
       },
       "MOVE_BELCH": {
         "animation": false,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": "Selection blocked until the user has consumed a Berry."
       },
@@ -442,9 +442,334 @@
         "effectHandler": true,
         "verified": false,
         "notes": ""
+      },
+      "MOVE_GEOMANCY": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": "Static handler adds the charge message; move data handles charge and stat boosts."
+      },
+      "MOVE_GRASSY_TERRAIN": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": "Static W2U terrain heals grounded Pokemon and boosts Grass moves."
+      },
+      "MOVE_HAPPY_HOUR": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": "Static handler sets BW2's money-double battle flag."
+      },
+      "MOVE_HOLD_BACK": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": "Reuses vanilla False Swipe handler."
+      },
+      "MOVE_INFESTATION": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": "Reuses vanilla Bind handler."
+      },
+      "MOVE_MAGNETIC_FLUX": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": "Static handler filters targets without Plus or Minus."
+      },
+      "MOVE_SPIKY_SHIELD": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": "Protect clone with W2U contact damage hook."
+      },
+      "MOVE_VENOM_DRENCH": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": "Static handler filters targets that are not poisoned."
       }
     },
-    "items": {},
+    "items": {
+      "ITEM_VENUSAURITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_CHARIZARDITE_X": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_CHARIZARDITE_Y": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_BLASTOISINITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_BEEDRILLITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Replaced vanilla item slot 509; placeholder icon copied."
+      },
+      "ITEM_PIDGEOTITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Replaced vanilla item slot 510; placeholder icon copied."
+      },
+      "ITEM_ALAKAZITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_SLOWBRONITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Replaced vanilla item slot 512; placeholder icon copied."
+      },
+      "ITEM_GENGARITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_KANGASKHANITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_PINSIRITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_GYARADOSITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_AERODACTYLITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_MEWTWONITE_X": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_MEWTWONITE_Y": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_AMPHAROSITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_STEELIXITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Replaced vanilla item slot 521; placeholder icon copied."
+      },
+      "ITEM_SCIZORITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_HERACRONITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_HOUNDOOMINITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_TYRANITARITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_SCEPTILITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Replaced vanilla item slot 526; placeholder icon copied."
+      },
+      "ITEM_BLAZIKENITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_SWAMPERTITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Replaced vanilla item slot 528; placeholder icon copied."
+      },
+      "ITEM_GARDEVOIRITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_SABLENITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Replaced vanilla item slot 530; placeholder icon copied."
+      },
+      "ITEM_MAWILITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_AGGRONITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_MEDICHAMITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_MANECTITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_SHARPEDONITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Replaced vanilla item slot 595; placeholder icon copied."
+      },
+      "ITEM_CAMERUPTITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Replaced vanilla item slot 596; placeholder icon copied."
+      },
+      "ITEM_ALTARIANITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Replaced vanilla item slot 597; placeholder icon copied."
+      },
+      "ITEM_BANETTITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_ABSOLITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_GLALITITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Replaced vanilla item slot 600; placeholder icon copied."
+      },
+      "ITEM_SALAMENCITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Replaced vanilla item slot 601; placeholder icon copied."
+      },
+      "ITEM_METAGROSSITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Replaced vanilla item slot 602; placeholder icon copied."
+      },
+      "ITEM_LATIASITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Replaced vanilla item slot 603; placeholder icon copied."
+      },
+      "ITEM_LATIOSITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Replaced vanilla item slot 604; placeholder icon copied."
+      },
+      "ITEM_LOPUNNITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Replaced vanilla item slot 605; placeholder icon copied."
+      },
+      "ITEM_GARCHOMPITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_LUCARIONITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_ABOMASITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_GALLADITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Replaced vanilla item slot 609; placeholder icon copied."
+      },
+      "ITEM_AUDINITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Replaced vanilla item slot 610; placeholder icon copied."
+      }
+    },
     "abilities": {
       "ABIL_AERILATE": {
         "battleCode": true,
@@ -552,6 +877,11 @@
         "notes": ""
       },
       "ABIL_SYMBIOSIS": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_GRASS_PELT": {
         "battleCode": true,
         "verified": true,
         "notes": ""
