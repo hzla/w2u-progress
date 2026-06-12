@@ -7,7 +7,7 @@
     "description": "Normal-type moves become Flying-type moves.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
+      "verified": true,
       "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
     }
   },
@@ -19,8 +19,8 @@
     "description": "Protects allies from attacks that effect their mental state.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
-      "notes": "W2U static handler registered for condition-add fail checks; protects self/allies from Heal Block, Disable, Attract, Taunt, Encore, and Torment. Needs targeted double-battle verification."
+      "verified": true,
+      "notes": ""
     }
   },
   {
@@ -30,8 +30,8 @@
     "name": "Aura Break",
     "description": "The effects of Aura Abilities are reversed.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
+      "battleCode": true,
+      "verified": true,
       "notes": ""
     }
   },
@@ -43,7 +43,7 @@
     "description": "Protects the Pokemon from some ball and bomb moves.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
+      "verified": true,
       "notes": "Static White2Upgrade battle handler ported with expanded high-bit move flag; message ID 210 still needs in-game verification."
     }
   },
@@ -55,8 +55,8 @@
     "description": "Restores HP as well when the Pokemon eats a Berry.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
-      "notes": "W2U static handler registered with held-item consume dispatch hook; needs targeted berry-consumption verification."
+      "verified": true,
+      "notes": ""
     }
   },
   {
@@ -67,8 +67,8 @@
     "description": "Boosts the Sp. Atk stat when a stat is lowered.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
-      "notes": "W2U static handler registered; needs targeted battle verification."
+      "verified": true,
+      "notes": ""
     }
   },
   {
@@ -78,8 +78,8 @@
     "name": "Dark Aura",
     "description": "Powers up each Pokemon's Dark-type moves.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
+      "battleCode": true,
+      "verified": true,
       "notes": ""
     }
   },
@@ -90,8 +90,8 @@
     "name": "Fairy Aura",
     "description": "Powers up each Pokemon's Fairy-type moves.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
+      "battleCode": true,
+      "verified": true,
       "notes": ""
     }
   },
@@ -103,8 +103,8 @@
     "description": "Prevents lowering of ally Grass-type Pokemon's stats.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
-      "notes": "W2U static handler registered for Grass ally status and stat-drop prevention; needs targeted double-battle verification."
+      "verified": true,
+      "notes": ""
     }
   },
   {
@@ -115,7 +115,7 @@
     "description": "Halves damage from physical moves.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
+      "verified": true,
       "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
     }
   },
@@ -127,8 +127,8 @@
     "description": "Gives priority to Flying-type moves.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
-      "notes": "W2U static handler registered with full-HP gate; needs targeted battle verification."
+      "verified": true,
+      "notes": ""
     }
   },
   {
@@ -139,8 +139,8 @@
     "description": "Contact with the Pokemon lowers the attacker's Speed stat.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
-      "notes": "W2U static handler registered using contact-flag fallback for MakesContact; needs targeted contact-hit verification."
+      "verified": true,
+      "notes": ""
     }
   },
   {
@@ -150,8 +150,8 @@
     "name": "Grass Pelt",
     "description": "Boosts the Defense stat when the terrain is grass.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
+      "battleCode": true,
+      "verified": true,
       "notes": ""
     }
   },
@@ -163,8 +163,8 @@
     "description": "The Pokemon steals the held item of a Pokemon it hits with a move.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
-      "notes": "W2U static handler registered using vanilla Thief/item-swap helpers; needs targeted battle verification."
+      "verified": true,
+      "notes": ""
     }
   },
   {
@@ -175,7 +175,7 @@
     "description": "Powers up aura and pulse moves.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
+      "verified": true,
       "notes": "Static White2Upgrade battle handler ported with expanded high-bit pulse flag; needs in-game verification."
     }
   },
@@ -187,8 +187,8 @@
     "description": "Parent and child attack together.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
-      "notes": "W2U static handler and damage-root hook ported for Gen 6 two-hit behavior; excludes PW2's ignored moves and charge moves. Needs targeted battle verification."
+      "verified": true,
+      "notes": ""
     }
   },
   {
@@ -199,7 +199,7 @@
     "description": "Normal-type moves become Fairy-type moves.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
+      "verified": true,
       "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
     }
   },
@@ -211,8 +211,8 @@
     "description": "Changes the Pokemon's type to the type of the move it just used.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
-      "notes": "W2U static handler registered using EVENT_MOVE_EXECUTE_CHECK2 and vanilla change-type effect; needs targeted battle verification."
+      "verified": true,
+      "notes": ""
     }
   },
   {
@@ -223,7 +223,7 @@
     "description": "Normal-type moves become Ice-type moves.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
+      "verified": true,
       "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
     }
   },
@@ -234,8 +234,8 @@
     "name": "Stance Change",
     "description": "The Pokemon changes form depending on how it battles.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
+      "battleCode": true,
+      "verified": true,
       "notes": ""
     }
   },
@@ -247,7 +247,7 @@
     "description": "The Pokemon's strong jaw gives it tremendous biting power.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
+      "verified": true,
       "notes": "Static White2Upgrade battle handler ported with expanded high-bit bite flag; needs in-game verification."
     }
   },
@@ -259,8 +259,8 @@
     "description": "Prevents ally Pokemon from falling asleep.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
-      "notes": "W2U static handler registered for self/ally sleep prevention; needs targeted double-battle verification."
+      "verified": true,
+      "notes": ""
     }
   },
   {
@@ -271,8 +271,8 @@
     "description": "The Pokemon can pass an item to an ally.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
-      "notes": "W2U static handler registered for ally item-consumption handoff via EFFECT_SWAP_ITEM; includes PW2-style delayed damage-reduction berry path; needs targeted double-battle verification."
+      "verified": true,
+      "notes": ""
     }
   },
   {
@@ -283,7 +283,7 @@
     "description": "Powers up moves that make direct contact.",
     "defaultProgress": {
       "battleCode": true,
-      "verified": false,
+      "verified": true,
       "notes": "Static White2Upgrade battle handler ported using FLAG_CONTACT fallback because MakesContact is not exported here; needs in-game verification."
     }
   }

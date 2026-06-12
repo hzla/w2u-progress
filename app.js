@@ -2,6 +2,8 @@
   "use strict";
 
   const STORAGE_KEY = "white2expansion.progress.v1";
+  const UI_STORAGE_KEY = "white2expansion.ui.v1";
+  const COUNTED_FILTERS = new Set(["missingSprites", "missingAnimation"]);
   const CATEGORIES = {
     pokemon: {
       label: "Pokemon",
@@ -58,7 +60,7 @@
   };
 
   const state = {
-    activeTab: "pokemon",
+    activeTab: loadSavedTab(),
     filter: "all",
     search: "",
     canEdit: isLocalhost(),
@@ -133,6 +135,23 @@
     }
   }
 
+  function loadSavedTab() {
+    try {
+      const tab = JSON.parse(localStorage.getItem(UI_STORAGE_KEY))?.activeTab;
+      return Object.prototype.hasOwnProperty.call(CATEGORIES, tab) ? tab : "pokemon";
+    } catch (_error) {
+      return "pokemon";
+    }
+  }
+
+  function saveActiveTab(tab) {
+    try {
+      localStorage.setItem(UI_STORAGE_KEY, JSON.stringify({ activeTab: tab }));
+    } catch (_error) {
+      // Browsers can deny localStorage in private or locked-down contexts.
+    }
+  }
+
   function saveProgress() {
     if (!state.canEdit) {
       return;
@@ -145,6 +164,7 @@
       progress: state.progress
     }));
     renderSummary();
+    renderFilterCounts();
   }
 
   function collectProgressSnapshot() {
@@ -197,19 +217,33 @@
     ].filter(Boolean).join(" ").toLowerCase();
   }
 
-  function rowMatchesFilter(category, row) {
+  function rowMatchesFilter(category, row, filter = state.filter) {
     const merged = mergeProgress(category, row);
     const fields = CATEGORIES[category].fields.map(([field]) => field);
-    if (state.filter === "verified") {
+    if (filter === "verified") {
       return merged.verified === true;
     }
-    if (state.filter === "open") {
+    if (filter === "open") {
       return fields.some((field) => merged[field] !== true);
     }
-    if (state.filter === "missingSprites") {
+    if (filter === "missingSprites") {
       return category === "pokemon" && (merged.frontSprite !== true || merged.backSprite !== true);
     }
+    if (filter === "missingAnimation") {
+      return category === "moves" && merged.animation !== true;
+    }
     return true;
+  }
+
+  function countRowsForFilter(category, filter) {
+    if (!COUNTED_FILTERS.has(filter)) {
+      return null;
+    }
+    const rows = state.seeds[category];
+    if (!rows) {
+      return null;
+    }
+    return rows.filter((row) => rowMatchesFilter(category, row, filter)).length;
   }
 
   function getVisibleRows() {
@@ -356,6 +390,7 @@
     renderHead();
     renderRows();
     renderSummary();
+    renderFilterCounts();
   }
 
   function escapeHtml(value) {
@@ -369,6 +404,7 @@
 
   function setTab(tab) {
     state.activeTab = tab;
+    saveActiveTab(tab);
     if (!filterAvailableForTab(state.filter, tab)) {
       state.filter = "all";
     }
@@ -391,6 +427,9 @@
     if (filter === "missingSprites") {
       return tab === "pokemon";
     }
+    if (filter === "missingAnimation") {
+      return tab === "moves";
+    }
     return true;
   }
 
@@ -400,6 +439,21 @@
       const available = !category || category === state.activeTab;
       button.hidden = !available;
       button.classList.toggle("is-active", available && button.dataset.filter === state.filter);
+    });
+    renderFilterCounts();
+  }
+
+  function renderFilterCounts() {
+    els.segments.forEach((button) => {
+      if (!button.dataset.filterLabel) {
+        button.dataset.filterLabel = button.textContent.trim();
+      }
+
+      const category = button.dataset.filterCategory;
+      const count = category ? countRowsForFilter(category, button.dataset.filter) : null;
+      button.textContent = count == null
+        ? button.dataset.filterLabel
+        : `${button.dataset.filterLabel} (${count})`;
     });
   }
 
@@ -494,10 +548,11 @@
       state.progress = stored.progress;
       state.savedAt = stored.savedAt;
     }
+    syncFilterControls();
     bindEvents();
     try {
       await loadSeeds();
-      setTab("pokemon");
+      setTab(state.activeTab);
     } catch (error) {
       els.body.innerHTML = "";
       els.empty.hidden = false;

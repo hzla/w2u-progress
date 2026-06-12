@@ -15,7 +15,7 @@
         </div>
         <div class="toolbar" aria-label="Downloads">
           <a class="tool-button download" href="downloads/White2Upgrade.xdelta" download>Download Patch</a>
-          <a class="tool-button download" href="downloads/White2Upgrade.dsv" download>Download Save File</a>
+          <a class="tool-button download" href="downloads/demosave.dsv" download>Download Save File</a>
         </div>
       </header>
 
@@ -55,6 +55,7 @@
             <button class="segment is-active" type="button" data-filter="all">All</button>
             <button class="segment" type="button" data-filter="open">Open</button>
             <button class="segment" type="button" data-filter="missingSprites" data-filter-category="pokemon">Missing art</button>
+            <button class="segment" type="button" data-filter="missingAnimation" data-filter-category="moves" hidden>Missing animation</button>
             <button class="segment" type="button" data-filter="verified">Verified</button>
           </div>
         </section>
@@ -78,6 +79,6 @@
       </label>
     </template>
 
-    <script src="app.js?v=20260609-published-progress" defer></script>
+    <script src="app.js?v=20260611-filter-counts" defer></script>
   </body>
 </html>
