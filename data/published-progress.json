@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-12T18:12:17.068Z",
+  "updatedAt": "2026-06-13T18:12:03.476Z",
   "progress": {
     "pokemon": {
       "SPECIES_CHESPIN": {
@@ -13,6 +13,15 @@
         "shinyPalette": false
       },
       "SPECIES_QUILLADIN": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_CHESNAUGHT": {
         "personalData": true,
         "partyIcon": true,
         "frontSprite": true,
@@ -39,7 +48,52 @@
         "notes": "",
         "shinyPalette": false
       },
+      "SPECIES_DELPHOX": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
       "SPECIES_FROAKIE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_FROGADIER": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_GRENINJA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_BUNNELBY": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_DIGGERSBY": {
         "personalData": true,
         "partyIcon": true,
         "frontSprite": true,
@@ -58,15 +112,6 @@
         "shinyPalette": false
       },
       "SPECIES_FLETCHINDER": {
-        "personalData": true,
-        "partyIcon": true,
-        "frontSprite": true,
-        "backSprite": true,
-        "verified": true,
-        "notes": "",
-        "shinyPalette": false
-      },
-      "SPECIES_DELPHOX": {
         "personalData": true,
         "partyIcon": true,
         "frontSprite": true,
@@ -138,97 +183,7 @@
         "notes": "",
         "shinyPalette": false
       },
-      "SPECIES_SKIDDO": {
-        "personalData": true,
-        "partyIcon": true,
-        "frontSprite": true,
-        "backSprite": true,
-        "verified": true,
-        "notes": "",
-        "shinyPalette": false
-      },
-      "SPECIES_PANCHAM": {
-        "personalData": true,
-        "partyIcon": true,
-        "frontSprite": true,
-        "backSprite": true,
-        "verified": true,
-        "notes": "",
-        "shinyPalette": false
-      },
-      "SPECIES_SWIRLIX": {
-        "personalData": true,
-        "partyIcon": true,
-        "frontSprite": true,
-        "backSprite": true,
-        "verified": true,
-        "notes": "",
-        "shinyPalette": false
-      },
-      "SPECIES_BINACLE": {
-        "personalData": true,
-        "partyIcon": true,
-        "frontSprite": true,
-        "backSprite": true,
-        "verified": true,
-        "notes": "",
-        "shinyPalette": false
-      },
-      "SPECIES_CLAUNCHER": {
-        "personalData": true,
-        "partyIcon": true,
-        "frontSprite": true,
-        "backSprite": true,
-        "verified": true,
-        "notes": "",
-        "shinyPalette": false
-      },
-      "SPECIES_GOODRA": {
-        "personalData": true,
-        "partyIcon": true,
-        "frontSprite": true,
-        "backSprite": true,
-        "verified": false,
-        "notes": "",
-        "shinyPalette": false
-      },
-      "SPECIES_CHESNAUGHT": {
-        "personalData": true,
-        "partyIcon": true,
-        "frontSprite": true,
-        "backSprite": true,
-        "verified": true,
-        "notes": "",
-        "shinyPalette": false
-      },
-      "SPECIES_FROGADIER": {
-        "personalData": true,
-        "partyIcon": true,
-        "frontSprite": true,
-        "backSprite": true,
-        "verified": true,
-        "notes": "",
-        "shinyPalette": false
-      },
-      "SPECIES_GRENINJA": {
-        "personalData": true,
-        "partyIcon": true,
-        "frontSprite": true,
-        "backSprite": true,
-        "verified": true,
-        "notes": "",
-        "shinyPalette": false
-      },
-      "SPECIES_BUNNELBY": {
-        "personalData": true,
-        "partyIcon": true,
-        "frontSprite": true,
-        "backSprite": true,
-        "verified": true,
-        "notes": "",
-        "shinyPalette": false
-      },
-      "SPECIES_DIGGERSBY": {
+      "SPECIES_FLOETTE": {
         "personalData": true,
         "partyIcon": true,
         "frontSprite": true,
@@ -246,7 +201,7 @@
         "notes": "",
         "shinyPalette": false
       },
-      "SPECIES_FLOETTE": {
+      "SPECIES_SKIDDO": {
         "personalData": true,
         "partyIcon": true,
         "frontSprite": true,
@@ -256,6 +211,15 @@
         "shinyPalette": false
       },
       "SPECIES_GOGOAT": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_PANCHAM": {
         "personalData": true,
         "partyIcon": true,
         "frontSprite": true,
@@ -345,6 +309,15 @@
         "notes": "",
         "shinyPalette": false
       },
+      "SPECIES_SWIRLIX": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
       "SPECIES_SLURPUFF": {
         "personalData": true,
         "partyIcon": true,
@@ -372,6 +345,15 @@
         "notes": "",
         "shinyPalette": false
       },
+      "SPECIES_BINACLE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
       "SPECIES_BARBARACLE": {
         "personalData": true,
         "partyIcon": true,
@@ -380,10 +362,1954 @@
         "verified": true,
         "notes": "",
         "shinyPalette": false
+      },
+      "SPECIES_SKRELP": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_DRAGALGE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_CLAUNCHER": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": true,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_CLAWITZER": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_HELIOPTILE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_HELIOLISK": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_TYRUNT": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_TYRANTRUM": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_AMAURA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_AURORUS": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_SYLVEON": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_HAWLUCHA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_DEDENNE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_CARBINK": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_GOOMY": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_SLIGGOO": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_GOODRA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_KLEFKI": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_PHANTUMP": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_TREVENANT": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_PUMPKABOO": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_GOURGEIST": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_BERGMITE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_AVALUGG": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_NOIBAT": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_NOIVERN": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_XERNEAS": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_YVELTAL": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_ZYGARDE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_DIANCIE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_HOOPA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_VOLCANION": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_722": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_723": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_724": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_725": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_726": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_727": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_728": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_729": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_730": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_731": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_732": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_733": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_734": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_735": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_736": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_737": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_738": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_739": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_740": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_741": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "Representative form: Oricorio-baile",
+        "shinyPalette": false
+      },
+      "SPECIES_742": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_743": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_744": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_745": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "Representative form: Lycanroc-midday",
+        "shinyPalette": true
+      },
+      "SPECIES_746": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "Representative form: Wishiwashi Solo",
+        "shinyPalette": true
+      },
+      "SPECIES_747": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_748": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_749": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_750": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_751": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_752": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_753": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_754": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_755": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_756": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_757": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_758": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_759": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_760": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_761": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_762": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_763": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_764": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_765": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_766": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_767": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_768": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_769": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_770": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_771": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_772": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_773": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "Representative form: Silvally-normal",
+        "shinyPalette": true
+      },
+      "SPECIES_774": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "Representative form: Minior-meteor",
+        "shinyPalette": true
+      },
+      "SPECIES_775": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_776": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_777": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_778": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "Representative form: Mimikyu-disguised",
+        "shinyPalette": true
+      },
+      "SPECIES_779": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_780": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_781": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_782": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_783": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_784": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_785": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_786": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_787": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_788": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_789": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_790": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_791": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_792": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_793": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_794": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_795": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_796": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_797": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_798": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_799": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_800": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_801": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_802": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_803": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "SPECIES_804": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_805": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_806": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_807": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_808": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_809": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "MEGA_GENGAR": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_GARDEVOIR": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_AMPHAROS": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_VENUSAUR": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "MEGA_CHARIZARD_X": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_CHARIZARD_Y": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_MEWTWO_X": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_MEWTWO_Y": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_BLAZIKEN": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_MEDICHAM": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_HOUNDOOM": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_AGGRON": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_BANETTE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_TYRANITAR": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_SCIZOR": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_PINSIR": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_AERODACTYL": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "MEGA_ABOMASNOW": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_BLASTOISE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "MEGA_KANGASKHAN": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_GYARADOS": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ALAKAZAM": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_HERACROSS": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_MAWILE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_MANECTRIC": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_LATIOS": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_LATIAS": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_SWAMPERT": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_SCEPTILE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "MEGA_SABLEYE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ALTARIA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_GALLADE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_AUDINO": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_SHARPEDO": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "MEGA_SLOWBRO": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_STEELIX": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_PIDGEOT": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_GLALIE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_DIANCIE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_METAGROSS": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "MEGA_RAYQUAZA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_CAMERUPT": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "MEGA_LOPUNNY": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_SALAMENCE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_BEEDRILL": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_RAICHU_X": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_RAICHU_Y": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_CLEFABLE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": false,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_VICTREEBEL": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_STARMIE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_DRAGONITE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_MEGANIUM": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_FERALIGATR": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_SKARMORY": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_CHIMECHO": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ABSOL": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_ABSOL_Z": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_STARAPTOR": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_GARCHOMP": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_GARCHOMP_Z": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_LUCARIO": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_LUCARIO_Z": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_FROSLASS": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_HEATRAN": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_DARKRAI": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_EMBOAR": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_EXCADRILL": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_SCOLIPEDE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_SCRAFTY": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_EELEKTROSS": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_CHANDELURE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_GOLURK": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_CHESNAUGHT": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_DELPHOX": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_GRENINJA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_PYROAR": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_FLOETTE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": false,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_MEOWSTIC": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_MALAMAR": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_BARBARACLE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_DRAGALGE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": false,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_HAWLUCHA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_ZYGARDE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_CRABOMINABLE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_GOLISOPOD": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_DRAMPA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_MAGEARNA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": false,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_MAGEARNA_ORIGINAL_COLOR": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": false,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_ZERAORA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_FALINKS": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_SCOVILLAIN": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_GLIMMORA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_TATSUGIRI_CURLY": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_TATSUGIRI_DROOPY": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_TATSUGIRI_STRETCHY": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
+      },
+      "MEGA_ZA_BAXCALIBUR": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": false
       }
     },
     "moves": {
-      "MOVE_BOOMBURST": {
+      "MOVE_AROMATIC_MIST": {
         "animation": true,
         "effectHandler": true,
         "verified": true,
@@ -395,11 +2321,47 @@
         "verified": true,
         "notes": ""
       },
+      "MOVE_BELCH": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "Selection blocked until the user has consumed a Berry."
+      },
+      "MOVE_BOOMBURST": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_CELEBRATE": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_CONFIDE": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_CRAFTY_SHIELD": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "Static W2U pos effect blocks status moves for allies."
+      },
       "MOVE_DAZZLING_GLEAM": {
         "animation": true,
         "effectHandler": true,
         "verified": true,
         "notes": ""
+      },
+      "MOVE_DIAMOND_STORM": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "W2U move data raises user Defense as a secondary effect."
       },
       "MOVE_DISARMING_VOICE": {
         "animation": true,
@@ -419,23 +2381,11 @@
         "verified": true,
         "notes": ""
       },
-      "MOVE_FAIRY_WIND": {
+      "MOVE_ELECTRIC_TERRAIN": {
         "animation": true,
         "effectHandler": true,
         "verified": true,
-        "notes": ""
-      },
-      "MOVE_CRAFTY_SHIELD": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Static W2U pos effect blocks status moves for allies."
-      },
-      "MOVE_BELCH": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Selection blocked until the user has consumed a Berry."
+        "notes": "Animation generated from Discharge: keeps the user-side charge/burst, removes the target camera cut, and replaces target sparks with flattened floor spark emitters. Static W2U terrain blocks sleep and boosts grounded Electric moves."
       },
       "MOVE_ELECTRIFY": {
         "animation": true,
@@ -443,35 +2393,17 @@
         "verified": true,
         "notes": "Static W2U pos effect rewrites the target's move type to Electric."
       },
-      "MOVE_ION_DELUGE": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Static W2U pos effect rewrites Normal moves to Electric."
-      },
-      "MOVE_ROTOTILLER": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Static handler raises Attack and Sp. Atk for grounded Grass Pokemon."
-      },
-      "MOVE_CELEBRATE": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": ""
-      },
-      "MOVE_CONFIDE": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": ""
-      },
       "MOVE_FAIRY_LOCK": {
         "animation": true,
         "effectHandler": true,
         "verified": true,
         "notes": "Reuses vanilla Spider Web as PW2's Fairy Lock approximation."
+      },
+      "MOVE_FAIRY_WIND": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
       },
       "MOVE_FELL_STINGER": {
         "animation": true,
@@ -485,17 +2417,89 @@
         "verified": true,
         "notes": "Reuses the Rototiller-style Grass-type stat handler."
       },
+      "MOVE_FLYING_PRESS": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "Type-effectiveness hook applies Fighting plus Flying effectiveness."
+      },
       "MOVE_FORESTS_CURSE": {
         "animation": true,
         "effectHandler": true,
         "verified": true,
         "notes": "Static handler adds Grass as a W2U extra type."
       },
+      "MOVE_FREEZEDRY": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "Type-effectiveness hook treats Water targets as super effective."
+      },
+      "MOVE_GEOMANCY": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "Static handler adds the charge message; move data handles charge and stat boosts."
+      },
+      "MOVE_GRASSY_TERRAIN": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "Static W2U terrain heals grounded Pokemon and boosts Grass moves."
+      },
+      "MOVE_HAPPY_HOUR": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "Static handler sets BW2's money-double battle flag."
+      },
+      "MOVE_HOLD_BACK": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "Reuses vanilla False Swipe handler."
+      },
+      "MOVE_INFESTATION": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "Reuses vanilla Bind handler."
+      },
+      "MOVE_ION_DELUGE": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "Static W2U pos effect rewrites Normal moves to Electric."
+      },
       "MOVE_KINGS_SHIELD": {
         "animation": true,
         "effectHandler": true,
         "verified": true,
         "notes": "Static protect clone lowers contact attackers' Attack by 2."
+      },
+      "MOVE_LANDS_WRATH": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_MAGNETIC_FLUX": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "Static handler filters targets without Plus or Minus."
+      },
+      "MOVE_MAT_BLOCK": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "Static protect clone shields allies from damaging moves."
+      },
+      "MOVE_MISTY_TERRAIN": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "Static W2U terrain blocks status and weakens Dragon moves."
       },
       "MOVE_MOONBLAST": {
         "animation": true,
@@ -533,11 +2537,23 @@
         "verified": true,
         "notes": ""
       },
+      "MOVE_PARTING_SHOT": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "Static handler lowers offenses, then queues the user switch."
+      },
       "MOVE_PETAL_BLIZZARD": {
         "animation": true,
         "effectHandler": true,
         "verified": true,
         "notes": ""
+      },
+      "MOVE_PHANTOM_FORCE": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "Reuses vanilla Shadow Force as PW2's Phantom Force approximation."
       },
       "MOVE_PLAY_NICE": {
         "animation": true,
@@ -551,77 +2567,23 @@
         "verified": true,
         "notes": ""
       },
+      "MOVE_POWDER": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "Static transient handler marks the target and cancels Fire moves with damage."
+      },
       "MOVE_POWERUP_PUNCH": {
         "animation": true,
         "effectHandler": true,
         "verified": true,
         "notes": ""
       },
-      "MOVE_WATER_SHURIKEN": {
+      "MOVE_ROTOTILLER": {
         "animation": true,
         "effectHandler": true,
         "verified": true,
-        "notes": ""
-      },
-      "MOVE_FREEZEDRY": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Type-effectiveness hook treats Water targets as super effective."
-      },
-      "MOVE_AROMATIC_MIST": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": ""
-      },
-      "MOVE_TOPSYTURVY": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Static handler inverts target stat stages."
-      },
-      "MOVE_LANDS_WRATH": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": ""
-      },
-      "MOVE_GEOMANCY": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Static handler adds the charge message; move data handles charge and stat boosts."
-      },
-      "MOVE_GRASSY_TERRAIN": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Static W2U terrain heals grounded Pokemon and boosts Grass moves."
-      },
-      "MOVE_HAPPY_HOUR": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Static handler sets BW2's money-double battle flag."
-      },
-      "MOVE_HOLD_BACK": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Reuses vanilla False Swipe handler."
-      },
-      "MOVE_INFESTATION": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Reuses vanilla Bind handler."
-      },
-      "MOVE_MAGNETIC_FLUX": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Static handler filters targets without Plus or Minus."
+        "notes": "Static handler raises Attack and Sp. Atk for grounded Grass Pokemon."
       },
       "MOVE_SPIKY_SHIELD": {
         "animation": true,
@@ -629,74 +2591,44 @@
         "verified": true,
         "notes": "Protect clone with W2U contact damage hook."
       },
-      "MOVE_VENOM_DRENCH": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Static handler filters targets that are not poisoned."
-      },
-      "MOVE_PARTING_SHOT": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Static handler lowers offenses, then queues the user switch."
-      },
       "MOVE_STICKY_WEB": {
         "animation": true,
         "effectHandler": true,
         "verified": true,
         "notes": "Static W2U side effect lowers grounded switch-ins' Speed."
       },
-      "MOVE_DIAMOND_STORM": {
+      "MOVE_TOPSYTURVY": {
         "animation": true,
         "effectHandler": true,
         "verified": true,
-        "notes": "W2U move data raises user Defense as a secondary effect."
-      },
-      "MOVE_ELECTRIC_TERRAIN": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Animation generated from Discharge: keeps the user-side charge/burst, removes the target camera cut, and replaces target sparks with flattened floor spark emitters. Static W2U terrain blocks sleep and boosts grounded Electric moves."
-      },
-      "MOVE_FLYING_PRESS": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Type-effectiveness hook applies Fighting plus Flying effectiveness."
-      },
-      "MOVE_MISTY_TERRAIN": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Static W2U terrain blocks status and weakens Dragon moves."
-      },
-      "MOVE_MAT_BLOCK": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Static protect clone shields allies from damaging moves."
-      },
-      "MOVE_PHANTOM_FORCE": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Reuses vanilla Shadow Force as PW2's Phantom Force approximation."
-      },
-      "MOVE_POWDER": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
-        "notes": "Static transient handler marks the target and cancels Fire moves with damage."
+        "notes": "Static handler inverts target stat stages."
       },
       "MOVE_TRICKORTREAT": {
         "animation": true,
         "effectHandler": true,
         "verified": true,
         "notes": "Animation generated from Razor Leaf: custom transparent ghost texture rises from the user, then projectile ghosts fly through the target while the field is dimmed. Static handler adds Ghost as a W2U extra type."
+      },
+      "MOVE_VENOM_DRENCH": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "Static handler filters targets that are not poisoned."
+      },
+      "MOVE_WATER_SHURIKEN": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
       }
     },
     "items": {
+      "ITEM_ABILITY_CAPSULE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
       "ITEM_ABOMASITE": {
         "battleCode": true,
         "itemIcon": true,
@@ -727,17 +2659,41 @@
         "verified": true,
         "notes": ""
       },
+      "ITEM_ALTARIANITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": "Replaced vanilla item slot 597; placeholder icon copied."
+      },
       "ITEM_AMPHAROSITE": {
         "battleCode": true,
         "itemIcon": true,
         "verified": true,
         "notes": ""
       },
+      "ITEM_ASSAULT_VEST": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_AUDINITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": "Replaced vanilla item slot 610; placeholder icon copied."
+      },
       "ITEM_BANETTITE": {
         "battleCode": true,
         "itemIcon": true,
         "verified": true,
         "notes": ""
+      },
+      "ITEM_BEEDRILLITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": "Replaced vanilla item slot 509; placeholder icon copied."
       },
       "ITEM_BLASTOISINITE": {
         "battleCode": true,
@@ -751,6 +2707,12 @@
         "verified": true,
         "notes": ""
       },
+      "ITEM_CAMERUPTITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": "Replaced vanilla item slot 596; placeholder icon copied."
+      },
       "ITEM_CHARIZARDITE_X": {
         "battleCode": true,
         "itemIcon": true,
@@ -762,6 +2724,12 @@
         "itemIcon": true,
         "verified": true,
         "notes": ""
+      },
+      "ITEM_GALLADITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": "Replaced vanilla item slot 609; placeholder icon copied."
       },
       "ITEM_GARCHOMPITE": {
         "battleCode": true,
@@ -780,6 +2748,12 @@
         "itemIcon": true,
         "verified": true,
         "notes": ""
+      },
+      "ITEM_GLALITITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": "Replaced vanilla item slot 600; placeholder icon copied."
       },
       "ITEM_GYARADOSITE": {
         "battleCode": true,
@@ -805,84 +2779,6 @@
         "verified": true,
         "notes": ""
       },
-      "ITEM_LUCARIONITE": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ITEM_MANECTITE": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ITEM_MAWILITE": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ITEM_MEDICHAMITE": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ITEM_MEWTWONITE_X": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ITEM_MEWTWONITE_Y": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ITEM_PINSIRITE": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ITEM_SCIZORITE": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ITEM_TYRANITARITE": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ITEM_VENUSAURITE": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ITEM_ABILITY_CAPSULE": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ITEM_PIDGEOTITE": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 510; placeholder icon copied."
-      },
-      "ITEM_METAGROSSITE": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 602; placeholder icon copied."
-      },
       "ITEM_LATIASITE": {
         "battleCode": true,
         "itemIcon": true,
@@ -901,37 +2797,85 @@
         "verified": true,
         "notes": "Replaced vanilla item slot 605; placeholder icon copied."
       },
-      "ITEM_ALTARIANITE": {
+      "ITEM_LUCARIONITE": {
         "battleCode": true,
         "itemIcon": true,
         "verified": true,
-        "notes": "Replaced vanilla item slot 597; placeholder icon copied."
+        "notes": ""
       },
-      "ITEM_AUDINITE": {
+      "ITEM_LUMINOUS_MOSS": {
         "battleCode": true,
         "itemIcon": true,
         "verified": true,
-        "notes": "Replaced vanilla item slot 610; placeholder icon copied."
+        "notes": ""
       },
-      "ITEM_GALLADITE": {
+      "ITEM_MANECTITE": {
         "battleCode": true,
         "itemIcon": true,
         "verified": true,
-        "notes": "Replaced vanilla item slot 609; placeholder icon copied."
+        "notes": ""
       },
-      "ITEM_CAMERUPTITE": {
+      "ITEM_MARANGA_BERRY": {
         "battleCode": true,
         "itemIcon": true,
         "verified": true,
-        "notes": "Replaced vanilla item slot 596; placeholder icon copied."
+        "notes": ""
       },
-      "ITEM_BEEDRILLITE": {
+      "ITEM_MAWILITE": {
         "battleCode": true,
         "itemIcon": true,
         "verified": true,
-        "notes": "Replaced vanilla item slot 509; placeholder icon copied."
+        "notes": ""
+      },
+      "ITEM_MEDICHAMITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
       },
       "ITEM_MEGA_RING": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_METAGROSSITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": "Replaced vanilla item slot 602; placeholder icon copied."
+      },
+      "ITEM_MEWTWONITE_X": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_MEWTWONITE_Y": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_PIDGEOTITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": "Replaced vanilla item slot 510; placeholder icon copied."
+      },
+      "ITEM_PINSIRITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_FAIRY_FEATHER": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ITEM_ROSELI_BERRY": {
         "battleCode": true,
         "itemIcon": true,
         "verified": true,
@@ -942,6 +2886,12 @@
         "itemIcon": true,
         "verified": true,
         "notes": "Replaced vanilla item slot 530; placeholder icon copied."
+      },
+      "ITEM_SAFETY_GOGGLES": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
       },
       "ITEM_SALAMENCITE": {
         "battleCode": true,
@@ -955,6 +2905,12 @@
         "verified": true,
         "notes": "Replaced vanilla item slot 526; placeholder icon copied."
       },
+      "ITEM_SCIZORITE": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
+      },
       "ITEM_SHARPEDONITE": {
         "battleCode": true,
         "itemIcon": true,
@@ -966,6 +2922,12 @@
         "itemIcon": true,
         "verified": true,
         "notes": "Replaced vanilla item slot 512; placeholder icon copied."
+      },
+      "ITEM_SNOWBALL": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": true,
+        "notes": ""
       },
       "ITEM_STEELIXITE": {
         "battleCode": true,
@@ -979,61 +2941,19 @@
         "verified": true,
         "notes": "Replaced vanilla item slot 528; placeholder icon copied."
       },
-      "ITEM_ASSAULT_VEST": {
+      "ITEM_TYRANITARITE": {
         "battleCode": true,
         "itemIcon": true,
         "verified": true,
         "notes": ""
       },
-      "ITEM_GLALITITE": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 600; placeholder icon copied."
-      },
-      "ITEM_LUMINOUS_MOSS": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ITEM_MARANGA_BERRY": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ITEM_PIXIE_PLATE": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": "Renamed to fairy feather"
-      },
-      "ITEM_ROSELI_BERRY": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ITEM_SAFETY_GOGGLES": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ITEM_SNOWBALL": {
+      "ITEM_VENUSAURITE": {
         "battleCode": true,
         "itemIcon": true,
         "verified": true,
         "notes": ""
       },
       "ITEM_WEAKNESS_POLICY": {
-        "battleCode": true,
-        "itemIcon": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ITEM_FAIRY_FEATHER": {
         "battleCode": true,
         "itemIcon": true,
         "verified": true,
@@ -1046,47 +2966,7 @@
         "verified": true,
         "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
       },
-      "ABIL_REFRIGERATE": {
-        "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
-      },
-      "ABIL_PIXILATE": {
-        "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
-      },
-      "ABIL_STRONG_JAW": {
-        "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade battle handler ported with expanded high-bit bite flag; needs in-game verification."
-      },
-      "ABIL_BULLETPROOF": {
-        "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade battle handler ported with expanded high-bit move flag; message ID 210 still needs in-game verification."
-      },
-      "ABIL_MEGA_LAUNCHER": {
-        "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade battle handler ported with expanded high-bit pulse flag; needs in-game verification."
-      },
-      "ABIL_TOUGH_CLAWS": {
-        "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade battle handler ported using FLAG_CONTACT fallback because MakesContact is not exported here; needs in-game verification."
-      },
-      "ABIL_FUR_COAT": {
-        "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
-      },
-      "ABIL_FAIRY_AURA": {
-        "battleCode": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ABIL_DARK_AURA": {
+      "ABIL_AROMA_VEIL": {
         "battleCode": true,
         "verified": true,
         "notes": ""
@@ -1096,27 +2976,42 @@
         "verified": true,
         "notes": ""
       },
+      "ABIL_BULLETPROOF": {
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade battle handler ported with expanded high-bit move flag; message ID 210 still needs in-game verification."
+      },
+      "ABIL_CHEEK_POUCH": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
       "ABIL_COMPETITIVE": {
         "battleCode": true,
         "verified": true,
         "notes": ""
       },
+      "ABIL_DARK_AURA": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_FAIRY_AURA": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_FLOWER_VEIL": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_FUR_COAT": {
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
+      },
       "ABIL_GALE_WINGS": {
-        "battleCode": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ABIL_MAGICIAN": {
-        "battleCode": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ABIL_PROTEAN": {
-        "battleCode": true,
-        "verified": true,
-        "notes": ""
-      },
-      "ABIL_CHEEK_POUCH": {
         "battleCode": true,
         "verified": true,
         "notes": ""
@@ -1126,20 +3021,50 @@
         "verified": true,
         "notes": ""
       },
+      "ABIL_GRASS_PELT": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_MAGICIAN": {
+        "battleCode": true,
+        "verified": true,
+        "notes": ""
+      },
+      "ABIL_MEGA_LAUNCHER": {
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade battle handler ported with expanded high-bit pulse flag; needs in-game verification."
+      },
       "ABIL_PARENTAL_BOND": {
         "battleCode": true,
         "verified": true,
         "notes": ""
       },
-      "ABIL_AROMA_VEIL": {
+      "ABIL_PIXILATE": {
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
+      },
+      "ABIL_PROTEAN": {
         "battleCode": true,
         "verified": true,
         "notes": ""
       },
-      "ABIL_FLOWER_VEIL": {
+      "ABIL_REFRIGERATE": {
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
+      },
+      "ABIL_STANCE_CHANGE": {
         "battleCode": true,
         "verified": true,
         "notes": ""
+      },
+      "ABIL_STRONG_JAW": {
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade battle handler ported with expanded high-bit bite flag; needs in-game verification."
       },
       "ABIL_SWEET_VEIL": {
         "battleCode": true,
@@ -1151,15 +3076,10 @@
         "verified": true,
         "notes": ""
       },
-      "ABIL_GRASS_PELT": {
+      "ABIL_TOUGH_CLAWS": {
         "battleCode": true,
         "verified": true,
-        "notes": ""
-      },
-      "ABIL_STANCE_CHANGE": {
-        "battleCode": true,
-        "verified": true,
-        "notes": ""
+        "notes": "Static White2Upgrade battle handler ported using FLAG_CONTACT fallback because MakesContact is not exported here; needs in-game verification."
       }
     }
   }
