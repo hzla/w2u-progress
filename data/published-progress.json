@@ -2976,6 +2976,26 @@
         "verified": true,
         "notes": ""
       },
+      "ABIL_BATTERY": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Battery.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_BATTLE_BOND": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/BattleBond.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_BEAST_BOOST": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/BeastBoost.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_BERSERK": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Berserk.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
       "ABIL_BULLETPROOF": {
         "battleCode": true,
         "verified": true,
@@ -2986,15 +3006,50 @@
         "verified": true,
         "notes": ""
       },
+      "ABIL_COMATOSE": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade/BattleEngine.cpp status/permanent-condition hooks; no standalone ability library."
+      },
       "ABIL_COMPETITIVE": {
         "battleCode": true,
         "verified": true,
         "notes": ""
       },
+      "ABIL_CORROSION": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade/BattleEngine.cpp poison-status failure hook; no standalone ability library."
+      },
+      "ABIL_DANCER": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Dancer.cpp plus Dancer move follow-up hooks in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
       "ABIL_DARK_AURA": {
         "battleCode": true,
         "verified": true,
         "notes": ""
+      },
+      "ABIL_DAZZLING": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps Dazzling to Libraries/Abilities/QueenlyMagesty.cpp."
+      },
+      "ABIL_DISGUISE": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Disguise.cpp plus form/status hooks in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_ELECTRIC_SURGE": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/ElectricSurge.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_EMERGENCY_EXIT": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/EmergencyExit.cpp plus switch/HP hooks in Patches/BattleUpgrade/BattleEngine.cpp."
       },
       "ABIL_FAIRY_AURA": {
         "battleCode": true,
@@ -3006,6 +3061,16 @@
         "verified": true,
         "notes": ""
       },
+      "ABIL_FLUFFY": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Fluffy.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_FULL_METAL_BODY": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to EventAddClearBody with no standalone ability library."
+      },
       "ABIL_FUR_COAT": {
         "battleCode": true,
         "verified": true,
@@ -3015,6 +3080,11 @@
         "battleCode": true,
         "verified": true,
         "notes": ""
+      },
+      "ABIL_GALVANIZE": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Galvanize.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
       },
       "ABIL_GOOEY": {
         "battleCode": true,
@@ -3026,6 +3096,26 @@
         "verified": true,
         "notes": ""
       },
+      "ABIL_GRASSY_SURGE": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/GrassySurge.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_INNARDS_OUT": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/InnardsOut.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_LIQUID_VOICE": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/LiquidVoice.cpp plus sound-move hooks in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_LONG_REACH": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade/BattleEngine.cpp contact hook; no standalone ability library."
+      },
       "ABIL_MAGICIAN": {
         "battleCode": true,
         "verified": true,
@@ -3035,6 +3125,16 @@
         "battleCode": true,
         "verified": true,
         "notes": "Static White2Upgrade battle handler ported with expanded high-bit pulse flag; needs in-game verification."
+      },
+      "ABIL_MERCILESS": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Merciless.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_MISTY_SURGE": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/MistySurge.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
       },
       "ABIL_PARENTAL_BOND": {
         "battleCode": true,
@@ -3046,25 +3146,105 @@
         "verified": true,
         "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
       },
+      "ABIL_POWER_CONSTRUCT": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/PowerConstruct.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_POWER_OF_ALCHEMY": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to Libraries/Abilities/Receiver.cpp."
+      },
+      "ABIL_PRISM_ARMOR": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/PrismArmor.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
       "ABIL_PROTEAN": {
         "battleCode": true,
         "verified": true,
         "notes": ""
+      },
+      "ABIL_PSYCHIC_SURGE": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/PsychicSurge.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_QUEENLY_MAGESTY": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/QueenlyMagesty.cpp; PW2Code intentionally/currently spells the constant ABIL_QUEENLY_MAGESTY."
+      },
+      "ABIL_RECEIVER": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Receiver.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
       },
       "ABIL_REFRIGERATE": {
         "battleCode": true,
         "verified": true,
         "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
       },
+      "ABIL_RKS_SYSTEM": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code defines/list-checks ABIL_RKS_SYSTEM, but README says RKS System is not implemented; this likely needs a fresh Memory/Multitype-style implementation."
+      },
+      "ABIL_SCHOOLING": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Schooling.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_SHADOW_SHIELD": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to EventAddMultiscale with no standalone ability library."
+      },
+      "ABIL_SHIELDS_DOWN": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/ShieldsDown.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_SLUSH_RUSH": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/SlushRush.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_SOUL_HEART": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/SoulHeart.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_STAKEOUT": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Stakeout.cpp plus switch-in tracking in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_STAMINA": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Stamina.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
       "ABIL_STANCE_CHANGE": {
         "battleCode": true,
         "verified": true,
         "notes": ""
       },
+      "ABIL_STEELWORKER": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Steelworker.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
       "ABIL_STRONG_JAW": {
         "battleCode": true,
         "verified": true,
         "notes": "Static White2Upgrade battle handler ported with expanded high-bit bite flag; needs in-game verification."
+      },
+      "ABIL_SURGE_SURFER": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/SurgeSurfer.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
       },
       "ABIL_SWEET_VEIL": {
         "battleCode": true,
@@ -3076,10 +3256,35 @@
         "verified": true,
         "notes": ""
       },
+      "ABIL_TANGLING_HAIR": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to Libraries/Abilities/Gooey.cpp."
+      },
       "ABIL_TOUGH_CLAWS": {
         "battleCode": true,
         "verified": true,
         "notes": "Static White2Upgrade battle handler ported using FLAG_CONTACT fallback because MakesContact is not exported here; needs in-game verification."
+      },
+      "ABIL_TRIAGE": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Triage.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_WATER_BUBBLE": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/BurnPrevention.cpp via EventAddWaterBubble; verify any Water Bubble damage multiplier hooks during port."
+      },
+      "ABIL_WATER_COMPACTION": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/WaterCompaction.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      },
+      "ABIL_WIMP_OUT": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to Libraries/Abilities/EmergencyExit.cpp."
       }
     }
   }

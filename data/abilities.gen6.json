@@ -36,6 +36,54 @@
     }
   },
   {
+    "key": "ABIL_BATTERY",
+    "id": 217,
+    "constant": "ABIL_BATTERY",
+    "name": "Battery",
+    "description": "Powers up ally Pokemon's special moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Battery.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_BATTLE_BOND",
+    "id": 210,
+    "constant": "ABIL_BATTLE_BOND",
+    "name": "Battle Bond",
+    "description": "Defeating an opposing Pokemon strengthens the Pokemon's bond with its Trainer, and it becomes Ash-Greninja. Water Shuriken gets more powerful.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/BattleBond.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_BEAST_BOOST",
+    "id": 224,
+    "constant": "ABIL_BEAST_BOOST",
+    "name": "Beast Boost",
+    "description": "Boosts the most proficient stat each time the Pokemon knocks out another Pokemon.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/BeastBoost.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_BERSERK",
+    "id": 201,
+    "constant": "ABIL_BERSERK",
+    "name": "Berserk",
+    "description": "Boosts the Pokemon's Sp. Atk stat when it takes a hit that causes its HP to become half or less.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Berserk.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
     "key": "ABIL_BULLETPROOF",
     "id": 171,
     "constant": "ABIL_BULLETPROOF",
@@ -60,6 +108,18 @@
     }
   },
   {
+    "key": "ABIL_COMATOSE",
+    "id": 213,
+    "constant": "ABIL_COMATOSE",
+    "name": "Comatose",
+    "description": "The Pokemon is always drowsing and will never wake up. It can attack without waking up.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade/BattleEngine.cpp status/permanent-condition hooks; no standalone ability library."
+    }
+  },
+  {
     "key": "ABIL_COMPETITIVE",
     "id": 172,
     "constant": "ABIL_COMPETITIVE",
@@ -72,6 +132,30 @@
     }
   },
   {
+    "key": "ABIL_CORROSION",
+    "id": 212,
+    "constant": "ABIL_CORROSION",
+    "name": "Corrosion",
+    "description": "The Pokemon can poison the target even if it is a Steel or Poison type.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade/BattleEngine.cpp poison-status failure hook; no standalone ability library."
+    }
+  },
+  {
+    "key": "ABIL_DANCER",
+    "id": 216,
+    "constant": "ABIL_DANCER",
+    "name": "Dancer",
+    "description": "When another Pokemon uses a dance move, it can use a dance move following it regardless of Speed.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Dancer.cpp plus Dancer move follow-up hooks in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
     "key": "ABIL_DARK_AURA",
     "id": 186,
     "constant": "ABIL_DARK_AURA",
@@ -81,6 +165,54 @@
       "battleCode": true,
       "verified": true,
       "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_DAZZLING",
+    "id": 219,
+    "constant": "ABIL_DAZZLING",
+    "name": "Dazzling",
+    "description": "Surprises opposing Pokemon, making them unable to attack using priority moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps Dazzling to Libraries/Abilities/QueenlyMagesty.cpp."
+    }
+  },
+  {
+    "key": "ABIL_DISGUISE",
+    "id": 209,
+    "constant": "ABIL_DISGUISE",
+    "name": "Disguise",
+    "description": "Once per battle, the shroud that covers the Pokemon can protect it from an attack.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Disguise.cpp plus form/status hooks in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_ELECTRIC_SURGE",
+    "id": 226,
+    "constant": "ABIL_ELECTRIC_SURGE",
+    "name": "Electric Surge",
+    "description": "Turns the ground into Electric Terrain when the Pokemon enters battle.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/ElectricSurge.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_EMERGENCY_EXIT",
+    "id": 194,
+    "constant": "ABIL_EMERGENCY_EXIT",
+    "name": "Emergency Exit",
+    "description": "The Pokemon switches out when its HP becomes half or less.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/EmergencyExit.cpp plus switch/HP hooks in Patches/BattleUpgrade/BattleEngine.cpp."
     }
   },
   {
@@ -108,6 +240,30 @@
     }
   },
   {
+    "key": "ABIL_FLUFFY",
+    "id": 218,
+    "constant": "ABIL_FLUFFY",
+    "name": "Fluffy",
+    "description": "Halves damage taken from moves that make direct contact, but doubles damage taken from Fire-type moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Fluffy.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_FULL_METAL_BODY",
+    "id": 230,
+    "constant": "ABIL_FULL_METAL_BODY",
+    "name": "Full Metal Body",
+    "description": "Prevents other Pokemon's moves or Abilities from lowering the Pokemon's stats.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to EventAddClearBody with no standalone ability library."
+    }
+  },
+  {
     "key": "ABIL_FUR_COAT",
     "id": 169,
     "constant": "ABIL_FUR_COAT",
@@ -129,6 +285,18 @@
       "battleCode": true,
       "verified": true,
       "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_GALVANIZE",
+    "id": 206,
+    "constant": "ABIL_GALVANIZE",
+    "name": "Galvanize",
+    "description": "Normal-type moves become Electric-type moves, and the power of those moves is boosted a little.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Galvanize.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
     }
   },
   {
@@ -156,6 +324,54 @@
     }
   },
   {
+    "key": "ABIL_GRASSY_SURGE",
+    "id": 229,
+    "constant": "ABIL_GRASSY_SURGE",
+    "name": "Grassy Surge",
+    "description": "Turns the ground into Grassy Terrain when the Pokemon enters battle.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/GrassySurge.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_INNARDS_OUT",
+    "id": 215,
+    "constant": "ABIL_INNARDS_OUT",
+    "name": "Innards Out",
+    "description": "Damages the attacker landing the finishing hit by an amount equal to the Pokemon's last HP.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/InnardsOut.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_LIQUID_VOICE",
+    "id": 204,
+    "constant": "ABIL_LIQUID_VOICE",
+    "name": "Liquid Voice",
+    "description": "All sound-based moves become Water-type moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/LiquidVoice.cpp plus sound-move hooks in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_LONG_REACH",
+    "id": 203,
+    "constant": "ABIL_LONG_REACH",
+    "name": "Long Reach",
+    "description": "The Pokemon uses its moves without making contact with the target.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade/BattleEngine.cpp contact hook; no standalone ability library."
+    }
+  },
+  {
     "key": "ABIL_MAGICIAN",
     "id": 170,
     "constant": "ABIL_MAGICIAN",
@@ -177,6 +393,30 @@
       "battleCode": true,
       "verified": true,
       "notes": "Static White2Upgrade battle handler ported with expanded high-bit pulse flag; needs in-game verification."
+    }
+  },
+  {
+    "key": "ABIL_MERCILESS",
+    "id": 196,
+    "constant": "ABIL_MERCILESS",
+    "name": "Merciless",
+    "description": "The Pokemon's attacks become critical hits if the target is poisoned.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Merciless.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_MISTY_SURGE",
+    "id": 228,
+    "constant": "ABIL_MISTY_SURGE",
+    "name": "Misty Surge",
+    "description": "Turns the ground into Misty Terrain when the Pokemon enters battle.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/MistySurge.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
     }
   },
   {
@@ -204,6 +444,42 @@
     }
   },
   {
+    "key": "ABIL_POWER_CONSTRUCT",
+    "id": 211,
+    "constant": "ABIL_POWER_CONSTRUCT",
+    "name": "Power Construct",
+    "description": "Other Cells gather to aid when its HP becomes half or less, then the Pokemon changes its form to Complete Forme.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/PowerConstruct.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_POWER_OF_ALCHEMY",
+    "id": 223,
+    "constant": "ABIL_POWER_OF_ALCHEMY",
+    "name": "Power of Alchemy",
+    "description": "The Pokemon copies the Ability of a defeated ally.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to Libraries/Abilities/Receiver.cpp."
+    }
+  },
+  {
+    "key": "ABIL_PRISM_ARMOR",
+    "id": 232,
+    "constant": "ABIL_PRISM_ARMOR",
+    "name": "Prism Armor",
+    "description": "Reduces the power of supereffective attacks taken.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/PrismArmor.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
     "key": "ABIL_PROTEAN",
     "id": 168,
     "constant": "ABIL_PROTEAN",
@@ -213,6 +489,42 @@
       "battleCode": true,
       "verified": true,
       "notes": ""
+    }
+  },
+  {
+    "key": "ABIL_PSYCHIC_SURGE",
+    "id": 227,
+    "constant": "ABIL_PSYCHIC_SURGE",
+    "name": "Psychic Surge",
+    "description": "Turns the ground into Psychic Terrain when the Pokemon enters battle.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/PsychicSurge.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_QUEENLY_MAGESTY",
+    "id": 214,
+    "constant": "ABIL_QUEENLY_MAGESTY",
+    "name": "Queenly Majesty",
+    "description": "Its majesty pressures opposing Pokemon, making them unable to attack using priority moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/QueenlyMagesty.cpp; PW2Code intentionally/currently spells the constant ABIL_QUEENLY_MAGESTY."
+    }
+  },
+  {
+    "key": "ABIL_RECEIVER",
+    "id": 222,
+    "constant": "ABIL_RECEIVER",
+    "name": "Receiver",
+    "description": "The Pokemon copies the Ability of a defeated ally.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Receiver.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
     }
   },
   {
@@ -228,6 +540,102 @@
     }
   },
   {
+    "key": "ABIL_RKS_SYSTEM",
+    "id": 225,
+    "constant": "ABIL_RKS_SYSTEM",
+    "name": "RKS System",
+    "description": "Changes the Pokemon's type to match the memory disc it holds.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code defines/list-checks ABIL_RKS_SYSTEM, but README says RKS System is not implemented; this likely needs a fresh Memory/Multitype-style implementation."
+    }
+  },
+  {
+    "key": "ABIL_SCHOOLING",
+    "id": 208,
+    "constant": "ABIL_SCHOOLING",
+    "name": "Schooling",
+    "description": "When it has a lot of HP, the Pokemon forms a powerful school. It stops schooling when its HP is low.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Schooling.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_SHADOW_SHIELD",
+    "id": 231,
+    "constant": "ABIL_SHADOW_SHIELD",
+    "name": "Shadow Shield",
+    "description": "Reduces the amount of damage the Pokemon takes while its HP is full.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to EventAddMultiscale with no standalone ability library."
+    }
+  },
+  {
+    "key": "ABIL_SHIELDS_DOWN",
+    "id": 197,
+    "constant": "ABIL_SHIELDS_DOWN",
+    "name": "Shields Down",
+    "description": "When its HP becomes half or less, the Pokemon's shell breaks and it becomes aggressive.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/ShieldsDown.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_SLUSH_RUSH",
+    "id": 202,
+    "constant": "ABIL_SLUSH_RUSH",
+    "name": "Slush Rush",
+    "description": "Boosts the Pokemon's Speed stat in a hailstorm.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/SlushRush.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_SOUL_HEART",
+    "id": 220,
+    "constant": "ABIL_SOUL_HEART",
+    "name": "Soul-Heart",
+    "description": "Boosts the Pokemon's Sp. Atk stat every time a Pokemon faints.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/SoulHeart.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_STAKEOUT",
+    "id": 198,
+    "constant": "ABIL_STAKEOUT",
+    "name": "Stakeout",
+    "description": "Doubles the damage dealt to a target that has just switched in.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Stakeout.cpp plus switch-in tracking in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_STAMINA",
+    "id": 192,
+    "constant": "ABIL_STAMINA",
+    "name": "Stamina",
+    "description": "Boosts the Defense stat when hit by an attack.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Stamina.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
     "key": "ABIL_STANCE_CHANGE",
     "id": 176,
     "constant": "ABIL_STANCE_CHANGE",
@@ -240,6 +648,18 @@
     }
   },
   {
+    "key": "ABIL_STEELWORKER",
+    "id": 200,
+    "constant": "ABIL_STEELWORKER",
+    "name": "Steelworker",
+    "description": "Powers up Steel-type moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Steelworker.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
     "key": "ABIL_STRONG_JAW",
     "id": 173,
     "constant": "ABIL_STRONG_JAW",
@@ -249,6 +669,18 @@
       "battleCode": true,
       "verified": true,
       "notes": "Static White2Upgrade battle handler ported with expanded high-bit bite flag; needs in-game verification."
+    }
+  },
+  {
+    "key": "ABIL_SURGE_SURFER",
+    "id": 207,
+    "constant": "ABIL_SURGE_SURFER",
+    "name": "Surge Surfer",
+    "description": "Doubles the Pokemon's Speed stat on Electric Terrain.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/SurgeSurfer.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
     }
   },
   {
@@ -276,6 +708,18 @@
     }
   },
   {
+    "key": "ABIL_TANGLING_HAIR",
+    "id": 221,
+    "constant": "ABIL_TANGLING_HAIR",
+    "name": "Tangling Hair",
+    "description": "Contact with the Pokemon lowers the attacker's Speed stat.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to Libraries/Abilities/Gooey.cpp."
+    }
+  },
+  {
     "key": "ABIL_TOUGH_CLAWS",
     "id": 181,
     "constant": "ABIL_TOUGH_CLAWS",
@@ -285,6 +729,54 @@
       "battleCode": true,
       "verified": true,
       "notes": "Static White2Upgrade battle handler ported using FLAG_CONTACT fallback because MakesContact is not exported here; needs in-game verification."
+    }
+  },
+  {
+    "key": "ABIL_TRIAGE",
+    "id": 205,
+    "constant": "ABIL_TRIAGE",
+    "name": "Triage",
+    "description": "Gives priority to healing moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Triage.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_WATER_BUBBLE",
+    "id": 199,
+    "constant": "ABIL_WATER_BUBBLE",
+    "name": "Water Bubble",
+    "description": "Lowers the power of Fire-type moves done to the Pokemon and prevents the Pokemon from getting a burn.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/BurnPrevention.cpp via EventAddWaterBubble; verify any Water Bubble damage multiplier hooks during port."
+    }
+  },
+  {
+    "key": "ABIL_WATER_COMPACTION",
+    "id": 195,
+    "constant": "ABIL_WATER_COMPACTION",
+    "name": "Water Compaction",
+    "description": "Boosts the Pokemon's Defense stat sharply when hit by a Water-type move.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/WaterCompaction.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+    }
+  },
+  {
+    "key": "ABIL_WIMP_OUT",
+    "id": 193,
+    "constant": "ABIL_WIMP_OUT",
+    "name": "Wimp Out",
+    "description": "The Pokemon cowardly switches out when its HP becomes half or less.",
+    "defaultProgress": {
+      "battleCode": false,
+      "verified": false,
+      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to Libraries/Abilities/EmergencyExit.cpp."
     }
   }
 ]
