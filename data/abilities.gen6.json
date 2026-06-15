@@ -152,7 +152,7 @@
     "defaultProgress": {
       "battleCode": true,
       "verified": false,
-      "notes": "White2Upgrade Dancer extra-action queue, dance-move copy handlers, and movelock Thrash hooks ported from PW2Code Dancer.cpp/BattleEngine.cpp; builds in w2u_main.dll. Needs in-game verification."
+      "notes": "White2Upgrade Dancer extra-action queue, dance-move copy handlers, movelock Thrash hooks, and dance move data flags ported from PW2Code Dancer.cpp/BattleEngine.cpp/assets; builds in w2u_main.dll. Needs in-game verification."
     }
   },
   {
