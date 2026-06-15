@@ -150,9 +150,9 @@
     "name": "Dancer",
     "description": "When another Pokemon uses a dance move, it can use a dance move following it regardless of Speed.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Dancer.cpp plus Dancer move follow-up hooks in Patches/BattleUpgrade/BattleEngine.cpp."
+      "notes": "White2Upgrade Dancer extra-action queue, dance-move copy handlers, and movelock Thrash hooks ported from PW2Code Dancer.cpp/BattleEngine.cpp; builds in w2u_main.dll. Needs in-game verification."
     }
   },
   {

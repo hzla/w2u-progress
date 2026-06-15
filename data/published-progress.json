@@ -3022,9 +3022,9 @@
         "notes": "White2Upgrade condition-fail hook ported from PW2Code BattleEngine.cpp so Corrosion bypasses native Poison/Steel poison immunity; builds in w2u_main.dll. Needs in-game verification."
       },
       "ABIL_DANCER": {
-        "battleCode": false,
+        "battleCode": true,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Dancer.cpp plus Dancer move follow-up hooks in Patches/BattleUpgrade/BattleEngine.cpp."
+        "notes": "White2Upgrade Dancer extra-action queue, dance-move copy handlers, and movelock Thrash hooks ported from PW2Code Dancer.cpp/BattleEngine.cpp; builds in w2u_main.dll. Needs in-game verification."
       },
       "ABIL_DARK_AURA": {
         "battleCode": true,
