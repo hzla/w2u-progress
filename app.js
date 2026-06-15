@@ -3,7 +3,11 @@
 
   const STORAGE_KEY = "white2expansion.progress.v1";
   const UI_STORAGE_KEY = "white2expansion.ui.v1";
-  const COUNTED_FILTERS = new Set(["missingSprites", "missingAnimation"]);
+  const COUNTED_FILTERS = new Set(["open", "missingSprites", "missingAnimation"]);
+  const CREDIT_LINKS = new Map([
+    ["retronc", "https://www.deviantart.com/retronc"],
+    ["aronousqui20", "https://www.deviantart.com/aronousqui20"]
+  ]);
   const CATEGORIES = {
     pokemon: {
       label: "Pokemon",
@@ -316,11 +320,32 @@
     return `<span class="pill ${className || ""}">${escapeHtml(text)}</span>`;
   }
 
+  function creditKey(value) {
+    return String(value).toLowerCase().replace(/[^a-z0-9]+/g, "");
+  }
+
+  function splitCredits(value) {
+    return String(value || "")
+      .split(/[;,]/)
+      .map((credit) => credit.trim())
+      .filter(Boolean);
+  }
+
+  function renderCreditPill(credit) {
+    const className = credit === "TBD" ? "warn" : "ok";
+    const href = CREDIT_LINKS.get(creditKey(credit));
+    if (!href) {
+      return makePill(credit, className);
+    }
+
+    return `<a class="pill ${className}" href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(credit)}</a>`;
+  }
+
   function renderNameCell(row) {
     const meta = [
       row.constant ? makePill(row.constant, "ok") : "",
       row.id != null ? makePill(`#${row.id}`, "") : "",
-      row.credits ? makePill(row.credits, row.credits === "TBD" ? "warn" : "ok") : ""
+      ...splitCredits(row.credits).map(renderCreditPill)
     ].filter(Boolean).join("");
     return `
       <td class="name-cell">
@@ -449,8 +474,9 @@
         button.dataset.filterLabel = button.textContent.trim();
       }
 
-      const category = button.dataset.filterCategory;
-      const count = category ? countRowsForFilter(category, button.dataset.filter) : null;
+      const filter = button.dataset.filter;
+      const category = button.dataset.filterCategory || (COUNTED_FILTERS.has(filter) ? state.activeTab : null);
+      const count = category ? countRowsForFilter(category, filter) : null;
       button.textContent = count == null
         ? button.dataset.filterLabel
         : `${button.dataset.filterLabel} (${count})`;

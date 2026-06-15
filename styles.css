@@ -21,6 +21,10 @@
   box-sizing: border-box;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 html {
   min-width: 320px;
   background: var(--bg);
@@ -39,7 +43,8 @@ body {
 
 button,
 input,
-textarea {
+textarea,
+select {
   font: inherit;
 }
 
@@ -74,6 +79,13 @@ h1 {
   margin: 0;
   font-size: clamp(28px, 5vw, 44px);
   line-height: 1;
+  letter-spacing: 0;
+}
+
+h2 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.1;
   letter-spacing: 0;
 }
 
@@ -200,9 +212,264 @@ a.tool-button {
 
 .search-wrap input:focus-visible,
 .notes-input:focus-visible,
+.save-field input:focus-visible,
+.save-field select:focus-visible,
 button:focus-visible {
   outline: 3px solid rgba(94, 234, 212, 0.28);
   outline-offset: 2px;
+}
+
+.save-editor-panel {
+  margin-top: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.save-editor-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px;
+}
+
+.save-editor-content {
+  border-top: 1px solid var(--line);
+}
+
+.save-editor-toggle {
+  flex: 0 0 auto;
+}
+
+.save-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.save-editor-actions {
+  padding: 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.file-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.file-button input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-button:has(input:disabled) {
+  cursor: default;
+  opacity: 0.64;
+}
+
+.save-status-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.save-status {
+  color: var(--muted);
+  font-weight: 750;
+}
+
+.save-status.is-error {
+  color: var(--coral);
+}
+
+.save-editor-workspace {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+}
+
+.bag-form {
+  display: grid;
+  grid-template-columns: minmax(110px, 160px) minmax(220px, 1fr) minmax(92px, 120px) auto;
+  align-items: end;
+  gap: 10px;
+}
+
+.save-field {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+.save-field input,
+.save-field select {
+  width: 100%;
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #111315;
+  color: var(--ink);
+  padding: 0 10px;
+  outline: none;
+  text-transform: none;
+}
+
+.save-field input[aria-invalid="true"] {
+  border-color: var(--coral);
+}
+
+.party-editor {
+  display: grid;
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.party-row {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.8fr) minmax(280px, 1.25fr) minmax(320px, 1.4fr) minmax(260px, 0.8fr);
+  gap: 12px;
+  align-items: center;
+  min-width: 0;
+  background: #15181b;
+  padding: 12px;
+}
+
+.party-row-main {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  gap: 10px;
+}
+
+.slot-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  min-width: 58px;
+  min-height: 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-soft);
+  color: var(--teal);
+  font-size: 12px;
+  font-weight: 850;
+}
+
+.party-title {
+  min-width: 0;
+}
+
+.party-title strong,
+.party-title span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.party-title span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.copy-pokemon-button {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #101315;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.copy-pokemon-button:hover {
+  border-color: rgba(94, 234, 212, 0.42);
+  color: var(--teal);
+}
+
+.copy-pokemon-button:active {
+  transform: translateY(1px);
+}
+
+.copy-pokemon-button svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.save-fields {
+  display: grid;
+  min-width: 0;
+  gap: 8px;
+}
+
+.primary-fields {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.move-fields {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.party-stats-panel {
+  display: grid;
+  min-width: 0;
+  gap: 8px;
+}
+
+.stat-edit-fields {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.stat-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.stat-strip span {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #101315;
+  padding: 7px 8px;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+  font-weight: 850;
+}
+
+.stat-strip b {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 850;
+  line-height: 1;
 }
 
 .tracker-panel {
@@ -287,6 +554,14 @@ tbody tr:hover {
   font-weight: 750;
   padding: 0 8px;
   white-space: nowrap;
+}
+
+a.pill {
+  text-decoration: none;
+}
+
+a.pill:hover {
+  filter: brightness(1.12);
 }
 
 .pill.ok {
@@ -417,7 +692,8 @@ tbody tr:hover {
 
   .toolbar,
   .tabs,
-  .segmented {
+  .segmented,
+  .save-actions {
     flex-wrap: wrap;
   }
 
@@ -432,5 +708,26 @@ tbody tr:hover {
 
   .table-scroll {
     max-height: calc(100vh - 360px);
+  }
+
+  .save-editor-head {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .save-actions {
+    justify-content: flex-start;
+  }
+
+  .bag-form,
+  .party-row,
+  .primary-fields,
+  .move-fields,
+  .stat-edit-fields {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

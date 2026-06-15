@@ -3,17 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>White2Expansion Tracker</title>
-    <link rel="stylesheet" href="styles.css?v=20260605">
+    <title>Gen 6-9 Expansion Tracker</title>
+    <link rel="stylesheet" href="styles.css?v=20260615-credits-progress">
   </head>
   <body>
     <div class="app-shell">
       <header class="topbar">
         <div>
           <p class="eyebrow">White2Upgrade</p>
-          <h1>Gen 6 Expansion Tracker</h1>
+          <h1>Gen 6-9 Expansion Tracker</h1>
         </div>
         <div class="toolbar" aria-label="Downloads">
+          <a class="tool-button" href="#save-editor" data-save-editor-link>Save Editor</a>
           <a class="tool-button download" href="downloads/White2Upgrade.xdelta" download>Download Patch</a>
           <a class="tool-button download" href="downloads/demosave.dsv" download>Download Save File</a>
         </div>
@@ -36,6 +37,57 @@
           <div class="summary-item wide">
             <span class="summary-label">Saved</span>
             <strong id="summary-saved">Not yet</strong>
+          </div>
+        </section>
+
+        <section id="save-editor" class="save-editor-panel is-collapsed" aria-label="Save editor">
+          <div class="save-editor-head">
+            <div>
+              <p class="eyebrow">Testing Tool</p>
+              <h2>Save Editor</h2>
+            </div>
+            <button id="save-editor-toggle" class="tool-button save-editor-toggle" type="button" aria-expanded="false" aria-controls="save-editor-content">Expand</button>
+          </div>
+
+          <div id="save-editor-content" class="save-editor-content" hidden>
+            <div class="save-actions save-editor-actions">
+              <label class="tool-button file-button">
+                <input id="save-file" type="file" accept=".sav,.dsv,application/octet-stream">
+                <span>Open Save</span>
+              </label>
+              <button id="save-reset" class="tool-button" type="button" disabled>Reset</button>
+              <button id="save-download" class="tool-button download" type="button" disabled>Download Edited Save</button>
+            </div>
+
+            <div class="save-status-row" aria-live="polite">
+              <span id="save-file-name" class="pill">No save loaded</span>
+              <span id="save-party-count" class="pill">0 Pokemon</span>
+              <span id="save-partition-count" class="pill">0 mirrors</span>
+              <span id="save-editor-status" class="save-status">Loading editor data</span>
+            </div>
+
+            <div id="save-editor-workspace" class="save-editor-workspace" hidden>
+              <form id="bag-form" class="bag-form">
+                <label class="save-field">
+                  <span>Pouch</span>
+                  <select id="bag-pouch">
+                    <option value="items">Items</option>
+                    <option value="key">Key Items</option>
+                  </select>
+                </label>
+                <label class="save-field">
+                  <span>Item</span>
+                  <input id="bag-item" list="item-options">
+                </label>
+                <label class="save-field count-field">
+                  <span>Count</span>
+                  <input id="bag-count" type="number" min="1" max="999" value="1">
+                </label>
+                <button class="tool-button" type="submit">Add Item</button>
+              </form>
+
+              <div id="party-editor" class="party-editor" aria-label="Party Pokemon"></div>
+            </div>
           </div>
         </section>
 
@@ -79,6 +131,12 @@
       </label>
     </template>
 
-    <script src="app.js?v=20260611-filter-counts" defer></script>
+    <datalist id="species-options"></datalist>
+    <datalist id="item-options"></datalist>
+    <datalist id="ability-options"></datalist>
+    <datalist id="move-options"></datalist>
+
+    <script src="app.js?v=20260615-credits-progress" defer></script>
+    <script src="save-editor.js?v=20260615-save-editor-copy" defer></script>
   </body>
 </html>
