@@ -3,6 +3,7 @@
 
   const STORAGE_KEY = "white2expansion.progress.v1";
   const UI_STORAGE_KEY = "white2expansion.ui.v1";
+  const DATA_VERSION = "20260615-credit-cache";
   const COUNTED_FILTERS = new Set(["open", "missingSprites", "missingAnimation"]);
   const CREDIT_LINKS = new Map([
     ["retronc", "https://www.deviantart.com/retronc"],
@@ -154,6 +155,10 @@
     } catch (_error) {
       // Browsers can deny localStorage in private or locked-down contexts.
     }
+  }
+
+  function versionedDataUrl(url) {
+    return `${url}${url.includes("?") ? "&" : "?"}v=${DATA_VERSION}`;
   }
 
   function saveProgress() {
@@ -542,7 +547,7 @@
   async function loadSeeds() {
     const [entries, published] = await Promise.all([
       Promise.all(Object.entries(CATEGORIES).map(async ([key, config]) => {
-        const response = await fetch(config.url);
+        const response = await fetch(versionedDataUrl(config.url));
         if (!response.ok) {
           throw new Error(`Failed to load ${config.url}`);
         }
@@ -557,7 +562,7 @@
 
   async function loadPublishedProgress() {
     try {
-      const response = await fetch("data/published-progress.json");
+      const response = await fetch(versionedDataUrl("data/published-progress.json"));
       if (!response.ok) {
         return { progress: emptyProgress(), savedAt: "" };
       }

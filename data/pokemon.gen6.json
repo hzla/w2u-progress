@@ -5414,7 +5414,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/raichu-megax-front.gif; back from sprites/Aronousqui20/raichu-megax-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/raichu-megax-front.gif; back from sprites/aronousqui20/raichu-megax-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -5445,7 +5445,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/raichu-megay-front.gif; back from sprites/Aronousqui20/raichu-megay-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/raichu-megay-front.gif; back from sprites/aronousqui20/raichu-megay-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -5476,7 +5476,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC",
-    "runtimeNotes": "front from sprites/retromc/clefable-mega-front.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/clefable-mega-front.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -5507,7 +5507,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/victreebell-mega-front.gif; back from sprites/Aronousqui20/victreebel-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/victreebell-mega-front.gif; back from sprites/aronousqui20/victreebel-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -5538,7 +5538,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/starmie-mega-front.gif; back from sprites/Aronousqui20/starmie-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/starmie-mega-front.gif; back from sprites/aronousqui20/starmie-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -5569,7 +5569,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC",
-    "runtimeNotes": "front from sprites/retromc/dragonite-mega-front.gif; back from sprites/retromc/dragonite-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/dragonite-mega-front.gif; back from sprites/RetroNC/dragonite-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -5600,7 +5600,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/meganium-mega-front.gif; back from sprites/Aronousqui20/meganium-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/meganium-mega-front.gif; back from sprites/aronousqui20/meganium-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -5631,7 +5631,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/feraligatr-mega-front.gif; back from sprites/Aronousqui20/feraligatr-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/feraligatr-mega-front.gif; back from sprites/aronousqui20/feraligatr-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -5662,7 +5662,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/skarmory-mega-front.gif; back from sprites/Aronousqui20/skarmory-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/skarmory-mega-front.gif; back from sprites/aronousqui20/skarmory-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -5693,7 +5693,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/chimecho-mega-front.gif; back from sprites/Aronousqui20/chimecho-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/chimecho-mega-front.gif; back from sprites/aronousqui20/chimecho-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -5755,7 +5755,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/absol-megaz-front.gif; back from sprites/Aronousqui20/absol-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/absol-megaz-front.gif; back from sprites/aronousqui20/absol-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -5786,7 +5786,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/staraptor-mega-front.gif; back from sprites/Aronousqui20/staraptor-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/staraptor-mega-front.gif; back from sprites/aronousqui20/staraptor-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -5848,7 +5848,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/garchomp-megaz-front.gif; back from sprites/Aronousqui20/garchomp-megaz-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/garchomp-megaz-front.gif; back from sprites/aronousqui20/garchomp-megaz-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -5910,7 +5910,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/lucario-megaz-front.gif; back from sprites/Aronousqui20/lucario-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/lucario-megaz-front.gif; back from sprites/aronousqui20/lucario-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -5941,7 +5941,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/froslass-mega-front.gif; back from sprites/Aronousqui20/froslass-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/froslass-mega-front.gif; back from sprites/aronousqui20/froslass-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -5972,7 +5972,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/heatran-mega-front.gif; back from sprites/Aronousqui20/heatran-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/heatran-mega-front.gif; back from sprites/aronousqui20/heatran-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6003,7 +6003,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/darkrai-mega-front.gif; back from sprites/Aronousqui20/darkrai-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/darkrai-mega-front.gif; back from sprites/aronousqui20/darkrai-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6034,7 +6034,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/emboar-mega-front.gif; back from sprites/Aronousqui20/emboar-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/emboar-mega-front.gif; back from sprites/aronousqui20/emboar-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6065,7 +6065,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/excadrill-mega-front.gif; back from sprites/Aronousqui20/excadrill-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/excadrill-mega-front.gif; back from sprites/aronousqui20/excadrill-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6096,7 +6096,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/scolipede-mega-front.gif; back from sprites/Aronousqui20/skolipede-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/scolipede-mega-front.gif; back from sprites/aronousqui20/skolipede-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6127,7 +6127,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/scrafty-mega-front.gif; back from sprites/Aronousqui20/scrafty-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/scrafty-mega-front.gif; back from sprites/aronousqui20/scrafty-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6158,7 +6158,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/eelektross-mega-front.gif; back from sprites/Aronousqui20/eelektross-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/eelektross-mega-front.gif; back from sprites/aronousqui20/eelektross-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6189,7 +6189,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; ghasty001",
-    "runtimeNotes": "front from sprites/retromc/chandelure-mega-front.gif; back from sprites/Animated_sprites_by_Ghasty001/BACK/CHANDELURE_Mega.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/chandelure-mega-front.gif; back from sprites/Animated_sprites_by_Ghasty001/BACK/CHANDELURE_Mega.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6220,7 +6220,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/golurk-mega-front.gif; back from sprites/Aronousqui20/golurk-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/golurk-mega-front.gif; back from sprites/aronousqui20/golurk-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6251,7 +6251,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/chesnaught-mega-front.gif; back from sprites/Aronousqui20/chesnaught-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/chesnaught-mega-front.gif; back from sprites/aronousqui20/chesnaught-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6282,7 +6282,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/delphox-mega-front.gif; back from sprites/Aronousqui20/delphox-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/delphox-mega-front.gif; back from sprites/aronousqui20/delphox-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6313,7 +6313,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/greninja-mega-front.gif; back from sprites/Aronousqui20/greninja-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/greninja-mega-front.gif; back from sprites/aronousqui20/greninja-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6344,7 +6344,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/pyroar-mega-front.gif; back from sprites/Aronousqui20/pyroar-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/pyroar-mega-front.gif; back from sprites/aronousqui20/pyroar-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6375,7 +6375,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC",
-    "runtimeNotes": "front from sprites/retromc/floette-mega-front.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/floette-mega-front.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6406,7 +6406,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/meowstic-mega-front.gif; back from sprites/Aronousqui20/mega-meowstic-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/meowstic-mega-front.gif; back from sprites/aronousqui20/mega-meowstic-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6437,7 +6437,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/malamar-mega-front.gif; back from sprites/Aronousqui20/malamar-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/malamar-mega-front.gif; back from sprites/aronousqui20/malamar-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6468,7 +6468,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/barbaracle-mega-front.gif; back from sprites/Aronousqui20/barbaracle-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/barbaracle-mega-front.gif; back from sprites/aronousqui20/barbaracle-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6499,7 +6499,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC",
-    "runtimeNotes": "front from sprites/retromc/dragalge-mega-front.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/dragalge-mega-front.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6530,7 +6530,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/hawlucha-mega-front.gif; back from sprites/Aronousqui20/hawlucha-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/hawlucha-mega-front.gif; back from sprites/aronousqui20/hawlucha-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6561,7 +6561,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/zygarde-mega-front.gif; back from sprites/Aronousqui20/zygarde-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/zygarde-mega-front.gif; back from sprites/aronousqui20/zygarde-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6592,7 +6592,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/crabominable-mega-front.gif; back from sprites/Aronousqui20/crabominable-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/crabominable-mega-front.gif; back from sprites/aronousqui20/crabominable-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6623,7 +6623,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/golisopod-mega-front.gif; back from sprites/Aronousqui20/golisopod-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/golisopod-mega-front.gif; back from sprites/aronousqui20/golisopod-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6654,7 +6654,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/drampa-mega-front.gif; back from sprites/Aronousqui20/drampa-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/drampa-mega-front.gif; back from sprites/aronousqui20/drampa-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6685,7 +6685,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC",
-    "runtimeNotes": "front from sprites/retromc/magearna-mega-front.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/magearna-mega-front.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6716,7 +6716,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC",
-    "runtimeNotes": "front from sprites/retromc/magearna-mega-front.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/magearna-mega-front.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6747,7 +6747,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/zeraora-mega-front.gif; back from sprites/Aronousqui20/zeraora-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/zeraora-mega-front.gif; back from sprites/aronousqui20/zeraora-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6778,7 +6778,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/falinks-mega-front.gif; back from sprites/Aronousqui20/falinks-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/falinks-mega-front.gif; back from sprites/aronousqui20/falinks-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6809,7 +6809,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/scovillain-mega-front.gif; back from sprites/Aronousqui20/skovillain-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/scovillain-mega-front.gif; back from sprites/aronousqui20/skovillain-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6840,7 +6840,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/glimmora-mega-front.gif; back from sprites/Aronousqui20/glimmora-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/glimmora-mega-front.gif; back from sprites/aronousqui20/glimmora-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6871,7 +6871,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/tastugiri-mega-front.gif; back from sprites/Aronousqui20/tatsugiri-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/tastugiri-mega-front.gif; back from sprites/aronousqui20/tatsugiri-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6902,7 +6902,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/tastugiri-mega-front.gif; back from sprites/Aronousqui20/tatsugiri-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/tastugiri-mega-front.gif; back from sprites/aronousqui20/tatsugiri-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6933,7 +6933,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/tastugiri-mega-front.gif; back from sprites/Aronousqui20/tatsugiri-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/tastugiri-mega-front.gif; back from sprites/aronousqui20/tatsugiri-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
@@ -6964,7 +6964,7 @@
     "iconFile": "OK",
     "iconPalette": "OK",
     "credits": "RetroNC; aronousqui20",
-    "runtimeNotes": "front from sprites/retromc/baxcalibur-mega-front.gif; back from sprites/Aronousqui20/baxcalibur-mega-back.gif; ZA Mega preview/import path",
+    "runtimeNotes": "front from sprites/RetroNC/baxcalibur-mega-front.gif; back from sprites/aronousqui20/baxcalibur-mega-back.gif; ZA Mega preview/import path",
     "defaultProgress": {
       "personalData": true,
       "partyIcon": true,
