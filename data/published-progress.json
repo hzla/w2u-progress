@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-13T18:12:03.476Z",
+  "updatedAt": "2026-06-15T19:37:34.314Z",
   "progress": {
     "pokemon": {
       "SPECIES_CHESPIN": {
@@ -2977,9 +2977,9 @@
         "notes": ""
       },
       "ABIL_BATTERY": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Battery.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade ally special-power handler ported from PW2Code Battery.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_BATTLE_BOND": {
         "battleCode": false,
@@ -2987,14 +2987,14 @@
         "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/BattleBond.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
       },
       "ABIL_BEAST_BOOST": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/BeastBoost.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade KO stat-boost handler ported from PW2Code BeastBoost.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_BERSERK": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Berserk.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade HP-threshold stat-boost handler ported from PW2Code Berserk.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_BULLETPROOF": {
         "battleCode": true,
@@ -3017,9 +3017,9 @@
         "notes": ""
       },
       "ABIL_CORROSION": {
-        "battleCode": false,
+        "battleCode": true,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade/BattleEngine.cpp poison-status failure hook; no standalone ability library."
+        "notes": "White2Upgrade condition-fail hook ported from PW2Code BattleEngine.cpp so Corrosion bypasses native Poison/Steel poison immunity; builds in w2u_main.dll. Needs in-game verification."
       },
       "ABIL_DANCER": {
         "battleCode": false,
@@ -3032,9 +3032,9 @@
         "notes": ""
       },
       "ABIL_DAZZLING": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps Dazzling to Libraries/Abilities/QueenlyMagesty.cpp."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Mapped to the ported Queenly Majesty priority-block handler, matching PW2Code. Builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_DISGUISE": {
         "battleCode": false,
@@ -3049,7 +3049,7 @@
       "ABIL_EMERGENCY_EXIT": {
         "battleCode": false,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/EmergencyExit.cpp plus switch/HP hooks in Patches/BattleUpgrade/BattleEngine.cpp."
+        "notes": "Partial White2Upgrade direct-damage Emergency Exit/Wimp Out behavior was manually verified, but PW2Code simple-damage/end-turn switch hook behavior is not yet ported; battleCode remains unchecked."
       },
       "ABIL_FAIRY_AURA": {
         "battleCode": true,
@@ -3062,14 +3062,14 @@
         "notes": ""
       },
       "ABIL_FLUFFY": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Fluffy.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade damage-ratio handler ported from PW2Code Fluffy.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_FULL_METAL_BODY": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to EventAddClearBody with no standalone ability library."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Mapped to the vanilla Clear Body handler through a White2Upgrade ability-event alias, matching PW2Code. Builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_FUR_COAT": {
         "battleCode": true,
@@ -3082,9 +3082,9 @@
         "notes": ""
       },
       "ABIL_GALVANIZE": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Galvanize.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade normal-move conversion handler ported by extending the existing -ate family path; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_GOOEY": {
         "battleCode": true,
@@ -3127,9 +3127,9 @@
         "notes": "Static White2Upgrade battle handler ported with expanded high-bit pulse flag; needs in-game verification."
       },
       "ABIL_MERCILESS": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Merciless.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade critical-check handler ported from PW2Code Merciless.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_MISTY_SURGE": {
         "battleCode": false,
@@ -3152,14 +3152,14 @@
         "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/PowerConstruct.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
       },
       "ABIL_POWER_OF_ALCHEMY": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to Libraries/Abilities/Receiver.cpp."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Mapped to the ported Receiver handler, matching PW2Code. Builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_PRISM_ARMOR": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/PrismArmor.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade supereffective damage-reduction handler ported from PW2Code PrismArmor.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_PROTEAN": {
         "battleCode": true,
@@ -3172,14 +3172,14 @@
         "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/PsychicSurge.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
       },
       "ABIL_QUEENLY_MAGESTY": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/QueenlyMagesty.cpp; PW2Code intentionally/currently spells the constant ABIL_QUEENLY_MAGESTY."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade priority-block handler ported from PW2Code QueenlyMagesty.cpp; compatibility spelling preserved with a clean alias in code. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_RECEIVER": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Receiver.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade fainted-ally ability-copy handler ported from PW2Code Receiver.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_REFRIGERATE": {
         "battleCode": true,
@@ -3197,9 +3197,9 @@
         "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Schooling.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
       },
       "ABIL_SHADOW_SHIELD": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to EventAddMultiscale with no standalone ability library."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Mapped to the vanilla Multiscale handler through a White2Upgrade ability-event alias, matching PW2Code. Builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_SHIELDS_DOWN": {
         "battleCode": false,
@@ -3207,14 +3207,14 @@
         "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/ShieldsDown.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
       },
       "ABIL_SLUSH_RUSH": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/SlushRush.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade speed-ratio handler ported from PW2Code SlushRush.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_SOUL_HEART": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/SoulHeart.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade faint-reaction stat-boost handler ported from PW2Code SoulHeart.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_STAKEOUT": {
         "battleCode": false,
@@ -3222,9 +3222,9 @@
         "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Stakeout.cpp plus switch-in tracking in Patches/BattleUpgrade/BattleEngine.cpp."
       },
       "ABIL_STAMINA": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Stamina.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade battle handler ported from PW2Code Stamina.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_STANCE_CHANGE": {
         "battleCode": true,
@@ -3232,9 +3232,9 @@
         "notes": ""
       },
       "ABIL_STEELWORKER": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Steelworker.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade move-power handler ported from PW2Code Steelworker.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_STRONG_JAW": {
         "battleCode": true,
@@ -3242,9 +3242,9 @@
         "notes": "Static White2Upgrade battle handler ported with expanded high-bit bite flag; needs in-game verification."
       },
       "ABIL_SURGE_SURFER": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/SurgeSurfer.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade Electric Terrain speed-ratio handler ported from PW2Code SurgeSurfer.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_SWEET_VEIL": {
         "battleCode": true,
@@ -3257,9 +3257,9 @@
         "notes": ""
       },
       "ABIL_TANGLING_HAIR": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to Libraries/Abilities/Gooey.cpp."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Mapped to the existing Gooey contact Speed-drop handler, matching PW2Code. Builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_TOUGH_CLAWS": {
         "battleCode": true,
@@ -3277,14 +3277,14 @@
         "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/BurnPrevention.cpp via EventAddWaterBubble; verify any Water Bubble damage multiplier hooks during port."
       },
       "ABIL_WATER_COMPACTION": {
-        "battleCode": false,
-        "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/WaterCompaction.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "battleCode": true,
+        "verified": true,
+        "notes": "Static White2Upgrade battle handler ported from PW2Code WaterCompaction.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_WIMP_OUT": {
         "battleCode": false,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to Libraries/Abilities/EmergencyExit.cpp."
+        "notes": "Partial White2Upgrade direct-damage Emergency Exit/Wimp Out behavior was manually verified, but PW2Code simple-damage/end-turn switch hook behavior is not yet ported; battleCode remains unchecked."
       }
     }
   }

@@ -42,9 +42,9 @@
     "name": "Battery",
     "description": "Powers up ally Pokemon's special moves.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Battery.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Static White2Upgrade ally special-power handler ported from PW2Code Battery.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -66,9 +66,9 @@
     "name": "Beast Boost",
     "description": "Boosts the most proficient stat each time the Pokemon knocks out another Pokemon.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/BeastBoost.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Static White2Upgrade KO stat-boost handler ported from PW2Code BeastBoost.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -78,9 +78,9 @@
     "name": "Berserk",
     "description": "Boosts the Pokemon's Sp. Atk stat when it takes a hit that causes its HP to become half or less.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Berserk.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Static White2Upgrade HP-threshold stat-boost handler ported from PW2Code Berserk.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -138,9 +138,9 @@
     "name": "Corrosion",
     "description": "The Pokemon can poison the target even if it is a Steel or Poison type.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade/BattleEngine.cpp poison-status failure hook; no standalone ability library."
+      "notes": "White2Upgrade condition-fail hook ported from PW2Code BattleEngine.cpp so Corrosion bypasses native Poison/Steel poison immunity; builds in w2u_main.dll. Needs in-game verification."
     }
   },
   {
@@ -174,9 +174,9 @@
     "name": "Dazzling",
     "description": "Surprises opposing Pokemon, making them unable to attack using priority moves.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps Dazzling to Libraries/Abilities/QueenlyMagesty.cpp."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Mapped to the ported Queenly Majesty priority-block handler, matching PW2Code. Builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -212,7 +212,7 @@
     "defaultProgress": {
       "battleCode": false,
       "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/EmergencyExit.cpp plus switch/HP hooks in Patches/BattleUpgrade/BattleEngine.cpp."
+      "notes": "Partial White2Upgrade direct-damage Emergency Exit/Wimp Out behavior was manually verified, but PW2Code simple-damage/end-turn switch hook behavior is not yet ported; battleCode remains unchecked."
     }
   },
   {
@@ -246,9 +246,9 @@
     "name": "Fluffy",
     "description": "Halves damage taken from moves that make direct contact, but doubles damage taken from Fire-type moves.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Fluffy.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Static White2Upgrade damage-ratio handler ported from PW2Code Fluffy.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -258,9 +258,9 @@
     "name": "Full Metal Body",
     "description": "Prevents other Pokemon's moves or Abilities from lowering the Pokemon's stats.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to EventAddClearBody with no standalone ability library."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Mapped to the vanilla Clear Body handler through a White2Upgrade ability-event alias, matching PW2Code. Builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -294,9 +294,9 @@
     "name": "Galvanize",
     "description": "Normal-type moves become Electric-type moves, and the power of those moves is boosted a little.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Galvanize.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Static White2Upgrade normal-move conversion handler ported by extending the existing -ate family path; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -402,9 +402,9 @@
     "name": "Merciless",
     "description": "The Pokemon's attacks become critical hits if the target is poisoned.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Merciless.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Static White2Upgrade critical-check handler ported from PW2Code Merciless.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -462,9 +462,9 @@
     "name": "Power of Alchemy",
     "description": "The Pokemon copies the Ability of a defeated ally.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to Libraries/Abilities/Receiver.cpp."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Mapped to the ported Receiver handler, matching PW2Code. Builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -474,9 +474,9 @@
     "name": "Prism Armor",
     "description": "Reduces the power of supereffective attacks taken.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/PrismArmor.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Static White2Upgrade supereffective damage-reduction handler ported from PW2Code PrismArmor.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -510,9 +510,9 @@
     "name": "Queenly Majesty",
     "description": "Its majesty pressures opposing Pokemon, making them unable to attack using priority moves.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/QueenlyMagesty.cpp; PW2Code intentionally/currently spells the constant ABIL_QUEENLY_MAGESTY."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Static White2Upgrade priority-block handler ported from PW2Code QueenlyMagesty.cpp; compatibility spelling preserved with a clean alias in code. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -522,9 +522,9 @@
     "name": "Receiver",
     "description": "The Pokemon copies the Ability of a defeated ally.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Receiver.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Static White2Upgrade fainted-ally ability-copy handler ported from PW2Code Receiver.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -570,9 +570,9 @@
     "name": "Shadow Shield",
     "description": "Reduces the amount of damage the Pokemon takes while its HP is full.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to EventAddMultiscale with no standalone ability library."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Mapped to the vanilla Multiscale handler through a White2Upgrade ability-event alias, matching PW2Code. Builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -594,9 +594,9 @@
     "name": "Slush Rush",
     "description": "Boosts the Pokemon's Speed stat in a hailstorm.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/SlushRush.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Static White2Upgrade speed-ratio handler ported from PW2Code SlushRush.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -606,9 +606,9 @@
     "name": "Soul-Heart",
     "description": "Boosts the Pokemon's Sp. Atk stat every time a Pokemon faints.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/SoulHeart.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Static White2Upgrade faint-reaction stat-boost handler ported from PW2Code SoulHeart.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -630,9 +630,9 @@
     "name": "Stamina",
     "description": "Boosts the Defense stat when hit by an attack.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Stamina.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Static White2Upgrade battle handler ported from PW2Code Stamina.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -654,9 +654,9 @@
     "name": "Steelworker",
     "description": "Powers up Steel-type moves.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Steelworker.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Static White2Upgrade move-power handler ported from PW2Code Steelworker.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -678,9 +678,9 @@
     "name": "Surge Surfer",
     "description": "Doubles the Pokemon's Speed stat on Electric Terrain.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/SurgeSurfer.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Static White2Upgrade Electric Terrain speed-ratio handler ported from PW2Code SurgeSurfer.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -714,9 +714,9 @@
     "name": "Tangling Hair",
     "description": "Contact with the Pokemon lowers the attacker's Speed stat.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to Libraries/Abilities/Gooey.cpp."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Mapped to the existing Gooey contact Speed-drop handler, matching PW2Code. Builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -762,9 +762,9 @@
     "name": "Water Compaction",
     "description": "Boosts the Pokemon's Defense stat sharply when hit by a Water-type move.",
     "defaultProgress": {
-      "battleCode": false,
-      "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/WaterCompaction.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      "battleCode": true,
+      "verified": true,
+      "notes": "Static White2Upgrade battle handler ported from PW2Code WaterCompaction.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
     }
   },
   {
@@ -776,7 +776,7 @@
     "defaultProgress": {
       "battleCode": false,
       "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade maps this to Libraries/Abilities/EmergencyExit.cpp."
+      "notes": "Partial White2Upgrade direct-damage Emergency Exit/Wimp Out behavior was manually verified, but PW2Code simple-damage/end-turn switch hook behavior is not yet ported; battleCode remains unchecked."
     }
   }
 ]
