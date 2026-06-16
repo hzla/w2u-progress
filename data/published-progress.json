@@ -3037,9 +3037,9 @@
         "notes": "Mapped to the ported Queenly Majesty priority-block handler, matching PW2Code. Builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_DISGUISE": {
-        "battleCode": false,
+        "battleCode": true,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Disguise.cpp plus form/status hooks in Patches/BattleUpgrade/BattleEngine.cpp."
+        "notes": "White2Upgrade Disguise damage-prevention handler, CheckDamageToRecover event hook, switch-out form preservation, and battle message ported from PW2Code. Uses Mimikyu species 778 instead of PW2Code's placeholder species check; builds in w2u_main.dll. Needs in-game verification."
       },
       "ABIL_ELECTRIC_SURGE": {
         "battleCode": false,

@@ -186,9 +186,9 @@
     "name": "Disguise",
     "description": "Once per battle, the shroud that covers the Pokemon can protect it from an attack.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Disguise.cpp plus form/status hooks in Patches/BattleUpgrade/BattleEngine.cpp."
+      "notes": "White2Upgrade Disguise damage-prevention handler, CheckDamageToRecover event hook, switch-out form preservation, and battle message ported from PW2Code. Uses Mimikyu species 778 instead of PW2Code's placeholder species check; builds in w2u_main.dll. Needs in-game verification."
     }
   },
   {
