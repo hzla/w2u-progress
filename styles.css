@@ -327,7 +327,8 @@ button:focus-visible {
   text-transform: none;
 }
 
-.save-field input[aria-invalid="true"] {
+.save-field input[aria-invalid="true"],
+.save-field select[aria-invalid="true"] {
   border-color: var(--coral);
 }
 
@@ -429,7 +430,7 @@ button:focus-visible {
 }
 
 .primary-fields {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
 }
 
 .move-fields {

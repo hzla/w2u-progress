@@ -1,0 +1,4795 @@
+{
+  "version": 1,
+  "description": "Full W2U debug PC lineup: Gen 6-9 base species 650-1023, all tracked non-Mega regional/alternate forms, and all tracked Mega forms as temporary species 1-96 previews. Terapagos 1024 and Pecharunt 1025 are intentionally excluded.",
+  "counts": {
+    "gen6_9BaseSpecies": 374,
+    "nonMegaForms": 81,
+    "temporaryMegaPreviews": 96,
+    "total": 551
+  },
+  "layout": {
+    "startBox": 1,
+    "startSlot": 1,
+    "endBox": 19,
+    "endSlot": 11
+  },
+  "pokemon": [
+    {
+      "species": 650,
+      "form": 0,
+      "name": "Chespin",
+      "nickname": "Chespin",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_CHESPIN"
+    },
+    {
+      "species": 651,
+      "form": 0,
+      "name": "Quilladin",
+      "nickname": "Quilladin",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_QUILLADIN"
+    },
+    {
+      "species": 652,
+      "form": 0,
+      "name": "Chesnaught",
+      "nickname": "Chesnaught",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_CHESNAUGHT"
+    },
+    {
+      "species": 653,
+      "form": 0,
+      "name": "Fennekin",
+      "nickname": "Fennekin",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_FENNEKIN"
+    },
+    {
+      "species": 654,
+      "form": 0,
+      "name": "Braixen",
+      "nickname": "Braixen",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_BRAIXEN"
+    },
+    {
+      "species": 655,
+      "form": 0,
+      "name": "Delphox",
+      "nickname": "Delphox",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_DELPHOX"
+    },
+    {
+      "species": 656,
+      "form": 0,
+      "name": "Froakie",
+      "nickname": "Froakie",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_FROAKIE"
+    },
+    {
+      "species": 657,
+      "form": 0,
+      "name": "Frogadier",
+      "nickname": "Frogadier",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_FROGADIER"
+    },
+    {
+      "species": 658,
+      "form": 0,
+      "name": "Greninja",
+      "nickname": "Greninja",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_GRENINJA"
+    },
+    {
+      "species": 659,
+      "form": 0,
+      "name": "Bunnelby",
+      "nickname": "Bunnelby",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_BUNNELBY"
+    },
+    {
+      "species": 660,
+      "form": 0,
+      "name": "Diggersby",
+      "nickname": "Diggersby",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_DIGGERSBY"
+    },
+    {
+      "species": 661,
+      "form": 0,
+      "name": "Fletchling",
+      "nickname": "Fletchling",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_FLETCHLING"
+    },
+    {
+      "species": 662,
+      "form": 0,
+      "name": "Fletchinder",
+      "nickname": "Fletchinde",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_FLETCHINDER"
+    },
+    {
+      "species": 663,
+      "form": 0,
+      "name": "Talonflame",
+      "nickname": "Talonflame",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_TALONFLAME"
+    },
+    {
+      "species": 664,
+      "form": 0,
+      "name": "Scatterbug",
+      "nickname": "Scatterbug",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_SCATTERBUG"
+    },
+    {
+      "species": 665,
+      "form": 0,
+      "name": "Spewpa",
+      "nickname": "Spewpa",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_SPEWPA"
+    },
+    {
+      "species": 666,
+      "form": 0,
+      "name": "Vivillon",
+      "nickname": "Vivillon",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_VIVILLON"
+    },
+    {
+      "species": 667,
+      "form": 0,
+      "name": "Litleo",
+      "nickname": "Litleo",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_LITLEO"
+    },
+    {
+      "species": 668,
+      "form": 0,
+      "name": "Pyroar",
+      "nickname": "Pyroar",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_PYROAR"
+    },
+    {
+      "species": 669,
+      "form": 0,
+      "name": "Flabebe",
+      "nickname": "Flabebe",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_FLABEBE"
+    },
+    {
+      "species": 670,
+      "form": 0,
+      "name": "Floette",
+      "nickname": "Floette",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_FLOETTE"
+    },
+    {
+      "species": 671,
+      "form": 0,
+      "name": "Florges",
+      "nickname": "Florges",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_FLORGES"
+    },
+    {
+      "species": 672,
+      "form": 0,
+      "name": "Skiddo",
+      "nickname": "Skiddo",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_SKIDDO"
+    },
+    {
+      "species": 673,
+      "form": 0,
+      "name": "Gogoat",
+      "nickname": "Gogoat",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_GOGOAT"
+    },
+    {
+      "species": 674,
+      "form": 0,
+      "name": "Pancham",
+      "nickname": "Pancham",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_PANCHAM"
+    },
+    {
+      "species": 675,
+      "form": 0,
+      "name": "Pangoro",
+      "nickname": "Pangoro",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_PANGORO"
+    },
+    {
+      "species": 676,
+      "form": 0,
+      "name": "Furfrou",
+      "nickname": "Furfrou",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_FURFROU"
+    },
+    {
+      "species": 677,
+      "form": 0,
+      "name": "Espurr",
+      "nickname": "Espurr",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_ESPURR"
+    },
+    {
+      "species": 678,
+      "form": 0,
+      "name": "Meowstic",
+      "nickname": "Meowstic",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_MEOWSTIC"
+    },
+    {
+      "species": 679,
+      "form": 0,
+      "name": "Honedge",
+      "nickname": "Honedge",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_HONEDGE"
+    },
+    {
+      "species": 680,
+      "form": 0,
+      "name": "Doublade",
+      "nickname": "Doublade",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_DOUBLADE"
+    },
+    {
+      "species": 681,
+      "form": 0,
+      "name": "Aegislash",
+      "nickname": "Aegislash",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_AEGISLASH"
+    },
+    {
+      "species": 682,
+      "form": 0,
+      "name": "Spritzee",
+      "nickname": "Spritzee",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_SPRITZEE"
+    },
+    {
+      "species": 683,
+      "form": 0,
+      "name": "Aromatisse",
+      "nickname": "Aromatisse",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_AROMATISSE"
+    },
+    {
+      "species": 684,
+      "form": 0,
+      "name": "Swirlix",
+      "nickname": "Swirlix",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_SWIRLIX"
+    },
+    {
+      "species": 685,
+      "form": 0,
+      "name": "Slurpuff",
+      "nickname": "Slurpuff",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_SLURPUFF"
+    },
+    {
+      "species": 686,
+      "form": 0,
+      "name": "Inkay",
+      "nickname": "Inkay",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_INKAY"
+    },
+    {
+      "species": 687,
+      "form": 0,
+      "name": "Malamar",
+      "nickname": "Malamar",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_MALAMAR"
+    },
+    {
+      "species": 688,
+      "form": 0,
+      "name": "Binacle",
+      "nickname": "Binacle",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_BINACLE"
+    },
+    {
+      "species": 689,
+      "form": 0,
+      "name": "Barbaracle",
+      "nickname": "Barbaracle",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_BARBARACLE"
+    },
+    {
+      "species": 690,
+      "form": 0,
+      "name": "Skrelp",
+      "nickname": "Skrelp",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_SKRELP"
+    },
+    {
+      "species": 691,
+      "form": 0,
+      "name": "Dragalge",
+      "nickname": "Dragalge",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_DRAGALGE"
+    },
+    {
+      "species": 692,
+      "form": 0,
+      "name": "Clauncher",
+      "nickname": "Clauncher",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_CLAUNCHER"
+    },
+    {
+      "species": 693,
+      "form": 0,
+      "name": "Clawitzer",
+      "nickname": "Clawitzer",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_CLAWITZER"
+    },
+    {
+      "species": 694,
+      "form": 0,
+      "name": "Helioptile",
+      "nickname": "Helioptile",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_HELIOPTILE"
+    },
+    {
+      "species": 695,
+      "form": 0,
+      "name": "Heliolisk",
+      "nickname": "Heliolisk",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_HELIOLISK"
+    },
+    {
+      "species": 696,
+      "form": 0,
+      "name": "Tyrunt",
+      "nickname": "Tyrunt",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_TYRUNT"
+    },
+    {
+      "species": 697,
+      "form": 0,
+      "name": "Tyrantrum",
+      "nickname": "Tyrantrum",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_TYRANTRUM"
+    },
+    {
+      "species": 698,
+      "form": 0,
+      "name": "Amaura",
+      "nickname": "Amaura",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_AMAURA"
+    },
+    {
+      "species": 699,
+      "form": 0,
+      "name": "Aurorus",
+      "nickname": "Aurorus",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_AURORUS"
+    },
+    {
+      "species": 700,
+      "form": 0,
+      "name": "Sylveon",
+      "nickname": "Sylveon",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_SYLVEON"
+    },
+    {
+      "species": 701,
+      "form": 0,
+      "name": "Hawlucha",
+      "nickname": "Hawlucha",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_HAWLUCHA"
+    },
+    {
+      "species": 702,
+      "form": 0,
+      "name": "Dedenne",
+      "nickname": "Dedenne",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_DEDENNE"
+    },
+    {
+      "species": 703,
+      "form": 0,
+      "name": "Carbink",
+      "nickname": "Carbink",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_CARBINK"
+    },
+    {
+      "species": 704,
+      "form": 0,
+      "name": "Goomy",
+      "nickname": "Goomy",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_GOOMY"
+    },
+    {
+      "species": 705,
+      "form": 0,
+      "name": "Sliggoo",
+      "nickname": "Sliggoo",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_SLIGGOO"
+    },
+    {
+      "species": 706,
+      "form": 0,
+      "name": "Goodra",
+      "nickname": "Goodra",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_GOODRA"
+    },
+    {
+      "species": 707,
+      "form": 0,
+      "name": "Klefki",
+      "nickname": "Klefki",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_KLEFKI"
+    },
+    {
+      "species": 708,
+      "form": 0,
+      "name": "Phantump",
+      "nickname": "Phantump",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_PHANTUMP"
+    },
+    {
+      "species": 709,
+      "form": 0,
+      "name": "Trevenant",
+      "nickname": "Trevenant",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_TREVENANT"
+    },
+    {
+      "species": 710,
+      "form": 0,
+      "name": "Pumpkaboo",
+      "nickname": "Pumpkaboo",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_PUMPKABOO"
+    },
+    {
+      "species": 711,
+      "form": 0,
+      "name": "Gourgeist",
+      "nickname": "Gourgeist",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_GOURGEIST"
+    },
+    {
+      "species": 712,
+      "form": 0,
+      "name": "Bergmite",
+      "nickname": "Bergmite",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_BERGMITE"
+    },
+    {
+      "species": 713,
+      "form": 0,
+      "name": "Avalugg",
+      "nickname": "Avalugg",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_AVALUGG"
+    },
+    {
+      "species": 714,
+      "form": 0,
+      "name": "Noibat",
+      "nickname": "Noibat",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_NOIBAT"
+    },
+    {
+      "species": 715,
+      "form": 0,
+      "name": "Noivern",
+      "nickname": "Noivern",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_NOIVERN"
+    },
+    {
+      "species": 716,
+      "form": 0,
+      "name": "Xerneas",
+      "nickname": "Xerneas",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_XERNEAS"
+    },
+    {
+      "species": 717,
+      "form": 0,
+      "name": "Yveltal",
+      "nickname": "Yveltal",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_YVELTAL"
+    },
+    {
+      "species": 718,
+      "form": 0,
+      "name": "Zygarde",
+      "nickname": "Zygarde",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_ZYGARDE"
+    },
+    {
+      "species": 719,
+      "form": 0,
+      "name": "Diancie",
+      "nickname": "Diancie",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_DIANCIE"
+    },
+    {
+      "species": 720,
+      "form": 0,
+      "name": "Hoopa",
+      "nickname": "Hoopa",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_HOOPA"
+    },
+    {
+      "species": 721,
+      "form": 0,
+      "name": "Volcanion",
+      "nickname": "Volcanion",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_VOLCANION"
+    },
+    {
+      "species": 722,
+      "form": 0,
+      "name": "Rowlet",
+      "nickname": "Rowlet",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_722"
+    },
+    {
+      "species": 723,
+      "form": 0,
+      "name": "Dartrix",
+      "nickname": "Dartrix",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_723"
+    },
+    {
+      "species": 724,
+      "form": 0,
+      "name": "Decidueye",
+      "nickname": "Decidueye",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_724"
+    },
+    {
+      "species": 725,
+      "form": 0,
+      "name": "Litten",
+      "nickname": "Litten",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_725"
+    },
+    {
+      "species": 726,
+      "form": 0,
+      "name": "Torracat",
+      "nickname": "Torracat",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_726"
+    },
+    {
+      "species": 727,
+      "form": 0,
+      "name": "Incineroar",
+      "nickname": "Incineroar",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_727"
+    },
+    {
+      "species": 728,
+      "form": 0,
+      "name": "Popplio",
+      "nickname": "Popplio",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_728"
+    },
+    {
+      "species": 729,
+      "form": 0,
+      "name": "Brionne",
+      "nickname": "Brionne",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_729"
+    },
+    {
+      "species": 730,
+      "form": 0,
+      "name": "Primarina",
+      "nickname": "Primarina",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_730"
+    },
+    {
+      "species": 731,
+      "form": 0,
+      "name": "Pikipek",
+      "nickname": "Pikipek",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_731"
+    },
+    {
+      "species": 732,
+      "form": 0,
+      "name": "Trumbeak",
+      "nickname": "Trumbeak",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_732"
+    },
+    {
+      "species": 733,
+      "form": 0,
+      "name": "Toucannon",
+      "nickname": "Toucannon",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_733"
+    },
+    {
+      "species": 734,
+      "form": 0,
+      "name": "Yungoos",
+      "nickname": "Yungoos",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_734"
+    },
+    {
+      "species": 735,
+      "form": 0,
+      "name": "Gumshoos",
+      "nickname": "Gumshoos",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_735"
+    },
+    {
+      "species": 736,
+      "form": 0,
+      "name": "Grubbin",
+      "nickname": "Grubbin",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_736"
+    },
+    {
+      "species": 737,
+      "form": 0,
+      "name": "Charjabug",
+      "nickname": "Charjabug",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_737"
+    },
+    {
+      "species": 738,
+      "form": 0,
+      "name": "Vikavolt",
+      "nickname": "Vikavolt",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_738"
+    },
+    {
+      "species": 739,
+      "form": 0,
+      "name": "Crabrawler",
+      "nickname": "Crabrawler",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_739"
+    },
+    {
+      "species": 740,
+      "form": 0,
+      "name": "Crabominable",
+      "nickname": "Crabominab",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_740"
+    },
+    {
+      "species": 741,
+      "form": 0,
+      "name": "Oricorio",
+      "nickname": "Oricorio",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_741"
+    },
+    {
+      "species": 742,
+      "form": 0,
+      "name": "Cutiefly",
+      "nickname": "Cutiefly",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_742"
+    },
+    {
+      "species": 743,
+      "form": 0,
+      "name": "Ribombee",
+      "nickname": "Ribombee",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_743"
+    },
+    {
+      "species": 744,
+      "form": 0,
+      "name": "Rockruff",
+      "nickname": "Rockruff",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_744"
+    },
+    {
+      "species": 745,
+      "form": 0,
+      "name": "Lycanroc",
+      "nickname": "Lycanroc",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_745"
+    },
+    {
+      "species": 746,
+      "form": 0,
+      "name": "Wishiwashi",
+      "nickname": "Wishiwashi",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_746"
+    },
+    {
+      "species": 747,
+      "form": 0,
+      "name": "Mareanie",
+      "nickname": "Mareanie",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_747"
+    },
+    {
+      "species": 748,
+      "form": 0,
+      "name": "Toxapex",
+      "nickname": "Toxapex",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_748"
+    },
+    {
+      "species": 749,
+      "form": 0,
+      "name": "Mudbray",
+      "nickname": "Mudbray",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_749"
+    },
+    {
+      "species": 750,
+      "form": 0,
+      "name": "Mudsdale",
+      "nickname": "Mudsdale",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_750"
+    },
+    {
+      "species": 751,
+      "form": 0,
+      "name": "Dewpider",
+      "nickname": "Dewpider",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_751"
+    },
+    {
+      "species": 752,
+      "form": 0,
+      "name": "Araquanid",
+      "nickname": "Araquanid",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_752"
+    },
+    {
+      "species": 753,
+      "form": 0,
+      "name": "Fomantis",
+      "nickname": "Fomantis",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_753"
+    },
+    {
+      "species": 754,
+      "form": 0,
+      "name": "Lurantis",
+      "nickname": "Lurantis",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_754"
+    },
+    {
+      "species": 755,
+      "form": 0,
+      "name": "Morelull",
+      "nickname": "Morelull",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_755"
+    },
+    {
+      "species": 756,
+      "form": 0,
+      "name": "Shiinotic",
+      "nickname": "Shiinotic",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_756"
+    },
+    {
+      "species": 757,
+      "form": 0,
+      "name": "Salandit",
+      "nickname": "Salandit",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_757"
+    },
+    {
+      "species": 758,
+      "form": 0,
+      "name": "Salazzle",
+      "nickname": "Salazzle",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_758"
+    },
+    {
+      "species": 759,
+      "form": 0,
+      "name": "Stufful",
+      "nickname": "Stufful",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_759"
+    },
+    {
+      "species": 760,
+      "form": 0,
+      "name": "Bewear",
+      "nickname": "Bewear",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_760"
+    },
+    {
+      "species": 761,
+      "form": 0,
+      "name": "Bounsweet",
+      "nickname": "Bounsweet",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_761"
+    },
+    {
+      "species": 762,
+      "form": 0,
+      "name": "Steenee",
+      "nickname": "Steenee",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_762"
+    },
+    {
+      "species": 763,
+      "form": 0,
+      "name": "Tsareena",
+      "nickname": "Tsareena",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_763"
+    },
+    {
+      "species": 764,
+      "form": 0,
+      "name": "Comfey",
+      "nickname": "Comfey",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_764"
+    },
+    {
+      "species": 765,
+      "form": 0,
+      "name": "Oranguru",
+      "nickname": "Oranguru",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_765"
+    },
+    {
+      "species": 766,
+      "form": 0,
+      "name": "Passimian",
+      "nickname": "Passimian",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_766"
+    },
+    {
+      "species": 767,
+      "form": 0,
+      "name": "Wimpod",
+      "nickname": "Wimpod",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_767"
+    },
+    {
+      "species": 768,
+      "form": 0,
+      "name": "Golisopod",
+      "nickname": "Golisopod",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_768"
+    },
+    {
+      "species": 769,
+      "form": 0,
+      "name": "Sandygast",
+      "nickname": "Sandygast",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_769"
+    },
+    {
+      "species": 770,
+      "form": 0,
+      "name": "Palossand",
+      "nickname": "Palossand",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_770"
+    },
+    {
+      "species": 771,
+      "form": 0,
+      "name": "Pyukumuku",
+      "nickname": "Pyukumuku",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_771"
+    },
+    {
+      "species": 772,
+      "form": 0,
+      "name": "Type: Null",
+      "nickname": "Type:Null",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_772"
+    },
+    {
+      "species": 773,
+      "form": 0,
+      "name": "Silvally",
+      "nickname": "Silvally",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_773"
+    },
+    {
+      "species": 774,
+      "form": 0,
+      "name": "Minior",
+      "nickname": "Minior",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_774"
+    },
+    {
+      "species": 775,
+      "form": 0,
+      "name": "Komala",
+      "nickname": "Komala",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_775"
+    },
+    {
+      "species": 776,
+      "form": 0,
+      "name": "Turtonator",
+      "nickname": "Turtonator",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_776"
+    },
+    {
+      "species": 777,
+      "form": 0,
+      "name": "Togedemaru",
+      "nickname": "Togedemaru",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_777"
+    },
+    {
+      "species": 778,
+      "form": 0,
+      "name": "Mimikyu",
+      "nickname": "Mimikyu",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_778"
+    },
+    {
+      "species": 779,
+      "form": 0,
+      "name": "Bruxish",
+      "nickname": "Bruxish",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_779"
+    },
+    {
+      "species": 780,
+      "form": 0,
+      "name": "Drampa",
+      "nickname": "Drampa",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_780"
+    },
+    {
+      "species": 781,
+      "form": 0,
+      "name": "Dhelmise",
+      "nickname": "Dhelmise",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_781"
+    },
+    {
+      "species": 782,
+      "form": 0,
+      "name": "Jangmo-o",
+      "nickname": "Jangmo-o",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_782"
+    },
+    {
+      "species": 783,
+      "form": 0,
+      "name": "Hakamo-o",
+      "nickname": "Hakamo-o",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_783"
+    },
+    {
+      "species": 784,
+      "form": 0,
+      "name": "Kommo-o",
+      "nickname": "Kommo-o",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_784"
+    },
+    {
+      "species": 785,
+      "form": 0,
+      "name": "Tapu Koko",
+      "nickname": "TapuKoko",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_785"
+    },
+    {
+      "species": 786,
+      "form": 0,
+      "name": "Tapu Lele",
+      "nickname": "TapuLele",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_786"
+    },
+    {
+      "species": 787,
+      "form": 0,
+      "name": "Tapu Bulu",
+      "nickname": "TapuBulu",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_787"
+    },
+    {
+      "species": 788,
+      "form": 0,
+      "name": "Tapu Fini",
+      "nickname": "TapuFini",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_788"
+    },
+    {
+      "species": 789,
+      "form": 0,
+      "name": "Cosmog",
+      "nickname": "Cosmog",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_789"
+    },
+    {
+      "species": 790,
+      "form": 0,
+      "name": "Cosmoem",
+      "nickname": "Cosmoem",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_790"
+    },
+    {
+      "species": 791,
+      "form": 0,
+      "name": "Solgaleo",
+      "nickname": "Solgaleo",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_791"
+    },
+    {
+      "species": 792,
+      "form": 0,
+      "name": "Lunala",
+      "nickname": "Lunala",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_792"
+    },
+    {
+      "species": 793,
+      "form": 0,
+      "name": "Nihilego",
+      "nickname": "Nihilego",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_793"
+    },
+    {
+      "species": 794,
+      "form": 0,
+      "name": "Buzzwole",
+      "nickname": "Buzzwole",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_794"
+    },
+    {
+      "species": 795,
+      "form": 0,
+      "name": "Pheromosa",
+      "nickname": "Pheromosa",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_795"
+    },
+    {
+      "species": 796,
+      "form": 0,
+      "name": "Xurkitree",
+      "nickname": "Xurkitree",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_796"
+    },
+    {
+      "species": 797,
+      "form": 0,
+      "name": "Celesteela",
+      "nickname": "Celesteela",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_797"
+    },
+    {
+      "species": 798,
+      "form": 0,
+      "name": "Kartana",
+      "nickname": "Kartana",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_798"
+    },
+    {
+      "species": 799,
+      "form": 0,
+      "name": "Guzzlord",
+      "nickname": "Guzzlord",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_799"
+    },
+    {
+      "species": 800,
+      "form": 0,
+      "name": "Necrozma",
+      "nickname": "Necrozma",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_800"
+    },
+    {
+      "species": 801,
+      "form": 0,
+      "name": "Magearna",
+      "nickname": "Magearna",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_801"
+    },
+    {
+      "species": 802,
+      "form": 0,
+      "name": "Marshadow",
+      "nickname": "Marshadow",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_802"
+    },
+    {
+      "species": 803,
+      "form": 0,
+      "name": "Poipole",
+      "nickname": "Poipole",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_803"
+    },
+    {
+      "species": 804,
+      "form": 0,
+      "name": "Naganadel",
+      "nickname": "Naganadel",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_804"
+    },
+    {
+      "species": 805,
+      "form": 0,
+      "name": "Stakataka",
+      "nickname": "Stakataka",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_805"
+    },
+    {
+      "species": 806,
+      "form": 0,
+      "name": "Blacephalon",
+      "nickname": "Blacephalo",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_806"
+    },
+    {
+      "species": 807,
+      "form": 0,
+      "name": "Zeraora",
+      "nickname": "Zeraora",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_807"
+    },
+    {
+      "species": 808,
+      "form": 0,
+      "name": "Meltan",
+      "nickname": "Meltan",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_808"
+    },
+    {
+      "species": 809,
+      "form": 0,
+      "name": "Melmetal",
+      "nickname": "Melmetal",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_809"
+    },
+    {
+      "species": 810,
+      "form": 0,
+      "name": "Grookey",
+      "nickname": "Grookey",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_810"
+    },
+    {
+      "species": 811,
+      "form": 0,
+      "name": "Thwackey",
+      "nickname": "Thwackey",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_811"
+    },
+    {
+      "species": 812,
+      "form": 0,
+      "name": "Rillaboom",
+      "nickname": "Rillaboom",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_812"
+    },
+    {
+      "species": 813,
+      "form": 0,
+      "name": "Scorbunny",
+      "nickname": "Scorbunny",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_813"
+    },
+    {
+      "species": 814,
+      "form": 0,
+      "name": "Raboot",
+      "nickname": "Raboot",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_814"
+    },
+    {
+      "species": 815,
+      "form": 0,
+      "name": "Cinderace",
+      "nickname": "Cinderace",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_815"
+    },
+    {
+      "species": 816,
+      "form": 0,
+      "name": "Sobble",
+      "nickname": "Sobble",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_816"
+    },
+    {
+      "species": 817,
+      "form": 0,
+      "name": "Drizzile",
+      "nickname": "Drizzile",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_817"
+    },
+    {
+      "species": 818,
+      "form": 0,
+      "name": "Inteleon",
+      "nickname": "Inteleon",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_818"
+    },
+    {
+      "species": 819,
+      "form": 0,
+      "name": "Skwovet",
+      "nickname": "Skwovet",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_819"
+    },
+    {
+      "species": 820,
+      "form": 0,
+      "name": "Greedent",
+      "nickname": "Greedent",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_820"
+    },
+    {
+      "species": 821,
+      "form": 0,
+      "name": "Rookidee",
+      "nickname": "Rookidee",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_821"
+    },
+    {
+      "species": 822,
+      "form": 0,
+      "name": "Corvisquire",
+      "nickname": "Corvisquir",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_822"
+    },
+    {
+      "species": 823,
+      "form": 0,
+      "name": "Corviknight",
+      "nickname": "Corviknigh",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_823"
+    },
+    {
+      "species": 824,
+      "form": 0,
+      "name": "Blipbug",
+      "nickname": "Blipbug",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_824"
+    },
+    {
+      "species": 825,
+      "form": 0,
+      "name": "Dottler",
+      "nickname": "Dottler",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_825"
+    },
+    {
+      "species": 826,
+      "form": 0,
+      "name": "Orbeetle",
+      "nickname": "Orbeetle",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_826"
+    },
+    {
+      "species": 827,
+      "form": 0,
+      "name": "Nickit",
+      "nickname": "Nickit",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_827"
+    },
+    {
+      "species": 828,
+      "form": 0,
+      "name": "Thievul",
+      "nickname": "Thievul",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_828"
+    },
+    {
+      "species": 829,
+      "form": 0,
+      "name": "Gossifleur",
+      "nickname": "Gossifleur",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_829"
+    },
+    {
+      "species": 830,
+      "form": 0,
+      "name": "Eldegoss",
+      "nickname": "Eldegoss",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_830"
+    },
+    {
+      "species": 831,
+      "form": 0,
+      "name": "Wooloo",
+      "nickname": "Wooloo",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_831"
+    },
+    {
+      "species": 832,
+      "form": 0,
+      "name": "Dubwool",
+      "nickname": "Dubwool",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_832"
+    },
+    {
+      "species": 833,
+      "form": 0,
+      "name": "Chewtle",
+      "nickname": "Chewtle",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_833"
+    },
+    {
+      "species": 834,
+      "form": 0,
+      "name": "Drednaw",
+      "nickname": "Drednaw",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_834"
+    },
+    {
+      "species": 835,
+      "form": 0,
+      "name": "Yamper",
+      "nickname": "Yamper",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_835"
+    },
+    {
+      "species": 836,
+      "form": 0,
+      "name": "Boltund",
+      "nickname": "Boltund",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_836"
+    },
+    {
+      "species": 837,
+      "form": 0,
+      "name": "Rolycoly",
+      "nickname": "Rolycoly",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_837"
+    },
+    {
+      "species": 838,
+      "form": 0,
+      "name": "Carkol",
+      "nickname": "Carkol",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_838"
+    },
+    {
+      "species": 839,
+      "form": 0,
+      "name": "Coalossal",
+      "nickname": "Coalossal",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_839"
+    },
+    {
+      "species": 840,
+      "form": 0,
+      "name": "Applin",
+      "nickname": "Applin",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_840"
+    },
+    {
+      "species": 841,
+      "form": 0,
+      "name": "Flapple",
+      "nickname": "Flapple",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_841"
+    },
+    {
+      "species": 842,
+      "form": 0,
+      "name": "Appletun",
+      "nickname": "Appletun",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_842"
+    },
+    {
+      "species": 843,
+      "form": 0,
+      "name": "Silicobra",
+      "nickname": "Silicobra",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_843"
+    },
+    {
+      "species": 844,
+      "form": 0,
+      "name": "Sandaconda",
+      "nickname": "Sandaconda",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_844"
+    },
+    {
+      "species": 845,
+      "form": 0,
+      "name": "Cramorant",
+      "nickname": "Cramorant",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_845"
+    },
+    {
+      "species": 846,
+      "form": 0,
+      "name": "Arrokuda",
+      "nickname": "Arrokuda",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_846"
+    },
+    {
+      "species": 847,
+      "form": 0,
+      "name": "Barraskewda",
+      "nickname": "Barraskewd",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_847"
+    },
+    {
+      "species": 848,
+      "form": 0,
+      "name": "Toxel",
+      "nickname": "Toxel",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_848"
+    },
+    {
+      "species": 849,
+      "form": 0,
+      "name": "Toxtricity",
+      "nickname": "Toxtricity",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_849"
+    },
+    {
+      "species": 850,
+      "form": 0,
+      "name": "Sizzlipede",
+      "nickname": "Sizzlipede",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_850"
+    },
+    {
+      "species": 851,
+      "form": 0,
+      "name": "Centiskorch",
+      "nickname": "Centiskorc",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_851"
+    },
+    {
+      "species": 852,
+      "form": 0,
+      "name": "Clobbopus",
+      "nickname": "Clobbopus",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_852"
+    },
+    {
+      "species": 853,
+      "form": 0,
+      "name": "Grapploct",
+      "nickname": "Grapploct",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_853"
+    },
+    {
+      "species": 854,
+      "form": 0,
+      "name": "Sinistea",
+      "nickname": "Sinistea",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_854"
+    },
+    {
+      "species": 855,
+      "form": 0,
+      "name": "Polteageist",
+      "nickname": "Polteageis",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_855"
+    },
+    {
+      "species": 856,
+      "form": 0,
+      "name": "Hatenna",
+      "nickname": "Hatenna",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_856"
+    },
+    {
+      "species": 857,
+      "form": 0,
+      "name": "Hattrem",
+      "nickname": "Hattrem",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_857"
+    },
+    {
+      "species": 858,
+      "form": 0,
+      "name": "Hatterene",
+      "nickname": "Hatterene",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_858"
+    },
+    {
+      "species": 859,
+      "form": 0,
+      "name": "Impidimp",
+      "nickname": "Impidimp",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_859"
+    },
+    {
+      "species": 860,
+      "form": 0,
+      "name": "Morgrem",
+      "nickname": "Morgrem",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_860"
+    },
+    {
+      "species": 861,
+      "form": 0,
+      "name": "Grimmsnarl",
+      "nickname": "Grimmsnarl",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_861"
+    },
+    {
+      "species": 862,
+      "form": 0,
+      "name": "Obstagoon",
+      "nickname": "Obstagoon",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_862"
+    },
+    {
+      "species": 863,
+      "form": 0,
+      "name": "Perrserker",
+      "nickname": "Perrserker",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_863"
+    },
+    {
+      "species": 864,
+      "form": 0,
+      "name": "Cursola",
+      "nickname": "Cursola",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_864"
+    },
+    {
+      "species": 865,
+      "form": 0,
+      "name": "Sirfetch\u2019d",
+      "nickname": "Sirfetch\u2019d",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_865"
+    },
+    {
+      "species": 866,
+      "form": 0,
+      "name": "Mr. Rime",
+      "nickname": "Mr.Rime",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_866"
+    },
+    {
+      "species": 867,
+      "form": 0,
+      "name": "Runerigus",
+      "nickname": "Runerigus",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_867"
+    },
+    {
+      "species": 868,
+      "form": 0,
+      "name": "Milcery",
+      "nickname": "Milcery",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_868"
+    },
+    {
+      "species": 869,
+      "form": 0,
+      "name": "Alcremie",
+      "nickname": "Alcremie",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_869"
+    },
+    {
+      "species": 870,
+      "form": 0,
+      "name": "Falinks",
+      "nickname": "Falinks",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_870"
+    },
+    {
+      "species": 871,
+      "form": 0,
+      "name": "Pincurchin",
+      "nickname": "Pincurchin",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_871"
+    },
+    {
+      "species": 872,
+      "form": 0,
+      "name": "Snom",
+      "nickname": "Snom",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_872"
+    },
+    {
+      "species": 873,
+      "form": 0,
+      "name": "Frosmoth",
+      "nickname": "Frosmoth",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_873"
+    },
+    {
+      "species": 874,
+      "form": 0,
+      "name": "Stonjourner",
+      "nickname": "Stonjourne",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_874"
+    },
+    {
+      "species": 875,
+      "form": 0,
+      "name": "Eiscue",
+      "nickname": "Eiscue",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_875"
+    },
+    {
+      "species": 876,
+      "form": 0,
+      "name": "Indeedee",
+      "nickname": "Indeedee",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_876"
+    },
+    {
+      "species": 877,
+      "form": 0,
+      "name": "Morpeko",
+      "nickname": "Morpeko",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_877"
+    },
+    {
+      "species": 878,
+      "form": 0,
+      "name": "Cufant",
+      "nickname": "Cufant",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_878"
+    },
+    {
+      "species": 879,
+      "form": 0,
+      "name": "Copperajah",
+      "nickname": "Copperajah",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_879"
+    },
+    {
+      "species": 880,
+      "form": 0,
+      "name": "Dracozolt",
+      "nickname": "Dracozolt",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_880"
+    },
+    {
+      "species": 881,
+      "form": 0,
+      "name": "Arctozolt",
+      "nickname": "Arctozolt",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_881"
+    },
+    {
+      "species": 882,
+      "form": 0,
+      "name": "Dracovish",
+      "nickname": "Dracovish",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_882"
+    },
+    {
+      "species": 883,
+      "form": 0,
+      "name": "Arctovish",
+      "nickname": "Arctovish",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_883"
+    },
+    {
+      "species": 884,
+      "form": 0,
+      "name": "Duraludon",
+      "nickname": "Duraludon",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_884"
+    },
+    {
+      "species": 885,
+      "form": 0,
+      "name": "Dreepy",
+      "nickname": "Dreepy",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_885"
+    },
+    {
+      "species": 886,
+      "form": 0,
+      "name": "Drakloak",
+      "nickname": "Drakloak",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_886"
+    },
+    {
+      "species": 887,
+      "form": 0,
+      "name": "Dragapult",
+      "nickname": "Dragapult",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_887"
+    },
+    {
+      "species": 888,
+      "form": 0,
+      "name": "Zacian",
+      "nickname": "Zacian",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_888"
+    },
+    {
+      "species": 889,
+      "form": 0,
+      "name": "Zamazenta",
+      "nickname": "Zamazenta",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_889"
+    },
+    {
+      "species": 890,
+      "form": 0,
+      "name": "Eternatus",
+      "nickname": "Eternatus",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_890"
+    },
+    {
+      "species": 891,
+      "form": 0,
+      "name": "Kubfu",
+      "nickname": "Kubfu",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_891"
+    },
+    {
+      "species": 892,
+      "form": 0,
+      "name": "Urshifu",
+      "nickname": "Urshifu",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_892"
+    },
+    {
+      "species": 893,
+      "form": 0,
+      "name": "Zarude",
+      "nickname": "Zarude",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_893"
+    },
+    {
+      "species": 894,
+      "form": 0,
+      "name": "Regieleki",
+      "nickname": "Regieleki",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_894"
+    },
+    {
+      "species": 895,
+      "form": 0,
+      "name": "Regidrago",
+      "nickname": "Regidrago",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_895"
+    },
+    {
+      "species": 896,
+      "form": 0,
+      "name": "Glastrier",
+      "nickname": "Glastrier",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_896"
+    },
+    {
+      "species": 897,
+      "form": 0,
+      "name": "Spectrier",
+      "nickname": "Spectrier",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_897"
+    },
+    {
+      "species": 898,
+      "form": 0,
+      "name": "Calyrex",
+      "nickname": "Calyrex",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_898"
+    },
+    {
+      "species": 899,
+      "form": 0,
+      "name": "Wyrdeer",
+      "nickname": "Wyrdeer",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_899"
+    },
+    {
+      "species": 900,
+      "form": 0,
+      "name": "Kleavor",
+      "nickname": "Kleavor",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_900"
+    },
+    {
+      "species": 901,
+      "form": 0,
+      "name": "Ursaluna",
+      "nickname": "Ursaluna",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_901"
+    },
+    {
+      "species": 902,
+      "form": 0,
+      "name": "Basculegion",
+      "nickname": "Basculegio",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_902"
+    },
+    {
+      "species": 903,
+      "form": 0,
+      "name": "Sneasler",
+      "nickname": "Sneasler",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_903"
+    },
+    {
+      "species": 904,
+      "form": 0,
+      "name": "Overqwil",
+      "nickname": "Overqwil",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_904"
+    },
+    {
+      "species": 905,
+      "form": 0,
+      "name": "Enamorus",
+      "nickname": "Enamorus",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_905"
+    },
+    {
+      "species": 906,
+      "form": 0,
+      "name": "Sprigatito",
+      "nickname": "Sprigatito",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_906"
+    },
+    {
+      "species": 907,
+      "form": 0,
+      "name": "Floragato",
+      "nickname": "Floragato",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_907"
+    },
+    {
+      "species": 908,
+      "form": 0,
+      "name": "Meowscarada",
+      "nickname": "Meowscarad",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_908"
+    },
+    {
+      "species": 909,
+      "form": 0,
+      "name": "Fuecoco",
+      "nickname": "Fuecoco",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_909"
+    },
+    {
+      "species": 910,
+      "form": 0,
+      "name": "Crocalor",
+      "nickname": "Crocalor",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_910"
+    },
+    {
+      "species": 911,
+      "form": 0,
+      "name": "Skeledirge",
+      "nickname": "Skeledirge",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_911"
+    },
+    {
+      "species": 912,
+      "form": 0,
+      "name": "Quaxly",
+      "nickname": "Quaxly",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_912"
+    },
+    {
+      "species": 913,
+      "form": 0,
+      "name": "Quaxwell",
+      "nickname": "Quaxwell",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_913"
+    },
+    {
+      "species": 914,
+      "form": 0,
+      "name": "Quaquaval",
+      "nickname": "Quaquaval",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_914"
+    },
+    {
+      "species": 915,
+      "form": 0,
+      "name": "Lechonk",
+      "nickname": "Lechonk",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_915"
+    },
+    {
+      "species": 916,
+      "form": 0,
+      "name": "Oinkologne",
+      "nickname": "Oinkologne",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_916"
+    },
+    {
+      "species": 917,
+      "form": 0,
+      "name": "Tarountula",
+      "nickname": "Tarountula",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_917"
+    },
+    {
+      "species": 918,
+      "form": 0,
+      "name": "Spidops",
+      "nickname": "Spidops",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_918"
+    },
+    {
+      "species": 919,
+      "form": 0,
+      "name": "Nymble",
+      "nickname": "Nymble",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_919"
+    },
+    {
+      "species": 920,
+      "form": 0,
+      "name": "Lokix",
+      "nickname": "Lokix",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_920"
+    },
+    {
+      "species": 921,
+      "form": 0,
+      "name": "Pawmi",
+      "nickname": "Pawmi",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_921"
+    },
+    {
+      "species": 922,
+      "form": 0,
+      "name": "Pawmo",
+      "nickname": "Pawmo",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_922"
+    },
+    {
+      "species": 923,
+      "form": 0,
+      "name": "Pawmot",
+      "nickname": "Pawmot",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_923"
+    },
+    {
+      "species": 924,
+      "form": 0,
+      "name": "Tandemaus",
+      "nickname": "Tandemaus",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_924"
+    },
+    {
+      "species": 925,
+      "form": 0,
+      "name": "Maushold",
+      "nickname": "Maushold",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_925"
+    },
+    {
+      "species": 926,
+      "form": 0,
+      "name": "Fidough",
+      "nickname": "Fidough",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_926"
+    },
+    {
+      "species": 927,
+      "form": 0,
+      "name": "Dachsbun",
+      "nickname": "Dachsbun",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_927"
+    },
+    {
+      "species": 928,
+      "form": 0,
+      "name": "Smoliv",
+      "nickname": "Smoliv",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_928"
+    },
+    {
+      "species": 929,
+      "form": 0,
+      "name": "Dolliv",
+      "nickname": "Dolliv",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_929"
+    },
+    {
+      "species": 930,
+      "form": 0,
+      "name": "Arboliva",
+      "nickname": "Arboliva",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_930"
+    },
+    {
+      "species": 931,
+      "form": 0,
+      "name": "Squawkabilly",
+      "nickname": "Squawkabil",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_931"
+    },
+    {
+      "species": 932,
+      "form": 0,
+      "name": "Nacli",
+      "nickname": "Nacli",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_932"
+    },
+    {
+      "species": 933,
+      "form": 0,
+      "name": "Naclstack",
+      "nickname": "Naclstack",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_933"
+    },
+    {
+      "species": 934,
+      "form": 0,
+      "name": "Garganacl",
+      "nickname": "Garganacl",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_934"
+    },
+    {
+      "species": 935,
+      "form": 0,
+      "name": "Charcadet",
+      "nickname": "Charcadet",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_935"
+    },
+    {
+      "species": 936,
+      "form": 0,
+      "name": "Armarouge",
+      "nickname": "Armarouge",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_936"
+    },
+    {
+      "species": 937,
+      "form": 0,
+      "name": "Ceruledge",
+      "nickname": "Ceruledge",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_937"
+    },
+    {
+      "species": 938,
+      "form": 0,
+      "name": "Tadbulb",
+      "nickname": "Tadbulb",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_938"
+    },
+    {
+      "species": 939,
+      "form": 0,
+      "name": "Bellibolt",
+      "nickname": "Bellibolt",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_939"
+    },
+    {
+      "species": 940,
+      "form": 0,
+      "name": "Wattrel",
+      "nickname": "Wattrel",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_940"
+    },
+    {
+      "species": 941,
+      "form": 0,
+      "name": "Kilowattrel",
+      "nickname": "Kilowattre",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_941"
+    },
+    {
+      "species": 942,
+      "form": 0,
+      "name": "Maschiff",
+      "nickname": "Maschiff",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_942"
+    },
+    {
+      "species": 943,
+      "form": 0,
+      "name": "Mabosstiff",
+      "nickname": "Mabosstiff",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_943"
+    },
+    {
+      "species": 944,
+      "form": 0,
+      "name": "Shroodle",
+      "nickname": "Shroodle",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_944"
+    },
+    {
+      "species": 945,
+      "form": 0,
+      "name": "Grafaiai",
+      "nickname": "Grafaiai",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_945"
+    },
+    {
+      "species": 946,
+      "form": 0,
+      "name": "Bramblin",
+      "nickname": "Bramblin",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_946"
+    },
+    {
+      "species": 947,
+      "form": 0,
+      "name": "Brambleghast",
+      "nickname": "Bramblegha",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_947"
+    },
+    {
+      "species": 948,
+      "form": 0,
+      "name": "Toedscool",
+      "nickname": "Toedscool",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_948"
+    },
+    {
+      "species": 949,
+      "form": 0,
+      "name": "Toedscruel",
+      "nickname": "Toedscruel",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_949"
+    },
+    {
+      "species": 950,
+      "form": 0,
+      "name": "Klawf",
+      "nickname": "Klawf",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_950"
+    },
+    {
+      "species": 951,
+      "form": 0,
+      "name": "Capsakid",
+      "nickname": "Capsakid",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_951"
+    },
+    {
+      "species": 952,
+      "form": 0,
+      "name": "Scovillain",
+      "nickname": "Scovillain",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_952"
+    },
+    {
+      "species": 953,
+      "form": 0,
+      "name": "Rellor",
+      "nickname": "Rellor",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_953"
+    },
+    {
+      "species": 954,
+      "form": 0,
+      "name": "Rabsca",
+      "nickname": "Rabsca",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_954"
+    },
+    {
+      "species": 955,
+      "form": 0,
+      "name": "Flittle",
+      "nickname": "Flittle",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_955"
+    },
+    {
+      "species": 956,
+      "form": 0,
+      "name": "Espathra",
+      "nickname": "Espathra",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_956"
+    },
+    {
+      "species": 957,
+      "form": 0,
+      "name": "Tinkatink",
+      "nickname": "Tinkatink",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_957"
+    },
+    {
+      "species": 958,
+      "form": 0,
+      "name": "Tinkatuff",
+      "nickname": "Tinkatuff",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_958"
+    },
+    {
+      "species": 959,
+      "form": 0,
+      "name": "Tinkaton",
+      "nickname": "Tinkaton",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_959"
+    },
+    {
+      "species": 960,
+      "form": 0,
+      "name": "Wiglett",
+      "nickname": "Wiglett",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_960"
+    },
+    {
+      "species": 961,
+      "form": 0,
+      "name": "Wugtrio",
+      "nickname": "Wugtrio",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_961"
+    },
+    {
+      "species": 962,
+      "form": 0,
+      "name": "Bombirdier",
+      "nickname": "Bombirdier",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_962"
+    },
+    {
+      "species": 963,
+      "form": 0,
+      "name": "Finizen",
+      "nickname": "Finizen",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_963"
+    },
+    {
+      "species": 964,
+      "form": 0,
+      "name": "Palafin",
+      "nickname": "Palafin",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_964"
+    },
+    {
+      "species": 965,
+      "form": 0,
+      "name": "Varoom",
+      "nickname": "Varoom",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_965"
+    },
+    {
+      "species": 966,
+      "form": 0,
+      "name": "Revavroom",
+      "nickname": "Revavroom",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_966"
+    },
+    {
+      "species": 967,
+      "form": 0,
+      "name": "Cyclizar",
+      "nickname": "Cyclizar",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_967"
+    },
+    {
+      "species": 968,
+      "form": 0,
+      "name": "Orthworm",
+      "nickname": "Orthworm",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_968"
+    },
+    {
+      "species": 969,
+      "form": 0,
+      "name": "Glimmet",
+      "nickname": "Glimmet",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_969"
+    },
+    {
+      "species": 970,
+      "form": 0,
+      "name": "Glimmora",
+      "nickname": "Glimmora",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_970"
+    },
+    {
+      "species": 971,
+      "form": 0,
+      "name": "Greavard",
+      "nickname": "Greavard",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_971"
+    },
+    {
+      "species": 972,
+      "form": 0,
+      "name": "Houndstone",
+      "nickname": "Houndstone",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_972"
+    },
+    {
+      "species": 973,
+      "form": 0,
+      "name": "Flamigo",
+      "nickname": "Flamigo",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_973"
+    },
+    {
+      "species": 974,
+      "form": 0,
+      "name": "Cetoddle",
+      "nickname": "Cetoddle",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_974"
+    },
+    {
+      "species": 975,
+      "form": 0,
+      "name": "Cetitan",
+      "nickname": "Cetitan",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_975"
+    },
+    {
+      "species": 976,
+      "form": 0,
+      "name": "Veluza",
+      "nickname": "Veluza",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_976"
+    },
+    {
+      "species": 977,
+      "form": 0,
+      "name": "Dondozo",
+      "nickname": "Dondozo",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_977"
+    },
+    {
+      "species": 978,
+      "form": 0,
+      "name": "Tatsugiri",
+      "nickname": "Tatsugiri",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_978"
+    },
+    {
+      "species": 979,
+      "form": 0,
+      "name": "Annihilape",
+      "nickname": "Annihilape",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_979"
+    },
+    {
+      "species": 980,
+      "form": 0,
+      "name": "Clodsire",
+      "nickname": "Clodsire",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_980"
+    },
+    {
+      "species": 981,
+      "form": 0,
+      "name": "Farigiraf",
+      "nickname": "Farigiraf",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_981"
+    },
+    {
+      "species": 982,
+      "form": 0,
+      "name": "Dudunsparce",
+      "nickname": "Dudunsparc",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_982"
+    },
+    {
+      "species": 983,
+      "form": 0,
+      "name": "Kingambit",
+      "nickname": "Kingambit",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_983"
+    },
+    {
+      "species": 984,
+      "form": 0,
+      "name": "Great Tusk",
+      "nickname": "GreatTusk",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_984"
+    },
+    {
+      "species": 985,
+      "form": 0,
+      "name": "Scream Tail",
+      "nickname": "ScreamTail",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_985"
+    },
+    {
+      "species": 986,
+      "form": 0,
+      "name": "Brute Bonnet",
+      "nickname": "BruteBonne",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_986"
+    },
+    {
+      "species": 987,
+      "form": 0,
+      "name": "Flutter Mane",
+      "nickname": "FlutterMan",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_987"
+    },
+    {
+      "species": 988,
+      "form": 0,
+      "name": "Slither Wing",
+      "nickname": "SlitherWin",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_988"
+    },
+    {
+      "species": 989,
+      "form": 0,
+      "name": "Sandy Shocks",
+      "nickname": "SandyShock",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_989"
+    },
+    {
+      "species": 990,
+      "form": 0,
+      "name": "Iron Treads",
+      "nickname": "IronTreads",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_990"
+    },
+    {
+      "species": 991,
+      "form": 0,
+      "name": "Iron Bundle",
+      "nickname": "IronBundle",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_991"
+    },
+    {
+      "species": 992,
+      "form": 0,
+      "name": "Iron Hands",
+      "nickname": "IronHands",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_992"
+    },
+    {
+      "species": 993,
+      "form": 0,
+      "name": "Iron Jugulis",
+      "nickname": "IronJuguli",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_993"
+    },
+    {
+      "species": 994,
+      "form": 0,
+      "name": "Iron Moth",
+      "nickname": "IronMoth",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_994"
+    },
+    {
+      "species": 995,
+      "form": 0,
+      "name": "Iron Thorns",
+      "nickname": "IronThorns",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_995"
+    },
+    {
+      "species": 996,
+      "form": 0,
+      "name": "Frigibax",
+      "nickname": "Frigibax",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_996"
+    },
+    {
+      "species": 997,
+      "form": 0,
+      "name": "Arctibax",
+      "nickname": "Arctibax",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_997"
+    },
+    {
+      "species": 998,
+      "form": 0,
+      "name": "Baxcalibur",
+      "nickname": "Baxcalibur",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_998"
+    },
+    {
+      "species": 999,
+      "form": 0,
+      "name": "Gimmighoul",
+      "nickname": "Gimmighoul",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_999"
+    },
+    {
+      "species": 1000,
+      "form": 0,
+      "name": "Gholdengo",
+      "nickname": "Gholdengo",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1000"
+    },
+    {
+      "species": 1001,
+      "form": 0,
+      "name": "Wo-Chien",
+      "nickname": "Wo-Chien",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1001"
+    },
+    {
+      "species": 1002,
+      "form": 0,
+      "name": "Chien-Pao",
+      "nickname": "Chien-Pao",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1002"
+    },
+    {
+      "species": 1003,
+      "form": 0,
+      "name": "Ting-Lu",
+      "nickname": "Ting-Lu",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1003"
+    },
+    {
+      "species": 1004,
+      "form": 0,
+      "name": "Chi-Yu",
+      "nickname": "Chi-Yu",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1004"
+    },
+    {
+      "species": 1005,
+      "form": 0,
+      "name": "Roaring Moon",
+      "nickname": "RoaringMoo",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1005"
+    },
+    {
+      "species": 1006,
+      "form": 0,
+      "name": "Iron Valiant",
+      "nickname": "IronValian",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1006"
+    },
+    {
+      "species": 1007,
+      "form": 0,
+      "name": "Koraidon",
+      "nickname": "Koraidon",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1007"
+    },
+    {
+      "species": 1008,
+      "form": 0,
+      "name": "Miraidon",
+      "nickname": "Miraidon",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1008"
+    },
+    {
+      "species": 1009,
+      "form": 0,
+      "name": "Walking Wake",
+      "nickname": "WalkingWak",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1009"
+    },
+    {
+      "species": 1010,
+      "form": 0,
+      "name": "Iron Leaves",
+      "nickname": "IronLeaves",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1010"
+    },
+    {
+      "species": 1011,
+      "form": 0,
+      "name": "Dipplin",
+      "nickname": "Dipplin",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1011"
+    },
+    {
+      "species": 1012,
+      "form": 0,
+      "name": "Poltchageist",
+      "nickname": "Poltchagei",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1012"
+    },
+    {
+      "species": 1013,
+      "form": 0,
+      "name": "Sinistcha",
+      "nickname": "Sinistcha",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1013"
+    },
+    {
+      "species": 1014,
+      "form": 0,
+      "name": "Okidogi",
+      "nickname": "Okidogi",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1014"
+    },
+    {
+      "species": 1015,
+      "form": 0,
+      "name": "Munkidori",
+      "nickname": "Munkidori",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1015"
+    },
+    {
+      "species": 1016,
+      "form": 0,
+      "name": "Fezandipiti",
+      "nickname": "Fezandipit",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1016"
+    },
+    {
+      "species": 1017,
+      "form": 0,
+      "name": "Ogerpon",
+      "nickname": "Ogerpon",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1017"
+    },
+    {
+      "species": 1018,
+      "form": 0,
+      "name": "Archaludon",
+      "nickname": "Archaludon",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1018"
+    },
+    {
+      "species": 1019,
+      "form": 0,
+      "name": "Hydrapple",
+      "nickname": "Hydrapple",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1019"
+    },
+    {
+      "species": 1020,
+      "form": 0,
+      "name": "Gouging Fire",
+      "nickname": "GougingFir",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1020"
+    },
+    {
+      "species": 1021,
+      "form": 0,
+      "name": "Raging Bolt",
+      "nickname": "RagingBolt",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1021"
+    },
+    {
+      "species": 1022,
+      "form": 0,
+      "name": "Iron Boulder",
+      "nickname": "IronBoulde",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1022"
+    },
+    {
+      "species": 1023,
+      "form": 0,
+      "name": "Iron Crown",
+      "nickname": "IronCrown",
+      "category": "gen6-9 base species",
+      "key": "SPECIES_1023"
+    },
+    {
+      "species": 19,
+      "form": 1,
+      "name": "Alolan Rattata",
+      "nickname": "A-Rattata",
+      "category": "regional form",
+      "key": "REGIONAL_ALOLA_RATTATA",
+      "personalId": 1185
+    },
+    {
+      "species": 20,
+      "form": 1,
+      "name": "Alolan Raticate",
+      "nickname": "A-Raticate",
+      "category": "regional form",
+      "key": "REGIONAL_ALOLA_RATICATE",
+      "personalId": 1186
+    },
+    {
+      "species": 26,
+      "form": 3,
+      "name": "Alolan Raichu",
+      "nickname": "A-Raichu",
+      "category": "regional form",
+      "key": "REGIONAL_ALOLA_RAICHU",
+      "personalId": 1189
+    },
+    {
+      "species": 27,
+      "form": 1,
+      "name": "Alolan Sandshrew",
+      "nickname": "A-Sandshre",
+      "category": "regional form",
+      "key": "REGIONAL_ALOLA_SANDSHREW",
+      "personalId": 1190
+    },
+    {
+      "species": 28,
+      "form": 1,
+      "name": "Alolan Sandslash",
+      "nickname": "A-Sandslas",
+      "category": "regional form",
+      "key": "REGIONAL_ALOLA_SANDSLASH",
+      "personalId": 1191
+    },
+    {
+      "species": 37,
+      "form": 1,
+      "name": "Alolan Vulpix",
+      "nickname": "A-Vulpix",
+      "category": "regional form",
+      "key": "REGIONAL_ALOLA_VULPIX",
+      "personalId": 1192
+    },
+    {
+      "species": 38,
+      "form": 1,
+      "name": "Alolan Ninetales",
+      "nickname": "A-Ninetale",
+      "category": "regional form",
+      "key": "REGIONAL_ALOLA_NINETALES",
+      "personalId": 1193
+    },
+    {
+      "species": 50,
+      "form": 1,
+      "name": "Alolan Diglett",
+      "nickname": "A-Diglett",
+      "category": "regional form",
+      "key": "REGIONAL_ALOLA_DIGLETT",
+      "personalId": 1194
+    },
+    {
+      "species": 51,
+      "form": 1,
+      "name": "Alolan Dugtrio",
+      "nickname": "A-Dugtrio",
+      "category": "regional form",
+      "key": "REGIONAL_ALOLA_DUGTRIO",
+      "personalId": 1195
+    },
+    {
+      "species": 52,
+      "form": 1,
+      "name": "Alolan Meowth",
+      "nickname": "A-Meowth",
+      "category": "regional form",
+      "key": "REGIONAL_ALOLA_MEOWTH",
+      "personalId": 1196
+    },
+    {
+      "species": 52,
+      "form": 2,
+      "name": "Galarian Meowth",
+      "nickname": "G-Meowth",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_MEOWTH",
+      "personalId": 1197
+    },
+    {
+      "species": 53,
+      "form": 1,
+      "name": "Alolan Persian",
+      "nickname": "A-Persian",
+      "category": "regional form",
+      "key": "REGIONAL_ALOLA_PERSIAN",
+      "personalId": 1198
+    },
+    {
+      "species": 58,
+      "form": 1,
+      "name": "Hisuian Growlithe",
+      "nickname": "H-Growlith",
+      "category": "regional form",
+      "key": "REGIONAL_HISUI_GROWLITHE",
+      "personalId": 1199
+    },
+    {
+      "species": 59,
+      "form": 1,
+      "name": "Hisuian Arcanine",
+      "nickname": "H-Arcanine",
+      "category": "regional form",
+      "key": "REGIONAL_HISUI_ARCANINE",
+      "personalId": 1200
+    },
+    {
+      "species": 74,
+      "form": 1,
+      "name": "Alolan Geodude",
+      "nickname": "A-Geodude",
+      "category": "regional form",
+      "key": "REGIONAL_ALOLA_GEODUDE",
+      "personalId": 1201
+    },
+    {
+      "species": 75,
+      "form": 1,
+      "name": "Alolan Graveler",
+      "nickname": "A-Graveler",
+      "category": "regional form",
+      "key": "REGIONAL_ALOLA_GRAVELER",
+      "personalId": 1202
+    },
+    {
+      "species": 76,
+      "form": 1,
+      "name": "Alolan Golem",
+      "nickname": "A-Golem",
+      "category": "regional form",
+      "key": "REGIONAL_ALOLA_GOLEM",
+      "personalId": 1203
+    },
+    {
+      "species": 77,
+      "form": 1,
+      "name": "Galarian Ponyta",
+      "nickname": "G-Ponyta",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_PONYTA",
+      "personalId": 1204
+    },
+    {
+      "species": 78,
+      "form": 1,
+      "name": "Galarian Rapidash",
+      "nickname": "G-Rapidash",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_RAPIDASH",
+      "personalId": 1205
+    },
+    {
+      "species": 79,
+      "form": 1,
+      "name": "Galarian Slowpoke",
+      "nickname": "G-Slowpoke",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_SLOWPOKE",
+      "personalId": 1206
+    },
+    {
+      "species": 80,
+      "form": 2,
+      "name": "Galarian Slowbro",
+      "nickname": "G-Slowbro",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_SLOWBRO",
+      "personalId": 1208
+    },
+    {
+      "species": 83,
+      "form": 1,
+      "name": "Galarian Farfetch'd",
+      "nickname": "G-Farfetch",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_FARFETCHD",
+      "personalId": 1209
+    },
+    {
+      "species": 88,
+      "form": 1,
+      "name": "Alolan Grimer",
+      "nickname": "A-Grimer",
+      "category": "regional form",
+      "key": "REGIONAL_ALOLA_GRIMER",
+      "personalId": 1210
+    },
+    {
+      "species": 89,
+      "form": 1,
+      "name": "Alolan Muk",
+      "nickname": "A-Muk",
+      "category": "regional form",
+      "key": "REGIONAL_ALOLA_MUK",
+      "personalId": 1211
+    },
+    {
+      "species": 100,
+      "form": 1,
+      "name": "Hisuian Voltorb",
+      "nickname": "H-Voltorb",
+      "category": "regional form",
+      "key": "REGIONAL_HISUI_VOLTORB",
+      "personalId": 1212
+    },
+    {
+      "species": 101,
+      "form": 1,
+      "name": "Hisuian Electrode",
+      "nickname": "H-Electrod",
+      "category": "regional form",
+      "key": "REGIONAL_HISUI_ELECTRODE",
+      "personalId": 1213
+    },
+    {
+      "species": 103,
+      "form": 1,
+      "name": "Alolan Exeggutor",
+      "nickname": "A-Exegguto",
+      "category": "regional form",
+      "key": "REGIONAL_ALOLA_EXEGGUTOR",
+      "personalId": 1214
+    },
+    {
+      "species": 105,
+      "form": 1,
+      "name": "Alolan Marowak",
+      "nickname": "A-Marowak",
+      "category": "regional form",
+      "key": "REGIONAL_ALOLA_MAROWAK",
+      "personalId": 1215
+    },
+    {
+      "species": 110,
+      "form": 1,
+      "name": "Galarian Weezing",
+      "nickname": "G-Weezing",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_WEEZING",
+      "personalId": 1216
+    },
+    {
+      "species": 122,
+      "form": 1,
+      "name": "Galarian Mr. Mime",
+      "nickname": "G-Mr.Mime",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_MR_MIME",
+      "personalId": 1217
+    },
+    {
+      "species": 128,
+      "form": 1,
+      "name": "Paldean Tauros Combat Breed",
+      "nickname": "P-Tauros-C",
+      "category": "regional form",
+      "key": "REGIONAL_PALDEA_TAUROS_COMBAT",
+      "personalId": 1218
+    },
+    {
+      "species": 128,
+      "form": 2,
+      "name": "Paldean Tauros Blaze Breed",
+      "nickname": "P-Tauros-B",
+      "category": "regional form",
+      "key": "REGIONAL_PALDEA_TAUROS_BLAZE",
+      "personalId": 1219
+    },
+    {
+      "species": 128,
+      "form": 3,
+      "name": "Paldean Tauros Aqua Breed",
+      "nickname": "P-Tauros-A",
+      "category": "regional form",
+      "key": "REGIONAL_PALDEA_TAUROS_AQUA",
+      "personalId": 1220
+    },
+    {
+      "species": 144,
+      "form": 1,
+      "name": "Galarian Articuno",
+      "nickname": "G-Articuno",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_ARTICUNO",
+      "personalId": 1221
+    },
+    {
+      "species": 145,
+      "form": 1,
+      "name": "Galarian Zapdos",
+      "nickname": "G-Zapdos",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_ZAPDOS",
+      "personalId": 1222
+    },
+    {
+      "species": 146,
+      "form": 1,
+      "name": "Galarian Moltres",
+      "nickname": "G-Moltres",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_MOLTRES",
+      "personalId": 1223
+    },
+    {
+      "species": 157,
+      "form": 1,
+      "name": "Hisuian Typhlosion",
+      "nickname": "H-Typhlosi",
+      "category": "regional form",
+      "key": "REGIONAL_HISUI_TYPHLOSION",
+      "personalId": 1224
+    },
+    {
+      "species": 194,
+      "form": 1,
+      "name": "Paldean Wooper",
+      "nickname": "P-Wooper",
+      "category": "regional form",
+      "key": "REGIONAL_PALDEA_WOOPER",
+      "personalId": 1225
+    },
+    {
+      "species": 199,
+      "form": 1,
+      "name": "Galarian Slowking",
+      "nickname": "G-Slowking",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_SLOWKING",
+      "personalId": 1226
+    },
+    {
+      "species": 211,
+      "form": 1,
+      "name": "Hisuian Qwilfish",
+      "nickname": "H-Qwilfish",
+      "category": "regional form",
+      "key": "REGIONAL_HISUI_QWILFISH",
+      "personalId": 1227
+    },
+    {
+      "species": 215,
+      "form": 1,
+      "name": "Hisuian Sneasel",
+      "nickname": "H-Sneasel",
+      "category": "regional form",
+      "key": "REGIONAL_HISUI_SNEASEL",
+      "personalId": 1228
+    },
+    {
+      "species": 222,
+      "form": 1,
+      "name": "Galarian Corsola",
+      "nickname": "G-Corsola",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_CORSOLA",
+      "personalId": 1229
+    },
+    {
+      "species": 263,
+      "form": 1,
+      "name": "Galarian Zigzagoon",
+      "nickname": "G-Zigzagoo",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_ZIGZAGOON",
+      "personalId": 1230
+    },
+    {
+      "species": 264,
+      "form": 1,
+      "name": "Galarian Linoone",
+      "nickname": "G-Linoone",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_LINOONE",
+      "personalId": 1231
+    },
+    {
+      "species": 503,
+      "form": 1,
+      "name": "Hisuian Samurott",
+      "nickname": "H-Samurott",
+      "category": "regional form",
+      "key": "REGIONAL_HISUI_SAMUROTT",
+      "personalId": 1232
+    },
+    {
+      "species": 549,
+      "form": 1,
+      "name": "Hisuian Lilligant",
+      "nickname": "H-Lilligan",
+      "category": "regional form",
+      "key": "REGIONAL_HISUI_LILLIGANT",
+      "personalId": 1233
+    },
+    {
+      "species": 554,
+      "form": 1,
+      "name": "Galarian Darumaka",
+      "nickname": "G-Darumaka",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_DARUMAKA",
+      "personalId": 1234
+    },
+    {
+      "species": 555,
+      "form": 2,
+      "name": "Galarian Darmanitan",
+      "nickname": "G-Darmanit",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_DARMANITAN",
+      "personalId": 1236
+    },
+    {
+      "species": 555,
+      "form": 3,
+      "name": "Galarian Darmanitan Zen Mode",
+      "nickname": "G-Darmanit",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_DARMANITAN_ZEN",
+      "personalId": 1237
+    },
+    {
+      "species": 562,
+      "form": 1,
+      "name": "Galarian Yamask",
+      "nickname": "G-Yamask",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_YAMASK",
+      "personalId": 1238
+    },
+    {
+      "species": 570,
+      "form": 1,
+      "name": "Hisuian Zorua",
+      "nickname": "H-Zorua",
+      "category": "regional form",
+      "key": "REGIONAL_HISUI_ZORUA",
+      "personalId": 1239
+    },
+    {
+      "species": 571,
+      "form": 1,
+      "name": "Hisuian Zoroark",
+      "nickname": "H-Zoroark",
+      "category": "regional form",
+      "key": "REGIONAL_HISUI_ZOROARK",
+      "personalId": 1240
+    },
+    {
+      "species": 618,
+      "form": 1,
+      "name": "Galarian Stunfisk",
+      "nickname": "G-Stunfisk",
+      "category": "regional form",
+      "key": "REGIONAL_GALAR_STUNFISK",
+      "personalId": 1241
+    },
+    {
+      "species": 628,
+      "form": 1,
+      "name": "Hisuian Braviary",
+      "nickname": "H-Braviary",
+      "category": "regional form",
+      "key": "REGIONAL_HISUI_BRAVIARY",
+      "personalId": 1242
+    },
+    {
+      "species": 705,
+      "form": 1,
+      "name": "Hisuian Sliggoo",
+      "nickname": "H-Sliggoo",
+      "category": "regional form",
+      "key": "REGIONAL_HISUI_SLIGGOO",
+      "personalId": 1243
+    },
+    {
+      "species": 706,
+      "form": 1,
+      "name": "Hisuian Goodra",
+      "nickname": "H-Goodra",
+      "category": "regional form",
+      "key": "REGIONAL_HISUI_GOODRA",
+      "personalId": 1244
+    },
+    {
+      "species": 713,
+      "form": 1,
+      "name": "Hisuian Avalugg",
+      "nickname": "H-Avalugg",
+      "category": "regional form",
+      "key": "REGIONAL_HISUI_AVALUGG",
+      "personalId": 1245
+    },
+    {
+      "species": 724,
+      "form": 1,
+      "name": "Hisuian Decidueye",
+      "nickname": "H-Deciduey",
+      "category": "regional form",
+      "key": "REGIONAL_HISUI_DECIDUEYE",
+      "personalId": 1246
+    },
+    {
+      "species": 849,
+      "form": 1,
+      "name": "Toxtricity Low Key Form",
+      "nickname": "Toxtricity",
+      "category": "alternate form",
+      "key": "ALT_TOXTRICITY_LOW_KEY",
+      "personalId": 1247
+    },
+    {
+      "species": 875,
+      "form": 1,
+      "name": "Eiscue Noice Face",
+      "nickname": "Eiscue-Noi",
+      "category": "alternate form",
+      "key": "ALT_EISCUE_NOICE",
+      "personalId": 1248
+    },
+    {
+      "species": 876,
+      "form": 1,
+      "name": "Indeedee Female",
+      "nickname": "Indeedee-F",
+      "category": "alternate form",
+      "key": "ALT_INDEEDEE_FEMALE",
+      "personalId": 1249
+    },
+    {
+      "species": 877,
+      "form": 1,
+      "name": "Morpeko Hangry Mode",
+      "nickname": "Morpeko-Ha",
+      "category": "alternate form",
+      "key": "ALT_MORPEKO_HANGRY",
+      "personalId": 1250
+    },
+    {
+      "species": 888,
+      "form": 1,
+      "name": "Zacian Crowned Sword",
+      "nickname": "Zacian-Swo",
+      "category": "alternate form",
+      "key": "ALT_ZACIAN_CROWNED",
+      "personalId": 1251
+    },
+    {
+      "species": 889,
+      "form": 1,
+      "name": "Zamazenta Crowned Shield",
+      "nickname": "Zamazenta-",
+      "category": "alternate form",
+      "key": "ALT_ZAMAZENTA_CROWNED",
+      "personalId": 1252
+    },
+    {
+      "species": 892,
+      "form": 1,
+      "name": "Urshifu Rapid Strike Style",
+      "nickname": "Urshifu-Ra",
+      "category": "alternate form",
+      "key": "ALT_URSHIFU_RAPID_STRIKE",
+      "personalId": 1253
+    },
+    {
+      "species": 893,
+      "form": 1,
+      "name": "Zarude Dada",
+      "nickname": "ZarudeDada",
+      "category": "alternate form",
+      "key": "ALT_ZARUDE_DADA",
+      "personalId": 1254
+    },
+    {
+      "species": 898,
+      "form": 1,
+      "name": "Calyrex Ice Rider",
+      "nickname": "CalyrexIce",
+      "category": "alternate form",
+      "key": "ALT_CALYREX_ICE_RIDER",
+      "personalId": 1255
+    },
+    {
+      "species": 898,
+      "form": 2,
+      "name": "Calyrex Shadow Rider",
+      "nickname": "CalyrexSha",
+      "category": "alternate form",
+      "key": "ALT_CALYREX_SHADOW_RIDER",
+      "personalId": 1256
+    },
+    {
+      "species": 902,
+      "form": 1,
+      "name": "Basculegion Female",
+      "nickname": "Basculegio",
+      "category": "alternate form",
+      "key": "ALT_BASCULEGION_FEMALE",
+      "personalId": 1257
+    },
+    {
+      "species": 905,
+      "form": 1,
+      "name": "Enamorus Therian Forme",
+      "nickname": "Enamorus-T",
+      "category": "alternate form",
+      "key": "ALT_ENAMORUS_THERIAN",
+      "personalId": 1258
+    },
+    {
+      "species": 916,
+      "form": 1,
+      "name": "Oinkologne Female",
+      "nickname": "Oinkologne",
+      "category": "alternate form",
+      "key": "ALT_OINKOLOGNE_FEMALE",
+      "personalId": 1259
+    },
+    {
+      "species": 925,
+      "form": 1,
+      "name": "Maushold Family of Three",
+      "nickname": "Maushold-3",
+      "category": "alternate form",
+      "key": "ALT_MAUSHOLD_FAMILY_OF_THREE",
+      "personalId": 1260
+    },
+    {
+      "species": 931,
+      "form": 1,
+      "name": "Squawkabilly Blue Plumage",
+      "nickname": "Squawkabil",
+      "category": "alternate form",
+      "key": "ALT_SQUAWKABILLY_BLUE",
+      "personalId": 1261
+    },
+    {
+      "species": 931,
+      "form": 2,
+      "name": "Squawkabilly Yellow Plumage",
+      "nickname": "Squawkabil",
+      "category": "alternate form",
+      "key": "ALT_SQUAWKABILLY_YELLOW",
+      "personalId": 1262
+    },
+    {
+      "species": 931,
+      "form": 3,
+      "name": "Squawkabilly White Plumage",
+      "nickname": "Squawkabil",
+      "category": "alternate form",
+      "key": "ALT_SQUAWKABILLY_WHITE",
+      "personalId": 1263
+    },
+    {
+      "species": 964,
+      "form": 1,
+      "name": "Palafin Hero Form",
+      "nickname": "Palafin-He",
+      "category": "alternate form",
+      "key": "ALT_PALAFIN_HERO",
+      "personalId": 1264
+    },
+    {
+      "species": 982,
+      "form": 1,
+      "name": "Dudunsparce Three-Segment Form",
+      "nickname": "Dudunsparc",
+      "category": "alternate form",
+      "key": "ALT_DUDUNSPARCE_THREE_SEGMENT",
+      "personalId": 1265
+    },
+    {
+      "species": 999,
+      "form": 1,
+      "name": "Gimmighoul Roaming Form",
+      "nickname": "Gimmighoul",
+      "category": "alternate form",
+      "key": "ALT_GIMMIGHOUL_ROAMING",
+      "personalId": 1266
+    },
+    {
+      "species": 1017,
+      "form": 1,
+      "name": "Ogerpon Wellspring Mask",
+      "nickname": "Ogerpon-We",
+      "category": "alternate form",
+      "key": "ALT_OGERPON_WELLSPRING",
+      "personalId": 1267
+    },
+    {
+      "species": 1017,
+      "form": 2,
+      "name": "Ogerpon Hearthflame Mask",
+      "nickname": "Ogerpon-He",
+      "category": "alternate form",
+      "key": "ALT_OGERPON_HEARTHFLAME",
+      "personalId": 1268
+    },
+    {
+      "species": 1017,
+      "form": 3,
+      "name": "Ogerpon Cornerstone Mask",
+      "nickname": "Ogerpon-St",
+      "category": "alternate form",
+      "key": "ALT_OGERPON_CORNERSTONE",
+      "personalId": 1269
+    },
+    {
+      "species": 1,
+      "form": 0,
+      "name": "Mega Gengar",
+      "nickname": "M-Gengar",
+      "category": "temporary mega preview",
+      "key": "MEGA_GENGAR",
+      "baseSpeciesId": 94,
+      "baseForm": 1,
+      "personalId": 1049
+    },
+    {
+      "species": 2,
+      "form": 0,
+      "name": "Mega Gardevoir",
+      "nickname": "M-Gardevoi",
+      "category": "temporary mega preview",
+      "key": "MEGA_GARDEVOIR",
+      "baseSpeciesId": 282,
+      "baseForm": 1,
+      "personalId": 1060
+    },
+    {
+      "species": 3,
+      "form": 0,
+      "name": "Mega Ampharos",
+      "nickname": "M-Ampharos",
+      "category": "temporary mega preview",
+      "key": "MEGA_AMPHAROS",
+      "baseSpeciesId": 181,
+      "baseForm": 1,
+      "personalId": 1061
+    },
+    {
+      "species": 4,
+      "form": 0,
+      "name": "Mega Venusaur",
+      "nickname": "M-Venusaur",
+      "category": "temporary mega preview",
+      "key": "MEGA_VENUSAUR",
+      "baseSpeciesId": 3,
+      "baseForm": 1,
+      "personalId": 1062
+    },
+    {
+      "species": 5,
+      "form": 0,
+      "name": "Mega Charizard X",
+      "nickname": "M-Charizar",
+      "category": "temporary mega preview",
+      "key": "MEGA_CHARIZARD_X",
+      "baseSpeciesId": 6,
+      "baseForm": 1,
+      "personalId": 1063
+    },
+    {
+      "species": 6,
+      "form": 0,
+      "name": "Mega Charizard Y",
+      "nickname": "M-Charizar",
+      "category": "temporary mega preview",
+      "key": "MEGA_CHARIZARD_Y",
+      "baseSpeciesId": 6,
+      "baseForm": 2,
+      "personalId": 1064
+    },
+    {
+      "species": 7,
+      "form": 0,
+      "name": "Mega Mewtwo X",
+      "nickname": "M-MewtwoX",
+      "category": "temporary mega preview",
+      "key": "MEGA_MEWTWO_X",
+      "baseSpeciesId": 150,
+      "baseForm": 1,
+      "personalId": 1065
+    },
+    {
+      "species": 8,
+      "form": 0,
+      "name": "Mega Mewtwo Y",
+      "nickname": "M-MewtwoY",
+      "category": "temporary mega preview",
+      "key": "MEGA_MEWTWO_Y",
+      "baseSpeciesId": 150,
+      "baseForm": 2,
+      "personalId": 1066
+    },
+    {
+      "species": 9,
+      "form": 0,
+      "name": "Mega Blaziken",
+      "nickname": "M-Blaziken",
+      "category": "temporary mega preview",
+      "key": "MEGA_BLAZIKEN",
+      "baseSpeciesId": 257,
+      "baseForm": 1,
+      "personalId": 1067
+    },
+    {
+      "species": 10,
+      "form": 0,
+      "name": "Mega Medicham",
+      "nickname": "M-Medicham",
+      "category": "temporary mega preview",
+      "key": "MEGA_MEDICHAM",
+      "baseSpeciesId": 308,
+      "baseForm": 1,
+      "personalId": 1068
+    },
+    {
+      "species": 11,
+      "form": 0,
+      "name": "Mega Houndoom",
+      "nickname": "M-Houndoom",
+      "category": "temporary mega preview",
+      "key": "MEGA_HOUNDOOM",
+      "baseSpeciesId": 229,
+      "baseForm": 1,
+      "personalId": 1069
+    },
+    {
+      "species": 12,
+      "form": 0,
+      "name": "Mega Aggron",
+      "nickname": "M-Aggron",
+      "category": "temporary mega preview",
+      "key": "MEGA_AGGRON",
+      "baseSpeciesId": 306,
+      "baseForm": 1,
+      "personalId": 1070
+    },
+    {
+      "species": 13,
+      "form": 0,
+      "name": "Mega Banette",
+      "nickname": "M-Banette",
+      "category": "temporary mega preview",
+      "key": "MEGA_BANETTE",
+      "baseSpeciesId": 354,
+      "baseForm": 1,
+      "personalId": 1071
+    },
+    {
+      "species": 14,
+      "form": 0,
+      "name": "Mega Tyranitar",
+      "nickname": "M-Tyranita",
+      "category": "temporary mega preview",
+      "key": "MEGA_TYRANITAR",
+      "baseSpeciesId": 248,
+      "baseForm": 1,
+      "personalId": 1072
+    },
+    {
+      "species": 15,
+      "form": 0,
+      "name": "Mega Scizor",
+      "nickname": "M-Scizor",
+      "category": "temporary mega preview",
+      "key": "MEGA_SCIZOR",
+      "baseSpeciesId": 212,
+      "baseForm": 1,
+      "personalId": 1073
+    },
+    {
+      "species": 16,
+      "form": 0,
+      "name": "Mega Pinsir",
+      "nickname": "M-Pinsir",
+      "category": "temporary mega preview",
+      "key": "MEGA_PINSIR",
+      "baseSpeciesId": 127,
+      "baseForm": 1,
+      "personalId": 1074
+    },
+    {
+      "species": 17,
+      "form": 0,
+      "name": "Mega Aerodactyl",
+      "nickname": "M-Aerodact",
+      "category": "temporary mega preview",
+      "key": "MEGA_AERODACTYL",
+      "baseSpeciesId": 142,
+      "baseForm": 1,
+      "personalId": 1075
+    },
+    {
+      "species": 18,
+      "form": 0,
+      "name": "Mega Abomasnow",
+      "nickname": "M-Abomasno",
+      "category": "temporary mega preview",
+      "key": "MEGA_ABOMASNOW",
+      "baseSpeciesId": 460,
+      "baseForm": 1,
+      "personalId": 1077
+    },
+    {
+      "species": 19,
+      "form": 0,
+      "name": "Mega Blastoise",
+      "nickname": "M-Blastois",
+      "category": "temporary mega preview",
+      "key": "MEGA_BLASTOISE",
+      "baseSpeciesId": 9,
+      "baseForm": 1,
+      "personalId": 1079
+    },
+    {
+      "species": 20,
+      "form": 0,
+      "name": "Mega Kangaskhan",
+      "nickname": "M-Kangaskh",
+      "category": "temporary mega preview",
+      "key": "MEGA_KANGASKHAN",
+      "baseSpeciesId": 115,
+      "baseForm": 1,
+      "personalId": 1080
+    },
+    {
+      "species": 21,
+      "form": 0,
+      "name": "Mega Gyarados",
+      "nickname": "M-Gyarados",
+      "category": "temporary mega preview",
+      "key": "MEGA_GYARADOS",
+      "baseSpeciesId": 130,
+      "baseForm": 1,
+      "personalId": 1081
+    },
+    {
+      "species": 22,
+      "form": 0,
+      "name": "Mega Alakazam",
+      "nickname": "M-Alakazam",
+      "category": "temporary mega preview",
+      "key": "MEGA_ALAKAZAM",
+      "baseSpeciesId": 65,
+      "baseForm": 1,
+      "personalId": 1083
+    },
+    {
+      "species": 23,
+      "form": 0,
+      "name": "Mega Heracross",
+      "nickname": "M-Heracros",
+      "category": "temporary mega preview",
+      "key": "MEGA_HERACROSS",
+      "baseSpeciesId": 214,
+      "baseForm": 1,
+      "personalId": 1084
+    },
+    {
+      "species": 24,
+      "form": 0,
+      "name": "Mega Mawile",
+      "nickname": "M-Mawile",
+      "category": "temporary mega preview",
+      "key": "MEGA_MAWILE",
+      "baseSpeciesId": 303,
+      "baseForm": 1,
+      "personalId": 1085
+    },
+    {
+      "species": 25,
+      "form": 0,
+      "name": "Mega Manectric",
+      "nickname": "M-Manectri",
+      "category": "temporary mega preview",
+      "key": "MEGA_MANECTRIC",
+      "baseSpeciesId": 310,
+      "baseForm": 1,
+      "personalId": 1086
+    },
+    {
+      "species": 26,
+      "form": 0,
+      "name": "Mega Latios",
+      "nickname": "M-Latios",
+      "category": "temporary mega preview",
+      "key": "MEGA_LATIOS",
+      "baseSpeciesId": 381,
+      "baseForm": 1,
+      "personalId": 1088
+    },
+    {
+      "species": 27,
+      "form": 0,
+      "name": "Mega Latias",
+      "nickname": "M-Latias",
+      "category": "temporary mega preview",
+      "key": "MEGA_LATIAS",
+      "baseSpeciesId": 380,
+      "baseForm": 1,
+      "personalId": 1089
+    },
+    {
+      "species": 28,
+      "form": 0,
+      "name": "Mega Swampert",
+      "nickname": "M-Swampert",
+      "category": "temporary mega preview",
+      "key": "MEGA_SWAMPERT",
+      "baseSpeciesId": 260,
+      "baseForm": 1,
+      "personalId": 1101
+    },
+    {
+      "species": 29,
+      "form": 0,
+      "name": "Mega Sceptile",
+      "nickname": "M-Sceptile",
+      "category": "temporary mega preview",
+      "key": "MEGA_SCEPTILE",
+      "baseSpeciesId": 254,
+      "baseForm": 1,
+      "personalId": 1102
+    },
+    {
+      "species": 30,
+      "form": 0,
+      "name": "Mega Sableye",
+      "nickname": "M-Sableye",
+      "category": "temporary mega preview",
+      "key": "MEGA_SABLEYE",
+      "baseSpeciesId": 302,
+      "baseForm": 1,
+      "personalId": 1103
+    },
+    {
+      "species": 31,
+      "form": 0,
+      "name": "Mega Altaria",
+      "nickname": "M-Altaria",
+      "category": "temporary mega preview",
+      "key": "MEGA_ALTARIA",
+      "baseSpeciesId": 334,
+      "baseForm": 1,
+      "personalId": 1104
+    },
+    {
+      "species": 32,
+      "form": 0,
+      "name": "Mega Gallade",
+      "nickname": "M-Gallade",
+      "category": "temporary mega preview",
+      "key": "MEGA_GALLADE",
+      "baseSpeciesId": 475,
+      "baseForm": 1,
+      "personalId": 1105
+    },
+    {
+      "species": 33,
+      "form": 0,
+      "name": "Mega Audino",
+      "nickname": "M-Audino",
+      "category": "temporary mega preview",
+      "key": "MEGA_AUDINO",
+      "baseSpeciesId": 531,
+      "baseForm": 1,
+      "personalId": 1106
+    },
+    {
+      "species": 34,
+      "form": 0,
+      "name": "Mega Sharpedo",
+      "nickname": "M-Sharpedo",
+      "category": "temporary mega preview",
+      "key": "MEGA_SHARPEDO",
+      "baseSpeciesId": 319,
+      "baseForm": 1,
+      "personalId": 1107
+    },
+    {
+      "species": 35,
+      "form": 0,
+      "name": "Mega Steelix",
+      "nickname": "M-Steelix",
+      "category": "temporary mega preview",
+      "key": "MEGA_STEELIX",
+      "baseSpeciesId": 208,
+      "baseForm": 1,
+      "personalId": 1109
+    },
+    {
+      "species": 36,
+      "form": 0,
+      "name": "Mega Pidgeot",
+      "nickname": "M-Pidgeot",
+      "category": "temporary mega preview",
+      "key": "MEGA_PIDGEOT",
+      "baseSpeciesId": 18,
+      "baseForm": 1,
+      "personalId": 1110
+    },
+    {
+      "species": 37,
+      "form": 0,
+      "name": "Mega Glalie",
+      "nickname": "M-Glalie",
+      "category": "temporary mega preview",
+      "key": "MEGA_GLALIE",
+      "baseSpeciesId": 362,
+      "baseForm": 1,
+      "personalId": 1111
+    },
+    {
+      "species": 38,
+      "form": 0,
+      "name": "Mega Diancie",
+      "nickname": "M-Diancie",
+      "category": "temporary mega preview",
+      "key": "MEGA_DIANCIE",
+      "baseSpeciesId": 719,
+      "baseForm": 1,
+      "personalId": 1112
+    },
+    {
+      "species": 39,
+      "form": 0,
+      "name": "Mega Metagross",
+      "nickname": "M-Metagros",
+      "category": "temporary mega preview",
+      "key": "MEGA_METAGROSS",
+      "baseSpeciesId": 376,
+      "baseForm": 1,
+      "personalId": 1113
+    },
+    {
+      "species": 40,
+      "form": 0,
+      "name": "Mega Rayquaza",
+      "nickname": "M-Rayquaza",
+      "category": "temporary mega preview",
+      "key": "MEGA_RAYQUAZA",
+      "baseSpeciesId": 384,
+      "baseForm": 1,
+      "personalId": 1116
+    },
+    {
+      "species": 41,
+      "form": 0,
+      "name": "Mega Camerupt",
+      "nickname": "M-Camerupt",
+      "category": "temporary mega preview",
+      "key": "MEGA_CAMERUPT",
+      "baseSpeciesId": 323,
+      "baseForm": 1,
+      "personalId": 1124
+    },
+    {
+      "species": 42,
+      "form": 0,
+      "name": "Mega Lopunny",
+      "nickname": "M-Lopunny",
+      "category": "temporary mega preview",
+      "key": "MEGA_LOPUNNY",
+      "baseSpeciesId": 428,
+      "baseForm": 1,
+      "personalId": 1125
+    },
+    {
+      "species": 43,
+      "form": 0,
+      "name": "Mega Salamence",
+      "nickname": "M-Salamenc",
+      "category": "temporary mega preview",
+      "key": "MEGA_SALAMENCE",
+      "baseSpeciesId": 373,
+      "baseForm": 1,
+      "personalId": 1126
+    },
+    {
+      "species": 44,
+      "form": 0,
+      "name": "Mega Beedrill",
+      "nickname": "M-Beedrill",
+      "category": "temporary mega preview",
+      "key": "MEGA_BEEDRILL",
+      "baseSpeciesId": 15,
+      "baseForm": 1,
+      "personalId": 1127
+    },
+    {
+      "species": 45,
+      "form": 0,
+      "name": "Mega Clefable",
+      "nickname": "M-Clefable",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_CLEFABLE",
+      "baseSpeciesId": 36,
+      "baseForm": 1,
+      "personalId": 1130
+    },
+    {
+      "species": 46,
+      "form": 0,
+      "name": "Mega Victreebel",
+      "nickname": "M-Victreeb",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_VICTREEBEL",
+      "baseSpeciesId": 71,
+      "baseForm": 1,
+      "personalId": 1131
+    },
+    {
+      "species": 47,
+      "form": 0,
+      "name": "Mega Starmie",
+      "nickname": "M-Starmie",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_STARMIE",
+      "baseSpeciesId": 121,
+      "baseForm": 1,
+      "personalId": 1132
+    },
+    {
+      "species": 48,
+      "form": 0,
+      "name": "Mega Dragonite",
+      "nickname": "M-Dragonit",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_DRAGONITE",
+      "baseSpeciesId": 149,
+      "baseForm": 1,
+      "personalId": 1133
+    },
+    {
+      "species": 49,
+      "form": 0,
+      "name": "Mega Meganium",
+      "nickname": "M-Meganium",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_MEGANIUM",
+      "baseSpeciesId": 154,
+      "baseForm": 1,
+      "personalId": 1134
+    },
+    {
+      "species": 50,
+      "form": 0,
+      "name": "Mega Feraligatr",
+      "nickname": "M-Feraliga",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_FERALIGATR",
+      "baseSpeciesId": 160,
+      "baseForm": 1,
+      "personalId": 1135
+    },
+    {
+      "species": 51,
+      "form": 0,
+      "name": "Mega Skarmory",
+      "nickname": "M-Skarmory",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_SKARMORY",
+      "baseSpeciesId": 227,
+      "baseForm": 1,
+      "personalId": 1136
+    },
+    {
+      "species": 52,
+      "form": 0,
+      "name": "Mega Chimecho",
+      "nickname": "M-Chimecho",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_CHIMECHO",
+      "baseSpeciesId": 358,
+      "baseForm": 1,
+      "personalId": 1137
+    },
+    {
+      "species": 53,
+      "form": 0,
+      "name": "Mega Absol",
+      "nickname": "M-Absol",
+      "category": "temporary mega preview",
+      "key": "MEGA_ABSOL",
+      "baseSpeciesId": 359,
+      "baseForm": 1,
+      "personalId": 1138
+    },
+    {
+      "species": 54,
+      "form": 0,
+      "name": "Mega Absol Z",
+      "nickname": "M-AbsolZ",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_ABSOL_Z",
+      "baseSpeciesId": 359,
+      "baseForm": 2,
+      "personalId": 1139
+    },
+    {
+      "species": 55,
+      "form": 0,
+      "name": "Mega Staraptor",
+      "nickname": "M-Starapto",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_STARAPTOR",
+      "baseSpeciesId": 398,
+      "baseForm": 1,
+      "personalId": 1140
+    },
+    {
+      "species": 56,
+      "form": 0,
+      "name": "Mega Garchomp",
+      "nickname": "M-Garchomp",
+      "category": "temporary mega preview",
+      "key": "MEGA_GARCHOMP",
+      "baseSpeciesId": 445,
+      "baseForm": 1,
+      "personalId": 1141
+    },
+    {
+      "species": 57,
+      "form": 0,
+      "name": "Mega Garchomp Z",
+      "nickname": "M-Garchomp",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_GARCHOMP_Z",
+      "baseSpeciesId": 445,
+      "baseForm": 2,
+      "personalId": 1142
+    },
+    {
+      "species": 58,
+      "form": 0,
+      "name": "Mega Lucario",
+      "nickname": "M-Lucario",
+      "category": "temporary mega preview",
+      "key": "MEGA_LUCARIO",
+      "baseSpeciesId": 448,
+      "baseForm": 1,
+      "personalId": 1143
+    },
+    {
+      "species": 59,
+      "form": 0,
+      "name": "Mega Lucario Z",
+      "nickname": "M-LucarioZ",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_LUCARIO_Z",
+      "baseSpeciesId": 448,
+      "baseForm": 2,
+      "personalId": 1144
+    },
+    {
+      "species": 60,
+      "form": 0,
+      "name": "Mega Froslass",
+      "nickname": "M-Froslass",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_FROSLASS",
+      "baseSpeciesId": 478,
+      "baseForm": 1,
+      "personalId": 1145
+    },
+    {
+      "species": 61,
+      "form": 0,
+      "name": "Mega Heatran",
+      "nickname": "M-Heatran",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_HEATRAN",
+      "baseSpeciesId": 485,
+      "baseForm": 1,
+      "personalId": 1146
+    },
+    {
+      "species": 62,
+      "form": 0,
+      "name": "Mega Darkrai",
+      "nickname": "M-Darkrai",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_DARKRAI",
+      "baseSpeciesId": 491,
+      "baseForm": 1,
+      "personalId": 1147
+    },
+    {
+      "species": 63,
+      "form": 0,
+      "name": "Mega Emboar",
+      "nickname": "M-Emboar",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_EMBOAR",
+      "baseSpeciesId": 500,
+      "baseForm": 1,
+      "personalId": 1148
+    },
+    {
+      "species": 64,
+      "form": 0,
+      "name": "Mega Excadrill",
+      "nickname": "M-Excadril",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_EXCADRILL",
+      "baseSpeciesId": 530,
+      "baseForm": 1,
+      "personalId": 1149
+    },
+    {
+      "species": 65,
+      "form": 0,
+      "name": "Mega Scolipede",
+      "nickname": "M-Scoliped",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_SCOLIPEDE",
+      "baseSpeciesId": 545,
+      "baseForm": 1,
+      "personalId": 1150
+    },
+    {
+      "species": 66,
+      "form": 0,
+      "name": "Mega Scrafty",
+      "nickname": "M-Scrafty",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_SCRAFTY",
+      "baseSpeciesId": 560,
+      "baseForm": 1,
+      "personalId": 1151
+    },
+    {
+      "species": 67,
+      "form": 0,
+      "name": "Mega Eelektross",
+      "nickname": "M-Eelektro",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_EELEKTROSS",
+      "baseSpeciesId": 604,
+      "baseForm": 1,
+      "personalId": 1152
+    },
+    {
+      "species": 68,
+      "form": 0,
+      "name": "Mega Chandelure",
+      "nickname": "M-Chandelu",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_CHANDELURE",
+      "baseSpeciesId": 609,
+      "baseForm": 1,
+      "personalId": 1153
+    },
+    {
+      "species": 69,
+      "form": 0,
+      "name": "Mega Golurk",
+      "nickname": "M-Golurk",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_GOLURK",
+      "baseSpeciesId": 623,
+      "baseForm": 1,
+      "personalId": 1154
+    },
+    {
+      "species": 70,
+      "form": 0,
+      "name": "Mega Chesnaught",
+      "nickname": "M-Chesnaug",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_CHESNAUGHT",
+      "baseSpeciesId": 652,
+      "baseForm": 1,
+      "personalId": 1155
+    },
+    {
+      "species": 71,
+      "form": 0,
+      "name": "Mega Delphox",
+      "nickname": "M-Delphox",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_DELPHOX",
+      "baseSpeciesId": 655,
+      "baseForm": 1,
+      "personalId": 1156
+    },
+    {
+      "species": 72,
+      "form": 0,
+      "name": "Mega Greninja",
+      "nickname": "M-Greninja",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_GRENINJA",
+      "baseSpeciesId": 658,
+      "baseForm": 1,
+      "personalId": 1157
+    },
+    {
+      "species": 73,
+      "form": 0,
+      "name": "Mega Pyroar",
+      "nickname": "M-Pyroar",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_PYROAR",
+      "baseSpeciesId": 668,
+      "baseForm": 1,
+      "personalId": 1158
+    },
+    {
+      "species": 74,
+      "form": 0,
+      "name": "Mega Floette",
+      "nickname": "M-Floette",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_FLOETTE",
+      "baseSpeciesId": 670,
+      "baseForm": 6,
+      "personalId": 1164
+    },
+    {
+      "species": 75,
+      "form": 0,
+      "name": "Mega Meowstic",
+      "nickname": "M-Meowstic",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_MEOWSTIC",
+      "baseSpeciesId": 678,
+      "baseForm": 2,
+      "personalId": 1166
+    },
+    {
+      "species": 76,
+      "form": 0,
+      "name": "Mega Malamar",
+      "nickname": "M-Malamar",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_MALAMAR",
+      "baseSpeciesId": 687,
+      "baseForm": 1,
+      "personalId": 1167
+    },
+    {
+      "species": 77,
+      "form": 0,
+      "name": "Mega Barbaracle",
+      "nickname": "M-Barbarac",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_BARBARACLE",
+      "baseSpeciesId": 689,
+      "baseForm": 1,
+      "personalId": 1168
+    },
+    {
+      "species": 78,
+      "form": 0,
+      "name": "Mega Dragalge",
+      "nickname": "M-Dragalge",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_DRAGALGE",
+      "baseSpeciesId": 691,
+      "baseForm": 1,
+      "personalId": 1169
+    },
+    {
+      "species": 79,
+      "form": 0,
+      "name": "Mega Hawlucha",
+      "nickname": "M-Hawlucha",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_HAWLUCHA",
+      "baseSpeciesId": 701,
+      "baseForm": 1,
+      "personalId": 1170
+    },
+    {
+      "species": 80,
+      "form": 0,
+      "name": "Mega Zygarde",
+      "nickname": "M-Zygarde",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_ZYGARDE",
+      "baseSpeciesId": 718,
+      "baseForm": 1,
+      "personalId": 1171
+    },
+    {
+      "species": 81,
+      "form": 0,
+      "name": "Mega Crabominable",
+      "nickname": "M-Crabomin",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_CRABOMINABLE",
+      "baseSpeciesId": 740,
+      "baseForm": 1,
+      "personalId": 1172
+    },
+    {
+      "species": 82,
+      "form": 0,
+      "name": "Mega Golisopod",
+      "nickname": "M-Golisopo",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_GOLISOPOD",
+      "baseSpeciesId": 768,
+      "baseForm": 1,
+      "personalId": 1173
+    },
+    {
+      "species": 83,
+      "form": 0,
+      "name": "Mega Drampa",
+      "nickname": "M-Drampa",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_DRAMPA",
+      "baseSpeciesId": 780,
+      "baseForm": 1,
+      "personalId": 1174
+    },
+    {
+      "species": 84,
+      "form": 0,
+      "name": "Mega Magearna",
+      "nickname": "M-Magearna",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_MAGEARNA",
+      "baseSpeciesId": 801,
+      "baseForm": 1,
+      "personalId": 1175
+    },
+    {
+      "species": 85,
+      "form": 0,
+      "name": "Mega Magearna (Original Color)",
+      "nickname": "M-Magearna",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_MAGEARNA_ORIGINAL_COLOR",
+      "baseSpeciesId": 801,
+      "baseForm": 2,
+      "personalId": 1176
+    },
+    {
+      "species": 86,
+      "form": 0,
+      "name": "Mega Zeraora",
+      "nickname": "M-Zeraora",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_ZERAORA",
+      "baseSpeciesId": 807,
+      "baseForm": 1,
+      "personalId": 1177
+    },
+    {
+      "species": 87,
+      "form": 0,
+      "name": "Mega Falinks",
+      "nickname": "M-Falinks",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_FALINKS",
+      "baseSpeciesId": 870,
+      "baseForm": 1,
+      "personalId": 1178
+    },
+    {
+      "species": 88,
+      "form": 0,
+      "name": "Mega Scovillain",
+      "nickname": "M-Scovilla",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_SCOVILLAIN",
+      "baseSpeciesId": 952,
+      "baseForm": 1,
+      "personalId": 1179
+    },
+    {
+      "species": 89,
+      "form": 0,
+      "name": "Mega Glimmora",
+      "nickname": "M-Glimmora",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_GLIMMORA",
+      "baseSpeciesId": 970,
+      "baseForm": 1,
+      "personalId": 1180
+    },
+    {
+      "species": 90,
+      "form": 0,
+      "name": "Mega Tatsugiri (Curly Form)",
+      "nickname": "M-Tatsugir",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_TATSUGIRI_CURLY",
+      "baseSpeciesId": 978,
+      "baseForm": 1,
+      "personalId": 1181
+    },
+    {
+      "species": 91,
+      "form": 0,
+      "name": "Mega Tatsugiri (Droopy Form)",
+      "nickname": "M-Tatsugir",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_TATSUGIRI_DROOPY",
+      "baseSpeciesId": 978,
+      "baseForm": 2,
+      "personalId": 1182
+    },
+    {
+      "species": 92,
+      "form": 0,
+      "name": "Mega Tatsugiri (Stretchy Form)",
+      "nickname": "M-Tatsugir",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_TATSUGIRI_STRETCHY",
+      "baseSpeciesId": 978,
+      "baseForm": 3,
+      "personalId": 1183
+    },
+    {
+      "species": 93,
+      "form": 0,
+      "name": "Mega Baxcalibur",
+      "nickname": "M-Baxcalib",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_BAXCALIBUR",
+      "baseSpeciesId": 998,
+      "baseForm": 1,
+      "personalId": 1184
+    },
+    {
+      "species": 94,
+      "form": 0,
+      "name": "Mega Raichu X",
+      "nickname": "M-RaichuX",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_RAICHU_X",
+      "baseSpeciesId": 26,
+      "baseForm": 1,
+      "personalId": 1187
+    },
+    {
+      "species": 95,
+      "form": 0,
+      "name": "Mega Raichu Y",
+      "nickname": "M-RaichuY",
+      "category": "temporary mega preview",
+      "key": "MEGA_ZA_RAICHU_Y",
+      "baseSpeciesId": 26,
+      "baseForm": 2,
+      "personalId": 1188
+    },
+    {
+      "species": 96,
+      "form": 0,
+      "name": "Mega Slowbro",
+      "nickname": "M-Slowbro",
+      "category": "temporary mega preview",
+      "key": "MEGA_SLOWBRO",
+      "baseSpeciesId": 80,
+      "baseForm": 1,
+      "personalId": 1207
+    }
+  ]
+}

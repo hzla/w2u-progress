@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-15T20:56:19.091Z",
+  "updatedAt": "2026-06-26T00:00:00.000Z",
   "progress": {
     "pokemon": {
       "SPECIES_CHESPIN": {
@@ -2306,6 +2306,2661 @@
         "verified": false,
         "notes": "",
         "shinyPalette": false
+      },
+      "SPECIES_810": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_811": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_812": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_813": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_814": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_815": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_816": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_817": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_818": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_819": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_820": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_821": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_822": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_823": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_824": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_825": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_826": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_827": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_828": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_829": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_830": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_831": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_832": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_833": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_834": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_835": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_836": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_837": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_838": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_839": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_840": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_841": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_842": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_843": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_844": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_845": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_846": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_847": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_848": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_849": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_850": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_851": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_852": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_853": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_854": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_855": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_856": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_857": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_858": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_859": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_860": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_861": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_862": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_863": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_864": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_865": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_866": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_867": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_868": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_869": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_870": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_871": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_872": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_873": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_874": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_875": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_876": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_877": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_878": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_879": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_880": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_881": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_882": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_883": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_884": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_885": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_886": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_887": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_888": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_889": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_890": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_891": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_892": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_893": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_894": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_895": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_896": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_897": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_898": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_899": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_900": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_901": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_902": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_903": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_904": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_905": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_906": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_907": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_908": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_909": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_910": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_911": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_912": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_913": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_914": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_915": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_916": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_917": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_918": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_919": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_920": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_921": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_922": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_923": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_924": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_925": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_926": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_927": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_928": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_929": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_930": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_931": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_932": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_933": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_934": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_935": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_936": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_937": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_938": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_939": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_940": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_941": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_942": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_943": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_944": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_945": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_946": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_947": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_948": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_949": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_950": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_951": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_952": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_953": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_954": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_955": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_956": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_957": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_958": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_959": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_960": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_961": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_962": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_963": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_964": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_965": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_966": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_967": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_968": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_969": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_970": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_971": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_972": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_973": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_974": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_975": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_976": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_977": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_978": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_979": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_980": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_981": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_982": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_983": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_984": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_985": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_986": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_987": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_988": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_989": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_990": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_991": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_992": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_993": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_994": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_995": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_996": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_997": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_998": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_999": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1000": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1001": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1002": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1003": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1004": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1005": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1006": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1007": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1008": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1009": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1010": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1011": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1012": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1013": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1014": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1015": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1016": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1017": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1018": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1019": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1020": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1021": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1022": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "SPECIES_1023": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_ALOLA_RATTATA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_ALOLA_RATICATE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_ALOLA_RAICHU": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_ALOLA_SANDSHREW": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_ALOLA_SANDSLASH": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_ALOLA_VULPIX": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_ALOLA_NINETALES": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_ALOLA_DIGLETT": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_ALOLA_DUGTRIO": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_ALOLA_MEOWTH": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_MEOWTH": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_ALOLA_PERSIAN": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_HISUI_GROWLITHE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_HISUI_ARCANINE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_ALOLA_GEODUDE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_ALOLA_GRAVELER": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_ALOLA_GOLEM": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_PONYTA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_RAPIDASH": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_SLOWPOKE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_SLOWBRO": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_FARFETCHD": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_ALOLA_GRIMER": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_ALOLA_MUK": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_HISUI_VOLTORB": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_HISUI_ELECTRODE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_ALOLA_EXEGGUTOR": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_ALOLA_MAROWAK": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_WEEZING": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_MR_MIME": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_PALDEA_TAUROS_COMBAT": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_PALDEA_TAUROS_BLAZE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_PALDEA_TAUROS_AQUA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_ARTICUNO": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_ZAPDOS": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_MOLTRES": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_HISUI_TYPHLOSION": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_PALDEA_WOOPER": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_SLOWKING": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_HISUI_QWILFISH": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_HISUI_SNEASEL": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_CORSOLA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_ZIGZAGOON": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_LINOONE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_HISUI_SAMUROTT": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_HISUI_LILLIGANT": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_DARUMAKA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_DARMANITAN": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_DARMANITAN_ZEN": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_YAMASK": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_HISUI_ZORUA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_HISUI_ZOROARK": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_GALAR_STUNFISK": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_HISUI_BRAVIARY": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_HISUI_SLIGGOO": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_HISUI_GOODRA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_HISUI_AVALUGG": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "REGIONAL_HISUI_DECIDUEYE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_TOXTRICITY_LOW_KEY": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_EISCUE_NOICE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_INDEEDEE_FEMALE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_MORPEKO_HANGRY": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_ZACIAN_CROWNED": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_ZAMAZENTA_CROWNED": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_URSHIFU_RAPID_STRIKE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_ZARUDE_DADA": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_CALYREX_ICE_RIDER": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_CALYREX_SHADOW_RIDER": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_BASCULEGION_FEMALE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_ENAMORUS_THERIAN": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_OINKOLOGNE_FEMALE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_MAUSHOLD_FAMILY_OF_THREE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_SQUAWKABILLY_BLUE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_SQUAWKABILLY_YELLOW": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_SQUAWKABILLY_WHITE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_PALAFIN_HERO": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_DUDUNSPARCE_THREE_SEGMENT": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_GIMMIGHOUL_ROAMING": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_OGERPON_WELLSPRING": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_OGERPON_HEARTHFLAME": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
+      },
+      "ALT_OGERPON_CORNERSTONE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false,
+        "notes": "",
+        "shinyPalette": true
       }
     },
     "moves": {
@@ -2620,6 +5275,66 @@
         "effectHandler": true,
         "verified": true,
         "notes": ""
+      },
+      "MOVE_STEAM_ERUPTION": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": "W2U move data uses Water Spout animation ID 4 and applies 30% burn plus defrost."
+      },
+      "MOVE_HYPERSPACE_HOLE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": "W2U move data marks this as must-hit and hits through Substitute/Protect-style blocking."
+      },
+      "MOVE_HOLD_HANDS": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": "Status move with friend targeting; W2U uses animation ID 370."
+      },
+      "MOVE_THOUSAND_ARROWS": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": "Custom W2U animation rains arrow particles; move data marks the grounded-hit special code."
+      },
+      "MOVE_THOUSAND_WAVES": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": "W2U move data currently targets all foes as a standard Ground attack."
+      },
+      "MOVE_LIGHT_OF_RUIN": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": "W2U move data applies 50% recoil."
+      },
+      "MOVE_ORIGIN_PULSE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": "W2U move data is complete but still points at animation ID 0."
+      },
+      "MOVE_PRECIPICE_BLADES": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": "W2U move data is complete but still points at animation ID 0."
+      },
+      "MOVE_DRAGON_ASCENT": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": "W2U move data lowers the user's Defense and Sp. Def after damage."
+      },
+      "MOVE_HYPERSPACE_FURY": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": "W2U move data marks this as must-hit, hits through Substitute/Protect-style blocking, and lowers the user's Defense."
       }
     },
     "items": {

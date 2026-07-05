@@ -1,0 +1,1776 @@
+{
+  "version": 1,
+  "description": "Gen 8/9 base species plus imported regional/alternate forms",
+  "pokemon": [
+    {
+      "species": 810,
+      "form": 0,
+      "name": "Grookey",
+      "nickname": "Grookey"
+    },
+    {
+      "species": 811,
+      "form": 0,
+      "name": "Thwackey",
+      "nickname": "Thwackey"
+    },
+    {
+      "species": 812,
+      "form": 0,
+      "name": "Rillaboom",
+      "nickname": "Rillaboom"
+    },
+    {
+      "species": 813,
+      "form": 0,
+      "name": "Scorbunny",
+      "nickname": "Scorbunny"
+    },
+    {
+      "species": 814,
+      "form": 0,
+      "name": "Raboot",
+      "nickname": "Raboot"
+    },
+    {
+      "species": 815,
+      "form": 0,
+      "name": "Cinderace",
+      "nickname": "Cinderace"
+    },
+    {
+      "species": 816,
+      "form": 0,
+      "name": "Sobble",
+      "nickname": "Sobble"
+    },
+    {
+      "species": 817,
+      "form": 0,
+      "name": "Drizzile",
+      "nickname": "Drizzile"
+    },
+    {
+      "species": 818,
+      "form": 0,
+      "name": "Inteleon",
+      "nickname": "Inteleon"
+    },
+    {
+      "species": 819,
+      "form": 0,
+      "name": "Skwovet",
+      "nickname": "Skwovet"
+    },
+    {
+      "species": 820,
+      "form": 0,
+      "name": "Greedent",
+      "nickname": "Greedent"
+    },
+    {
+      "species": 821,
+      "form": 0,
+      "name": "Rookidee",
+      "nickname": "Rookidee"
+    },
+    {
+      "species": 822,
+      "form": 0,
+      "name": "Corvisquire",
+      "nickname": "Corvisquir"
+    },
+    {
+      "species": 823,
+      "form": 0,
+      "name": "Corviknight",
+      "nickname": "Corviknigh"
+    },
+    {
+      "species": 824,
+      "form": 0,
+      "name": "Blipbug",
+      "nickname": "Blipbug"
+    },
+    {
+      "species": 825,
+      "form": 0,
+      "name": "Dottler",
+      "nickname": "Dottler"
+    },
+    {
+      "species": 826,
+      "form": 0,
+      "name": "Orbeetle",
+      "nickname": "Orbeetle"
+    },
+    {
+      "species": 827,
+      "form": 0,
+      "name": "Nickit",
+      "nickname": "Nickit"
+    },
+    {
+      "species": 828,
+      "form": 0,
+      "name": "Thievul",
+      "nickname": "Thievul"
+    },
+    {
+      "species": 829,
+      "form": 0,
+      "name": "Gossifleur",
+      "nickname": "Gossifleur"
+    },
+    {
+      "species": 830,
+      "form": 0,
+      "name": "Eldegoss",
+      "nickname": "Eldegoss"
+    },
+    {
+      "species": 831,
+      "form": 0,
+      "name": "Wooloo",
+      "nickname": "Wooloo"
+    },
+    {
+      "species": 832,
+      "form": 0,
+      "name": "Dubwool",
+      "nickname": "Dubwool"
+    },
+    {
+      "species": 833,
+      "form": 0,
+      "name": "Chewtle",
+      "nickname": "Chewtle"
+    },
+    {
+      "species": 834,
+      "form": 0,
+      "name": "Drednaw",
+      "nickname": "Drednaw"
+    },
+    {
+      "species": 835,
+      "form": 0,
+      "name": "Yamper",
+      "nickname": "Yamper"
+    },
+    {
+      "species": 836,
+      "form": 0,
+      "name": "Boltund",
+      "nickname": "Boltund"
+    },
+    {
+      "species": 837,
+      "form": 0,
+      "name": "Rolycoly",
+      "nickname": "Rolycoly"
+    },
+    {
+      "species": 838,
+      "form": 0,
+      "name": "Carkol",
+      "nickname": "Carkol"
+    },
+    {
+      "species": 839,
+      "form": 0,
+      "name": "Coalossal",
+      "nickname": "Coalossal"
+    },
+    {
+      "species": 840,
+      "form": 0,
+      "name": "Applin",
+      "nickname": "Applin"
+    },
+    {
+      "species": 841,
+      "form": 0,
+      "name": "Flapple",
+      "nickname": "Flapple"
+    },
+    {
+      "species": 842,
+      "form": 0,
+      "name": "Appletun",
+      "nickname": "Appletun"
+    },
+    {
+      "species": 843,
+      "form": 0,
+      "name": "Silicobra",
+      "nickname": "Silicobra"
+    },
+    {
+      "species": 844,
+      "form": 0,
+      "name": "Sandaconda",
+      "nickname": "Sandaconda"
+    },
+    {
+      "species": 845,
+      "form": 0,
+      "name": "Cramorant",
+      "nickname": "Cramorant"
+    },
+    {
+      "species": 846,
+      "form": 0,
+      "name": "Arrokuda",
+      "nickname": "Arrokuda"
+    },
+    {
+      "species": 847,
+      "form": 0,
+      "name": "Barraskewda",
+      "nickname": "Barraskewd"
+    },
+    {
+      "species": 848,
+      "form": 0,
+      "name": "Toxel",
+      "nickname": "Toxel"
+    },
+    {
+      "species": 849,
+      "form": 0,
+      "name": "Toxtricity",
+      "nickname": "Toxtricity"
+    },
+    {
+      "species": 850,
+      "form": 0,
+      "name": "Sizzlipede",
+      "nickname": "Sizzlipede"
+    },
+    {
+      "species": 851,
+      "form": 0,
+      "name": "Centiskorch",
+      "nickname": "Centiskorc"
+    },
+    {
+      "species": 852,
+      "form": 0,
+      "name": "Clobbopus",
+      "nickname": "Clobbopus"
+    },
+    {
+      "species": 853,
+      "form": 0,
+      "name": "Grapploct",
+      "nickname": "Grapploct"
+    },
+    {
+      "species": 854,
+      "form": 0,
+      "name": "Sinistea",
+      "nickname": "Sinistea"
+    },
+    {
+      "species": 855,
+      "form": 0,
+      "name": "Polteageist",
+      "nickname": "Polteageis"
+    },
+    {
+      "species": 856,
+      "form": 0,
+      "name": "Hatenna",
+      "nickname": "Hatenna"
+    },
+    {
+      "species": 857,
+      "form": 0,
+      "name": "Hattrem",
+      "nickname": "Hattrem"
+    },
+    {
+      "species": 858,
+      "form": 0,
+      "name": "Hatterene",
+      "nickname": "Hatterene"
+    },
+    {
+      "species": 859,
+      "form": 0,
+      "name": "Impidimp",
+      "nickname": "Impidimp"
+    },
+    {
+      "species": 860,
+      "form": 0,
+      "name": "Morgrem",
+      "nickname": "Morgrem"
+    },
+    {
+      "species": 861,
+      "form": 0,
+      "name": "Grimmsnarl",
+      "nickname": "Grimmsnarl"
+    },
+    {
+      "species": 862,
+      "form": 0,
+      "name": "Obstagoon",
+      "nickname": "Obstagoon"
+    },
+    {
+      "species": 863,
+      "form": 0,
+      "name": "Perrserker",
+      "nickname": "Perrserker"
+    },
+    {
+      "species": 864,
+      "form": 0,
+      "name": "Cursola",
+      "nickname": "Cursola"
+    },
+    {
+      "species": 865,
+      "form": 0,
+      "name": "Sirfetch\u2019d",
+      "nickname": "Sirfetch\u2019d"
+    },
+    {
+      "species": 866,
+      "form": 0,
+      "name": "Mr. Rime",
+      "nickname": "Mr. Rime"
+    },
+    {
+      "species": 867,
+      "form": 0,
+      "name": "Runerigus",
+      "nickname": "Runerigus"
+    },
+    {
+      "species": 868,
+      "form": 0,
+      "name": "Milcery",
+      "nickname": "Milcery"
+    },
+    {
+      "species": 869,
+      "form": 0,
+      "name": "Alcremie",
+      "nickname": "Alcremie"
+    },
+    {
+      "species": 870,
+      "form": 0,
+      "name": "Falinks",
+      "nickname": "Falinks"
+    },
+    {
+      "species": 871,
+      "form": 0,
+      "name": "Pincurchin",
+      "nickname": "Pincurchin"
+    },
+    {
+      "species": 872,
+      "form": 0,
+      "name": "Snom",
+      "nickname": "Snom"
+    },
+    {
+      "species": 873,
+      "form": 0,
+      "name": "Frosmoth",
+      "nickname": "Frosmoth"
+    },
+    {
+      "species": 874,
+      "form": 0,
+      "name": "Stonjourner",
+      "nickname": "Stonjourne"
+    },
+    {
+      "species": 875,
+      "form": 0,
+      "name": "Eiscue",
+      "nickname": "Eiscue"
+    },
+    {
+      "species": 876,
+      "form": 0,
+      "name": "Indeedee",
+      "nickname": "Indeedee"
+    },
+    {
+      "species": 877,
+      "form": 0,
+      "name": "Morpeko",
+      "nickname": "Morpeko"
+    },
+    {
+      "species": 878,
+      "form": 0,
+      "name": "Cufant",
+      "nickname": "Cufant"
+    },
+    {
+      "species": 879,
+      "form": 0,
+      "name": "Copperajah",
+      "nickname": "Copperajah"
+    },
+    {
+      "species": 880,
+      "form": 0,
+      "name": "Dracozolt",
+      "nickname": "Dracozolt"
+    },
+    {
+      "species": 881,
+      "form": 0,
+      "name": "Arctozolt",
+      "nickname": "Arctozolt"
+    },
+    {
+      "species": 882,
+      "form": 0,
+      "name": "Dracovish",
+      "nickname": "Dracovish"
+    },
+    {
+      "species": 883,
+      "form": 0,
+      "name": "Arctovish",
+      "nickname": "Arctovish"
+    },
+    {
+      "species": 884,
+      "form": 0,
+      "name": "Duraludon",
+      "nickname": "Duraludon"
+    },
+    {
+      "species": 885,
+      "form": 0,
+      "name": "Dreepy",
+      "nickname": "Dreepy"
+    },
+    {
+      "species": 886,
+      "form": 0,
+      "name": "Drakloak",
+      "nickname": "Drakloak"
+    },
+    {
+      "species": 887,
+      "form": 0,
+      "name": "Dragapult",
+      "nickname": "Dragapult"
+    },
+    {
+      "species": 888,
+      "form": 0,
+      "name": "Zacian",
+      "nickname": "Zacian"
+    },
+    {
+      "species": 889,
+      "form": 0,
+      "name": "Zamazenta",
+      "nickname": "Zamazenta"
+    },
+    {
+      "species": 890,
+      "form": 0,
+      "name": "Eternatus",
+      "nickname": "Eternatus"
+    },
+    {
+      "species": 891,
+      "form": 0,
+      "name": "Kubfu",
+      "nickname": "Kubfu"
+    },
+    {
+      "species": 892,
+      "form": 0,
+      "name": "Urshifu",
+      "nickname": "Urshifu"
+    },
+    {
+      "species": 893,
+      "form": 0,
+      "name": "Zarude",
+      "nickname": "Zarude"
+    },
+    {
+      "species": 894,
+      "form": 0,
+      "name": "Regieleki",
+      "nickname": "Regieleki"
+    },
+    {
+      "species": 895,
+      "form": 0,
+      "name": "Regidrago",
+      "nickname": "Regidrago"
+    },
+    {
+      "species": 896,
+      "form": 0,
+      "name": "Glastrier",
+      "nickname": "Glastrier"
+    },
+    {
+      "species": 897,
+      "form": 0,
+      "name": "Spectrier",
+      "nickname": "Spectrier"
+    },
+    {
+      "species": 898,
+      "form": 0,
+      "name": "Calyrex",
+      "nickname": "Calyrex"
+    },
+    {
+      "species": 899,
+      "form": 0,
+      "name": "Wyrdeer",
+      "nickname": "Wyrdeer"
+    },
+    {
+      "species": 900,
+      "form": 0,
+      "name": "Kleavor",
+      "nickname": "Kleavor"
+    },
+    {
+      "species": 901,
+      "form": 0,
+      "name": "Ursaluna",
+      "nickname": "Ursaluna"
+    },
+    {
+      "species": 902,
+      "form": 0,
+      "name": "Basculegion",
+      "nickname": "Basculegio"
+    },
+    {
+      "species": 903,
+      "form": 0,
+      "name": "Sneasler",
+      "nickname": "Sneasler"
+    },
+    {
+      "species": 904,
+      "form": 0,
+      "name": "Overqwil",
+      "nickname": "Overqwil"
+    },
+    {
+      "species": 905,
+      "form": 0,
+      "name": "Enamorus",
+      "nickname": "Enamorus"
+    },
+    {
+      "species": 906,
+      "form": 0,
+      "name": "Sprigatito",
+      "nickname": "Sprigatito"
+    },
+    {
+      "species": 907,
+      "form": 0,
+      "name": "Floragato",
+      "nickname": "Floragato"
+    },
+    {
+      "species": 908,
+      "form": 0,
+      "name": "Meowscarada",
+      "nickname": "Meowscarad"
+    },
+    {
+      "species": 909,
+      "form": 0,
+      "name": "Fuecoco",
+      "nickname": "Fuecoco"
+    },
+    {
+      "species": 910,
+      "form": 0,
+      "name": "Crocalor",
+      "nickname": "Crocalor"
+    },
+    {
+      "species": 911,
+      "form": 0,
+      "name": "Skeledirge",
+      "nickname": "Skeledirge"
+    },
+    {
+      "species": 912,
+      "form": 0,
+      "name": "Quaxly",
+      "nickname": "Quaxly"
+    },
+    {
+      "species": 913,
+      "form": 0,
+      "name": "Quaxwell",
+      "nickname": "Quaxwell"
+    },
+    {
+      "species": 914,
+      "form": 0,
+      "name": "Quaquaval",
+      "nickname": "Quaquaval"
+    },
+    {
+      "species": 915,
+      "form": 0,
+      "name": "Lechonk",
+      "nickname": "Lechonk"
+    },
+    {
+      "species": 916,
+      "form": 0,
+      "name": "Oinkologne",
+      "nickname": "Oinkologne"
+    },
+    {
+      "species": 917,
+      "form": 0,
+      "name": "Tarountula",
+      "nickname": "Tarountula"
+    },
+    {
+      "species": 918,
+      "form": 0,
+      "name": "Spidops",
+      "nickname": "Spidops"
+    },
+    {
+      "species": 919,
+      "form": 0,
+      "name": "Nymble",
+      "nickname": "Nymble"
+    },
+    {
+      "species": 920,
+      "form": 0,
+      "name": "Lokix",
+      "nickname": "Lokix"
+    },
+    {
+      "species": 921,
+      "form": 0,
+      "name": "Pawmi",
+      "nickname": "Pawmi"
+    },
+    {
+      "species": 922,
+      "form": 0,
+      "name": "Pawmo",
+      "nickname": "Pawmo"
+    },
+    {
+      "species": 923,
+      "form": 0,
+      "name": "Pawmot",
+      "nickname": "Pawmot"
+    },
+    {
+      "species": 924,
+      "form": 0,
+      "name": "Tandemaus",
+      "nickname": "Tandemaus"
+    },
+    {
+      "species": 925,
+      "form": 0,
+      "name": "Maushold",
+      "nickname": "Maushold"
+    },
+    {
+      "species": 926,
+      "form": 0,
+      "name": "Fidough",
+      "nickname": "Fidough"
+    },
+    {
+      "species": 927,
+      "form": 0,
+      "name": "Dachsbun",
+      "nickname": "Dachsbun"
+    },
+    {
+      "species": 928,
+      "form": 0,
+      "name": "Smoliv",
+      "nickname": "Smoliv"
+    },
+    {
+      "species": 929,
+      "form": 0,
+      "name": "Dolliv",
+      "nickname": "Dolliv"
+    },
+    {
+      "species": 930,
+      "form": 0,
+      "name": "Arboliva",
+      "nickname": "Arboliva"
+    },
+    {
+      "species": 931,
+      "form": 0,
+      "name": "Squawkabilly",
+      "nickname": "Squawkabil"
+    },
+    {
+      "species": 932,
+      "form": 0,
+      "name": "Nacli",
+      "nickname": "Nacli"
+    },
+    {
+      "species": 933,
+      "form": 0,
+      "name": "Naclstack",
+      "nickname": "Naclstack"
+    },
+    {
+      "species": 934,
+      "form": 0,
+      "name": "Garganacl",
+      "nickname": "Garganacl"
+    },
+    {
+      "species": 935,
+      "form": 0,
+      "name": "Charcadet",
+      "nickname": "Charcadet"
+    },
+    {
+      "species": 936,
+      "form": 0,
+      "name": "Armarouge",
+      "nickname": "Armarouge"
+    },
+    {
+      "species": 937,
+      "form": 0,
+      "name": "Ceruledge",
+      "nickname": "Ceruledge"
+    },
+    {
+      "species": 938,
+      "form": 0,
+      "name": "Tadbulb",
+      "nickname": "Tadbulb"
+    },
+    {
+      "species": 939,
+      "form": 0,
+      "name": "Bellibolt",
+      "nickname": "Bellibolt"
+    },
+    {
+      "species": 940,
+      "form": 0,
+      "name": "Wattrel",
+      "nickname": "Wattrel"
+    },
+    {
+      "species": 941,
+      "form": 0,
+      "name": "Kilowattrel",
+      "nickname": "Kilowattre"
+    },
+    {
+      "species": 942,
+      "form": 0,
+      "name": "Maschiff",
+      "nickname": "Maschiff"
+    },
+    {
+      "species": 943,
+      "form": 0,
+      "name": "Mabosstiff",
+      "nickname": "Mabosstiff"
+    },
+    {
+      "species": 944,
+      "form": 0,
+      "name": "Shroodle",
+      "nickname": "Shroodle"
+    },
+    {
+      "species": 945,
+      "form": 0,
+      "name": "Grafaiai",
+      "nickname": "Grafaiai"
+    },
+    {
+      "species": 946,
+      "form": 0,
+      "name": "Bramblin",
+      "nickname": "Bramblin"
+    },
+    {
+      "species": 947,
+      "form": 0,
+      "name": "Brambleghast",
+      "nickname": "Bramblegha"
+    },
+    {
+      "species": 948,
+      "form": 0,
+      "name": "Toedscool",
+      "nickname": "Toedscool"
+    },
+    {
+      "species": 949,
+      "form": 0,
+      "name": "Toedscruel",
+      "nickname": "Toedscruel"
+    },
+    {
+      "species": 950,
+      "form": 0,
+      "name": "Klawf",
+      "nickname": "Klawf"
+    },
+    {
+      "species": 951,
+      "form": 0,
+      "name": "Capsakid",
+      "nickname": "Capsakid"
+    },
+    {
+      "species": 952,
+      "form": 0,
+      "name": "Scovillain",
+      "nickname": "Scovillain"
+    },
+    {
+      "species": 953,
+      "form": 0,
+      "name": "Rellor",
+      "nickname": "Rellor"
+    },
+    {
+      "species": 954,
+      "form": 0,
+      "name": "Rabsca",
+      "nickname": "Rabsca"
+    },
+    {
+      "species": 955,
+      "form": 0,
+      "name": "Flittle",
+      "nickname": "Flittle"
+    },
+    {
+      "species": 956,
+      "form": 0,
+      "name": "Espathra",
+      "nickname": "Espathra"
+    },
+    {
+      "species": 957,
+      "form": 0,
+      "name": "Tinkatink",
+      "nickname": "Tinkatink"
+    },
+    {
+      "species": 958,
+      "form": 0,
+      "name": "Tinkatuff",
+      "nickname": "Tinkatuff"
+    },
+    {
+      "species": 959,
+      "form": 0,
+      "name": "Tinkaton",
+      "nickname": "Tinkaton"
+    },
+    {
+      "species": 960,
+      "form": 0,
+      "name": "Wiglett",
+      "nickname": "Wiglett"
+    },
+    {
+      "species": 961,
+      "form": 0,
+      "name": "Wugtrio",
+      "nickname": "Wugtrio"
+    },
+    {
+      "species": 962,
+      "form": 0,
+      "name": "Bombirdier",
+      "nickname": "Bombirdier"
+    },
+    {
+      "species": 963,
+      "form": 0,
+      "name": "Finizen",
+      "nickname": "Finizen"
+    },
+    {
+      "species": 964,
+      "form": 0,
+      "name": "Palafin",
+      "nickname": "Palafin"
+    },
+    {
+      "species": 965,
+      "form": 0,
+      "name": "Varoom",
+      "nickname": "Varoom"
+    },
+    {
+      "species": 966,
+      "form": 0,
+      "name": "Revavroom",
+      "nickname": "Revavroom"
+    },
+    {
+      "species": 967,
+      "form": 0,
+      "name": "Cyclizar",
+      "nickname": "Cyclizar"
+    },
+    {
+      "species": 968,
+      "form": 0,
+      "name": "Orthworm",
+      "nickname": "Orthworm"
+    },
+    {
+      "species": 969,
+      "form": 0,
+      "name": "Glimmet",
+      "nickname": "Glimmet"
+    },
+    {
+      "species": 970,
+      "form": 0,
+      "name": "Glimmora",
+      "nickname": "Glimmora"
+    },
+    {
+      "species": 971,
+      "form": 0,
+      "name": "Greavard",
+      "nickname": "Greavard"
+    },
+    {
+      "species": 972,
+      "form": 0,
+      "name": "Houndstone",
+      "nickname": "Houndstone"
+    },
+    {
+      "species": 973,
+      "form": 0,
+      "name": "Flamigo",
+      "nickname": "Flamigo"
+    },
+    {
+      "species": 974,
+      "form": 0,
+      "name": "Cetoddle",
+      "nickname": "Cetoddle"
+    },
+    {
+      "species": 975,
+      "form": 0,
+      "name": "Cetitan",
+      "nickname": "Cetitan"
+    },
+    {
+      "species": 976,
+      "form": 0,
+      "name": "Veluza",
+      "nickname": "Veluza"
+    },
+    {
+      "species": 977,
+      "form": 0,
+      "name": "Dondozo",
+      "nickname": "Dondozo"
+    },
+    {
+      "species": 978,
+      "form": 0,
+      "name": "Tatsugiri",
+      "nickname": "Tatsugiri"
+    },
+    {
+      "species": 979,
+      "form": 0,
+      "name": "Annihilape",
+      "nickname": "Annihilape"
+    },
+    {
+      "species": 980,
+      "form": 0,
+      "name": "Clodsire",
+      "nickname": "Clodsire"
+    },
+    {
+      "species": 981,
+      "form": 0,
+      "name": "Farigiraf",
+      "nickname": "Farigiraf"
+    },
+    {
+      "species": 982,
+      "form": 0,
+      "name": "Dudunsparce",
+      "nickname": "Dudunsparc"
+    },
+    {
+      "species": 983,
+      "form": 0,
+      "name": "Kingambit",
+      "nickname": "Kingambit"
+    },
+    {
+      "species": 984,
+      "form": 0,
+      "name": "Great Tusk",
+      "nickname": "Great Tusk"
+    },
+    {
+      "species": 985,
+      "form": 0,
+      "name": "Scream Tail",
+      "nickname": "Scream Tai"
+    },
+    {
+      "species": 986,
+      "form": 0,
+      "name": "Brute Bonnet",
+      "nickname": "Brute Bonn"
+    },
+    {
+      "species": 987,
+      "form": 0,
+      "name": "Flutter Mane",
+      "nickname": "Flutter Ma"
+    },
+    {
+      "species": 988,
+      "form": 0,
+      "name": "Slither Wing",
+      "nickname": "Slither Wi"
+    },
+    {
+      "species": 989,
+      "form": 0,
+      "name": "Sandy Shocks",
+      "nickname": "Sandy Shoc"
+    },
+    {
+      "species": 990,
+      "form": 0,
+      "name": "Iron Treads",
+      "nickname": "Iron Tread"
+    },
+    {
+      "species": 991,
+      "form": 0,
+      "name": "Iron Bundle",
+      "nickname": "Iron Bundl"
+    },
+    {
+      "species": 992,
+      "form": 0,
+      "name": "Iron Hands",
+      "nickname": "Iron Hands"
+    },
+    {
+      "species": 993,
+      "form": 0,
+      "name": "Iron Jugulis",
+      "nickname": "Iron Jugul"
+    },
+    {
+      "species": 994,
+      "form": 0,
+      "name": "Iron Moth",
+      "nickname": "Iron Moth"
+    },
+    {
+      "species": 995,
+      "form": 0,
+      "name": "Iron Thorns",
+      "nickname": "Iron Thorn"
+    },
+    {
+      "species": 996,
+      "form": 0,
+      "name": "Frigibax",
+      "nickname": "Frigibax"
+    },
+    {
+      "species": 997,
+      "form": 0,
+      "name": "Arctibax",
+      "nickname": "Arctibax"
+    },
+    {
+      "species": 998,
+      "form": 0,
+      "name": "Baxcalibur",
+      "nickname": "Baxcalibur"
+    },
+    {
+      "species": 999,
+      "form": 0,
+      "name": "Gimmighoul",
+      "nickname": "Gimmighoul"
+    },
+    {
+      "species": 1000,
+      "form": 0,
+      "name": "Gholdengo",
+      "nickname": "Gholdengo"
+    },
+    {
+      "species": 1001,
+      "form": 0,
+      "name": "Wo-Chien",
+      "nickname": "Wo-Chien"
+    },
+    {
+      "species": 1002,
+      "form": 0,
+      "name": "Chien-Pao",
+      "nickname": "Chien-Pao"
+    },
+    {
+      "species": 1003,
+      "form": 0,
+      "name": "Ting-Lu",
+      "nickname": "Ting-Lu"
+    },
+    {
+      "species": 1004,
+      "form": 0,
+      "name": "Chi-Yu",
+      "nickname": "Chi-Yu"
+    },
+    {
+      "species": 1005,
+      "form": 0,
+      "name": "Roaring Moon",
+      "nickname": "Roaring Mo"
+    },
+    {
+      "species": 1006,
+      "form": 0,
+      "name": "Iron Valiant",
+      "nickname": "Iron Valia"
+    },
+    {
+      "species": 1007,
+      "form": 0,
+      "name": "Koraidon",
+      "nickname": "Koraidon"
+    },
+    {
+      "species": 1008,
+      "form": 0,
+      "name": "Miraidon",
+      "nickname": "Miraidon"
+    },
+    {
+      "species": 1009,
+      "form": 0,
+      "name": "Walking Wake",
+      "nickname": "Walking Wa"
+    },
+    {
+      "species": 1010,
+      "form": 0,
+      "name": "Iron Leaves",
+      "nickname": "Iron Leave"
+    },
+    {
+      "species": 1011,
+      "form": 0,
+      "name": "Dipplin",
+      "nickname": "Dipplin"
+    },
+    {
+      "species": 1012,
+      "form": 0,
+      "name": "Poltchageist",
+      "nickname": "Poltchagei"
+    },
+    {
+      "species": 1013,
+      "form": 0,
+      "name": "Sinistcha",
+      "nickname": "Sinistcha"
+    },
+    {
+      "species": 1014,
+      "form": 0,
+      "name": "Okidogi",
+      "nickname": "Okidogi"
+    },
+    {
+      "species": 1015,
+      "form": 0,
+      "name": "Munkidori",
+      "nickname": "Munkidori"
+    },
+    {
+      "species": 1016,
+      "form": 0,
+      "name": "Fezandipiti",
+      "nickname": "Fezandipit"
+    },
+    {
+      "species": 1017,
+      "form": 0,
+      "name": "Ogerpon",
+      "nickname": "Ogerpon"
+    },
+    {
+      "species": 1018,
+      "form": 0,
+      "name": "Archaludon",
+      "nickname": "Archaludon"
+    },
+    {
+      "species": 1019,
+      "form": 0,
+      "name": "Hydrapple",
+      "nickname": "Hydrapple"
+    },
+    {
+      "species": 1020,
+      "form": 0,
+      "name": "Gouging Fire",
+      "nickname": "Gouging Fi"
+    },
+    {
+      "species": 1021,
+      "form": 0,
+      "name": "Raging Bolt",
+      "nickname": "Raging Bol"
+    },
+    {
+      "species": 1022,
+      "form": 0,
+      "name": "Iron Boulder",
+      "nickname": "Iron Bould"
+    },
+    {
+      "species": 1023,
+      "form": 0,
+      "name": "Iron Crown",
+      "nickname": "Iron Crown"
+    },
+    {
+      "species": 19,
+      "form": 1,
+      "name": "Alolan Rattata",
+      "nickname": "Alolan Rat"
+    },
+    {
+      "species": 20,
+      "form": 1,
+      "name": "Alolan Raticate",
+      "nickname": "Alolan Rat"
+    },
+    {
+      "species": 26,
+      "form": 3,
+      "name": "Alolan Raichu",
+      "nickname": "Alolan Rai"
+    },
+    {
+      "species": 27,
+      "form": 1,
+      "name": "Alolan Sandshrew",
+      "nickname": "Alolan San"
+    },
+    {
+      "species": 28,
+      "form": 1,
+      "name": "Alolan Sandslash",
+      "nickname": "Alolan San"
+    },
+    {
+      "species": 37,
+      "form": 1,
+      "name": "Alolan Vulpix",
+      "nickname": "Alolan Vul"
+    },
+    {
+      "species": 38,
+      "form": 1,
+      "name": "Alolan Ninetales",
+      "nickname": "Alolan Nin"
+    },
+    {
+      "species": 50,
+      "form": 1,
+      "name": "Alolan Diglett",
+      "nickname": "Alolan Dig"
+    },
+    {
+      "species": 51,
+      "form": 1,
+      "name": "Alolan Dugtrio",
+      "nickname": "Alolan Dug"
+    },
+    {
+      "species": 52,
+      "form": 1,
+      "name": "Alolan Meowth",
+      "nickname": "Alolan Meo"
+    },
+    {
+      "species": 52,
+      "form": 2,
+      "name": "Galarian Meowth",
+      "nickname": "Galarian M"
+    },
+    {
+      "species": 53,
+      "form": 1,
+      "name": "Alolan Persian",
+      "nickname": "Alolan Per"
+    },
+    {
+      "species": 58,
+      "form": 1,
+      "name": "Hisuian Growlithe",
+      "nickname": "Hisuian Gr"
+    },
+    {
+      "species": 59,
+      "form": 1,
+      "name": "Hisuian Arcanine",
+      "nickname": "Hisuian Ar"
+    },
+    {
+      "species": 74,
+      "form": 1,
+      "name": "Alolan Geodude",
+      "nickname": "Alolan Geo"
+    },
+    {
+      "species": 75,
+      "form": 1,
+      "name": "Alolan Graveler",
+      "nickname": "Alolan Gra"
+    },
+    {
+      "species": 76,
+      "form": 1,
+      "name": "Alolan Golem",
+      "nickname": "Alolan Gol"
+    },
+    {
+      "species": 77,
+      "form": 1,
+      "name": "Galarian Ponyta",
+      "nickname": "Galarian P"
+    },
+    {
+      "species": 78,
+      "form": 1,
+      "name": "Galarian Rapidash",
+      "nickname": "Galarian R"
+    },
+    {
+      "species": 79,
+      "form": 1,
+      "name": "Galarian Slowpoke",
+      "nickname": "Galarian S"
+    },
+    {
+      "species": 80,
+      "form": 2,
+      "name": "Galarian Slowbro",
+      "nickname": "Galarian S"
+    },
+    {
+      "species": 83,
+      "form": 1,
+      "name": "Galarian Farfetch'd",
+      "nickname": "Galarian F"
+    },
+    {
+      "species": 88,
+      "form": 1,
+      "name": "Alolan Grimer",
+      "nickname": "Alolan Gri"
+    },
+    {
+      "species": 89,
+      "form": 1,
+      "name": "Alolan Muk",
+      "nickname": "Alolan Muk"
+    },
+    {
+      "species": 100,
+      "form": 1,
+      "name": "Hisuian Voltorb",
+      "nickname": "Hisuian Vo"
+    },
+    {
+      "species": 101,
+      "form": 1,
+      "name": "Hisuian Electrode",
+      "nickname": "Hisuian El"
+    },
+    {
+      "species": 103,
+      "form": 1,
+      "name": "Alolan Exeggutor",
+      "nickname": "Alolan Exe"
+    },
+    {
+      "species": 105,
+      "form": 1,
+      "name": "Alolan Marowak",
+      "nickname": "Alolan Mar"
+    },
+    {
+      "species": 110,
+      "form": 1,
+      "name": "Galarian Weezing",
+      "nickname": "Galarian W"
+    },
+    {
+      "species": 122,
+      "form": 1,
+      "name": "Galarian Mr. Mime",
+      "nickname": "Galarian M"
+    },
+    {
+      "species": 128,
+      "form": 1,
+      "name": "Paldean Tauros Combat Breed",
+      "nickname": "Paldean Ta"
+    },
+    {
+      "species": 128,
+      "form": 2,
+      "name": "Paldean Tauros Blaze Breed",
+      "nickname": "Paldean Ta"
+    },
+    {
+      "species": 128,
+      "form": 3,
+      "name": "Paldean Tauros Aqua Breed",
+      "nickname": "Paldean Ta"
+    },
+    {
+      "species": 144,
+      "form": 1,
+      "name": "Galarian Articuno",
+      "nickname": "Galarian A"
+    },
+    {
+      "species": 145,
+      "form": 1,
+      "name": "Galarian Zapdos",
+      "nickname": "Galarian Z"
+    },
+    {
+      "species": 146,
+      "form": 1,
+      "name": "Galarian Moltres",
+      "nickname": "Galarian M"
+    },
+    {
+      "species": 157,
+      "form": 1,
+      "name": "Hisuian Typhlosion",
+      "nickname": "Hisuian Ty"
+    },
+    {
+      "species": 194,
+      "form": 1,
+      "name": "Paldean Wooper",
+      "nickname": "Paldean Wo"
+    },
+    {
+      "species": 199,
+      "form": 1,
+      "name": "Galarian Slowking",
+      "nickname": "Galarian S"
+    },
+    {
+      "species": 211,
+      "form": 1,
+      "name": "Hisuian Qwilfish",
+      "nickname": "Hisuian Qw"
+    },
+    {
+      "species": 215,
+      "form": 1,
+      "name": "Hisuian Sneasel",
+      "nickname": "Hisuian Sn"
+    },
+    {
+      "species": 222,
+      "form": 1,
+      "name": "Galarian Corsola",
+      "nickname": "Galarian C"
+    },
+    {
+      "species": 263,
+      "form": 1,
+      "name": "Galarian Zigzagoon",
+      "nickname": "Galarian Z"
+    },
+    {
+      "species": 264,
+      "form": 1,
+      "name": "Galarian Linoone",
+      "nickname": "Galarian L"
+    },
+    {
+      "species": 503,
+      "form": 1,
+      "name": "Hisuian Samurott",
+      "nickname": "Hisuian Sa"
+    },
+    {
+      "species": 549,
+      "form": 1,
+      "name": "Hisuian Lilligant",
+      "nickname": "Hisuian Li"
+    },
+    {
+      "species": 554,
+      "form": 1,
+      "name": "Galarian Darumaka",
+      "nickname": "Galarian D"
+    },
+    {
+      "species": 555,
+      "form": 2,
+      "name": "Galarian Darmanitan",
+      "nickname": "Galarian D"
+    },
+    {
+      "species": 555,
+      "form": 3,
+      "name": "Galarian Darmanitan Zen Mode",
+      "nickname": "Galarian D"
+    },
+    {
+      "species": 562,
+      "form": 1,
+      "name": "Galarian Yamask",
+      "nickname": "Galarian Y"
+    },
+    {
+      "species": 570,
+      "form": 1,
+      "name": "Hisuian Zorua",
+      "nickname": "Hisuian Zo"
+    },
+    {
+      "species": 571,
+      "form": 1,
+      "name": "Hisuian Zoroark",
+      "nickname": "Hisuian Zo"
+    },
+    {
+      "species": 618,
+      "form": 1,
+      "name": "Galarian Stunfisk",
+      "nickname": "Galarian S"
+    },
+    {
+      "species": 628,
+      "form": 1,
+      "name": "Hisuian Braviary",
+      "nickname": "Hisuian Br"
+    },
+    {
+      "species": 705,
+      "form": 1,
+      "name": "Hisuian Sliggoo",
+      "nickname": "Hisuian Sl"
+    },
+    {
+      "species": 706,
+      "form": 1,
+      "name": "Hisuian Goodra",
+      "nickname": "Hisuian Go"
+    },
+    {
+      "species": 713,
+      "form": 1,
+      "name": "Hisuian Avalugg",
+      "nickname": "Hisuian Av"
+    },
+    {
+      "species": 724,
+      "form": 1,
+      "name": "Hisuian Decidueye",
+      "nickname": "Hisuian De"
+    },
+    {
+      "species": 849,
+      "form": 1,
+      "name": "Toxtricity Low Key Form",
+      "nickname": "Toxtricity"
+    },
+    {
+      "species": 875,
+      "form": 1,
+      "name": "Eiscue Noice Face",
+      "nickname": "Eiscue Noi"
+    },
+    {
+      "species": 876,
+      "form": 1,
+      "name": "Indeedee Female",
+      "nickname": "Indeedee F"
+    },
+    {
+      "species": 877,
+      "form": 1,
+      "name": "Morpeko Hangry Mode",
+      "nickname": "Morpeko Ha"
+    },
+    {
+      "species": 888,
+      "form": 1,
+      "name": "Zacian Crowned Sword",
+      "nickname": "Zacian Cro"
+    },
+    {
+      "species": 889,
+      "form": 1,
+      "name": "Zamazenta Crowned Shield",
+      "nickname": "Zamazenta "
+    },
+    {
+      "species": 892,
+      "form": 1,
+      "name": "Urshifu Rapid Strike Style",
+      "nickname": "Urshifu Ra"
+    },
+    {
+      "species": 893,
+      "form": 1,
+      "name": "Zarude Dada",
+      "nickname": "Zarude Dad"
+    },
+    {
+      "species": 898,
+      "form": 1,
+      "name": "Calyrex Ice Rider",
+      "nickname": "Calyrex Ic"
+    },
+    {
+      "species": 898,
+      "form": 2,
+      "name": "Calyrex Shadow Rider",
+      "nickname": "Calyrex Sh"
+    },
+    {
+      "species": 902,
+      "form": 1,
+      "name": "Basculegion Female",
+      "nickname": "Basculegio"
+    },
+    {
+      "species": 905,
+      "form": 1,
+      "name": "Enamorus Therian Forme",
+      "nickname": "Enamorus T"
+    },
+    {
+      "species": 916,
+      "form": 1,
+      "name": "Oinkologne Female",
+      "nickname": "Oinkologne"
+    },
+    {
+      "species": 925,
+      "form": 1,
+      "name": "Maushold Family of Three",
+      "nickname": "Maushold F"
+    },
+    {
+      "species": 931,
+      "form": 1,
+      "name": "Squawkabilly Blue Plumage",
+      "nickname": "Squawkabil"
+    },
+    {
+      "species": 931,
+      "form": 2,
+      "name": "Squawkabilly Yellow Plumage",
+      "nickname": "Squawkabil"
+    },
+    {
+      "species": 931,
+      "form": 3,
+      "name": "Squawkabilly White Plumage",
+      "nickname": "Squawkabil"
+    },
+    {
+      "species": 964,
+      "form": 1,
+      "name": "Palafin Hero Form",
+      "nickname": "Palafin He"
+    },
+    {
+      "species": 982,
+      "form": 1,
+      "name": "Dudunsparce Three-Segment Form",
+      "nickname": "Dudunsparc"
+    },
+    {
+      "species": 999,
+      "form": 1,
+      "name": "Gimmighoul Roaming Form",
+      "nickname": "Gimmighoul"
+    },
+    {
+      "species": 1017,
+      "form": 1,
+      "name": "Ogerpon Wellspring Mask",
+      "nickname": "Ogerpon We"
+    },
+    {
+      "species": 1017,
+      "form": 2,
+      "name": "Ogerpon Hearthflame Mask",
+      "nickname": "Ogerpon He"
+    },
+    {
+      "species": 1017,
+      "form": 3,
+      "name": "Ogerpon Cornerstone Mask",
+      "nickname": "Ogerpon Co"
+    }
+  ]
+}

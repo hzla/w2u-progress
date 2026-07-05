@@ -9,6 +9,39 @@ const repoRoot = path.resolve(siteRoot, "..");
 const upgradeRoot = path.resolve(repoRoot, "White2Upgrade");
 const referenceRoot = path.resolve(repoRoot, "reference_repos", "Pokeweb-Live");
 
+const FORM_NAME_OVERRIDES = new Map(Object.entries({
+  201: ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "!", "?"],
+  351: ["Normal", "Sunny", "Rainy", "Snowy"],
+  386: ["Normal", "Attack", "Defense", "Speed"],
+  412: ["Plant", "Sandy", "Trash"],
+  413: ["Plant", "Sandy", "Trash"],
+  421: ["Overcast", "Sunshine"],
+  422: ["West", "East"],
+  423: ["West", "East"],
+  479: ["Rotom", "Heat", "Wash", "Frost", "Fan", "Mow"],
+  487: ["Altered", "Origin"],
+  492: ["Land", "Sky"],
+  493: ["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass", "Electric", "Psychic", "Ice", "Dragon", "Dark", "Fairy"],
+  550: ["Red-Striped", "Blue-Striped"],
+  555: ["Standard", "Zen"],
+  585: ["Spring", "Summer", "Autumn", "Winter"],
+  586: ["Spring", "Summer", "Autumn", "Winter"],
+  641: ["Incarnate", "Therian"],
+  642: ["Incarnate", "Therian"],
+  645: ["Incarnate", "Therian"],
+  646: ["Kyurem", "White", "Black"],
+  647: ["Ordinary", "Resolute"],
+  648: ["Aria", "Pirouette"],
+  649: ["Normal", "Douse", "Shock", "Burn", "Chill"],
+  676: ["Natural", "Heart", "Star", "Diamond", "Debutante", "Matron", "Dandy", "La Reine", "Kabuki", "Pharaoh"],
+  681: ["Shield", "Blade"],
+  710: ["Average", "Small", "Large", "Super"],
+  711: ["Average", "Small", "Large", "Super"],
+  716: ["Neutral", "Active"],
+  718: ["50%", "Complete"],
+  720: ["Confined", "Unbound"]
+}).map(([species, names]) => [Number(species), names]));
+
 function titleFromConstant(value, prefix) {
   const raw = value
     .replace(prefix, "")
@@ -53,6 +86,14 @@ function parseDefines(text, prefix) {
   return rows;
 }
 
+function parseSpeciesCount(text, defines) {
+  const match = text.match(/^#define\s+SPECIES_CNT\s+SPECIES_(\d+)\s*$/m);
+  if (match) {
+    return Number.parseInt(match[1], 10);
+  }
+  return Math.max(...defines.map((define) => define.id));
+}
+
 function parseYamlInt(text, key) {
   const pattern = new RegExp(`^-\\s*${key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*:\\s*(-?\\d+)\\s*$`, "m");
   const match = text.match(pattern);
@@ -64,9 +105,98 @@ async function loadTrackerMap(name) {
   return new Map(rows.map((row) => [Number(row.id), row]));
 }
 
+async function loadPersonalInfo(id) {
+  const personalPath = path.join(upgradeRoot, "data", "pml", "personal", `${String(id).padStart(3, "0")}.yml`);
+  if (!existsSync(personalPath)) {
+    return null;
+  }
+
+  const personal = await readText(personalPath);
+  return {
+    id,
+    baseStats: [
+      parseYamlInt(personal, "Base HP"),
+      parseYamlInt(personal, "Base Attack"),
+      parseYamlInt(personal, "Base Defense"),
+      parseYamlInt(personal, "Base Speed"),
+      parseYamlInt(personal, "Base Special Attack"),
+      parseYamlInt(personal, "Base Special Defense")
+    ],
+    expGroup: parseYamlInt(personal, "Experience Group"),
+    formDataOffset: parseYamlInt(personal, "Form Data Offset") || 0,
+    formCount: parseYamlInt(personal, "Form Count") || 1,
+    abilities: [
+      parseYamlInt(personal, "Primary Ability"),
+      parseYamlInt(personal, "Secondary Ability"),
+      parseYamlInt(personal, "Hidden Ability")
+    ].filter((value) => value !== null)
+  };
+}
+
+function formName(speciesId, formId, speciesName, personalId, tracker) {
+  const override = FORM_NAME_OVERRIDES.get(speciesId)?.[formId];
+  if (override) {
+    return override;
+  }
+  if (formId === 0) {
+    return "Base";
+  }
+
+  const trackerName = tracker.get(personalId)?.name;
+  if (trackerName) {
+    return trackerName;
+  }
+  return `${speciesName} Form ${formId}`;
+}
+
+function showdownFormName(speciesName, speciesId, formId, name) {
+  if (formId === 0) {
+    return speciesName;
+  }
+  if (speciesId === 479 || speciesId === 720) {
+    return `${speciesName}-${name}`;
+  }
+  if (name.startsWith(`Mega ${speciesName}`)) {
+    return `${speciesName}-Mega${name.slice(`Mega ${speciesName}`.length).replace(/\s+/g, "-")}`;
+  }
+  if (name.startsWith("Primal ")) {
+    return `${speciesName}-Primal`;
+  }
+  return `${speciesName}-${name}`;
+}
+
+async function buildForms(speciesId, speciesName, personalInfo, speciesCount, tracker) {
+  if (speciesId > speciesCount || personalInfo.formCount <= 1) {
+    return undefined;
+  }
+
+  const forms = [];
+  for (let formId = 0; formId < personalInfo.formCount; formId += 1) {
+    const personalId = formId > 0 && personalInfo.formDataOffset > speciesCount
+      ? personalInfo.formDataOffset + formId - 1
+      : speciesId;
+    const formInfo = formId === 0
+      ? personalInfo
+      : await loadPersonalInfo(personalId) || personalInfo;
+    const name = formName(speciesId, formId, speciesName, personalId, tracker);
+    forms.push({
+      id: formId,
+      name,
+      personalId,
+      showdownName: showdownFormName(speciesName, speciesId, formId, name),
+      baseStats: formInfo.baseStats,
+      expGroup: formInfo.expGroup,
+      abilities: formInfo.abilities
+    });
+  }
+  return forms;
+}
+
 async function loadSpecies() {
   const tracker = await loadTrackerMap("pokemon");
-  const defines = parseDefines(await readText(path.join(upgradeRoot, "include", "Species.h")), "SPECIES_");
+  const speciesHeader = await readText(path.join(upgradeRoot, "include", "Species.h"));
+  const defines = parseDefines(speciesHeader, "SPECIES_");
+  const speciesCount = parseSpeciesCount(speciesHeader, defines);
   const seen = new Set();
   const species = [];
 
@@ -75,33 +205,25 @@ async function loadSpecies() {
       continue;
     }
 
-    const personalPath = path.join(upgradeRoot, "data", "pml", "personal", `${String(define.id).padStart(3, "0")}.yml`);
-    if (!existsSync(personalPath)) {
+    const personalInfo = await loadPersonalInfo(define.id);
+    if (!personalInfo) {
       continue;
     }
 
-    const personal = await readText(personalPath);
     const trackerRow = tracker.get(define.id);
-    const baseStats = [
-      parseYamlInt(personal, "Base HP"),
-      parseYamlInt(personal, "Base Attack"),
-      parseYamlInt(personal, "Base Defense"),
-      parseYamlInt(personal, "Base Speed"),
-      parseYamlInt(personal, "Base Special Attack"),
-      parseYamlInt(personal, "Base Special Defense")
-    ];
+    const name = trackerRow?.name || (/^SPECIES_\d+$/.test(define.constant) ? `Species ${define.id}` : titleFromConstant(define.constant, "SPECIES_"));
+    const forms = await buildForms(define.id, name, personalInfo, speciesCount, tracker);
 
     species.push({
       id: define.id,
       constant: trackerRow?.constant || define.constant,
-      name: trackerRow?.name || (/^SPECIES_\d+$/.test(define.constant) ? `Species ${define.id}` : titleFromConstant(define.constant, "SPECIES_")),
-      baseStats,
-      expGroup: parseYamlInt(personal, "Experience Group"),
-      abilities: [
-        parseYamlInt(personal, "Primary Ability"),
-        parseYamlInt(personal, "Secondary Ability"),
-        parseYamlInt(personal, "Hidden Ability")
-      ].filter((value) => value !== null)
+      name,
+      baseStats: personalInfo.baseStats,
+      expGroup: personalInfo.expGroup,
+      formDataOffset: personalInfo.formDataOffset,
+      formCount: personalInfo.formCount,
+      forms,
+      abilities: personalInfo.abilities
     });
     seen.add(define.id);
   }

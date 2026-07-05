@@ -34,6 +34,7 @@
   const MOVE_PP_OFFSET_IN_ATTACKS_BLOCK = 0x8;
   const MOVE_PP_UPS_OFFSET_IN_ATTACKS_BLOCK = 0xC;
   const IV32_OFFSET_IN_ATTACKS_BLOCK = 0x10;
+  const FORM_OFFSET_IN_ATTACKS_BLOCK = 0x18;
   const NATURE_OFFSET_IN_ATTACKS_BLOCK = 0x19;
   const NICKNAMED_FLAG_BLOCK = 1;
   const NICKNAMED_FLAG_OFFSET = 0x10;
@@ -64,6 +65,7 @@
   const ALL_BADGES = 0xFF;
   const ITEM_ENTRY_SIZE = 4;
   const SAVE_STORAGE_KEY = "white2Expansion.saveEditor.lastSave.v1";
+  const SAVE_EDITOR_DATA_VERSION = "20260626-form-editor";
   const BASE64_CHUNK_SIZE = 0x8000;
   const POUCHES = {
     items: { name: "Items", offset: 0x000, capacity: 310 },
@@ -515,6 +517,7 @@
       species: u16(decrypted, growthBlock),
       heldItem: u16(decrypted, growthBlock + HELD_ITEM_OFFSET_IN_GROWTH_BLOCK),
       ability: decrypted[abilityOffset],
+      form: decrypted[attacksBlock + FORM_OFFSET_IN_ATTACKS_BLOCK] >>> 3,
       moves,
       ivs: ivsFromIv32(iv32),
       nature: decrypted[attacksBlock + NATURE_OFFSET_IN_ATTACKS_BLOCK],
@@ -597,6 +600,39 @@
     return stats;
   }
 
+  function formEntriesForSpecies(species) {
+    const speciesRow = state.indexes.species.byId.get(species);
+    return speciesRow?.forms || [];
+  }
+
+  function formEntryForSpecies(species, form) {
+    const speciesRow = state.indexes.species.byId.get(species);
+    if (!speciesRow) {
+      return null;
+    }
+
+    const forms = speciesRow.forms || [];
+    return forms.find((entry) => entry.id === form) || forms[0] || speciesRow;
+  }
+
+  function formWithinRange(species, form) {
+    const forms = formEntriesForSpecies(species);
+    if (!forms.length) {
+      return form === 0;
+    }
+    return forms.some((entry) => entry.id === form);
+  }
+
+  function normalizeForm(species, form) {
+    return formWithinRange(species, form) ? form : 0;
+  }
+
+  function writePokemonForm(mutable, personality, form) {
+    const attacksBlock = paramBlockOffset(personality, ATTACKS_BLOCK);
+    const offset = attacksBlock + FORM_OFFSET_IN_ATTACKS_BLOCK;
+    mutable[offset] = (mutable[offset] & 0x07) | ((form & 0x1F) << 3);
+  }
+
   function syncPokemonTrainer(mutable, personality, trainer) {
     const growthBlock = paramBlockOffset(personality, 0);
     const versionOffset = paramBlockOffset(personality, VERSION_BLOCK) + VERSION_OFFSET_IN_BLOCK2;
@@ -610,11 +646,11 @@
     mutable[otGenderOffset] = (mutable[otGenderOffset] & 0x7F) | ((trainer.gender & 1) << 7);
   }
 
-  function calculatePokemonStats(mutable, personality, species, level) {
+  function calculatePokemonStats(mutable, personality, species, form, level) {
     const growthBlock = paramBlockOffset(personality, 0);
     const attacksBlock = paramBlockOffset(personality, ATTACKS_BLOCK);
-    const speciesRow = state.indexes.species.byId.get(species);
-    if (!speciesRow) {
+    const personalRow = formEntryForSpecies(species, form);
+    if (!personalRow) {
       throw new Error(`Species ${species} is missing personal data`);
     }
 
@@ -623,8 +659,8 @@
     const evs = Array.from(mutable.subarray(growthBlock + EV_OFFSET_IN_GROWTH_BLOCK, growthBlock + EV_OFFSET_IN_GROWTH_BLOCK + 6));
     const nature = mutable[attacksBlock + NATURE_OFFSET_IN_ATTACKS_BLOCK];
     return {
-      stats: calculateStats(speciesRow.baseStats, ivs, evs, nature, level),
-      expGroup: speciesRow.expGroup
+      stats: calculateStats(personalRow.baseStats, ivs, evs, nature, level),
+      expGroup: personalRow.expGroup
     };
   }
 
@@ -640,10 +676,16 @@
     const attacksBlock = paramBlockOffset(personality, ATTACKS_BLOCK);
     const abilityOffset = paramBlockOffset(personality, ABILITY_BLOCK) + ABILITY_OFFSET_IN_BLOCK0;
     const oldSpecies = u16(mutable, growthBlock);
+    const oldForm = mutable[attacksBlock + FORM_OFFSET_IN_ATTACKS_BLOCK] >>> 3;
     const oldStats = readPartyStats(saveData, pokemonOffset);
     const targetSpecies = edit.species ?? oldSpecies;
+    const targetForm = edit.form ?? (edit.species != null ? 0 : normalizeForm(targetSpecies, oldForm));
     const targetLevel = edit.level ?? oldStats.level;
     let recalculatedStats = null;
+
+    if (!formWithinRange(targetSpecies, targetForm)) {
+      throw new Error(`Form ${targetForm} is not available for this species`);
+    }
 
     if (edit.species != null) {
       putU16(mutable, growthBlock, edit.species);
@@ -651,6 +693,10 @@
         const iv32Offset = paramBlockOffset(personality, NICKNAMED_FLAG_BLOCK) + NICKNAMED_FLAG_OFFSET;
         putU32(mutable, iv32Offset, u32(mutable, iv32Offset) | 0x80000000);
       }
+    }
+
+    if (edit.species != null || edit.form != null) {
+      writePokemonForm(mutable, personality, targetForm);
     }
 
     if (edit.heldItem != null) {
@@ -678,8 +724,8 @@
       syncPokemonTrainer(mutable, personality, trainer);
     }
 
-    if (edit.species != null || edit.level != null) {
-      const calculated = calculatePokemonStats(mutable, personality, targetSpecies, targetLevel);
+    if (edit.species != null || edit.form != null || edit.level != null) {
+      const calculated = calculatePokemonStats(mutable, personality, targetSpecies, targetForm, targetLevel);
       recalculatedStats = calculated.stats;
       putU32(mutable, growthBlock + EXP_OFFSET_IN_GROWTH_BLOCK, expForLevel(targetLevel, calculated.expGroup));
     }
@@ -903,6 +949,35 @@
     return `${fallbackPrefix} ${id}`;
   }
 
+  function pokemonDisplayName(pokemon) {
+    const speciesName = showdownName(state.indexes.species, pokemon.species, "Species");
+    const formEntry = formEntryForSpecies(pokemon.species, pokemon.form);
+    if (!formEntry || formEntry.id === 0) {
+      return speciesName;
+    }
+    return formEntry.showdownName || `${speciesName}-${formEntry.name}`;
+  }
+
+  function renderFormField(pokemon) {
+    const forms = formEntriesForSpecies(pokemon.species);
+    if (forms.length <= 1) {
+      return "";
+    }
+
+    const selectedForm = normalizeForm(pokemon.species, pokemon.form);
+    const options = forms.map((form) => `
+      <option value="${form.id}"${form.id === selectedForm ? " selected" : ""}>${escapeHtml(form.name)}</option>
+    `).join("");
+    return `
+      <label class="save-field">
+        <span>Form</span>
+        <select data-slot="${pokemon.slot}" data-field="form">
+          ${options}
+        </select>
+      </label>
+    `;
+  }
+
   function populateDatalist(element, rows) {
     const fragment = document.createDocumentFragment();
     rows.forEach((row) => {
@@ -919,7 +994,7 @@
   }
 
   function formatShowdownText(pokemon) {
-    const speciesName = showdownName(state.indexes.species, pokemon.species, "Species");
+    const speciesName = pokemonDisplayName(pokemon);
     const heldItem = state.indexes.items.byId.get(pokemon.heldItem);
     const header = heldItem && heldItem.id !== 0 && heldItem.name !== "None"
       ? `${speciesName} @ ${heldItem.name}`
@@ -977,7 +1052,7 @@
 
     const text = formatShowdownText(pokemon);
     await copyTextToClipboard(text);
-    setStatus(`Copied ${showdownName(state.indexes.species, pokemon.species, "Pokemon")} Showdown text.`);
+    setStatus(`Copied ${pokemonDisplayName(pokemon)} Showdown text.`);
   }
 
   function discoverPartitions(saveData, partyBlocks) {
@@ -1054,6 +1129,8 @@
     els.party.innerHTML = state.party.map((pokemon) => {
       const species = state.indexes.species.byId.get(pokemon.species);
       const speciesName = species?.name || `Species ${pokemon.species}`;
+      const displayName = pokemonDisplayName(pokemon);
+      const formField = renderFormField(pokemon);
       const stats = pokemon.stats.map((value, index) => `<span><b>${STAT_LABELS[index]}</b>${value}</span>`).join("");
       const moves = pokemon.moves.map((move, index) => `
         <label class="save-field move-field">
@@ -1067,10 +1144,10 @@
           <div class="party-row-main">
             <div class="slot-badge">Slot ${pokemon.slot + 1}</div>
             <div class="party-title">
-              <strong>${escapeHtml(speciesName)}</strong>
+              <strong>${escapeHtml(displayName)}</strong>
               <span>Lv. ${pokemon.level} · HP ${pokemon.currentHp}/${pokemon.stats[0]}</span>
             </div>
-            <button class="copy-pokemon-button" type="button" data-copy-showdown="${pokemon.slot}" aria-label="Copy ${escapeHtml(speciesName)} Showdown text" title="Copy Showdown text">
+            <button class="copy-pokemon-button" type="button" data-copy-showdown="${pokemon.slot}" aria-label="Copy ${escapeHtml(displayName)} Showdown text" title="Copy Showdown text">
               <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                 <path d="M9 5a3 3 0 0 1 6 0h1.5A2.5 2.5 0 0 1 19 7.5v11A2.5 2.5 0 0 1 16.5 21h-9A2.5 2.5 0 0 1 5 18.5v-11A2.5 2.5 0 0 1 7.5 5H9Z"></path>
                 <path d="M9 5h6v3H9V5Z"></path>
@@ -1083,6 +1160,7 @@
               <span>Species</span>
               <input data-slot="${pokemon.slot}" data-field="species" list="species-options" value="${escapeHtml(catalogLabel(state.indexes.species, pokemon.species, "Species"))}">
             </label>
+            ${formField}
             <label class="save-field">
               <span>Ability</span>
               <input data-slot="${pokemon.slot}" data-field="ability" list="ability-options" value="${escapeHtml(catalogLabel(state.indexes.abilities, pokemon.ability, "Ability"))}">
@@ -1132,6 +1210,11 @@
         requireCatalog: true,
         prefix: "SPECIES_"
       });
+    } else if (field === "form") {
+      edit.form = parseIntegerField(target.value, "Form", 0, 31);
+      if (!formWithinRange(pokemon.species, edit.form)) {
+        throw new Error("Choose a form available for this species");
+      }
     } else if (field === "heldItem") {
       edit.heldItem = parseCatalogValue(target.value, state.indexes.items, {
         min: 0,
@@ -1280,7 +1363,7 @@
     });
     els.party.addEventListener("change", (event) => {
       const target = event.target;
-      if (!(target instanceof HTMLInputElement) || !target.dataset.field) {
+      if (!((target instanceof HTMLInputElement || target instanceof HTMLSelectElement) && target.dataset.field)) {
         return;
       }
       try {
@@ -1323,7 +1406,7 @@
   }
 
   async function loadCatalog() {
-    const response = await fetch("data/save-editor-data.json");
+    const response = await fetch(`data/save-editor-data.json?v=${SAVE_EDITOR_DATA_VERSION}`);
     if (!response.ok) {
       throw new Error("Failed to load save editor data");
     }

@@ -3,11 +3,12 @@
 
   const STORAGE_KEY = "white2expansion.progress.v1";
   const UI_STORAGE_KEY = "white2expansion.ui.v1";
-  const DATA_VERSION = "20260615-credit-cache";
+  const DATA_VERSION = "20260626-gen89-moves-unmarked";
   const COUNTED_FILTERS = new Set(["open", "missingSprites", "missingAnimation"]);
   const CREDIT_LINKS = new Map([
     ["retronc", "https://www.deviantart.com/retronc"],
-    ["aronousqui20", "https://www.deviantart.com/aronousqui20"]
+    ["aronousqui20", "https://www.deviantart.com/aronousqui20"],
+    ["smogonspritesanimadoscontributors", "https://eeveeexpo.com/resources/1544/"]
   ]);
   const CATEGORIES = {
     pokemon: {

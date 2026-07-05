@@ -170,6 +170,23 @@
     "credits": "Blaze Black 2 Redux"
   },
   {
+    "key": "MOVE_DRAGON_ASCENT",
+    "id": 620,
+    "constant": "MOVE_DRAGON_ASCENT",
+    "name": "Dragon Ascent",
+    "pp": "5",
+    "power": "120",
+    "accuracy": "100",
+    "description": "The user tackles the target while descending from the sky at high speed. This lowers the user's Defense and Sp. Def stats.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": "W2U move data lowers the user's Defense and Sp. Def after damage."
+    },
+    "credits": "W2U"
+  },
+  {
     "key": "MOVE_DRAINING_KISS",
     "id": 577,
     "constant": "MOVE_DRAINING_KISS",
@@ -423,6 +440,57 @@
     }
   },
   {
+    "key": "MOVE_HOLD_HANDS",
+    "id": 607,
+    "constant": "MOVE_HOLD_HANDS",
+    "name": "Hold Hands",
+    "pp": "40",
+    "power": "--",
+    "accuracy": "--",
+    "description": "The user and an ally hold hands. This makes them very happy.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": "Status move with friend targeting; W2U uses animation ID 370."
+    },
+    "credits": "W2U"
+  },
+  {
+    "key": "MOVE_HYPERSPACE_FURY",
+    "id": 621,
+    "constant": "MOVE_HYPERSPACE_FURY",
+    "name": "Hyperspace Fury",
+    "pp": "5",
+    "power": "100",
+    "accuracy": "--",
+    "description": "Using its many arms, the user unleashes a barrage of attacks that ignore Protect and Detect. This lowers the user's Defense stat.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": "W2U move data marks this as must-hit, hits through Substitute/Protect-style blocking, and lowers the user's Defense."
+    },
+    "credits": "W2U"
+  },
+  {
+    "key": "MOVE_HYPERSPACE_HOLE",
+    "id": 593,
+    "constant": "MOVE_HYPERSPACE_HOLE",
+    "name": "Hyperspace Hole",
+    "pp": "5",
+    "power": "80",
+    "accuracy": "--",
+    "description": "Using a hyperspace hole, the user appears right next to the target and strikes. This attack can hit through Protect and Detect.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": "W2U move data marks this as must-hit and hits through Substitute/Protect-style blocking."
+    },
+    "credits": "W2U"
+  },
+  {
     "key": "MOVE_INFESTATION",
     "id": 611,
     "constant": "MOVE_INFESTATION",
@@ -488,6 +556,23 @@
       "notes": ""
     },
     "credits": "Agent"
+  },
+  {
+    "key": "MOVE_LIGHT_OF_RUIN",
+    "id": 617,
+    "constant": "MOVE_LIGHT_OF_RUIN",
+    "name": "Light of Ruin",
+    "pp": "5",
+    "power": "140",
+    "accuracy": "90",
+    "description": "Drawing power from the Eternal Flower, the user fires a powerful beam of light. This also damages the user quite a lot.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": "W2U move data applies 50% recoil."
+    },
+    "credits": "W2U"
   },
   {
     "key": "MOVE_MAGNETIC_FLUX",
@@ -625,6 +710,23 @@
     "credits": "Agent"
   },
   {
+    "key": "MOVE_ORIGIN_PULSE",
+    "id": 618,
+    "constant": "MOVE_ORIGIN_PULSE",
+    "name": "Origin Pulse",
+    "pp": "10",
+    "power": "110",
+    "accuracy": "85",
+    "description": "The user attacks opposing Pokemon with countless beams of light that glow deep blue.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": "W2U move data is complete but still points at animation ID 0."
+    },
+    "credits": "W2U"
+  },
+  {
     "key": "MOVE_PARABOLIC_CHARGE",
     "id": 570,
     "constant": "MOVE_PARABOLIC_CHARGE",
@@ -759,6 +861,23 @@
     "credits": "Blaze Black 2 Redux"
   },
   {
+    "key": "MOVE_PRECIPICE_BLADES",
+    "id": 619,
+    "constant": "MOVE_PRECIPICE_BLADES",
+    "name": "Precipice Blades",
+    "pp": "10",
+    "power": "120",
+    "accuracy": "85",
+    "description": "The user attacks opposing Pokemon by manifesting the power of the land in fearsome blades of stone.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": "W2U move data is complete but still points at animation ID 0."
+    },
+    "credits": "W2U"
+  },
+  {
     "key": "MOVE_ROTOTILLER",
     "id": 563,
     "constant": "MOVE_ROTOTILLER",
@@ -793,6 +912,23 @@
     "credits": "Cascade White"
   },
   {
+    "key": "MOVE_STEAM_ERUPTION",
+    "id": 592,
+    "constant": "MOVE_STEAM_ERUPTION",
+    "name": "Steam Eruption",
+    "pp": "5",
+    "power": "110",
+    "accuracy": "95",
+    "description": "The user immerses the target in superheated steam. This may also leave the target with a burn.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": "W2U move data uses Water Spout animation ID 4 and applies 30% burn plus defrost."
+    },
+    "credits": "W2U"
+  },
+  {
     "key": "MOVE_STICKY_WEB",
     "id": 564,
     "constant": "MOVE_STICKY_WEB",
@@ -808,6 +944,40 @@
       "notes": "Static W2U side effect lowers grounded switch-ins' Speed."
     },
     "credits": "Cascade White"
+  },
+  {
+    "key": "MOVE_THOUSAND_ARROWS",
+    "id": 614,
+    "constant": "MOVE_THOUSAND_ARROWS",
+    "name": "Thousand Arrows",
+    "pp": "10",
+    "power": "90",
+    "accuracy": "100",
+    "description": "This move also hits opposing Pokemon that are in the air. Those Pokemon are knocked down to the ground.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": "Custom W2U animation rains arrow particles; move data marks the grounded-hit special code."
+    },
+    "credits": "Agent"
+  },
+  {
+    "key": "MOVE_THOUSAND_WAVES",
+    "id": 615,
+    "constant": "MOVE_THOUSAND_WAVES",
+    "name": "Thousand Waves",
+    "pp": "10",
+    "power": "90",
+    "accuracy": "100",
+    "description": "The user attacks with a wave that crawls along the ground. Those hit cannot flee from battle.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": "W2U move data currently targets all foes as a standard Ground attack."
+    },
+    "credits": "W2U"
   },
   {
     "key": "MOVE_TOPSYTURVY",
