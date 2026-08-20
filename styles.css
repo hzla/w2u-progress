@@ -185,8 +185,17 @@ a.tool-button {
 
 .controls {
   justify-content: space-between;
+  align-items: flex-start;
   gap: 16px;
   margin-top: 14px;
+}
+
+.tracker-filter-groups {
+  display: flex;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px 14px;
 }
 
 .search-wrap {
@@ -447,6 +456,10 @@ button:focus-visible {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.status-condition-field {
+  grid-column: 1 / -1;
+}
+
 .stat-strip {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -575,6 +588,12 @@ a.pill:hover {
   color: var(--amber);
 }
 
+.pill.generation {
+  border: 1px solid #55616b;
+  background: #151a1e;
+  color: var(--ink);
+}
+
 .readonly-cell {
   max-width: 420px;
   color: var(--muted);
@@ -694,8 +713,13 @@ a.pill:hover {
   .toolbar,
   .tabs,
   .segmented,
+  .tracker-filter-groups,
   .save-actions {
     flex-wrap: wrap;
+  }
+
+  .tracker-filter-groups {
+    justify-content: flex-start;
   }
 
   .summary-strip {

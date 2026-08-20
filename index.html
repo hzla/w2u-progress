@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gen 6-9 Expansion Tracker</title>
-    <link rel="stylesheet" href="styles.css?v=20260615-credits-progress">
+    <link rel="stylesheet" href="styles.css?v=20260820-progress-rom">
   </head>
   <body>
     <div class="app-shell">
@@ -15,7 +15,7 @@
         </div>
         <div class="toolbar" aria-label="Downloads">
           <a class="tool-button" href="#save-editor" data-save-editor-link>Save Editor</a>
-          <a class="tool-button download" href="downloads/White2Upgrade.xdelta?v=20260626-w2u-bundle" download="White2Upgrade.xdelta">Download Patch</a>
+          <a class="tool-button download" href="downloads/White2Upgrade.xdelta?v=20260820-progress-rom" download="White2Upgrade.xdelta">Download Patch</a>
           <a class="tool-button download" href="downloads/demosave.dsv?v=20260615-bundle" download="demosave.dsv">Download Save File</a>
         </div>
       </header>
@@ -71,7 +71,11 @@
                 <label class="save-field">
                   <span>Pouch</span>
                   <select id="bag-pouch">
+                    <option value="auto">Auto (by item)</option>
                     <option value="items">Items</option>
+                    <option value="medicine">Medicine</option>
+                    <option value="berries">Berries</option>
+                    <option value="tmhm">TMs &amp; HMs</option>
                     <option value="key">Key Items</option>
                   </select>
                 </label>
@@ -103,12 +107,21 @@
             <span>Search</span>
             <input id="search-input" type="search" placeholder="Name, constant, description">
           </label>
-          <div class="segmented" role="group" aria-label="Status filter">
-            <button class="segment is-active" type="button" data-filter="all">All</button>
-            <button class="segment" type="button" data-filter="open">Open</button>
-            <button class="segment" type="button" data-filter="missingSprites" data-filter-category="pokemon">Missing art</button>
-            <button class="segment" type="button" data-filter="missingAnimation" data-filter-category="moves" hidden>Missing animation</button>
-            <button class="segment" type="button" data-filter="verified">Verified</button>
+          <div class="tracker-filter-groups">
+            <div class="segmented" role="group" aria-label="Status filter">
+              <button class="segment is-active" type="button" data-filter="all">All</button>
+              <button class="segment" type="button" data-filter="open">Open</button>
+              <button class="segment" type="button" data-filter="missingSprites" data-filter-category="pokemon">Missing art</button>
+              <button class="segment" type="button" data-filter="missingAnimation" data-filter-category="moves" hidden>Missing animation</button>
+              <button class="segment" type="button" data-filter="verified">Verified</button>
+            </div>
+            <div class="segmented generation-filters" role="group" aria-label="Generation filter">
+              <button class="segment generation-segment is-active" type="button" data-generation="all">All gens</button>
+              <button class="segment generation-segment" type="button" data-generation="6">Gen 6</button>
+              <button class="segment generation-segment" type="button" data-generation="7">Gen 7</button>
+              <button class="segment generation-segment" type="button" data-generation="8">Gen 8</button>
+              <button class="segment generation-segment" type="button" data-generation="9">Gen 9</button>
+            </div>
           </div>
         </section>
 
@@ -136,7 +149,7 @@
     <datalist id="ability-options"></datalist>
     <datalist id="move-options"></datalist>
 
-    <script src="app.js?v=20260626-gen89-moves-unmarked" defer></script>
-    <script src="save-editor.js?v=20260626-form-editor" defer></script>
+    <script src="app.js?v=20260820-progress-rom" defer></script>
+    <script src="save-editor.js?v=20260820-progress-rom" defer></script>
   </body>
 </html>

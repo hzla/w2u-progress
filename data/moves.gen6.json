@@ -1,5 +1,124 @@
 [
   {
+    "key": "MOVE_ACCELEROCK",
+    "id": 709,
+    "constant": "MOVE_ACCELEROCK",
+    "name": "Accelerock",
+    "pp": "20",
+    "power": "40",
+    "accuracy": "100",
+    "description": "Accelerock description.",
+    "defaultProgress": {
+      "animation": true,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "Cascade White"
+  },
+  {
+    "key": "MOVE_ALLURING_VOICE",
+    "id": 914,
+    "constant": "MOVE_ALLURING_VOICE",
+    "name": "Alluring Voice",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Alluring Voice description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_ANCHOR_SHOT",
+    "id": 677,
+    "constant": "MOVE_ANCHOR_SHOT",
+    "name": "Anchor Shot",
+    "pp": "20",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Anchor Shot description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_APPLE_ACID",
+    "id": 787,
+    "constant": "MOVE_APPLE_ACID",
+    "name": "Apple Acid",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Apple Acid description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_AQUA_CUTTER",
+    "id": 895,
+    "constant": "MOVE_AQUA_CUTTER",
+    "name": "Aqua Cutter",
+    "pp": "20",
+    "power": "70",
+    "accuracy": "100",
+    "description": "Aqua Cutter description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_AQUA_STEP",
+    "id": 872,
+    "constant": "MOVE_AQUA_STEP",
+    "name": "Aqua Step",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Aqua Step description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_ARMOR_CANNON",
+    "id": 890,
+    "constant": "MOVE_ARMOR_CANNON",
+    "name": "Armor Cannon",
+    "pp": "5",
+    "power": "120",
+    "accuracy": "100",
+    "description": "Armor Cannon description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_AROMATIC_MIST",
     "id": 597,
     "constant": "MOVE_AROMATIC_MIST",
@@ -15,6 +134,74 @@
       "notes": ""
     },
     "credits": "Agent"
+  },
+  {
+    "key": "MOVE_ASTRAL_BARRAGE",
+    "id": 825,
+    "constant": "MOVE_ASTRAL_BARRAGE",
+    "name": "Astral Barrage",
+    "pp": "5",
+    "power": "120",
+    "accuracy": "100",
+    "description": "Astral Barrage description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_AURA_WHEEL",
+    "id": 783,
+    "constant": "MOVE_AURA_WHEEL",
+    "name": "Aura Wheel",
+    "pp": "10",
+    "power": "110",
+    "accuracy": "100",
+    "description": "Aura Wheel description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_AURORA_VEIL",
+    "id": 694,
+    "constant": "MOVE_AURORA_VEIL",
+    "name": "Aurora Veil",
+    "pp": "20",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Aurora Veil description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_AXE_KICK",
+    "id": 853,
+    "constant": "MOVE_AXE_KICK",
+    "name": "Axe Kick",
+    "pp": "10",
+    "power": "120",
+    "accuracy": "90",
+    "description": "Axe Kick description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_BABYDOLL_EYES",
@@ -34,6 +221,108 @@
     "credits": "Agent"
   },
   {
+    "key": "MOVE_BADDY_BAD",
+    "id": 737,
+    "constant": "MOVE_BADDY_BAD",
+    "name": "Baddy Bad",
+    "pp": "15",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Baddy Bad description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_BANEFUL_BUNKER",
+    "id": 661,
+    "constant": "MOVE_BANEFUL_BUNKER",
+    "name": "Baneful Bunker",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Baneful Bunker description.",
+    "defaultProgress": {
+      "animation": true,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "Cascade White"
+  },
+  {
+    "key": "MOVE_BARB_BARRAGE",
+    "id": 839,
+    "constant": "MOVE_BARB_BARRAGE",
+    "name": "Barb Barrage",
+    "pp": "10",
+    "power": "60",
+    "accuracy": "100",
+    "description": "Barb Barrage description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_BEAK_BLAST",
+    "id": 690,
+    "constant": "MOVE_BEAK_BLAST",
+    "name": "Beak Blast",
+    "pp": "15",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Beak Blast description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_BEHEMOTH_BASH",
+    "id": 782,
+    "constant": "MOVE_BEHEMOTH_BASH",
+    "name": "Behemoth Bash",
+    "pp": "5",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Behemoth Bash description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_BEHEMOTH_BLADE",
+    "id": 781,
+    "constant": "MOVE_BEHEMOTH_BLADE",
+    "name": "Behemoth Blade",
+    "pp": "5",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Behemoth Blade description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_BELCH",
     "id": 562,
     "constant": "MOVE_BELCH",
@@ -49,6 +338,125 @@
       "notes": "Selection blocked until the user has consumed a Berry."
     },
     "credits": "Agent"
+  },
+  {
+    "key": "MOVE_BITTER_BLADE",
+    "id": 891,
+    "constant": "MOVE_BITTER_BLADE",
+    "name": "Bitter Blade",
+    "pp": "10",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Bitter Blade description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_BITTER_MALICE",
+    "id": 841,
+    "constant": "MOVE_BITTER_MALICE",
+    "name": "Bitter Malice",
+    "pp": "10",
+    "power": "75",
+    "accuracy": "100",
+    "description": "Bitter Malice description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_BLAZING_TORQUE",
+    "id": 896,
+    "constant": "MOVE_BLAZING_TORQUE",
+    "name": "Blazing Torque",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Blazing Torque description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_BLEAKWIND_STORM",
+    "id": 846,
+    "constant": "MOVE_BLEAKWIND_STORM",
+    "name": "Bleakwind Storm",
+    "pp": "10",
+    "power": "100",
+    "accuracy": "80",
+    "description": "Bleakwind Storm description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_BLOOD_MOON",
+    "id": 901,
+    "constant": "MOVE_BLOOD_MOON",
+    "name": "Blood Moon",
+    "pp": "5",
+    "power": "140",
+    "accuracy": "100",
+    "description": "Blood Moon description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_BODY_PRESS",
+    "id": 776,
+    "constant": "MOVE_BODY_PRESS",
+    "name": "Body Press",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Body Press description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_BOLT_BEAK",
+    "id": 754,
+    "constant": "MOVE_BOLT_BEAK",
+    "name": "Bolt Beak",
+    "pp": "10",
+    "power": "85",
+    "accuracy": "100",
+    "description": "Bolt Beak description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_BOOMBURST",
@@ -68,6 +476,159 @@
     "credits": "Blaze Black 2 Redux"
   },
   {
+    "key": "MOVE_BOUNCY_BUBBLE",
+    "id": 733,
+    "constant": "MOVE_BOUNCY_BUBBLE",
+    "name": "Bouncy Bubble",
+    "pp": "15",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Bouncy Bubble description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_BRANCH_POKE",
+    "id": 785,
+    "constant": "MOVE_BRANCH_POKE",
+    "name": "Branch Poke",
+    "pp": "40",
+    "power": "40",
+    "accuracy": "100",
+    "description": "Branch Poke description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_BREAKING_SWIPE",
+    "id": 784,
+    "constant": "MOVE_BREAKING_SWIPE",
+    "name": "Breaking Swipe",
+    "pp": "15",
+    "power": "60",
+    "accuracy": "100",
+    "description": "Breaking Swipe description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_BRUTAL_SWING",
+    "id": 693,
+    "constant": "MOVE_BRUTAL_SWING",
+    "name": "Brutal Swing",
+    "pp": "20",
+    "power": "60",
+    "accuracy": "100",
+    "description": "Brutal Swing description.",
+    "defaultProgress": {
+      "animation": true,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "Cascade White"
+  },
+  {
+    "key": "MOVE_BURN_UP",
+    "id": 682,
+    "constant": "MOVE_BURN_UP",
+    "name": "Burn Up",
+    "pp": "5",
+    "power": "130",
+    "accuracy": "100",
+    "description": "Burn Up description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_BURNING_BULWARK",
+    "id": 908,
+    "constant": "MOVE_BURNING_BULWARK",
+    "name": "Burning Bulwark",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Burning Bulwark description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_BURNING_JEALOUSY",
+    "id": 807,
+    "constant": "MOVE_BURNING_JEALOUSY",
+    "name": "Burning Jealousy",
+    "pp": "5",
+    "power": "70",
+    "accuracy": "100",
+    "description": "Burning Jealousy description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_BUZZY_BUZZ",
+    "id": 734,
+    "constant": "MOVE_BUZZY_BUZZ",
+    "name": "Buzzy Buzz",
+    "pp": "15",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Buzzy Buzz description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_CEASELESS_EDGE",
+    "id": 845,
+    "constant": "MOVE_CEASELESS_EDGE",
+    "name": "Ceaseless Edge",
+    "pp": "15",
+    "power": "65",
+    "accuracy": "90",
+    "description": "Ceaseless Edge description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_CELEBRATE",
     "id": 606,
     "constant": "MOVE_CELEBRATE",
@@ -83,6 +644,159 @@
       "notes": ""
     },
     "credits": "Agent"
+  },
+  {
+    "key": "MOVE_CHILLING_WATER",
+    "id": 886,
+    "constant": "MOVE_CHILLING_WATER",
+    "name": "Chilling Water",
+    "pp": "20",
+    "power": "50",
+    "accuracy": "100",
+    "description": "Chilling Water description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_CHILLY_RECEPTION",
+    "id": 881,
+    "constant": "MOVE_CHILLY_RECEPTION",
+    "name": "Chilly Reception",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Chilly Reception description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_CHLOROBLAST",
+    "id": 835,
+    "constant": "MOVE_CHLOROBLAST",
+    "name": "Chloroblast",
+    "pp": "5",
+    "power": "150",
+    "accuracy": "95",
+    "description": "Chloroblast description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_CLANGING_SCALES",
+    "id": 691,
+    "constant": "MOVE_CLANGING_SCALES",
+    "name": "Clanging Scales",
+    "pp": "5",
+    "power": "110",
+    "accuracy": "100",
+    "description": "Clanging Scales description.",
+    "defaultProgress": {
+      "animation": true,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "Cascade White"
+  },
+  {
+    "key": "MOVE_CLANGOROUS_SOUL",
+    "id": 775,
+    "constant": "MOVE_CLANGOROUS_SOUL",
+    "name": "Clangorous Soul",
+    "pp": "5",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Clangorous Soul description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_COACHING",
+    "id": 811,
+    "constant": "MOVE_COACHING",
+    "name": "Coaching",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Coaching description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_COLLISION_COURSE",
+    "id": 878,
+    "constant": "MOVE_COLLISION_COURSE",
+    "name": "Collision Course",
+    "pp": "5",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Collision Course description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_COMBAT_TORQUE",
+    "id": 899,
+    "constant": "MOVE_COMBAT_TORQUE",
+    "name": "Combat Torque",
+    "pp": "10",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Combat Torque description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_COMEUPPANCE",
+    "id": 894,
+    "constant": "MOVE_COMEUPPANCE",
+    "name": "Comeuppance",
+    "pp": "10",
+    "power": "1",
+    "accuracy": "100",
+    "description": "Comeuppance description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_CONFIDE",
@@ -102,6 +816,57 @@
     "credits": "Agent"
   },
   {
+    "key": "MOVE_CORE_ENFORCER",
+    "id": 687,
+    "constant": "MOVE_CORE_ENFORCER",
+    "name": "Core Enforcer",
+    "pp": "10",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Core Enforcer description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_CORROSIVE_GAS",
+    "id": 810,
+    "constant": "MOVE_CORROSIVE_GAS",
+    "name": "Corrosive Gas",
+    "pp": "40",
+    "power": "--",
+    "accuracy": "100",
+    "description": "Corrosive Gas description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_COURT_CHANGE",
+    "id": 756,
+    "constant": "MOVE_COURT_CHANGE",
+    "name": "Court Change",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Court Change description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_CRAFTY_SHIELD",
     "id": 578,
     "constant": "MOVE_CRAFTY_SHIELD",
@@ -117,6 +882,23 @@
       "notes": "Static W2U pos effect blocks status moves for allies."
     },
     "credits": "Agent"
+  },
+  {
+    "key": "MOVE_DARKEST_LARIAT",
+    "id": 663,
+    "constant": "MOVE_DARKEST_LARIAT",
+    "name": "Darkest Lariat",
+    "pp": "10",
+    "power": "85",
+    "accuracy": "100",
+    "description": "Darkest Lariat description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_DAZZLING_GLEAM",
@@ -136,6 +918,23 @@
     "credits": "Blaze Black 2 Redux"
   },
   {
+    "key": "MOVE_DECORATE",
+    "id": 777,
+    "constant": "MOVE_DECORATE",
+    "name": "Decorate",
+    "pp": "15",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Decorate description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_DIAMOND_STORM",
     "id": 591,
     "constant": "MOVE_DIAMOND_STORM",
@@ -151,6 +950,23 @@
       "notes": "W2U move data raises user Defense as a secondary effect."
     },
     "credits": "Agent"
+  },
+  {
+    "key": "MOVE_DIRE_CLAW",
+    "id": 827,
+    "constant": "MOVE_DIRE_CLAW",
+    "name": "Dire Claw",
+    "pp": "15",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Dire Claw description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_DISARMING_VOICE",
@@ -170,6 +986,57 @@
     "credits": "Blaze Black 2 Redux"
   },
   {
+    "key": "MOVE_DOODLE",
+    "id": 867,
+    "constant": "MOVE_DOODLE",
+    "name": "Doodle",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "100",
+    "description": "Doodle description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_DOUBLE_IRON_BASH",
+    "id": 742,
+    "constant": "MOVE_DOUBLE_IRON_BASH",
+    "name": "Double Iron Bash",
+    "pp": "5",
+    "power": "60",
+    "accuracy": "100",
+    "description": "Double Iron Bash description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_DOUBLE_SHOCK",
+    "id": 892,
+    "constant": "MOVE_DOUBLE_SHOCK",
+    "name": "Double Shock",
+    "pp": "5",
+    "power": "120",
+    "accuracy": "100",
+    "description": "Double Shock description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_DRAGON_ASCENT",
     "id": 620,
     "constant": "MOVE_DRAGON_ASCENT",
@@ -185,6 +1052,74 @@
       "notes": "W2U move data lowers the user's Defense and Sp. Def after damage."
     },
     "credits": "W2U"
+  },
+  {
+    "key": "MOVE_DRAGON_CHEER",
+    "id": 913,
+    "constant": "MOVE_DRAGON_CHEER",
+    "name": "Dragon Cheer",
+    "pp": "15",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Dragon Cheer description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_DRAGON_DARTS",
+    "id": 751,
+    "constant": "MOVE_DRAGON_DARTS",
+    "name": "Dragon Darts",
+    "pp": "10",
+    "power": "50",
+    "accuracy": "100",
+    "description": "Dragon Darts description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_DRAGON_ENERGY",
+    "id": 820,
+    "constant": "MOVE_DRAGON_ENERGY",
+    "name": "Dragon Energy",
+    "pp": "5",
+    "power": "150",
+    "accuracy": "100",
+    "description": "Dragon Energy description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_DRAGON_HAMMER",
+    "id": 692,
+    "constant": "MOVE_DRAGON_HAMMER",
+    "name": "Dragon Hammer",
+    "pp": "15",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Dragon Hammer description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_DRAINING_KISS",
@@ -204,6 +1139,57 @@
     "credits": "Blaze Black 2 Redux"
   },
   {
+    "key": "MOVE_DRUM_BEATING",
+    "id": 778,
+    "constant": "MOVE_DRUM_BEATING",
+    "name": "Drum Beating",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Drum Beating description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_DUAL_WINGBEAT",
+    "id": 814,
+    "constant": "MOVE_DUAL_WINGBEAT",
+    "name": "Dual Wingbeat",
+    "pp": "10",
+    "power": "40",
+    "accuracy": "90",
+    "description": "Dual Wingbeat description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_DYNAMAX_CANNON",
+    "id": 744,
+    "constant": "MOVE_DYNAMAX_CANNON",
+    "name": "Dynamax Cannon",
+    "pp": "5",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Dynamax Cannon description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_EERIE_IMPULSE",
     "id": 598,
     "constant": "MOVE_EERIE_IMPULSE",
@@ -219,6 +1205,23 @@
       "notes": ""
     },
     "credits": "Cascade White"
+  },
+  {
+    "key": "MOVE_EERIE_SPELL",
+    "id": 826,
+    "constant": "MOVE_EERIE_SPELL",
+    "name": "Eerie Spell",
+    "pp": "5",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Eerie Spell description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_ELECTRIC_TERRAIN",
@@ -255,6 +1258,91 @@
     "credits": "Agent"
   },
   {
+    "key": "MOVE_ELECTRO_DRIFT",
+    "id": 879,
+    "constant": "MOVE_ELECTRO_DRIFT",
+    "name": "Electro Drift",
+    "pp": "5",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Electro Drift description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_ELECTRO_SHOT",
+    "id": 905,
+    "constant": "MOVE_ELECTRO_SHOT",
+    "name": "Electro Shot",
+    "pp": "10",
+    "power": "130",
+    "accuracy": "100",
+    "description": "Electro Shot description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_ESPER_WING",
+    "id": 840,
+    "constant": "MOVE_ESPER_WING",
+    "name": "Esper Wing",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Esper Wing description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_ETERNABEAM",
+    "id": 795,
+    "constant": "MOVE_ETERNABEAM",
+    "name": "Eternabeam",
+    "pp": "5",
+    "power": "160",
+    "accuracy": "90",
+    "description": "Eternabeam description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_EXPANDING_FORCE",
+    "id": 797,
+    "constant": "MOVE_EXPANDING_FORCE",
+    "name": "Expanding Force",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Expanding Force description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_FAIRY_LOCK",
     "id": 587,
     "constant": "MOVE_FAIRY_LOCK",
@@ -289,6 +1377,23 @@
     "credits": "Cascade White"
   },
   {
+    "key": "MOVE_FALSE_SURRENDER",
+    "id": 793,
+    "constant": "MOVE_FALSE_SURRENDER",
+    "name": "False Surrender",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "--",
+    "description": "False Surrender description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_FELL_STINGER",
     "id": 565,
     "constant": "MOVE_FELL_STINGER",
@@ -306,6 +1411,176 @@
     "credits": "Agent"
   },
   {
+    "key": "MOVE_FICKLE_BEAM",
+    "id": 907,
+    "constant": "MOVE_FICKLE_BEAM",
+    "name": "Fickle Beam",
+    "pp": "5",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Fickle Beam description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_FIERY_WRATH",
+    "id": 822,
+    "constant": "MOVE_FIERY_WRATH",
+    "name": "Fiery Wrath",
+    "pp": "10",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Fiery Wrath description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_FILLET_AWAY",
+    "id": 868,
+    "constant": "MOVE_FILLET_AWAY",
+    "name": "Fillet Away",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Fillet Away description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_FIRE_LASH",
+    "id": 680,
+    "constant": "MOVE_FIRE_LASH",
+    "name": "Fire Lash",
+    "pp": "15",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Fire Lash description.",
+    "defaultProgress": {
+      "animation": true,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "Cascade White"
+  },
+  {
+    "key": "MOVE_FIRST_IMPRESSION",
+    "id": 660,
+    "constant": "MOVE_FIRST_IMPRESSION",
+    "name": "First Impression",
+    "pp": "10",
+    "power": "90",
+    "accuracy": "100",
+    "description": "First Impression description.",
+    "defaultProgress": {
+      "animation": true,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "Cascade White"
+  },
+  {
+    "key": "MOVE_FISHIOUS_REND",
+    "id": 755,
+    "constant": "MOVE_FISHIOUS_REND",
+    "name": "Fishious Rend",
+    "pp": "10",
+    "power": "85",
+    "accuracy": "100",
+    "description": "Fishious Rend description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_FLEUR_CANNON",
+    "id": 705,
+    "constant": "MOVE_FLEUR_CANNON",
+    "name": "Fleur Cannon",
+    "pp": "5",
+    "power": "130",
+    "accuracy": "90",
+    "description": "Fleur Cannon description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_FLIP_TURN",
+    "id": 812,
+    "constant": "MOVE_FLIP_TURN",
+    "name": "Flip Turn",
+    "pp": "20",
+    "power": "60",
+    "accuracy": "100",
+    "description": "Flip Turn description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_FLOATY_FALL",
+    "id": 731,
+    "constant": "MOVE_FLOATY_FALL",
+    "name": "Floaty Fall",
+    "pp": "15",
+    "power": "90",
+    "accuracy": "95",
+    "description": "Floaty Fall description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_FLORAL_HEALING",
+    "id": 666,
+    "constant": "MOVE_FLORAL_HEALING",
+    "name": "Floral Healing",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Floral Healing description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_FLOWER_SHIELD",
     "id": 579,
     "constant": "MOVE_FLOWER_SHIELD",
@@ -321,6 +1596,23 @@
       "notes": "Reuses the Rototiller-style Grass-type stat handler."
     },
     "credits": "Agent"
+  },
+  {
+    "key": "MOVE_FLOWER_TRICK",
+    "id": 870,
+    "constant": "MOVE_FLOWER_TRICK",
+    "name": "Flower Trick",
+    "pp": "10",
+    "power": "70",
+    "accuracy": "--",
+    "description": "Flower Trick description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_FLYING_PRESS",
@@ -374,6 +1666,57 @@
     "credits": "Cascade White"
   },
   {
+    "key": "MOVE_FREEZING_GLARE",
+    "id": 821,
+    "constant": "MOVE_FREEZING_GLARE",
+    "name": "Freezing Glare",
+    "pp": "10",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Freezing Glare description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_FREEZY_FROST",
+    "id": 739,
+    "constant": "MOVE_FREEZY_FROST",
+    "name": "Freezy Frost",
+    "pp": "10",
+    "power": "100",
+    "accuracy": "90",
+    "description": "Freezy Frost description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_GEAR_UP",
+    "id": 674,
+    "constant": "MOVE_GEAR_UP",
+    "name": "Gear Up",
+    "pp": "20",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Gear Up description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_GEOMANCY",
     "id": 601,
     "constant": "MOVE_GEOMANCY",
@@ -389,6 +1732,91 @@
       "notes": "Static handler adds the charge message; move data handles charge and stat boosts."
     },
     "credits": "Agent"
+  },
+  {
+    "key": "MOVE_GIGATON_HAMMER",
+    "id": 893,
+    "constant": "MOVE_GIGATON_HAMMER",
+    "name": "Gigaton Hammer",
+    "pp": "5",
+    "power": "160",
+    "accuracy": "100",
+    "description": "Gigaton Hammer description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_GLACIAL_LANCE",
+    "id": 824,
+    "constant": "MOVE_GLACIAL_LANCE",
+    "name": "Glacial Lance",
+    "pp": "5",
+    "power": "120",
+    "accuracy": "100",
+    "description": "Glacial Lance description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_GLAIVE_RUSH",
+    "id": 862,
+    "constant": "MOVE_GLAIVE_RUSH",
+    "name": "Glaive Rush",
+    "pp": "5",
+    "power": "120",
+    "accuracy": "100",
+    "description": "Glaive Rush description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_GLITZY_GLOW",
+    "id": 736,
+    "constant": "MOVE_GLITZY_GLOW",
+    "name": "Glitzy Glow",
+    "pp": "15",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Glitzy Glow description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_GRASSY_GLIDE",
+    "id": 803,
+    "constant": "MOVE_GRASSY_GLIDE",
+    "name": "Grassy Glide",
+    "pp": "20",
+    "power": "55",
+    "accuracy": "100",
+    "description": "Grassy Glide description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_GRASSY_TERRAIN",
@@ -408,6 +1836,23 @@
     "credits": "Agent"
   },
   {
+    "key": "MOVE_GRAV_APPLE",
+    "id": 788,
+    "constant": "MOVE_GRAV_APPLE",
+    "name": "Grav Apple",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Grav Apple description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_HAPPY_HOUR",
     "id": 603,
     "constant": "MOVE_HAPPY_HOUR",
@@ -422,6 +1867,57 @@
       "verified": true,
       "notes": "Static handler sets BW2's money-double battle flag."
     }
+  },
+  {
+    "key": "MOVE_HARD_PRESS",
+    "id": 912,
+    "constant": "MOVE_HARD_PRESS",
+    "name": "Hard Press",
+    "pp": "10",
+    "power": "1",
+    "accuracy": "100",
+    "description": "Hard Press description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_HEADLONG_RUSH",
+    "id": 838,
+    "constant": "MOVE_HEADLONG_RUSH",
+    "name": "Headlong Rush",
+    "pp": "5",
+    "power": "120",
+    "accuracy": "100",
+    "description": "Headlong Rush description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_HIGH_HORSEPOWER",
+    "id": 667,
+    "constant": "MOVE_HIGH_HORSEPOWER",
+    "name": "High Horsepower",
+    "pp": "10",
+    "power": "95",
+    "accuracy": "95",
+    "description": "High Horsepower description.",
+    "defaultProgress": {
+      "animation": true,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "Cascade White"
   },
   {
     "key": "MOVE_HOLD_BACK",
@@ -455,6 +1951,40 @@
       "notes": "Status move with friend targeting; W2U uses animation ID 370."
     },
     "credits": "W2U"
+  },
+  {
+    "key": "MOVE_HYDRO_STEAM",
+    "id": 876,
+    "constant": "MOVE_HYDRO_STEAM",
+    "name": "Hydro Steam",
+    "pp": "15",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Hydro Steam description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_HYPER_DRILL",
+    "id": 887,
+    "constant": "MOVE_HYPER_DRILL",
+    "name": "Hyper Drill",
+    "pp": "5",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Hyper Drill description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_HYPERSPACE_FURY",
@@ -491,6 +2021,57 @@
     "credits": "W2U"
   },
   {
+    "key": "MOVE_ICE_HAMMER",
+    "id": 665,
+    "constant": "MOVE_ICE_HAMMER",
+    "name": "Ice Hammer",
+    "pp": "10",
+    "power": "100",
+    "accuracy": "90",
+    "description": "Ice Hammer description.",
+    "defaultProgress": {
+      "animation": true,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "Cascade White"
+  },
+  {
+    "key": "MOVE_ICE_SPINNER",
+    "id": 861,
+    "constant": "MOVE_ICE_SPINNER",
+    "name": "Ice Spinner",
+    "pp": "15",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Ice Spinner description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_INFERNAL_PARADE",
+    "id": 844,
+    "constant": "MOVE_INFERNAL_PARADE",
+    "name": "Infernal Parade",
+    "pp": "15",
+    "power": "60",
+    "accuracy": "100",
+    "description": "Infernal Parade description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_INFESTATION",
     "id": 611,
     "constant": "MOVE_INFESTATION",
@@ -506,6 +2087,23 @@
       "notes": "Reuses vanilla Bind handler."
     },
     "credits": "Blaze Black 2 Redux"
+  },
+  {
+    "key": "MOVE_INSTRUCT",
+    "id": 689,
+    "constant": "MOVE_INSTRUCT",
+    "name": "Instruct",
+    "pp": "15",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Instruct description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_ION_DELUGE",
@@ -525,6 +2123,74 @@
     "credits": "Agent"
   },
   {
+    "key": "MOVE_IVY_CUDGEL",
+    "id": 904,
+    "constant": "MOVE_IVY_CUDGEL",
+    "name": "Ivy Cudgel",
+    "pp": "10",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Ivy Cudgel description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_JAW_LOCK",
+    "id": 746,
+    "constant": "MOVE_JAW_LOCK",
+    "name": "Jaw Lock",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Jaw Lock description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_JET_PUNCH",
+    "id": 857,
+    "constant": "MOVE_JET_PUNCH",
+    "name": "Jet Punch",
+    "pp": "15",
+    "power": "60",
+    "accuracy": "100",
+    "description": "Jet Punch description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_JUNGLE_HEALING",
+    "id": 816,
+    "constant": "MOVE_JUNGLE_HEALING",
+    "name": "Jungle Healing",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Jungle Healing description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_KINGS_SHIELD",
     "id": 588,
     "constant": "MOVE_KINGS_SHIELD",
@@ -539,6 +2205,23 @@
       "verified": true,
       "notes": "Static protect clone lowers contact attackers' Attack by 2."
     }
+  },
+  {
+    "key": "MOVE_KOWTOW_CLEAVE",
+    "id": 869,
+    "constant": "MOVE_KOWTOW_CLEAVE",
+    "name": "Kowtow Cleave",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "--",
+    "description": "Kowtow Cleave description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_LANDS_WRATH",
@@ -558,6 +2241,91 @@
     "credits": "Agent"
   },
   {
+    "key": "MOVE_LASER_FOCUS",
+    "id": 673,
+    "constant": "MOVE_LASER_FOCUS",
+    "name": "Laser Focus",
+    "pp": "30",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Laser Focus description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_LASH_OUT",
+    "id": 808,
+    "constant": "MOVE_LASH_OUT",
+    "name": "Lash Out",
+    "pp": "5",
+    "power": "75",
+    "accuracy": "100",
+    "description": "Lash Out description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_LAST_RESPECTS",
+    "id": 854,
+    "constant": "MOVE_LAST_RESPECTS",
+    "name": "Last Respects",
+    "pp": "10",
+    "power": "50",
+    "accuracy": "100",
+    "description": "Last Respects description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_LEAFAGE",
+    "id": 670,
+    "constant": "MOVE_LEAFAGE",
+    "name": "Leafage",
+    "pp": "40",
+    "power": "40",
+    "accuracy": "100",
+    "description": "Leafage description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_LIFE_DEW",
+    "id": 791,
+    "constant": "MOVE_LIFE_DEW",
+    "name": "Life Dew",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Life Dew description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_LIGHT_OF_RUIN",
     "id": 617,
     "constant": "MOVE_LIGHT_OF_RUIN",
@@ -573,6 +2341,108 @@
       "notes": "W2U move data applies 50% recoil."
     },
     "credits": "W2U"
+  },
+  {
+    "key": "MOVE_LIQUIDATION",
+    "id": 710,
+    "constant": "MOVE_LIQUIDATION",
+    "name": "Liquidation",
+    "pp": "10",
+    "power": "85",
+    "accuracy": "100",
+    "description": "Liquidation description.",
+    "defaultProgress": {
+      "animation": true,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "Cascade White"
+  },
+  {
+    "key": "MOVE_LUMINA_CRASH",
+    "id": 855,
+    "constant": "MOVE_LUMINA_CRASH",
+    "name": "Lumina Crash",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Lumina Crash description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_LUNAR_BLESSING",
+    "id": 849,
+    "constant": "MOVE_LUNAR_BLESSING",
+    "name": "Lunar Blessing",
+    "pp": "5",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Lunar Blessing description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_LUNGE",
+    "id": 679,
+    "constant": "MOVE_LUNGE",
+    "name": "Lunge",
+    "pp": "15",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Lunge description.",
+    "defaultProgress": {
+      "animation": true,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "Cascade White"
+  },
+  {
+    "key": "MOVE_MAGIC_POWDER",
+    "id": 750,
+    "constant": "MOVE_MAGIC_POWDER",
+    "name": "Magic Powder",
+    "pp": "20",
+    "power": "--",
+    "accuracy": "100",
+    "description": "Magic Powder description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAGICAL_TORQUE",
+    "id": 900,
+    "constant": "MOVE_MAGICAL_TORQUE",
+    "name": "Magical Torque",
+    "pp": "10",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Magical Torque description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_MAGNETIC_FLUX",
@@ -592,6 +2462,40 @@
     "credits": "Agent"
   },
   {
+    "key": "MOVE_MAKE_IT_RAIN",
+    "id": 874,
+    "constant": "MOVE_MAKE_IT_RAIN",
+    "name": "Make It Rain",
+    "pp": "5",
+    "power": "120",
+    "accuracy": "100",
+    "description": "Make It Rain description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MALIGNANT_CHAIN",
+    "id": 919,
+    "constant": "MOVE_MALIGNANT_CHAIN",
+    "name": "Malignant Chain",
+    "pp": "5",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Malignant Chain description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_MAT_BLOCK",
     "id": 561,
     "constant": "MOVE_MAT_BLOCK",
@@ -607,6 +2511,431 @@
       "notes": "Static protect clone shields allies from damaging moves."
     },
     "credits": "Agent"
+  },
+  {
+    "key": "MOVE_MATCHA_GOTCHA",
+    "id": 902,
+    "constant": "MOVE_MATCHA_GOTCHA",
+    "name": "Matcha Gotcha",
+    "pp": "15",
+    "power": "80",
+    "accuracy": "90",
+    "description": "Matcha Gotcha description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_AIRSTREAM",
+    "id": 766,
+    "constant": "MOVE_MAX_AIRSTREAM",
+    "name": "Max Airstream",
+    "pp": "0",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Airstream description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_DARKNESS",
+    "id": 772,
+    "constant": "MOVE_MAX_DARKNESS",
+    "name": "Max Darkness",
+    "pp": "0",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Darkness description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_FLARE",
+    "id": 757,
+    "constant": "MOVE_MAX_FLARE",
+    "name": "Max Flare",
+    "pp": "0",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Flare description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_FLUTTERBY",
+    "id": 758,
+    "constant": "MOVE_MAX_FLUTTERBY",
+    "name": "Max Flutterby",
+    "pp": "0",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Flutterby description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_GEYSER",
+    "id": 765,
+    "constant": "MOVE_MAX_GEYSER",
+    "name": "Max Geyser",
+    "pp": "0",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Geyser description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_GUARD",
+    "id": 743,
+    "constant": "MOVE_MAX_GUARD",
+    "name": "Max Guard",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Guard description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_HAILSTORM",
+    "id": 763,
+    "constant": "MOVE_MAX_HAILSTORM",
+    "name": "Max Hailstorm",
+    "pp": "0",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Hailstorm description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_KNUCKLE",
+    "id": 761,
+    "constant": "MOVE_MAX_KNUCKLE",
+    "name": "Max Knuckle",
+    "pp": "0",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Knuckle description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_LIGHTNING",
+    "id": 759,
+    "constant": "MOVE_MAX_LIGHTNING",
+    "name": "Max Lightning",
+    "pp": "0",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Lightning description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_MINDSTORM",
+    "id": 769,
+    "constant": "MOVE_MAX_MINDSTORM",
+    "name": "Max Mindstorm",
+    "pp": "0",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Mindstorm description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_OOZE",
+    "id": 764,
+    "constant": "MOVE_MAX_OOZE",
+    "name": "Max Ooze",
+    "pp": "0",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Ooze description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_OVERGROWTH",
+    "id": 773,
+    "constant": "MOVE_MAX_OVERGROWTH",
+    "name": "Max Overgrowth",
+    "pp": "0",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Overgrowth description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_PHANTASM",
+    "id": 762,
+    "constant": "MOVE_MAX_PHANTASM",
+    "name": "Max Phantasm",
+    "pp": "0",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Phantasm description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_QUAKE",
+    "id": 771,
+    "constant": "MOVE_MAX_QUAKE",
+    "name": "Max Quake",
+    "pp": "0",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Quake description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_ROCKFALL",
+    "id": 770,
+    "constant": "MOVE_MAX_ROCKFALL",
+    "name": "Max Rockfall",
+    "pp": "0",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Rockfall description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_STARFALL",
+    "id": 767,
+    "constant": "MOVE_MAX_STARFALL",
+    "name": "Max Starfall",
+    "pp": "0",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Starfall description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_STEELSPIKE",
+    "id": 774,
+    "constant": "MOVE_MAX_STEELSPIKE",
+    "name": "Max Steelspike",
+    "pp": "0",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Steelspike description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_STRIKE",
+    "id": 760,
+    "constant": "MOVE_MAX_STRIKE",
+    "name": "Max Strike",
+    "pp": "0",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Strike description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MAX_WYRMWIND",
+    "id": 768,
+    "constant": "MOVE_MAX_WYRMWIND",
+    "name": "Max Wyrmwind",
+    "pp": "0",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Max Wyrmwind description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_METEOR_ASSAULT",
+    "id": 794,
+    "constant": "MOVE_METEOR_ASSAULT",
+    "name": "Meteor Assault",
+    "pp": "5",
+    "power": "150",
+    "accuracy": "100",
+    "description": "Meteor Assault description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_METEOR_BEAM",
+    "id": 800,
+    "constant": "MOVE_METEOR_BEAM",
+    "name": "Meteor Beam",
+    "pp": "10",
+    "power": "120",
+    "accuracy": "90",
+    "description": "Meteor Beam description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MIGHTY_CLEAVE",
+    "id": 910,
+    "constant": "MOVE_MIGHTY_CLEAVE",
+    "name": "Mighty Cleave",
+    "pp": "5",
+    "power": "95",
+    "accuracy": "100",
+    "description": "Mighty Cleave description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MIND_BLOWN",
+    "id": 720,
+    "constant": "MOVE_MIND_BLOWN",
+    "name": "Mind Blown",
+    "pp": "5",
+    "power": "150",
+    "accuracy": "100",
+    "description": "Mind Blown description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MISTY_EXPLOSION",
+    "id": 802,
+    "constant": "MOVE_MISTY_EXPLOSION",
+    "name": "Misty Explosion",
+    "pp": "5",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Misty Explosion description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_MISTY_TERRAIN",
@@ -642,6 +2971,74 @@
     "credits": "Blaze Black 2 Redux"
   },
   {
+    "key": "MOVE_MOONGEIST_BEAM",
+    "id": 714,
+    "constant": "MOVE_MOONGEIST_BEAM",
+    "name": "Moongeist Beam",
+    "pp": "5",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Moongeist Beam description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MORTAL_SPIN",
+    "id": 866,
+    "constant": "MOVE_MORTAL_SPIN",
+    "name": "Mortal Spin",
+    "pp": "15",
+    "power": "30",
+    "accuracy": "100",
+    "description": "Mortal Spin description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MOUNTAIN_GALE",
+    "id": 836,
+    "constant": "MOVE_MOUNTAIN_GALE",
+    "name": "Mountain Gale",
+    "pp": "10",
+    "power": "100",
+    "accuracy": "85",
+    "description": "Mountain Gale description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_MULTIATTACK",
+    "id": 718,
+    "constant": "MOVE_MULTIATTACK",
+    "name": "Multi-Attack",
+    "pp": "10",
+    "power": "120",
+    "accuracy": "100",
+    "description": "Multi-Attack description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_MYSTICAL_FIRE",
     "id": 595,
     "constant": "MOVE_MYSTICAL_FIRE",
@@ -659,6 +3056,57 @@
     "credits": "Blaze Black 2 Redux"
   },
   {
+    "key": "MOVE_MYSTICAL_POWER",
+    "id": 832,
+    "constant": "MOVE_MYSTICAL_POWER",
+    "name": "Mystical Power",
+    "pp": "10",
+    "power": "70",
+    "accuracy": "90",
+    "description": "Mystical Power description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_NATURES_MADNESS",
+    "id": 717,
+    "constant": "MOVE_NATURES_MADNESS",
+    "name": "Nature's Madness",
+    "pp": "10",
+    "power": "1",
+    "accuracy": "90",
+    "description": "Nature's Madness description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_NO_RETREAT",
+    "id": 748,
+    "constant": "MOVE_NO_RETREAT",
+    "name": "No Retreat",
+    "pp": "5",
+    "power": "--",
+    "accuracy": "--",
+    "description": "No Retreat description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_NOBLE_ROAR",
     "id": 568,
     "constant": "MOVE_NOBLE_ROAR",
@@ -674,6 +3122,23 @@
       "notes": ""
     },
     "credits": "Agent"
+  },
+  {
+    "key": "MOVE_NOXIOUS_TORQUE",
+    "id": 898,
+    "constant": "MOVE_NOXIOUS_TORQUE",
+    "name": "Noxious Torque",
+    "pp": "10",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Noxious Torque description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_NUZZLE",
@@ -710,6 +3175,57 @@
     "credits": "Agent"
   },
   {
+    "key": "MOVE_OBSTRUCT",
+    "id": 792,
+    "constant": "MOVE_OBSTRUCT",
+    "name": "Obstruct",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Obstruct description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_OCTOLOCK",
+    "id": 753,
+    "constant": "MOVE_OCTOLOCK",
+    "name": "Octolock",
+    "pp": "15",
+    "power": "--",
+    "accuracy": "100",
+    "description": "Octolock description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_ORDER_UP",
+    "id": 856,
+    "constant": "MOVE_ORDER_UP",
+    "name": "Order Up",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Order Up description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_ORIGIN_PULSE",
     "id": 618,
     "constant": "MOVE_ORIGIN_PULSE",
@@ -725,6 +3241,23 @@
       "notes": "W2U move data is complete but still points at animation ID 0."
     },
     "credits": "W2U"
+  },
+  {
+    "key": "MOVE_OVERDRIVE",
+    "id": 786,
+    "constant": "MOVE_OVERDRIVE",
+    "name": "Overdrive",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Overdrive description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_PARABOLIC_CHARGE",
@@ -794,6 +3327,57 @@
     "credits": "Agent"
   },
   {
+    "key": "MOVE_PHOTON_GEYSER",
+    "id": 722,
+    "constant": "MOVE_PHOTON_GEYSER",
+    "name": "Photon Geyser",
+    "pp": "5",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Photon Geyser description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_PIKA_PAPOW",
+    "id": 732,
+    "constant": "MOVE_PIKA_PAPOW",
+    "name": "Pika Papow",
+    "pp": "20",
+    "power": "1",
+    "accuracy": "--",
+    "description": "Pika Papow description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_PLASMA_FISTS",
+    "id": 721,
+    "constant": "MOVE_PLASMA_FISTS",
+    "name": "Plasma Fists",
+    "pp": "15",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Plasma Fists description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_PLAY_NICE",
     "id": 589,
     "constant": "MOVE_PLAY_NICE",
@@ -827,6 +3411,74 @@
     "credits": "Blaze Black 2 Redux"
   },
   {
+    "key": "MOVE_POLLEN_PUFF",
+    "id": 676,
+    "constant": "MOVE_POLLEN_PUFF",
+    "name": "Pollen Puff",
+    "pp": "15",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Pollen Puff description.",
+    "defaultProgress": {
+      "animation": true,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "Cascade White"
+  },
+  {
+    "key": "MOVE_POLTERGEIST",
+    "id": 809,
+    "constant": "MOVE_POLTERGEIST",
+    "name": "Poltergeist",
+    "pp": "5",
+    "power": "110",
+    "accuracy": "90",
+    "description": "Poltergeist description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_POPULATION_BOMB",
+    "id": 860,
+    "constant": "MOVE_POPULATION_BOMB",
+    "name": "Population Bomb",
+    "pp": "10",
+    "power": "20",
+    "accuracy": "90",
+    "description": "Population Bomb description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_POUNCE",
+    "id": 884,
+    "constant": "MOVE_POUNCE",
+    "name": "Pounce",
+    "pp": "20",
+    "power": "50",
+    "accuracy": "100",
+    "description": "Pounce description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_POWDER",
     "id": 600,
     "constant": "MOVE_POWDER",
@@ -842,6 +3494,40 @@
       "notes": "Static transient handler marks the target and cancels Fire moves with damage."
     },
     "credits": "Agent"
+  },
+  {
+    "key": "MOVE_POWER_SHIFT",
+    "id": 829,
+    "constant": "MOVE_POWER_SHIFT",
+    "name": "Power Shift",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Power Shift description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_POWER_TRIP",
+    "id": 681,
+    "constant": "MOVE_POWER_TRIP",
+    "name": "Power Trip",
+    "pp": "10",
+    "power": "20",
+    "accuracy": "100",
+    "description": "Power Trip description.",
+    "defaultProgress": {
+      "animation": true,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "Cascade White"
   },
   {
     "key": "MOVE_POWERUP_PUNCH",
@@ -878,6 +3564,244 @@
     "credits": "W2U"
   },
   {
+    "key": "MOVE_PRISMATIC_LASER",
+    "id": 711,
+    "constant": "MOVE_PRISMATIC_LASER",
+    "name": "Prismatic Laser",
+    "pp": "10",
+    "power": "160",
+    "accuracy": "100",
+    "description": "Prismatic Laser description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_PSYBLADE",
+    "id": 875,
+    "constant": "MOVE_PSYBLADE",
+    "name": "Psyblade",
+    "pp": "15",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Psyblade description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_PSYCHIC_FANGS",
+    "id": 706,
+    "constant": "MOVE_PSYCHIC_FANGS",
+    "name": "Psychic Fangs",
+    "pp": "15",
+    "power": "85",
+    "accuracy": "100",
+    "description": "Psychic Fangs description.",
+    "defaultProgress": {
+      "animation": true,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "Cascade White"
+  },
+  {
+    "key": "MOVE_PSYCHIC_NOISE",
+    "id": 917,
+    "constant": "MOVE_PSYCHIC_NOISE",
+    "name": "Psychic Noise",
+    "pp": "10",
+    "power": "75",
+    "accuracy": "100",
+    "description": "Psychic Noise description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_PSYCHIC_TERRAIN",
+    "id": 678,
+    "constant": "MOVE_PSYCHIC_TERRAIN",
+    "name": "Psychic Terrain",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Psychic Terrain description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_PSYSHIELD_BASH",
+    "id": 828,
+    "constant": "MOVE_PSYSHIELD_BASH",
+    "name": "Psyshield Bash",
+    "pp": "10",
+    "power": "70",
+    "accuracy": "90",
+    "description": "Psyshield Bash description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_PURIFY",
+    "id": 685,
+    "constant": "MOVE_PURIFY",
+    "name": "Purify",
+    "pp": "20",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Purify description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_PYRO_BALL",
+    "id": 780,
+    "constant": "MOVE_PYRO_BALL",
+    "name": "Pyro Ball",
+    "pp": "5",
+    "power": "120",
+    "accuracy": "90",
+    "description": "Pyro Ball description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_RAGE_FIST",
+    "id": 889,
+    "constant": "MOVE_RAGE_FIST",
+    "name": "Rage Fist",
+    "pp": "10",
+    "power": "50",
+    "accuracy": "100",
+    "description": "Rage Fist description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_RAGING_BULL",
+    "id": 873,
+    "constant": "MOVE_RAGING_BULL",
+    "name": "Raging Bull",
+    "pp": "10",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Raging Bull description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_RAGING_FURY",
+    "id": 833,
+    "constant": "MOVE_RAGING_FURY",
+    "name": "Raging Fury",
+    "pp": "10",
+    "power": "120",
+    "accuracy": "100",
+    "description": "Raging Fury description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_REVELATION_DANCE",
+    "id": 686,
+    "constant": "MOVE_REVELATION_DANCE",
+    "name": "Revelation Dance",
+    "pp": "15",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Revelation Dance description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_REVIVAL_BLESSING",
+    "id": 863,
+    "constant": "MOVE_REVIVAL_BLESSING",
+    "name": "Revival Blessing",
+    "pp": "1",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Revival Blessing description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_RISING_VOLTAGE",
+    "id": 804,
+    "constant": "MOVE_RISING_VOLTAGE",
+    "name": "Rising Voltage",
+    "pp": "20",
+    "power": "70",
+    "accuracy": "100",
+    "description": "Rising Voltage description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_ROTOTILLER",
     "id": 563,
     "constant": "MOVE_ROTOTILLER",
@@ -893,6 +3817,431 @@
       "notes": "Static handler raises Attack and Sp. Atk for grounded Grass Pokemon."
     },
     "credits": "Agent"
+  },
+  {
+    "key": "MOVE_RUINATION",
+    "id": 877,
+    "constant": "MOVE_RUINATION",
+    "name": "Ruination",
+    "pp": "10",
+    "power": "1",
+    "accuracy": "90",
+    "description": "Ruination description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SALT_CURE",
+    "id": 864,
+    "constant": "MOVE_SALT_CURE",
+    "name": "Salt Cure",
+    "pp": "15",
+    "power": "40",
+    "accuracy": "100",
+    "description": "Salt Cure description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SANDSEAR_STORM",
+    "id": 848,
+    "constant": "MOVE_SANDSEAR_STORM",
+    "name": "Sandsear Storm",
+    "pp": "10",
+    "power": "100",
+    "accuracy": "80",
+    "description": "Sandsear Storm description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SAPPY_SEED",
+    "id": 738,
+    "constant": "MOVE_SAPPY_SEED",
+    "name": "Sappy Seed",
+    "pp": "15",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Sappy Seed description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SCALE_SHOT",
+    "id": 799,
+    "constant": "MOVE_SCALE_SHOT",
+    "name": "Scale Shot",
+    "pp": "20",
+    "power": "25",
+    "accuracy": "100",
+    "description": "Scale Shot description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SCORCHING_SANDS",
+    "id": 815,
+    "constant": "MOVE_SCORCHING_SANDS",
+    "name": "Scorching Sands",
+    "pp": "10",
+    "power": "70",
+    "accuracy": "100",
+    "description": "Scorching Sands description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SHADOW_BONE",
+    "id": 708,
+    "constant": "MOVE_SHADOW_BONE",
+    "name": "Shadow Bone",
+    "pp": "10",
+    "power": "85",
+    "accuracy": "100",
+    "description": "Shadow Bone description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SHED_TAIL",
+    "id": 880,
+    "constant": "MOVE_SHED_TAIL",
+    "name": "Shed Tail",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Shed Tail description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SHELL_SIDE_ARM",
+    "id": 801,
+    "constant": "MOVE_SHELL_SIDE_ARM",
+    "name": "Shell Side Arm",
+    "pp": "10",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Shell Side Arm description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SHELL_TRAP",
+    "id": 704,
+    "constant": "MOVE_SHELL_TRAP",
+    "name": "Shell Trap",
+    "pp": "5",
+    "power": "150",
+    "accuracy": "100",
+    "description": "Shell Trap description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SHELTER",
+    "id": 842,
+    "constant": "MOVE_SHELTER",
+    "name": "Shelter",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Shelter description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SHORE_UP",
+    "id": 659,
+    "constant": "MOVE_SHORE_UP",
+    "name": "Shore Up",
+    "pp": "5",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Shore Up description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SILK_TRAP",
+    "id": 852,
+    "constant": "MOVE_SILK_TRAP",
+    "name": "Silk Trap",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Silk Trap description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SIZZLY_SLIDE",
+    "id": 735,
+    "constant": "MOVE_SIZZLY_SLIDE",
+    "name": "Sizzly Slide",
+    "pp": "15",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Sizzly Slide description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SKITTER_SMACK",
+    "id": 806,
+    "constant": "MOVE_SKITTER_SMACK",
+    "name": "Skitter Smack",
+    "pp": "10",
+    "power": "70",
+    "accuracy": "90",
+    "description": "Skitter Smack description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SMART_STRIKE",
+    "id": 684,
+    "constant": "MOVE_SMART_STRIKE",
+    "name": "Smart Strike",
+    "pp": "10",
+    "power": "70",
+    "accuracy": "--",
+    "description": "Smart Strike description.",
+    "defaultProgress": {
+      "animation": true,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "Blaze Black 2 Redux"
+  },
+  {
+    "key": "MOVE_SNAP_TRAP",
+    "id": 779,
+    "constant": "MOVE_SNAP_TRAP",
+    "name": "Snap Trap",
+    "pp": "15",
+    "power": "35",
+    "accuracy": "100",
+    "description": "Snap Trap description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SNIPE_SHOT",
+    "id": 745,
+    "constant": "MOVE_SNIPE_SHOT",
+    "name": "Snipe Shot",
+    "pp": "15",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Snipe Shot description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SNOWSCAPE",
+    "id": 883,
+    "constant": "MOVE_SNOWSCAPE",
+    "name": "Snowscape",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Snowscape description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SOLAR_BLADE",
+    "id": 669,
+    "constant": "MOVE_SOLAR_BLADE",
+    "name": "Solar Blade",
+    "pp": "10",
+    "power": "125",
+    "accuracy": "100",
+    "description": "Solar Blade description.",
+    "defaultProgress": {
+      "animation": true,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "Cascade White"
+  },
+  {
+    "key": "MOVE_SPARKLING_ARIA",
+    "id": 664,
+    "constant": "MOVE_SPARKLING_ARIA",
+    "name": "Sparkling Aria",
+    "pp": "10",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Sparkling Aria description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SPARKLY_SWIRL",
+    "id": 740,
+    "constant": "MOVE_SPARKLY_SWIRL",
+    "name": "Sparkly Swirl",
+    "pp": "15",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Sparkly Swirl description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SPECTRAL_THIEF",
+    "id": 712,
+    "constant": "MOVE_SPECTRAL_THIEF",
+    "name": "Spectral Thief",
+    "pp": "10",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Spectral Thief description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SPEED_SWAP",
+    "id": 683,
+    "constant": "MOVE_SPEED_SWAP",
+    "name": "Speed Swap",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Speed Swap description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SPICY_EXTRACT",
+    "id": 858,
+    "constant": "MOVE_SPICY_EXTRACT",
+    "name": "Spicy Extract",
+    "pp": "15",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Spicy Extract description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_SPIKY_SHIELD",
@@ -912,6 +4261,108 @@
     "credits": "Cascade White"
   },
   {
+    "key": "MOVE_SPIN_OUT",
+    "id": 859,
+    "constant": "MOVE_SPIN_OUT",
+    "name": "Spin Out",
+    "pp": "5",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Spin Out description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SPIRIT_BREAK",
+    "id": 789,
+    "constant": "MOVE_SPIRIT_BREAK",
+    "name": "Spirit Break",
+    "pp": "15",
+    "power": "75",
+    "accuracy": "100",
+    "description": "Spirit Break description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SPIRIT_SHACKLE",
+    "id": 662,
+    "constant": "MOVE_SPIRIT_SHACKLE",
+    "name": "Spirit Shackle",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Spirit Shackle description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SPLISHY_SPLASH",
+    "id": 730,
+    "constant": "MOVE_SPLISHY_SPLASH",
+    "name": "Splishy Splash",
+    "pp": "15",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Splishy Splash description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SPOTLIGHT",
+    "id": 671,
+    "constant": "MOVE_SPOTLIGHT",
+    "name": "Spotlight",
+    "pp": "15",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Spotlight description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SPRINGTIDE_STORM",
+    "id": 831,
+    "constant": "MOVE_SPRINGTIDE_STORM",
+    "name": "Springtide Storm",
+    "pp": "5",
+    "power": "100",
+    "accuracy": "80",
+    "description": "Springtide Storm description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_STEAM_ERUPTION",
     "id": 592,
     "constant": "MOVE_STEAM_ERUPTION",
@@ -929,6 +4380,40 @@
     "credits": "W2U"
   },
   {
+    "key": "MOVE_STEEL_BEAM",
+    "id": 796,
+    "constant": "MOVE_STEEL_BEAM",
+    "name": "Steel Beam",
+    "pp": "5",
+    "power": "140",
+    "accuracy": "95",
+    "description": "Steel Beam description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_STEEL_ROLLER",
+    "id": 798,
+    "constant": "MOVE_STEEL_ROLLER",
+    "name": "Steel Roller",
+    "pp": "5",
+    "power": "130",
+    "accuracy": "100",
+    "description": "Steel Roller description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_STICKY_WEB",
     "id": 564,
     "constant": "MOVE_STICKY_WEB",
@@ -944,6 +4429,312 @@
       "notes": "Static W2U side effect lowers grounded switch-ins' Speed."
     },
     "credits": "Cascade White"
+  },
+  {
+    "key": "MOVE_STOMPING_TANTRUM",
+    "id": 707,
+    "constant": "MOVE_STOMPING_TANTRUM",
+    "name": "Stomping Tantrum",
+    "pp": "10",
+    "power": "75",
+    "accuracy": "100",
+    "description": "Stomping Tantrum description.",
+    "defaultProgress": {
+      "animation": true,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "Cascade White"
+  },
+  {
+    "key": "MOVE_STONE_AXE",
+    "id": 830,
+    "constant": "MOVE_STONE_AXE",
+    "name": "Stone Axe",
+    "pp": "15",
+    "power": "65",
+    "accuracy": "90",
+    "description": "Stone Axe description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_STRANGE_STEAM",
+    "id": 790,
+    "constant": "MOVE_STRANGE_STEAM",
+    "name": "Strange Steam",
+    "pp": "10",
+    "power": "90",
+    "accuracy": "95",
+    "description": "Strange Steam description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_STRENGTH_SAP",
+    "id": 668,
+    "constant": "MOVE_STRENGTH_SAP",
+    "name": "Strength Sap",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "100",
+    "description": "Strength Sap description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_STUFF_CHEEKS",
+    "id": 747,
+    "constant": "MOVE_STUFF_CHEEKS",
+    "name": "Stuff Cheeks",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Stuff Cheeks description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SUNSTEEL_STRIKE",
+    "id": 713,
+    "constant": "MOVE_SUNSTEEL_STRIKE",
+    "name": "Sunsteel Strike",
+    "pp": "5",
+    "power": "100",
+    "accuracy": "100",
+    "description": "Sunsteel Strike description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SUPERCELL_SLAM",
+    "id": 916,
+    "constant": "MOVE_SUPERCELL_SLAM",
+    "name": "Supercell Slam",
+    "pp": "15",
+    "power": "100",
+    "accuracy": "95",
+    "description": "Supercell Slam description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SURGING_STRIKES",
+    "id": 818,
+    "constant": "MOVE_SURGING_STRIKES",
+    "name": "Surging Strikes",
+    "pp": "5",
+    "power": "25",
+    "accuracy": "100",
+    "description": "Surging Strikes description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_SYRUP_BOMB",
+    "id": 903,
+    "constant": "MOVE_SYRUP_BOMB",
+    "name": "Syrup Bomb",
+    "pp": "10",
+    "power": "60",
+    "accuracy": "85",
+    "description": "Syrup Bomb description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_TACHYON_CUTTER",
+    "id": 911,
+    "constant": "MOVE_TACHYON_CUTTER",
+    "name": "Tachyon Cutter",
+    "pp": "10",
+    "power": "50",
+    "accuracy": "--",
+    "description": "Tachyon Cutter description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_TAKE_HEART",
+    "id": 850,
+    "constant": "MOVE_TAKE_HEART",
+    "name": "Take Heart",
+    "pp": "5",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Take Heart description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_TAR_SHOT",
+    "id": 749,
+    "constant": "MOVE_TAR_SHOT",
+    "name": "Tar Shot",
+    "pp": "15",
+    "power": "--",
+    "accuracy": "100",
+    "description": "Tar Shot description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_TEARFUL_LOOK",
+    "id": 715,
+    "constant": "MOVE_TEARFUL_LOOK",
+    "name": "Tearful Look",
+    "pp": "20",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Tearful Look description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_TEATIME",
+    "id": 752,
+    "constant": "MOVE_TEATIME",
+    "name": "Teatime",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Teatime description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_TEMPER_FLARE",
+    "id": 915,
+    "constant": "MOVE_TEMPER_FLARE",
+    "name": "Temper Flare",
+    "pp": "10",
+    "power": "75",
+    "accuracy": "100",
+    "description": "Temper Flare description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_TERA_BLAST",
+    "id": 851,
+    "constant": "MOVE_TERA_BLAST",
+    "name": "Tera Blast",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Tera Blast description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_TERA_STARSTORM",
+    "id": 906,
+    "constant": "MOVE_TERA_STARSTORM",
+    "name": "Tera Starstorm",
+    "pp": "5",
+    "power": "120",
+    "accuracy": "100",
+    "description": "Tera Starstorm description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_TERRAIN_PULSE",
+    "id": 805,
+    "constant": "MOVE_TERRAIN_PULSE",
+    "name": "Terrain Pulse",
+    "pp": "10",
+    "power": "50",
+    "accuracy": "100",
+    "description": "Terrain Pulse description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_THOUSAND_ARROWS",
@@ -980,6 +4771,91 @@
     "credits": "W2U"
   },
   {
+    "key": "MOVE_THROAT_CHOP",
+    "id": 675,
+    "constant": "MOVE_THROAT_CHOP",
+    "name": "Throat Chop",
+    "pp": "15",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Throat Chop description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_THUNDER_CAGE",
+    "id": 819,
+    "constant": "MOVE_THUNDER_CAGE",
+    "name": "Thunder Cage",
+    "pp": "15",
+    "power": "80",
+    "accuracy": "90",
+    "description": "Thunder Cage description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_THUNDERCLAP",
+    "id": 909,
+    "constant": "MOVE_THUNDERCLAP",
+    "name": "Thunderclap",
+    "pp": "5",
+    "power": "70",
+    "accuracy": "100",
+    "description": "Thunderclap description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_THUNDEROUS_KICK",
+    "id": 823,
+    "constant": "MOVE_THUNDEROUS_KICK",
+    "name": "Thunderous Kick",
+    "pp": "10",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Thunderous Kick description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_TIDY_UP",
+    "id": 882,
+    "constant": "MOVE_TIDY_UP",
+    "name": "Tidy Up",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Tidy Up description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_TOPSYTURVY",
     "id": 576,
     "constant": "MOVE_TOPSYTURVY",
@@ -995,6 +4871,57 @@
       "notes": "Static handler inverts target stat stages."
     },
     "credits": "Agent"
+  },
+  {
+    "key": "MOVE_TORCH_SONG",
+    "id": 871,
+    "constant": "MOVE_TORCH_SONG",
+    "name": "Torch Song",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Torch Song description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_TOXIC_THREAD",
+    "id": 672,
+    "constant": "MOVE_TOXIC_THREAD",
+    "name": "Toxic Thread",
+    "pp": "20",
+    "power": "--",
+    "accuracy": "100",
+    "description": "Toxic Thread description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_TRAILBLAZE",
+    "id": 885,
+    "constant": "MOVE_TRAILBLAZE",
+    "name": "Trailblaze",
+    "pp": "20",
+    "power": "50",
+    "accuracy": "100",
+    "description": "Trailblaze description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   },
   {
     "key": "MOVE_TRICKORTREAT",
@@ -1014,6 +4941,125 @@
     "credits": "Agent"
   },
   {
+    "key": "MOVE_TRIPLE_ARROWS",
+    "id": 843,
+    "constant": "MOVE_TRIPLE_ARROWS",
+    "name": "Triple Arrows",
+    "pp": "10",
+    "power": "90",
+    "accuracy": "100",
+    "description": "Triple Arrows description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_TRIPLE_AXEL",
+    "id": 813,
+    "constant": "MOVE_TRIPLE_AXEL",
+    "name": "Triple Axel",
+    "pp": "10",
+    "power": "20",
+    "accuracy": "90",
+    "description": "Triple Axel description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_TRIPLE_DIVE",
+    "id": 865,
+    "constant": "MOVE_TRIPLE_DIVE",
+    "name": "Triple Dive",
+    "pp": "10",
+    "power": "30",
+    "accuracy": "95",
+    "description": "Triple Dive description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_TROP_KICK",
+    "id": 688,
+    "constant": "MOVE_TROP_KICK",
+    "name": "Trop Kick",
+    "pp": "15",
+    "power": "70",
+    "accuracy": "100",
+    "description": "Trop Kick description.",
+    "defaultProgress": {
+      "animation": true,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "Cascade White"
+  },
+  {
+    "key": "MOVE_TWIN_BEAM",
+    "id": 888,
+    "constant": "MOVE_TWIN_BEAM",
+    "name": "Twin Beam",
+    "pp": "10",
+    "power": "40",
+    "accuracy": "100",
+    "description": "Twin Beam description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_UPPER_HAND",
+    "id": 918,
+    "constant": "MOVE_UPPER_HAND",
+    "name": "Upper Hand",
+    "pp": "15",
+    "power": "65",
+    "accuracy": "100",
+    "description": "Upper Hand description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_VEEVEE_VOLLEY",
+    "id": 741,
+    "constant": "MOVE_VEEVEE_VOLLEY",
+    "name": "Veevee Volley",
+    "pp": "20",
+    "power": "1",
+    "accuracy": "--",
+    "description": "Veevee Volley description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_VENOM_DRENCH",
     "id": 599,
     "constant": "MOVE_VENOM_DRENCH",
@@ -1031,6 +5077,23 @@
     "credits": "Agent"
   },
   {
+    "key": "MOVE_VICTORY_DANCE",
+    "id": 837,
+    "constant": "MOVE_VICTORY_DANCE",
+    "name": "Victory Dance",
+    "pp": "10",
+    "power": "--",
+    "accuracy": "--",
+    "description": "Victory Dance description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
     "key": "MOVE_WATER_SHURIKEN",
     "id": 594,
     "constant": "MOVE_WATER_SHURIKEN",
@@ -1046,5 +5109,107 @@
       "notes": ""
     },
     "credits": "Agent"
+  },
+  {
+    "key": "MOVE_WAVE_CRASH",
+    "id": 834,
+    "constant": "MOVE_WAVE_CRASH",
+    "name": "Wave Crash",
+    "pp": "10",
+    "power": "120",
+    "accuracy": "100",
+    "description": "Wave Crash description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_WICKED_BLOW",
+    "id": 817,
+    "constant": "MOVE_WICKED_BLOW",
+    "name": "Wicked Blow",
+    "pp": "5",
+    "power": "75",
+    "accuracy": "100",
+    "description": "Wicked Blow description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_WICKED_TORQUE",
+    "id": 897,
+    "constant": "MOVE_WICKED_TORQUE",
+    "name": "Wicked Torque",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Wicked Torque description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_WILDBOLT_STORM",
+    "id": 847,
+    "constant": "MOVE_WILDBOLT_STORM",
+    "name": "Wildbolt Storm",
+    "pp": "10",
+    "power": "100",
+    "accuracy": "80",
+    "description": "Wildbolt Storm description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
+  },
+  {
+    "key": "MOVE_ZING_ZAP",
+    "id": 716,
+    "constant": "MOVE_ZING_ZAP",
+    "name": "Zing Zap",
+    "pp": "10",
+    "power": "80",
+    "accuracy": "100",
+    "description": "Zing Zap description.",
+    "defaultProgress": {
+      "animation": true,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "Cascade White"
+  },
+  {
+    "key": "MOVE_ZIPPY_ZAP",
+    "id": 729,
+    "constant": "MOVE_ZIPPY_ZAP",
+    "name": "Zippy Zap",
+    "pp": "15",
+    "power": "50",
+    "accuracy": "100",
+    "description": "Zippy Zap description.",
+    "defaultProgress": {
+      "animation": false,
+      "effectHandler": false,
+      "verified": false,
+      "notes": ""
+    },
+    "credits": "PW2Code"
   }
 ]

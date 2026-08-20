@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-26T00:00:00.000Z",
+  "updatedAt": "2026-08-20T01:03:30.803Z",
   "progress": {
     "pokemon": {
       "SPECIES_CHESPIN": {
@@ -5277,15 +5277,15 @@
         "notes": ""
       },
       "MOVE_STEAM_ERUPTION": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": "W2U move data uses Water Spout animation ID 4 and applies 30% burn plus defrost."
       },
       "MOVE_HYPERSPACE_HOLE": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": "W2U move data marks this as must-hit and hits through Substitute/Protect-style blocking."
       },
       "MOVE_HOLD_HANDS": {
@@ -5295,46 +5295,1516 @@
         "notes": "Status move with friend targeting; W2U uses animation ID 370."
       },
       "MOVE_THOUSAND_ARROWS": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": "Custom W2U animation rains arrow particles; move data marks the grounded-hit special code."
       },
       "MOVE_THOUSAND_WAVES": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": "W2U move data currently targets all foes as a standard Ground attack."
       },
       "MOVE_LIGHT_OF_RUIN": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": "W2U move data applies 50% recoil."
       },
       "MOVE_ORIGIN_PULSE": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": "W2U move data is complete but still points at animation ID 0."
       },
       "MOVE_PRECIPICE_BLADES": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": "W2U move data is complete but still points at animation ID 0."
       },
       "MOVE_DRAGON_ASCENT": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": "W2U move data lowers the user's Defense and Sp. Def after damage."
       },
       "MOVE_HYPERSPACE_FURY": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "W2U move data marks this as must-hit, hits through Substitute/Protect-style blocking, and lowers the user's Defense."
+      },
+      "MOVE_ACCELEROCK": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_ALLURING_VOICE": {
         "animation": false,
         "effectHandler": false,
         "verified": false,
-        "notes": "W2U move data marks this as must-hit, hits through Substitute/Protect-style blocking, and lowers the user's Defense."
+        "notes": ""
+      },
+      "MOVE_ANCHOR_SHOT": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_APPLE_ACID": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_AQUA_CUTTER": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_AQUA_STEP": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_ARMOR_CANNON": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_ASTRAL_BARRAGE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_AURA_WHEEL": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_AURORA_VEIL": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_AXE_KICK": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_BADDY_BAD": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_BANEFUL_BUNKER": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_BARB_BARRAGE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_BEAK_BLAST": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_BEHEMOTH_BASH": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_BEHEMOTH_BLADE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_BITTER_BLADE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_BITTER_MALICE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_BLAZING_TORQUE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_BLEAKWIND_STORM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_BLOOD_MOON": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_BODY_PRESS": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_BOLT_BEAK": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_BOUNCY_BUBBLE": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_BRANCH_POKE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_BREAKING_SWIPE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_BRUTAL_SWING": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_BURN_UP": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_BURNING_BULWARK": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_BURNING_JEALOUSY": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_BUZZY_BUZZ": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_CEASELESS_EDGE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_CHILLING_WATER": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_CHILLY_RECEPTION": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_CHLOROBLAST": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_CLANGING_SCALES": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_CLANGOROUS_SOUL": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_COACHING": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_COLLISION_COURSE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_COMBAT_TORQUE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_COMEUPPANCE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_CORE_ENFORCER": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_CORROSIVE_GAS": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_COURT_CHANGE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_DARKEST_LARIAT": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_DECORATE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_DIRE_CLAW": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_DOODLE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_DOUBLE_IRON_BASH": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_DOUBLE_SHOCK": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_DRAGON_CHEER": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_DRAGON_DARTS": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_DRAGON_ENERGY": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_DRAGON_HAMMER": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_DRUM_BEATING": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_DUAL_WINGBEAT": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_DYNAMAX_CANNON": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_EERIE_SPELL": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_ELECTRO_DRIFT": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_ELECTRO_SHOT": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_ESPER_WING": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_ETERNABEAM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_EXPANDING_FORCE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_FALSE_SURRENDER": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_FICKLE_BEAM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_FIERY_WRATH": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_FILLET_AWAY": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_FIRE_LASH": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_FIRST_IMPRESSION": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_FISHIOUS_REND": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_FLEUR_CANNON": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_FLIP_TURN": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_FLOATY_FALL": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_FLORAL_HEALING": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_FLOWER_TRICK": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_FREEZING_GLARE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_FREEZY_FROST": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_GEAR_UP": {
+        "animation": true,
+        "effectHandler": false,
+        "verified": false,
+        "notes": "skipped for now"
+      },
+      "MOVE_GIGATON_HAMMER": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_GLACIAL_LANCE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_GLAIVE_RUSH": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_GLITZY_GLOW": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_GRASSY_GLIDE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_GRAV_APPLE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_HARD_PRESS": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_HEADLONG_RUSH": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_HIGH_HORSEPOWER": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_HYDRO_STEAM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_HYPER_DRILL": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_ICE_HAMMER": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_ICE_SPINNER": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_INFERNAL_PARADE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_INSTRUCT": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": "going to need a bunch of in depth testing"
+      },
+      "MOVE_IVY_CUDGEL": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_JAW_LOCK": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_JET_PUNCH": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_JUNGLE_HEALING": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_KOWTOW_CLEAVE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_LASER_FOCUS": {
+        "animation": true,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_LASH_OUT": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_LAST_RESPECTS": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_LEAFAGE": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_LIFE_DEW": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_LIQUIDATION": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_LUMINA_CRASH": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_LUNAR_BLESSING": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_LUNGE": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_MAGIC_POWDER": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAGICAL_TORQUE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAKE_IT_RAIN": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MALIGNANT_CHAIN": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MATCHA_GOTCHA": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_AIRSTREAM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_DARKNESS": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_FLARE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_FLUTTERBY": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_GEYSER": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_GUARD": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_HAILSTORM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_KNUCKLE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_LIGHTNING": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_MINDSTORM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_OOZE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_OVERGROWTH": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_PHANTASM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_QUAKE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_ROCKFALL": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_STARFALL": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_STEELSPIKE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_STRIKE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MAX_WYRMWIND": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_METEOR_ASSAULT": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_METEOR_BEAM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MIGHTY_CLEAVE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MIND_BLOWN": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MISTY_EXPLOSION": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MOONGEIST_BEAM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MORTAL_SPIN": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MOUNTAIN_GALE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MULTIATTACK": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_MYSTICAL_POWER": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_NATURES_MADNESS": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_NO_RETREAT": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_NOXIOUS_TORQUE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_OBSTRUCT": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_OCTOLOCK": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_ORDER_UP": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_OVERDRIVE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_PHOTON_GEYSER": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_PIKA_PAPOW": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_PLASMA_FISTS": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_POLLEN_PUFF": {
+        "animation": true,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_POLTERGEIST": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_POPULATION_BOMB": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_POUNCE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_POWER_SHIFT": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_POWER_TRIP": {
+        "animation": true,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_PRISMATIC_LASER": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_PSYBLADE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_PSYCHIC_FANGS": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_PSYCHIC_NOISE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_PSYCHIC_TERRAIN": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_PSYSHIELD_BASH": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_PURIFY": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_PYRO_BALL": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_RAGE_FIST": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_RAGING_BULL": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_RAGING_FURY": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_REVELATION_DANCE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_REVIVAL_BLESSING": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_RISING_VOLTAGE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_RUINATION": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SALT_CURE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SANDSEAR_STORM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SAPPY_SEED": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SCALE_SHOT": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SCORCHING_SANDS": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SHADOW_BONE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SHED_TAIL": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SHELL_SIDE_ARM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SHELL_TRAP": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SHELTER": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SHORE_UP": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SILK_TRAP": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SIZZLY_SLIDE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SKITTER_SMACK": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SMART_STRIKE": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_SNAP_TRAP": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SNIPE_SHOT": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SNOWSCAPE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SOLAR_BLADE": {
+        "animation": true,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SPARKLING_ARIA": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SPARKLY_SWIRL": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SPECTRAL_THIEF": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SPEED_SWAP": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SPICY_EXTRACT": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SPIN_OUT": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SPIRIT_BREAK": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SPIRIT_SHACKLE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SPLISHY_SPLASH": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SPOTLIGHT": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SPRINGTIDE_STORM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_STEEL_BEAM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_STEEL_ROLLER": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_STOMPING_TANTRUM": {
+        "animation": true,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_STONE_AXE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_STRANGE_STEAM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_STRENGTH_SAP": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_STUFF_CHEEKS": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SUNSTEEL_STRIKE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SUPERCELL_SLAM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SURGING_STRIKES": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_SYRUP_BOMB": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_TACHYON_CUTTER": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_TAKE_HEART": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_TAR_SHOT": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_TEARFUL_LOOK": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_TEATIME": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_TEMPER_FLARE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_TERA_BLAST": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_TERA_STARSTORM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_TERRAIN_PULSE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_THROAT_CHOP": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_THUNDER_CAGE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_THUNDERCLAP": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_THUNDEROUS_KICK": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_TIDY_UP": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_TORCH_SONG": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_TOXIC_THREAD": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_TRAILBLAZE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_TRIPLE_ARROWS": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_TRIPLE_AXEL": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_TRIPLE_DIVE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_TROP_KICK": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_TWIN_BEAM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_UPPER_HAND": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_VEEVEE_VOLLEY": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_VICTORY_DANCE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_WAVE_CRASH": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_WICKED_BLOW": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_WICKED_TORQUE": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_WILDBOLT_STORM": {
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
+        "notes": ""
+      },
+      "MOVE_ZING_ZAP": {
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
+        "notes": ""
+      },
+      "MOVE_ZIPPY_ZAP": {
+        "animation": false,
+        "effectHandler": true,
+        "verified": false,
+        "notes": ""
       }
     },
     "items": {
@@ -5757,9 +7227,9 @@
         "notes": "White2Upgrade Disguise damage-prevention handler, CheckDamageToRecover event hook, switch-out form preservation, and battle message ported from PW2Code. Uses Mimikyu species 778 instead of PW2Code's placeholder species check; builds in w2u_main.dll. Needs in-game verification."
       },
       "ABIL_ELECTRIC_SURGE": {
-        "battleCode": false,
+        "battleCode": true,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/ElectricSurge.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "notes": "Shared White2Upgrade terrain-surge handler activates Electric Terrain and plays move 604's animation; builds in w2u_main.dll. Needs in-game verification."
       },
       "ABIL_EMERGENCY_EXIT": {
         "battleCode": false,
@@ -5812,9 +7282,9 @@
         "notes": ""
       },
       "ABIL_GRASSY_SURGE": {
-        "battleCode": false,
+        "battleCode": true,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/GrassySurge.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "notes": "Shared White2Upgrade terrain-surge handler activates Grassy Terrain and plays move 580's animation; builds in w2u_main.dll. Needs in-game verification."
       },
       "ABIL_INNARDS_OUT": {
         "battleCode": false,
@@ -5847,9 +7317,9 @@
         "notes": "Static White2Upgrade critical-check handler ported from PW2Code Merciless.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
       },
       "ABIL_MISTY_SURGE": {
-        "battleCode": false,
+        "battleCode": true,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/MistySurge.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "notes": "Shared White2Upgrade terrain-surge handler activates Misty Terrain and plays move 581's animation; builds in w2u_main.dll. Needs in-game verification."
       },
       "ABIL_PARENTAL_BOND": {
         "battleCode": true,
@@ -5882,9 +7352,9 @@
         "notes": ""
       },
       "ABIL_PSYCHIC_SURGE": {
-        "battleCode": false,
+        "battleCode": true,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/PsychicSurge.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "notes": "Shared White2Upgrade terrain-surge handler activates full Psychic Terrain mechanics and plays move 678's placeholder animation; builds in w2u_main.dll. Needs in-game verification."
       },
       "ABIL_QUEENLY_MAGESTY": {
         "battleCode": true,

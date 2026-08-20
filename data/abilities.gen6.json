@@ -198,9 +198,9 @@
     "name": "Electric Surge",
     "description": "Turns the ground into Electric Terrain when the Pokemon enters battle.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/ElectricSurge.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      "notes": "Shared White2Upgrade terrain-surge handler activates Electric Terrain and plays move 604's animation; builds in w2u_main.dll. Needs in-game verification."
     }
   },
   {
@@ -330,9 +330,9 @@
     "name": "Grassy Surge",
     "description": "Turns the ground into Grassy Terrain when the Pokemon enters battle.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/GrassySurge.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      "notes": "Shared White2Upgrade terrain-surge handler activates Grassy Terrain and plays move 580's animation; builds in w2u_main.dll. Needs in-game verification."
     }
   },
   {
@@ -414,9 +414,9 @@
     "name": "Misty Surge",
     "description": "Turns the ground into Misty Terrain when the Pokemon enters battle.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/MistySurge.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      "notes": "Shared White2Upgrade terrain-surge handler activates Misty Terrain and plays move 581's animation; builds in w2u_main.dll. Needs in-game verification."
     }
   },
   {
@@ -498,9 +498,9 @@
     "name": "Psychic Surge",
     "description": "Turns the ground into Psychic Terrain when the Pokemon enters battle.",
     "defaultProgress": {
-      "battleCode": false,
+      "battleCode": true,
       "verified": false,
-      "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/PsychicSurge.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+      "notes": "Shared White2Upgrade terrain-surge handler activates full Psychic Terrain mechanics and plays move 678's placeholder animation; builds in w2u_main.dll. Needs in-game verification."
     }
   },
   {

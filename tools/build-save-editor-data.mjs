@@ -8,6 +8,11 @@ const siteRoot = path.resolve(here, "..");
 const repoRoot = path.resolve(siteRoot, "..");
 const upgradeRoot = path.resolve(repoRoot, "White2Upgrade");
 const referenceRoot = path.resolve(repoRoot, "reference_repos", "Pokeweb-Live");
+const moveUpgradeRoot = [
+  process.env.WHITE2UPGRADE_ROOT,
+  path.resolve(repoRoot, "..", "White2Upgrade-Original-pokeweb"),
+  upgradeRoot
+].find((candidate) => candidate && existsSync(path.join(candidate, "include", "Moves.h"))) || upgradeRoot;
 
 const FORM_NAME_OVERRIDES = new Map(Object.entries({
   201: ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "!", "?"],
@@ -38,9 +43,53 @@ const FORM_NAME_OVERRIDES = new Map(Object.entries({
   710: ["Average", "Small", "Large", "Super"],
   711: ["Average", "Small", "Large", "Super"],
   716: ["Neutral", "Active"],
-  718: ["50%", "Complete"],
-  720: ["Confined", "Unbound"]
+  718: ["50%", "10%"],
+  720: ["Confined", "Unbound"],
+  774: [
+    "Red Meteor", "Orange Meteor", "Yellow Meteor", "Green Meteor",
+    "Blue Meteor", "Indigo Meteor", "Violet Meteor",
+    "Red Core", "Orange Core", "Yellow Core", "Green Core",
+    "Blue Core", "Indigo Core", "Violet Core"
+  ]
 }).map(([species, names]) => [Number(species), names]));
+
+const FORM_LAYOUT_OVERRIDES = new Map([
+  [718, {
+    // Complete and Mega are battle-only. Ability choice is independent of
+    // the stable 50%/10% visual form.
+    formDataOffset: 1287,
+    formCount: 2,
+    forms: [
+      {
+        baseStats: [108, 100, 121, 95, 81, 95],
+        expGroup: 5,
+        abilities: [188, 211, 211],
+        showdownName: "Zygarde"
+      },
+      {
+        baseStats: [54, 100, 71, 115, 61, 85],
+        expGroup: 5,
+        abilities: [188, 211, 211],
+        showdownName: "Zygarde-10%"
+      }
+    ]
+  }],
+  [774, {
+    formDataOffset: 1273,
+    formCount: 14,
+    forms: Array.from({ length: 14 }, (_unused, formId) => ({
+      baseStats: formId < 7
+        ? [60, 60, 100, 60, 60, 100]
+        : [60, 100, 60, 120, 100, 60],
+      expGroup: 3,
+      abilities: [197, 197, 197]
+    }))
+  }]
+]);
+
+const ITEM_OVERRIDES = new Map([
+  [113, { constant: "ITEM_MEGITE", name: "Megite" }]
+]);
 
 function titleFromConstant(value, prefix) {
   const raw = value
@@ -98,6 +147,23 @@ function parseYamlInt(text, key) {
   const pattern = new RegExp(`^-\\s*${key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*:\\s*(-?\\d+)\\s*$`, "m");
   const match = text.match(pattern);
   return match ? Number.parseInt(match[1], 10) : null;
+}
+
+function parseMoveInt(text, key) {
+  const escapedKey = key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const tomlMatch = text.match(new RegExp(`^\\s*"?${escapedKey}"?\\s*=\\s*(-?\\d+)\\s*$`, "m"));
+  return tomlMatch ? Number.parseInt(tomlMatch[1], 10) : parseYamlInt(text, key);
+}
+
+function moveDataPath(id) {
+  const directory = path.join(moveUpgradeRoot, "data", "pml", "moves");
+  const paddedId = String(id).padStart(3, "0");
+  return [
+    path.join(directory, `${id}.toml`),
+    path.join(directory, `${paddedId}.toml`),
+    path.join(directory, `${paddedId}.yml`),
+    path.join(directory, `${id}.yml`)
+  ].find((candidate) => existsSync(candidate));
 }
 
 async function loadTrackerMap(name) {
@@ -171,22 +237,24 @@ async function buildForms(speciesId, speciesName, personalInfo, speciesCount, tr
   }
 
   const forms = [];
+  const layoutOverride = FORM_LAYOUT_OVERRIDES.get(speciesId);
   for (let formId = 0; formId < personalInfo.formCount; formId += 1) {
-    const personalId = formId > 0 && personalInfo.formDataOffset > speciesCount
+    const personalId = formId > 0 && (layoutOverride || personalInfo.formDataOffset > speciesCount)
       ? personalInfo.formDataOffset + formId - 1
       : speciesId;
     const formInfo = formId === 0
       ? personalInfo
       : await loadPersonalInfo(personalId) || personalInfo;
+    const formOverride = layoutOverride?.forms?.[formId];
     const name = formName(speciesId, formId, speciesName, personalId, tracker);
     forms.push({
       id: formId,
       name,
       personalId,
-      showdownName: showdownFormName(speciesName, speciesId, formId, name),
-      baseStats: formInfo.baseStats,
-      expGroup: formInfo.expGroup,
-      abilities: formInfo.abilities
+      showdownName: formOverride?.showdownName || showdownFormName(speciesName, speciesId, formId, name),
+      baseStats: formOverride?.baseStats || formInfo.baseStats,
+      expGroup: formOverride?.expGroup ?? formInfo.expGroup,
+      abilities: formOverride?.abilities || formInfo.abilities
     });
   }
   return forms;
@@ -205,9 +273,18 @@ async function loadSpecies() {
       continue;
     }
 
-    const personalInfo = await loadPersonalInfo(define.id);
+    let personalInfo = await loadPersonalInfo(define.id);
     if (!personalInfo) {
       continue;
+    }
+
+    const layoutOverride = FORM_LAYOUT_OVERRIDES.get(define.id);
+    if (layoutOverride) {
+      personalInfo = {
+        ...personalInfo,
+        formDataOffset: layoutOverride.formDataOffset,
+        formCount: layoutOverride.formCount
+      };
     }
 
     const trackerRow = tracker.get(define.id);
@@ -233,7 +310,7 @@ async function loadSpecies() {
 
 async function loadMoves() {
   const tracker = await loadTrackerMap("moves");
-  const defines = parseDefines(await readText(path.join(upgradeRoot, "include", "Moves.h")), "MOVE_");
+  const defines = parseDefines(await readText(path.join(moveUpgradeRoot, "include", "Moves.h")), "MOVE_");
   const seen = new Set([0]);
   const moves = [{ id: 0, constant: "MOVE_NONE", name: "None", pp: 0 }];
 
@@ -242,8 +319,8 @@ async function loadMoves() {
       continue;
     }
 
-    const movePath = path.join(upgradeRoot, "data", "pml", "moves", `${String(define.id).padStart(3, "0")}.yml`);
-    if (!existsSync(movePath)) {
+    const movePath = moveDataPath(define.id);
+    if (!movePath) {
       continue;
     }
 
@@ -253,7 +330,7 @@ async function loadMoves() {
       id: define.id,
       constant: trackerRow?.constant || define.constant,
       name: trackerRow?.name || titleFromConstant(define.constant, "MOVE_"),
-      pp: parseYamlInt(move, "Base PP") || 0
+      pp: parseMoveInt(move, "Base PP") || 0
     });
     seen.add(define.id);
   }
@@ -269,19 +346,25 @@ async function loadItems() {
   );
   const textRows = (await readText(path.join(upgradeRoot, "tools", "helpers", "txtdmp", "Items.txt")))
     .split(/\r?\n/);
-  const ids = new Set([...textRows.keys(), ...constants.keys(), ...tracker.keys()]);
+  const ids = new Set([
+    ...textRows.keys(),
+    ...constants.keys(),
+    ...tracker.keys(),
+    ...ITEM_OVERRIDES.keys()
+  ]);
 
   return [...ids]
     .filter((id) => Number.isInteger(id) && id >= 0)
     .sort((a, b) => a - b)
     .map((id) => {
       const trackerRow = tracker.get(id);
-      const constant = trackerRow?.constant || constants.get(id) || `ITEM_${id}`;
+      const itemOverride = ITEM_OVERRIDES.get(id);
+      const constant = itemOverride?.constant || trackerRow?.constant || constants.get(id) || `ITEM_${id}`;
       const dumpedName = textRows[id]?.trim();
       return {
         id,
         constant,
-        name: trackerRow?.name || (dumpedName && dumpedName !== "???" ? dumpedName : titleFromConstant(constant, "ITEM_"))
+        name: itemOverride?.name || trackerRow?.name || (dumpedName && dumpedName !== "???" ? dumpedName : titleFromConstant(constant, "ITEM_"))
       };
     });
 }
@@ -314,7 +397,7 @@ async function loadAbilities() {
 }
 
 const data = {
-  source: "White2Upgrade include headers and data/pml YAML",
+  source: "White2Upgrade headers and data/pml move records",
   species: await loadSpecies(),
   moves: await loadMoves(),
   items: await loadItems(),

@@ -16,6 +16,7 @@
   const PARADATA_OFFSET = 8;
   const PARADATA_SIZE = 128;
   const PARTY_STATS_OFFSET = 0x88;
+  const PARTY_STATUS_CONDITION_OFFSET = 0x00;
   const PARTY_LEVEL_OFFSET = 0x04;
   const PARTY_CURRENT_HP_OFFSET = 0x06;
   const PARTY_MAX_HP_OFFSET = 0x08;
@@ -65,13 +66,29 @@
   const ALL_BADGES = 0xFF;
   const ITEM_ENTRY_SIZE = 4;
   const SAVE_STORAGE_KEY = "white2Expansion.saveEditor.lastSave.v1";
-  const SAVE_EDITOR_DATA_VERSION = "20260626-form-editor";
+  const SAVE_EDITOR_DATA_VERSION = "20260727-gen79-moves";
   const BASE64_CHUNK_SIZE = 0x8000;
   const POUCHES = {
-    items: { name: "Items", offset: 0x000, capacity: 310 },
-    key: { name: "Key Items", offset: 0x4D8, capacity: 50 }
+    items: { name: "Items", offset: 0x000, capacity: 261, maxCount: 999 },
+    key: { name: "Key Items", offset: 0x4D8, capacity: 27, maxCount: 1 },
+    tmhm: { name: "TMs & HMs", offset: 0x624, capacity: 101, maxCount: 1 },
+    medicine: { name: "Medicine", offset: 0x7D8, capacity: 47, maxCount: 999 },
+    berries: { name: "Berries", offset: 0x898, capacity: 64, maxCount: 999 }
   };
+  const KEY_ITEM_IDS = new Set([
+    437, 442, 447, 450, 453, 458, 465, 466, 471, 504, 578,
+    616, 617, 621, 626, 627, 628, 629, 630, 631, 632, 633,
+    634, 635, 636, 637, 638
+  ]);
   const STAT_LABELS = ["HP", "Atk", "Def", "Spe", "SpA", "SpD"];
+  const STATUS_CONDITIONS = [
+    { value: 0, label: "None" },
+    { value: 1, label: "Paralysis" },
+    { value: 2, label: "Sleep" },
+    { value: 3, label: "Freeze" },
+    { value: 4, label: "Burn" },
+    { value: 5, label: "Poison" }
+  ];
   const NATURE_NAMES = [
     "Hardy", "Lonely", "Brave", "Adamant", "Naughty",
     "Bold", "Docile", "Relaxed", "Impish", "Lax",
@@ -482,6 +499,7 @@
     );
     return {
       raw: stats,
+      statusCondition: u32(stats, PARTY_STATUS_CONDITION_OFFSET) & 0xFF,
       level: stats[PARTY_LEVEL_OFFSET],
       currentHp: u16(stats, PARTY_CURRENT_HP_OFFSET),
       hp: u16(stats, PARTY_MAX_HP_OFFSET),
@@ -522,6 +540,7 @@
       ivs: ivsFromIv32(iv32),
       nature: decrypted[attacksBlock + NATURE_OFFSET_IN_ATTACKS_BLOCK],
       level: stats.level,
+      statusCondition: stats.statusCondition,
       currentHp: stats.currentHp,
       stats: [stats.hp, stats.attack, stats.defense, stats.speed, stats.spAttack, stats.spDefense]
     };
@@ -730,7 +749,7 @@
       putU32(mutable, growthBlock + EXP_OFFSET_IN_GROWTH_BLOCK, expForLevel(targetLevel, calculated.expGroup));
     }
 
-    if (recalculatedStats || edit.currentHp != null) {
+    if (recalculatedStats || edit.currentHp != null || edit.statusCondition != null) {
       const nextStats = recalculatedStats || [
         oldStats.hp,
         oldStats.attack,
@@ -752,6 +771,14 @@
       }
       newCurrentHp = Math.min(Math.max(newCurrentHp, 0), nextStats[0]);
 
+      if (edit.statusCondition != null) {
+        const oldStatus = u32(partyStats, PARTY_STATUS_CONDITION_OFFSET);
+        putU32(
+          partyStats,
+          PARTY_STATUS_CONDITION_OFFSET,
+          (oldStatus & 0xFFFFFF00) | edit.statusCondition
+        );
+      }
       partyStats[PARTY_LEVEL_OFFSET] = targetLevel;
       putU16(partyStats, PARTY_CURRENT_HP_OFFSET, newCurrentHp);
       putU16(partyStats, PARTY_MAX_HP_OFFSET, nextStats[0]);
@@ -834,14 +861,64 @@
       action = `${pouch.name} slot ${emptySlot + 1}: added x${count}`;
     }
 
-    updateBlockCrc(
-      saveData,
-      partitionBase + INVENTORY_BLOCK_OFFSET,
-      INVENTORY_BLOCK_SIZE,
-      partitionBase + INVENTORY_LOCAL_CRC_OFFSET,
-      partitionBase + SAVE_FOOTER_OFFSET + INVENTORY_BLOCK_INDEX * 2
-    );
     return action;
+  }
+
+  function defaultPouchKeyForItem(itemId) {
+    if (KEY_ITEM_IDS.has(itemId)) {
+      return "key";
+    }
+    if ((itemId >= 328 && itemId <= 425) || (itemId >= 618 && itemId <= 620)) {
+      return "tmhm";
+    }
+    if (
+      (itemId >= 17 && itemId <= 54) ||
+      itemId === 134 ||
+      itemId === 504 ||
+      (itemId >= 565 && itemId <= 570) ||
+      itemId === 591
+    ) {
+      return "medicine";
+    }
+    if (itemId >= 149 && itemId <= 212) {
+      return "berries";
+    }
+    return "items";
+  }
+
+  function resolvePouchKey(itemId, requestedKey) {
+    const defaultKey = defaultPouchKeyForItem(itemId);
+    if (requestedKey === "auto") {
+      return defaultKey;
+    }
+    if (!POUCHES[requestedKey]) {
+      throw new Error("Unknown bag pouch");
+    }
+    if (requestedKey !== defaultKey) {
+      const itemName = state.indexes?.items.byId.get(itemId)?.name || `Item ${itemId}`;
+      throw new Error(`${itemName} belongs in the ${POUCHES[defaultKey].name} pocket`);
+    }
+    return requestedKey;
+  }
+
+  function clearItemFromOtherPouches(saveData, partitionBase, targetKey, itemId) {
+    let preservedCount = 0;
+    const movedFrom = new Set();
+    Object.entries(POUCHES).forEach(([pouchKey, pouch]) => {
+      if (pouchKey === targetKey) {
+        return;
+      }
+      for (let slot = 0; slot < pouch.capacity; slot += 1) {
+        const [existingItem, existingCount] = readPouchEntry(saveData, partitionBase, pouch, slot);
+        if (existingItem !== itemId) {
+          continue;
+        }
+        preservedCount = Math.max(preservedCount, existingCount);
+        movedFrom.add(pouch.name);
+        writePouchEntry(saveData, partitionBase, pouch, slot, 0, 0);
+      }
+    });
+    return { preservedCount, movedFrom: Array.from(movedFrom) };
   }
 
   function addBagItem(itemId, count, pouchKey) {
@@ -849,15 +926,33 @@
       throw new Error("No save is loaded");
     }
 
-    const pouch = POUCHES[pouchKey];
-    if (!pouch) {
-      throw new Error("Unknown bag pouch");
+    const resolvedPouchKey = resolvePouchKey(itemId, pouchKey);
+    const pouch = POUCHES[resolvedPouchKey];
+    if (count > pouch.maxCount) {
+      throw new Error(`${pouch.name} entries can only have a count of ${pouch.maxCount}`);
     }
 
     const saveData = state.save.subarray(0, state.rawLen);
     const actions = [];
     for (const partition of state.partitions) {
-      const action = addItemToPouch(saveData, partition.partitionBase, pouch, itemId, count);
+      const misplaced = clearItemFromOtherPouches(
+        saveData,
+        partition.partitionBase,
+        resolvedPouchKey,
+        itemId
+      );
+      const targetCount = Math.max(count, misplaced.preservedCount);
+      let action = addItemToPouch(saveData, partition.partitionBase, pouch, itemId, targetCount);
+      if (misplaced.movedFrom.length) {
+        action += `; moved from ${misplaced.movedFrom.join(", ")}`;
+      }
+      updateBlockCrc(
+        saveData,
+        partition.partitionBase + INVENTORY_BLOCK_OFFSET,
+        INVENTORY_BLOCK_SIZE,
+        partition.partitionBase + INVENTORY_LOCAL_CRC_OFFSET,
+        partition.partitionBase + SAVE_FOOTER_OFFSET + INVENTORY_BLOCK_INDEX * 2
+      );
       ensureAllBadges(saveData, partition.partitionBase);
       refreshSaveFooterChecksum(saveData, partition.footerBase);
       actions.push(action);
@@ -865,7 +960,7 @@
 
     state.dirty = true;
     state.changeCount += 1;
-    return actions;
+    return { actions, pouch };
   }
 
   function makeIndex(rows) {
@@ -956,6 +1051,29 @@
       return speciesName;
     }
     return formEntry.showdownName || `${speciesName}-${formEntry.name}`;
+  }
+
+  function statusConditionName(value) {
+    return STATUS_CONDITIONS.find((condition) => condition.value === value)?.label || `Unknown (${value})`;
+  }
+
+  function renderStatusConditionField(pokemon) {
+    const hasKnownCondition = STATUS_CONDITIONS.some((condition) => condition.value === pokemon.statusCondition);
+    const unknownOption = hasKnownCondition
+      ? ""
+      : `<option value="${pokemon.statusCondition}" selected disabled>${escapeHtml(statusConditionName(pokemon.statusCondition))}</option>`;
+    const options = STATUS_CONDITIONS.map((condition) => `
+      <option value="${condition.value}"${condition.value === pokemon.statusCondition ? " selected" : ""}>${condition.label}</option>
+    `).join("");
+    return `
+      <label class="save-field status-condition-field">
+        <span>Status Condition</span>
+        <select data-slot="${pokemon.slot}" data-field="statusCondition">
+          ${unknownOption}
+          ${options}
+        </select>
+      </label>
+    `;
   }
 
   function renderFormField(pokemon) {
@@ -1131,6 +1249,8 @@
       const speciesName = species?.name || `Species ${pokemon.species}`;
       const displayName = pokemonDisplayName(pokemon);
       const formField = renderFormField(pokemon);
+      const statusConditionField = renderStatusConditionField(pokemon);
+      const statusSummary = pokemon.statusCondition === 0 ? "" : ` · ${statusConditionName(pokemon.statusCondition)}`;
       const stats = pokemon.stats.map((value, index) => `<span><b>${STAT_LABELS[index]}</b>${value}</span>`).join("");
       const moves = pokemon.moves.map((move, index) => `
         <label class="save-field move-field">
@@ -1145,7 +1265,7 @@
             <div class="slot-badge">Slot ${pokemon.slot + 1}</div>
             <div class="party-title">
               <strong>${escapeHtml(displayName)}</strong>
-              <span>Lv. ${pokemon.level} · HP ${pokemon.currentHp}/${pokemon.stats[0]}</span>
+              <span>Lv. ${pokemon.level} · HP ${pokemon.currentHp}/${pokemon.stats[0]}${escapeHtml(statusSummary)}</span>
             </div>
             <button class="copy-pokemon-button" type="button" data-copy-showdown="${pokemon.slot}" aria-label="Copy ${escapeHtml(displayName)} Showdown text" title="Copy Showdown text">
               <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
@@ -1183,6 +1303,7 @@
                 <span>Current HP</span>
                 <input data-slot="${pokemon.slot}" data-field="currentHp" type="number" min="0" max="${pokemon.stats[0]}" value="${pokemon.currentHp}">
               </label>
+              ${statusConditionField}
             </div>
             <div class="stat-strip" aria-label="Battle stats">
               ${stats}
@@ -1240,6 +1361,11 @@
       edit.level = parseIntegerField(target.value, "Level", 1, 100);
     } else if (field === "currentHp") {
       edit.currentHp = parseIntegerField(target.value, "Current HP", 0, pokemon.stats[0]);
+    } else if (field === "statusCondition") {
+      edit.statusCondition = parseIntegerField(target.value, "Status condition", 0, 5);
+      if (!STATUS_CONDITIONS.some((condition) => condition.value === edit.statusCondition)) {
+        throw new Error("Choose a supported status condition");
+      }
     } else {
       throw new Error("Unknown edit field");
     }
@@ -1265,10 +1391,10 @@
         throw new Error("Bag count must be 1-999");
       }
       const item = state.indexes.items.byId.get(itemId);
-      const actions = addBagItem(itemId, count, els.bagPouch.value);
+      const { actions, pouch } = addBagItem(itemId, count, els.bagPouch.value);
       const persisted = persistLoadedSave();
       updateSaveSummary();
-      setStatus(`Added ${item?.name || `item ${itemId}`} x${count}. All badges enabled across ${actions.length} mirror${actions.length === 1 ? "" : "s"}.${storageStatusMessage(persisted)}`);
+      setStatus(`Added ${item?.name || `item ${itemId}`} x${count} to ${pouch.name}. All badges enabled across ${actions.length} mirror${actions.length === 1 ? "" : "s"}.${storageStatusMessage(persisted)}`);
     } catch (error) {
       setStatus(error.message, true);
     }

@@ -1,5 +1,5 @@
 {
-  "source": "White2Upgrade include headers and data/pml YAML",
+  "source": "White2Upgrade headers and data/pml move records",
   "species": [
     {
       "id": 1,
@@ -21909,7 +21909,7 @@
         95
       ],
       "expGroup": 5,
-      "formDataOffset": 1171,
+      "formDataOffset": 1287,
       "formCount": 2,
       "forms": [
         {
@@ -21928,28 +21928,28 @@
           "expGroup": 5,
           "abilities": [
             188,
-            188,
-            188
+            211,
+            211
           ]
         },
         {
           "id": 1,
-          "name": "Complete",
-          "personalId": 1171,
-          "showdownName": "Zygarde-Complete",
+          "name": "10%",
+          "personalId": 1287,
+          "showdownName": "Zygarde-10%",
           "baseStats": [
-            216,
-            70,
-            91,
+            54,
             100,
-            216,
+            71,
+            115,
+            61,
             85
           ],
           "expGroup": 5,
           "abilities": [
             188,
-            188,
-            188
+            211,
+            211
           ]
         }
       ],
@@ -23295,8 +23295,290 @@
         100
       ],
       "expGroup": 3,
-      "formDataOffset": 0,
-      "formCount": 1,
+      "formDataOffset": 1273,
+      "formCount": 14,
+      "forms": [
+        {
+          "id": 0,
+          "name": "Red Meteor",
+          "personalId": 774,
+          "showdownName": "Minior",
+          "baseStats": [
+            60,
+            60,
+            100,
+            60,
+            60,
+            100
+          ],
+          "expGroup": 3,
+          "abilities": [
+            197,
+            197,
+            197
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Orange Meteor",
+          "personalId": 1273,
+          "showdownName": "Minior-Orange Meteor",
+          "baseStats": [
+            60,
+            60,
+            100,
+            60,
+            60,
+            100
+          ],
+          "expGroup": 3,
+          "abilities": [
+            197,
+            197,
+            197
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Yellow Meteor",
+          "personalId": 1274,
+          "showdownName": "Minior-Yellow Meteor",
+          "baseStats": [
+            60,
+            60,
+            100,
+            60,
+            60,
+            100
+          ],
+          "expGroup": 3,
+          "abilities": [
+            197,
+            197,
+            197
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Green Meteor",
+          "personalId": 1275,
+          "showdownName": "Minior-Green Meteor",
+          "baseStats": [
+            60,
+            60,
+            100,
+            60,
+            60,
+            100
+          ],
+          "expGroup": 3,
+          "abilities": [
+            197,
+            197,
+            197
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Blue Meteor",
+          "personalId": 1276,
+          "showdownName": "Minior-Blue Meteor",
+          "baseStats": [
+            60,
+            60,
+            100,
+            60,
+            60,
+            100
+          ],
+          "expGroup": 3,
+          "abilities": [
+            197,
+            197,
+            197
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Indigo Meteor",
+          "personalId": 1277,
+          "showdownName": "Minior-Indigo Meteor",
+          "baseStats": [
+            60,
+            60,
+            100,
+            60,
+            60,
+            100
+          ],
+          "expGroup": 3,
+          "abilities": [
+            197,
+            197,
+            197
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Violet Meteor",
+          "personalId": 1278,
+          "showdownName": "Minior-Violet Meteor",
+          "baseStats": [
+            60,
+            60,
+            100,
+            60,
+            60,
+            100
+          ],
+          "expGroup": 3,
+          "abilities": [
+            197,
+            197,
+            197
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Red Core",
+          "personalId": 1279,
+          "showdownName": "Minior-Red Core",
+          "baseStats": [
+            60,
+            100,
+            60,
+            120,
+            100,
+            60
+          ],
+          "expGroup": 3,
+          "abilities": [
+            197,
+            197,
+            197
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Orange Core",
+          "personalId": 1280,
+          "showdownName": "Minior-Orange Core",
+          "baseStats": [
+            60,
+            100,
+            60,
+            120,
+            100,
+            60
+          ],
+          "expGroup": 3,
+          "abilities": [
+            197,
+            197,
+            197
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Yellow Core",
+          "personalId": 1281,
+          "showdownName": "Minior-Yellow Core",
+          "baseStats": [
+            60,
+            100,
+            60,
+            120,
+            100,
+            60
+          ],
+          "expGroup": 3,
+          "abilities": [
+            197,
+            197,
+            197
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Green Core",
+          "personalId": 1282,
+          "showdownName": "Minior-Green Core",
+          "baseStats": [
+            60,
+            100,
+            60,
+            120,
+            100,
+            60
+          ],
+          "expGroup": 3,
+          "abilities": [
+            197,
+            197,
+            197
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Blue Core",
+          "personalId": 1283,
+          "showdownName": "Minior-Blue Core",
+          "baseStats": [
+            60,
+            100,
+            60,
+            120,
+            100,
+            60
+          ],
+          "expGroup": 3,
+          "abilities": [
+            197,
+            197,
+            197
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Indigo Core",
+          "personalId": 1284,
+          "showdownName": "Minior-Indigo Core",
+          "baseStats": [
+            60,
+            100,
+            60,
+            120,
+            100,
+            60
+          ],
+          "expGroup": 3,
+          "abilities": [
+            197,
+            197,
+            197
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Violet Core",
+          "personalId": 1285,
+          "showdownName": "Minior-Violet Core",
+          "baseStats": [
+            60,
+            100,
+            60,
+            120,
+            100,
+            60
+          ],
+          "expGroup": 3,
+          "abilities": [
+            197,
+            197,
+            197
+          ]
+        }
+      ],
       "abilities": [
         197,
         197,
@@ -36042,6 +36324,1794 @@
       "constant": "MOVE_HYPERSPACE_FURY",
       "name": "Hyperspace Fury",
       "pp": 5
+    },
+    {
+      "id": 622,
+      "constant": "MOVE_BREAKNECK_BLITZ",
+      "name": "Breakneck Blitz",
+      "pp": 0
+    },
+    {
+      "id": 623,
+      "constant": "MOVE_BREAKNECK_BLITZ_2",
+      "name": "Breakneck Blitz 2",
+      "pp": 0
+    },
+    {
+      "id": 624,
+      "constant": "MOVE_ALLOUT_PUMMELING",
+      "name": "Allout Pummeling",
+      "pp": 0
+    },
+    {
+      "id": 625,
+      "constant": "MOVE_ALLOUT_PUMMELING_2",
+      "name": "Allout Pummeling 2",
+      "pp": 0
+    },
+    {
+      "id": 626,
+      "constant": "MOVE_SUPERSONIC_SKYSTRIKE",
+      "name": "Supersonic Skystrike",
+      "pp": 0
+    },
+    {
+      "id": 627,
+      "constant": "MOVE_SUPERSONIC_SKYSTRIKE_2",
+      "name": "Supersonic Skystrike 2",
+      "pp": 0
+    },
+    {
+      "id": 628,
+      "constant": "MOVE_ACID_DOWNPOUR",
+      "name": "Acid Downpour",
+      "pp": 0
+    },
+    {
+      "id": 629,
+      "constant": "MOVE_ACID_DOWNPOUR_2",
+      "name": "Acid Downpour 2",
+      "pp": 0
+    },
+    {
+      "id": 630,
+      "constant": "MOVE_TECTONIC_RAGE",
+      "name": "Tectonic Rage",
+      "pp": 0
+    },
+    {
+      "id": 631,
+      "constant": "MOVE_TECTONIC_RAGE_2",
+      "name": "Tectonic Rage 2",
+      "pp": 0
+    },
+    {
+      "id": 632,
+      "constant": "MOVE_CONTINENTAL_CRUSH",
+      "name": "Continental Crush",
+      "pp": 0
+    },
+    {
+      "id": 633,
+      "constant": "MOVE_CONTINENTAL_CRUSH_2",
+      "name": "Continental Crush 2",
+      "pp": 0
+    },
+    {
+      "id": 634,
+      "constant": "MOVE_SAVAGE_SPINOUT",
+      "name": "Savage Spinout",
+      "pp": 0
+    },
+    {
+      "id": 635,
+      "constant": "MOVE_SAVAGE_SPINOUT_2",
+      "name": "Savage Spinout 2",
+      "pp": 0
+    },
+    {
+      "id": 636,
+      "constant": "MOVE_NEVERENDING_NIGHTMARE",
+      "name": "Neverending Nightmare",
+      "pp": 0
+    },
+    {
+      "id": 637,
+      "constant": "MOVE_NEVERENDING_NIGHTMARE_2",
+      "name": "Neverending Nightmare 2",
+      "pp": 0
+    },
+    {
+      "id": 638,
+      "constant": "MOVE_CORKSCREW_CRASH",
+      "name": "Corkscrew Crash",
+      "pp": 0
+    },
+    {
+      "id": 639,
+      "constant": "MOVE_CORKSCREW_CRASH_2",
+      "name": "Corkscrew Crash 2",
+      "pp": 0
+    },
+    {
+      "id": 640,
+      "constant": "MOVE_INFERNO_OVERDRIVE",
+      "name": "Inferno Overdrive",
+      "pp": 0
+    },
+    {
+      "id": 641,
+      "constant": "MOVE_INFERNO_OVERDRIVE_2",
+      "name": "Inferno Overdrive 2",
+      "pp": 0
+    },
+    {
+      "id": 642,
+      "constant": "MOVE_HYDRO_VORTEX",
+      "name": "Hydro Vortex",
+      "pp": 0
+    },
+    {
+      "id": 643,
+      "constant": "MOVE_HYDRO_VORTEX_2",
+      "name": "Hydro Vortex 2",
+      "pp": 0
+    },
+    {
+      "id": 644,
+      "constant": "MOVE_BLOOM_DOOM",
+      "name": "Bloom Doom",
+      "pp": 0
+    },
+    {
+      "id": 645,
+      "constant": "MOVE_BLOOM_DOOM_2",
+      "name": "Bloom Doom 2",
+      "pp": 0
+    },
+    {
+      "id": 646,
+      "constant": "MOVE_GIGAVOLT_HAVOC",
+      "name": "Gigavolt Havoc",
+      "pp": 0
+    },
+    {
+      "id": 647,
+      "constant": "MOVE_GIGAVOLT_HAVOC_2",
+      "name": "Gigavolt Havoc 2",
+      "pp": 0
+    },
+    {
+      "id": 648,
+      "constant": "MOVE_SHATTERED_PSYCHE",
+      "name": "Shattered Psyche",
+      "pp": 0
+    },
+    {
+      "id": 649,
+      "constant": "MOVE_SHATTERED_PSYCHE_2",
+      "name": "Shattered Psyche 2",
+      "pp": 0
+    },
+    {
+      "id": 650,
+      "constant": "MOVE_SUBZERO_SLAMMER",
+      "name": "Subzero Slammer",
+      "pp": 0
+    },
+    {
+      "id": 651,
+      "constant": "MOVE_SUBZERO_SLAMMER_2",
+      "name": "Subzero Slammer 2",
+      "pp": 0
+    },
+    {
+      "id": 652,
+      "constant": "MOVE_DEVASTATING_DRAKE",
+      "name": "Devastating Drake",
+      "pp": 0
+    },
+    {
+      "id": 653,
+      "constant": "MOVE_DEVASTATING_DRAKE_2",
+      "name": "Devastating Drake 2",
+      "pp": 0
+    },
+    {
+      "id": 654,
+      "constant": "MOVE_BLACK_HOLE_ECLIPSE",
+      "name": "Black Hole Eclipse",
+      "pp": 0
+    },
+    {
+      "id": 655,
+      "constant": "MOVE_BLACK_HOLE_ECLIPSE_2",
+      "name": "Black Hole Eclipse 2",
+      "pp": 0
+    },
+    {
+      "id": 656,
+      "constant": "MOVE_TWINKLE_TACKLE",
+      "name": "Twinkle Tackle",
+      "pp": 0
+    },
+    {
+      "id": 657,
+      "constant": "MOVE_TWINKLE_TACKLE_2",
+      "name": "Twinkle Tackle 2",
+      "pp": 0
+    },
+    {
+      "id": 658,
+      "constant": "MOVE_CATASTROPIKA",
+      "name": "Catastropika",
+      "pp": 0
+    },
+    {
+      "id": 659,
+      "constant": "MOVE_SHORE_UP",
+      "name": "Shore Up",
+      "pp": 5
+    },
+    {
+      "id": 660,
+      "constant": "MOVE_FIRST_IMPRESSION",
+      "name": "First Impression",
+      "pp": 10
+    },
+    {
+      "id": 661,
+      "constant": "MOVE_BANEFUL_BUNKER",
+      "name": "Baneful Bunker",
+      "pp": 10
+    },
+    {
+      "id": 662,
+      "constant": "MOVE_SPIRIT_SHACKLE",
+      "name": "Spirit Shackle",
+      "pp": 10
+    },
+    {
+      "id": 663,
+      "constant": "MOVE_DARKEST_LARIAT",
+      "name": "Darkest Lariat",
+      "pp": 10
+    },
+    {
+      "id": 664,
+      "constant": "MOVE_SPARKLING_ARIA",
+      "name": "Sparkling Aria",
+      "pp": 10
+    },
+    {
+      "id": 665,
+      "constant": "MOVE_ICE_HAMMER",
+      "name": "Ice Hammer",
+      "pp": 10
+    },
+    {
+      "id": 666,
+      "constant": "MOVE_FLORAL_HEALING",
+      "name": "Floral Healing",
+      "pp": 10
+    },
+    {
+      "id": 667,
+      "constant": "MOVE_HIGH_HORSEPOWER",
+      "name": "High Horsepower",
+      "pp": 10
+    },
+    {
+      "id": 668,
+      "constant": "MOVE_STRENGTH_SAP",
+      "name": "Strength Sap",
+      "pp": 10
+    },
+    {
+      "id": 669,
+      "constant": "MOVE_SOLAR_BLADE",
+      "name": "Solar Blade",
+      "pp": 10
+    },
+    {
+      "id": 670,
+      "constant": "MOVE_LEAFAGE",
+      "name": "Leafage",
+      "pp": 40
+    },
+    {
+      "id": 671,
+      "constant": "MOVE_SPOTLIGHT",
+      "name": "Spotlight",
+      "pp": 15
+    },
+    {
+      "id": 672,
+      "constant": "MOVE_TOXIC_THREAD",
+      "name": "Toxic Thread",
+      "pp": 20
+    },
+    {
+      "id": 673,
+      "constant": "MOVE_LASER_FOCUS",
+      "name": "Laser Focus",
+      "pp": 30
+    },
+    {
+      "id": 674,
+      "constant": "MOVE_GEAR_UP",
+      "name": "Gear Up",
+      "pp": 20
+    },
+    {
+      "id": 675,
+      "constant": "MOVE_THROAT_CHOP",
+      "name": "Throat Chop",
+      "pp": 15
+    },
+    {
+      "id": 676,
+      "constant": "MOVE_POLLEN_PUFF",
+      "name": "Pollen Puff",
+      "pp": 15
+    },
+    {
+      "id": 677,
+      "constant": "MOVE_ANCHOR_SHOT",
+      "name": "Anchor Shot",
+      "pp": 20
+    },
+    {
+      "id": 678,
+      "constant": "MOVE_PSYCHIC_TERRAIN",
+      "name": "Psychic Terrain",
+      "pp": 10
+    },
+    {
+      "id": 679,
+      "constant": "MOVE_LUNGE",
+      "name": "Lunge",
+      "pp": 15
+    },
+    {
+      "id": 680,
+      "constant": "MOVE_FIRE_LASH",
+      "name": "Fire Lash",
+      "pp": 15
+    },
+    {
+      "id": 681,
+      "constant": "MOVE_POWER_TRIP",
+      "name": "Power Trip",
+      "pp": 10
+    },
+    {
+      "id": 682,
+      "constant": "MOVE_BURN_UP",
+      "name": "Burn Up",
+      "pp": 5
+    },
+    {
+      "id": 683,
+      "constant": "MOVE_SPEED_SWAP",
+      "name": "Speed Swap",
+      "pp": 10
+    },
+    {
+      "id": 684,
+      "constant": "MOVE_SMART_STRIKE",
+      "name": "Smart Strike",
+      "pp": 10
+    },
+    {
+      "id": 685,
+      "constant": "MOVE_PURIFY",
+      "name": "Purify",
+      "pp": 20
+    },
+    {
+      "id": 686,
+      "constant": "MOVE_REVELATION_DANCE",
+      "name": "Revelation Dance",
+      "pp": 15
+    },
+    {
+      "id": 687,
+      "constant": "MOVE_CORE_ENFORCER",
+      "name": "Core Enforcer",
+      "pp": 10
+    },
+    {
+      "id": 688,
+      "constant": "MOVE_TROP_KICK",
+      "name": "Trop Kick",
+      "pp": 15
+    },
+    {
+      "id": 689,
+      "constant": "MOVE_INSTRUCT",
+      "name": "Instruct",
+      "pp": 15
+    },
+    {
+      "id": 690,
+      "constant": "MOVE_BEAK_BLAST",
+      "name": "Beak Blast",
+      "pp": 15
+    },
+    {
+      "id": 691,
+      "constant": "MOVE_CLANGING_SCALES",
+      "name": "Clanging Scales",
+      "pp": 5
+    },
+    {
+      "id": 692,
+      "constant": "MOVE_DRAGON_HAMMER",
+      "name": "Dragon Hammer",
+      "pp": 15
+    },
+    {
+      "id": 693,
+      "constant": "MOVE_BRUTAL_SWING",
+      "name": "Brutal Swing",
+      "pp": 20
+    },
+    {
+      "id": 694,
+      "constant": "MOVE_AURORA_VEIL",
+      "name": "Aurora Veil",
+      "pp": 20
+    },
+    {
+      "id": 695,
+      "constant": "MOVE_SINISTER_ARROW_RAID",
+      "name": "Sinister Arrow Raid",
+      "pp": 1
+    },
+    {
+      "id": 696,
+      "constant": "MOVE_MALICIOUS_MOONSAULT",
+      "name": "Malicious Moonsault",
+      "pp": 1
+    },
+    {
+      "id": 697,
+      "constant": "MOVE_OCEANIC_OPERETTA",
+      "name": "Oceanic Operetta",
+      "pp": 1
+    },
+    {
+      "id": 698,
+      "constant": "MOVE_GUARDIAN_OF_ALOLA",
+      "name": "Guardian Of Alola",
+      "pp": 1
+    },
+    {
+      "id": 699,
+      "constant": "MOVE_SOULSTEALING_7STAR_STRIKE",
+      "name": "Soulstealing 7star Strike",
+      "pp": 1
+    },
+    {
+      "id": 700,
+      "constant": "MOVE_STOKED_SPARKSURFER",
+      "name": "Stoked Sparksurfer",
+      "pp": 1
+    },
+    {
+      "id": 701,
+      "constant": "MOVE_PULVERIZING_PANCAKE",
+      "name": "Pulverizing Pancake",
+      "pp": 1
+    },
+    {
+      "id": 702,
+      "constant": "MOVE_EXTREME_EVOBOOST",
+      "name": "Extreme Evoboost",
+      "pp": 1
+    },
+    {
+      "id": 703,
+      "constant": "MOVE_GENESIS_SUPERNOVA",
+      "name": "Genesis Supernova",
+      "pp": 1
+    },
+    {
+      "id": 704,
+      "constant": "MOVE_SHELL_TRAP",
+      "name": "Shell Trap",
+      "pp": 5
+    },
+    {
+      "id": 705,
+      "constant": "MOVE_FLEUR_CANNON",
+      "name": "Fleur Cannon",
+      "pp": 5
+    },
+    {
+      "id": 706,
+      "constant": "MOVE_PSYCHIC_FANGS",
+      "name": "Psychic Fangs",
+      "pp": 15
+    },
+    {
+      "id": 707,
+      "constant": "MOVE_STOMPING_TANTRUM",
+      "name": "Stomping Tantrum",
+      "pp": 10
+    },
+    {
+      "id": 708,
+      "constant": "MOVE_SHADOW_BONE",
+      "name": "Shadow Bone",
+      "pp": 10
+    },
+    {
+      "id": 709,
+      "constant": "MOVE_ACCELEROCK",
+      "name": "Accelerock",
+      "pp": 20
+    },
+    {
+      "id": 710,
+      "constant": "MOVE_LIQUIDATION",
+      "name": "Liquidation",
+      "pp": 10
+    },
+    {
+      "id": 711,
+      "constant": "MOVE_PRISMATIC_LASER",
+      "name": "Prismatic Laser",
+      "pp": 10
+    },
+    {
+      "id": 712,
+      "constant": "MOVE_SPECTRAL_THIEF",
+      "name": "Spectral Thief",
+      "pp": 10
+    },
+    {
+      "id": 713,
+      "constant": "MOVE_SUNSTEEL_STRIKE",
+      "name": "Sunsteel Strike",
+      "pp": 5
+    },
+    {
+      "id": 714,
+      "constant": "MOVE_MOONGEIST_BEAM",
+      "name": "Moongeist Beam",
+      "pp": 5
+    },
+    {
+      "id": 715,
+      "constant": "MOVE_TEARFUL_LOOK",
+      "name": "Tearful Look",
+      "pp": 20
+    },
+    {
+      "id": 716,
+      "constant": "MOVE_ZING_ZAP",
+      "name": "Zing Zap",
+      "pp": 10
+    },
+    {
+      "id": 717,
+      "constant": "MOVE_NATURES_MADNESS",
+      "name": "Nature's Madness",
+      "pp": 10
+    },
+    {
+      "id": 718,
+      "constant": "MOVE_MULTIATTACK",
+      "name": "Multi-Attack",
+      "pp": 10
+    },
+    {
+      "id": 719,
+      "constant": "MOVE_10000000_VOLT_THUNDERBOLT",
+      "name": "10000000 Volt Thunderbolt",
+      "pp": 1
+    },
+    {
+      "id": 720,
+      "constant": "MOVE_MIND_BLOWN",
+      "name": "Mind Blown",
+      "pp": 5
+    },
+    {
+      "id": 721,
+      "constant": "MOVE_PLASMA_FISTS",
+      "name": "Plasma Fists",
+      "pp": 15
+    },
+    {
+      "id": 722,
+      "constant": "MOVE_PHOTON_GEYSER",
+      "name": "Photon Geyser",
+      "pp": 5
+    },
+    {
+      "id": 723,
+      "constant": "MOVE_LIGHT_THAT_BURNS_THE_SKY",
+      "name": "Light That Burns The Sky",
+      "pp": 1
+    },
+    {
+      "id": 724,
+      "constant": "MOVE_SEARING_SUNRAZE_SMASH",
+      "name": "Searing Sunraze Smash",
+      "pp": 1
+    },
+    {
+      "id": 725,
+      "constant": "MOVE_MENACING_MOONRAZE_MAELSTROM",
+      "name": "Menacing Moonraze Maelstrom",
+      "pp": 1
+    },
+    {
+      "id": 726,
+      "constant": "MOVE_LETS_SNUGGLE_FOREVER",
+      "name": "Lets Snuggle Forever",
+      "pp": 1
+    },
+    {
+      "id": 727,
+      "constant": "MOVE_SPLINTERED_STORMSHARDS",
+      "name": "Splintered Stormshards",
+      "pp": 1
+    },
+    {
+      "id": 728,
+      "constant": "MOVE_CLANGOROUS_SOULBLAZE",
+      "name": "Clangorous Soulblaze",
+      "pp": 1
+    },
+    {
+      "id": 729,
+      "constant": "MOVE_ZIPPY_ZAP",
+      "name": "Zippy Zap",
+      "pp": 15
+    },
+    {
+      "id": 730,
+      "constant": "MOVE_SPLISHY_SPLASH",
+      "name": "Splishy Splash",
+      "pp": 15
+    },
+    {
+      "id": 731,
+      "constant": "MOVE_FLOATY_FALL",
+      "name": "Floaty Fall",
+      "pp": 15
+    },
+    {
+      "id": 732,
+      "constant": "MOVE_PIKA_PAPOW",
+      "name": "Pika Papow",
+      "pp": 20
+    },
+    {
+      "id": 733,
+      "constant": "MOVE_BOUNCY_BUBBLE",
+      "name": "Bouncy Bubble",
+      "pp": 15
+    },
+    {
+      "id": 734,
+      "constant": "MOVE_BUZZY_BUZZ",
+      "name": "Buzzy Buzz",
+      "pp": 15
+    },
+    {
+      "id": 735,
+      "constant": "MOVE_SIZZLY_SLIDE",
+      "name": "Sizzly Slide",
+      "pp": 15
+    },
+    {
+      "id": 736,
+      "constant": "MOVE_GLITZY_GLOW",
+      "name": "Glitzy Glow",
+      "pp": 15
+    },
+    {
+      "id": 737,
+      "constant": "MOVE_BADDY_BAD",
+      "name": "Baddy Bad",
+      "pp": 15
+    },
+    {
+      "id": 738,
+      "constant": "MOVE_SAPPY_SEED",
+      "name": "Sappy Seed",
+      "pp": 15
+    },
+    {
+      "id": 739,
+      "constant": "MOVE_FREEZY_FROST",
+      "name": "Freezy Frost",
+      "pp": 10
+    },
+    {
+      "id": 740,
+      "constant": "MOVE_SPARKLY_SWIRL",
+      "name": "Sparkly Swirl",
+      "pp": 15
+    },
+    {
+      "id": 741,
+      "constant": "MOVE_VEEVEE_VOLLEY",
+      "name": "Veevee Volley",
+      "pp": 20
+    },
+    {
+      "id": 742,
+      "constant": "MOVE_DOUBLE_IRON_BASH",
+      "name": "Double Iron Bash",
+      "pp": 5
+    },
+    {
+      "id": 743,
+      "constant": "MOVE_MAX_GUARD",
+      "name": "Max Guard",
+      "pp": 10
+    },
+    {
+      "id": 744,
+      "constant": "MOVE_DYNAMAX_CANNON",
+      "name": "Dynamax Cannon",
+      "pp": 5
+    },
+    {
+      "id": 745,
+      "constant": "MOVE_SNIPE_SHOT",
+      "name": "Snipe Shot",
+      "pp": 15
+    },
+    {
+      "id": 746,
+      "constant": "MOVE_JAW_LOCK",
+      "name": "Jaw Lock",
+      "pp": 10
+    },
+    {
+      "id": 747,
+      "constant": "MOVE_STUFF_CHEEKS",
+      "name": "Stuff Cheeks",
+      "pp": 10
+    },
+    {
+      "id": 748,
+      "constant": "MOVE_NO_RETREAT",
+      "name": "No Retreat",
+      "pp": 5
+    },
+    {
+      "id": 749,
+      "constant": "MOVE_TAR_SHOT",
+      "name": "Tar Shot",
+      "pp": 15
+    },
+    {
+      "id": 750,
+      "constant": "MOVE_MAGIC_POWDER",
+      "name": "Magic Powder",
+      "pp": 20
+    },
+    {
+      "id": 751,
+      "constant": "MOVE_DRAGON_DARTS",
+      "name": "Dragon Darts",
+      "pp": 10
+    },
+    {
+      "id": 752,
+      "constant": "MOVE_TEATIME",
+      "name": "Teatime",
+      "pp": 10
+    },
+    {
+      "id": 753,
+      "constant": "MOVE_OCTOLOCK",
+      "name": "Octolock",
+      "pp": 15
+    },
+    {
+      "id": 754,
+      "constant": "MOVE_BOLT_BEAK",
+      "name": "Bolt Beak",
+      "pp": 10
+    },
+    {
+      "id": 755,
+      "constant": "MOVE_FISHIOUS_REND",
+      "name": "Fishious Rend",
+      "pp": 10
+    },
+    {
+      "id": 756,
+      "constant": "MOVE_COURT_CHANGE",
+      "name": "Court Change",
+      "pp": 10
+    },
+    {
+      "id": 757,
+      "constant": "MOVE_MAX_FLARE",
+      "name": "Max Flare",
+      "pp": 0
+    },
+    {
+      "id": 758,
+      "constant": "MOVE_MAX_FLUTTERBY",
+      "name": "Max Flutterby",
+      "pp": 0
+    },
+    {
+      "id": 759,
+      "constant": "MOVE_MAX_LIGHTNING",
+      "name": "Max Lightning",
+      "pp": 0
+    },
+    {
+      "id": 760,
+      "constant": "MOVE_MAX_STRIKE",
+      "name": "Max Strike",
+      "pp": 0
+    },
+    {
+      "id": 761,
+      "constant": "MOVE_MAX_KNUCKLE",
+      "name": "Max Knuckle",
+      "pp": 0
+    },
+    {
+      "id": 762,
+      "constant": "MOVE_MAX_PHANTASM",
+      "name": "Max Phantasm",
+      "pp": 0
+    },
+    {
+      "id": 763,
+      "constant": "MOVE_MAX_HAILSTORM",
+      "name": "Max Hailstorm",
+      "pp": 0
+    },
+    {
+      "id": 764,
+      "constant": "MOVE_MAX_OOZE",
+      "name": "Max Ooze",
+      "pp": 0
+    },
+    {
+      "id": 765,
+      "constant": "MOVE_MAX_GEYSER",
+      "name": "Max Geyser",
+      "pp": 0
+    },
+    {
+      "id": 766,
+      "constant": "MOVE_MAX_AIRSTREAM",
+      "name": "Max Airstream",
+      "pp": 0
+    },
+    {
+      "id": 767,
+      "constant": "MOVE_MAX_STARFALL",
+      "name": "Max Starfall",
+      "pp": 0
+    },
+    {
+      "id": 768,
+      "constant": "MOVE_MAX_WYRMWIND",
+      "name": "Max Wyrmwind",
+      "pp": 0
+    },
+    {
+      "id": 769,
+      "constant": "MOVE_MAX_MINDSTORM",
+      "name": "Max Mindstorm",
+      "pp": 0
+    },
+    {
+      "id": 770,
+      "constant": "MOVE_MAX_ROCKFALL",
+      "name": "Max Rockfall",
+      "pp": 0
+    },
+    {
+      "id": 771,
+      "constant": "MOVE_MAX_QUAKE",
+      "name": "Max Quake",
+      "pp": 0
+    },
+    {
+      "id": 772,
+      "constant": "MOVE_MAX_DARKNESS",
+      "name": "Max Darkness",
+      "pp": 0
+    },
+    {
+      "id": 773,
+      "constant": "MOVE_MAX_OVERGROWTH",
+      "name": "Max Overgrowth",
+      "pp": 0
+    },
+    {
+      "id": 774,
+      "constant": "MOVE_MAX_STEELSPIKE",
+      "name": "Max Steelspike",
+      "pp": 0
+    },
+    {
+      "id": 775,
+      "constant": "MOVE_CLANGOROUS_SOUL",
+      "name": "Clangorous Soul",
+      "pp": 5
+    },
+    {
+      "id": 776,
+      "constant": "MOVE_BODY_PRESS",
+      "name": "Body Press",
+      "pp": 10
+    },
+    {
+      "id": 777,
+      "constant": "MOVE_DECORATE",
+      "name": "Decorate",
+      "pp": 15
+    },
+    {
+      "id": 778,
+      "constant": "MOVE_DRUM_BEATING",
+      "name": "Drum Beating",
+      "pp": 10
+    },
+    {
+      "id": 779,
+      "constant": "MOVE_SNAP_TRAP",
+      "name": "Snap Trap",
+      "pp": 15
+    },
+    {
+      "id": 780,
+      "constant": "MOVE_PYRO_BALL",
+      "name": "Pyro Ball",
+      "pp": 5
+    },
+    {
+      "id": 781,
+      "constant": "MOVE_BEHEMOTH_BLADE",
+      "name": "Behemoth Blade",
+      "pp": 5
+    },
+    {
+      "id": 782,
+      "constant": "MOVE_BEHEMOTH_BASH",
+      "name": "Behemoth Bash",
+      "pp": 5
+    },
+    {
+      "id": 783,
+      "constant": "MOVE_AURA_WHEEL",
+      "name": "Aura Wheel",
+      "pp": 10
+    },
+    {
+      "id": 784,
+      "constant": "MOVE_BREAKING_SWIPE",
+      "name": "Breaking Swipe",
+      "pp": 15
+    },
+    {
+      "id": 785,
+      "constant": "MOVE_BRANCH_POKE",
+      "name": "Branch Poke",
+      "pp": 40
+    },
+    {
+      "id": 786,
+      "constant": "MOVE_OVERDRIVE",
+      "name": "Overdrive",
+      "pp": 10
+    },
+    {
+      "id": 787,
+      "constant": "MOVE_APPLE_ACID",
+      "name": "Apple Acid",
+      "pp": 10
+    },
+    {
+      "id": 788,
+      "constant": "MOVE_GRAV_APPLE",
+      "name": "Grav Apple",
+      "pp": 10
+    },
+    {
+      "id": 789,
+      "constant": "MOVE_SPIRIT_BREAK",
+      "name": "Spirit Break",
+      "pp": 15
+    },
+    {
+      "id": 790,
+      "constant": "MOVE_STRANGE_STEAM",
+      "name": "Strange Steam",
+      "pp": 10
+    },
+    {
+      "id": 791,
+      "constant": "MOVE_LIFE_DEW",
+      "name": "Life Dew",
+      "pp": 10
+    },
+    {
+      "id": 792,
+      "constant": "MOVE_OBSTRUCT",
+      "name": "Obstruct",
+      "pp": 10
+    },
+    {
+      "id": 793,
+      "constant": "MOVE_FALSE_SURRENDER",
+      "name": "False Surrender",
+      "pp": 10
+    },
+    {
+      "id": 794,
+      "constant": "MOVE_METEOR_ASSAULT",
+      "name": "Meteor Assault",
+      "pp": 5
+    },
+    {
+      "id": 795,
+      "constant": "MOVE_ETERNABEAM",
+      "name": "Eternabeam",
+      "pp": 5
+    },
+    {
+      "id": 796,
+      "constant": "MOVE_STEEL_BEAM",
+      "name": "Steel Beam",
+      "pp": 5
+    },
+    {
+      "id": 797,
+      "constant": "MOVE_EXPANDING_FORCE",
+      "name": "Expanding Force",
+      "pp": 10
+    },
+    {
+      "id": 798,
+      "constant": "MOVE_STEEL_ROLLER",
+      "name": "Steel Roller",
+      "pp": 5
+    },
+    {
+      "id": 799,
+      "constant": "MOVE_SCALE_SHOT",
+      "name": "Scale Shot",
+      "pp": 20
+    },
+    {
+      "id": 800,
+      "constant": "MOVE_METEOR_BEAM",
+      "name": "Meteor Beam",
+      "pp": 10
+    },
+    {
+      "id": 801,
+      "constant": "MOVE_SHELL_SIDE_ARM",
+      "name": "Shell Side Arm",
+      "pp": 10
+    },
+    {
+      "id": 802,
+      "constant": "MOVE_MISTY_EXPLOSION",
+      "name": "Misty Explosion",
+      "pp": 5
+    },
+    {
+      "id": 803,
+      "constant": "MOVE_GRASSY_GLIDE",
+      "name": "Grassy Glide",
+      "pp": 20
+    },
+    {
+      "id": 804,
+      "constant": "MOVE_RISING_VOLTAGE",
+      "name": "Rising Voltage",
+      "pp": 20
+    },
+    {
+      "id": 805,
+      "constant": "MOVE_TERRAIN_PULSE",
+      "name": "Terrain Pulse",
+      "pp": 10
+    },
+    {
+      "id": 806,
+      "constant": "MOVE_SKITTER_SMACK",
+      "name": "Skitter Smack",
+      "pp": 10
+    },
+    {
+      "id": 807,
+      "constant": "MOVE_BURNING_JEALOUSY",
+      "name": "Burning Jealousy",
+      "pp": 5
+    },
+    {
+      "id": 808,
+      "constant": "MOVE_LASH_OUT",
+      "name": "Lash Out",
+      "pp": 5
+    },
+    {
+      "id": 809,
+      "constant": "MOVE_POLTERGEIST",
+      "name": "Poltergeist",
+      "pp": 5
+    },
+    {
+      "id": 810,
+      "constant": "MOVE_CORROSIVE_GAS",
+      "name": "Corrosive Gas",
+      "pp": 40
+    },
+    {
+      "id": 811,
+      "constant": "MOVE_COACHING",
+      "name": "Coaching",
+      "pp": 10
+    },
+    {
+      "id": 812,
+      "constant": "MOVE_FLIP_TURN",
+      "name": "Flip Turn",
+      "pp": 20
+    },
+    {
+      "id": 813,
+      "constant": "MOVE_TRIPLE_AXEL",
+      "name": "Triple Axel",
+      "pp": 10
+    },
+    {
+      "id": 814,
+      "constant": "MOVE_DUAL_WINGBEAT",
+      "name": "Dual Wingbeat",
+      "pp": 10
+    },
+    {
+      "id": 815,
+      "constant": "MOVE_SCORCHING_SANDS",
+      "name": "Scorching Sands",
+      "pp": 10
+    },
+    {
+      "id": 816,
+      "constant": "MOVE_JUNGLE_HEALING",
+      "name": "Jungle Healing",
+      "pp": 10
+    },
+    {
+      "id": 817,
+      "constant": "MOVE_WICKED_BLOW",
+      "name": "Wicked Blow",
+      "pp": 5
+    },
+    {
+      "id": 818,
+      "constant": "MOVE_SURGING_STRIKES",
+      "name": "Surging Strikes",
+      "pp": 5
+    },
+    {
+      "id": 819,
+      "constant": "MOVE_THUNDER_CAGE",
+      "name": "Thunder Cage",
+      "pp": 15
+    },
+    {
+      "id": 820,
+      "constant": "MOVE_DRAGON_ENERGY",
+      "name": "Dragon Energy",
+      "pp": 5
+    },
+    {
+      "id": 821,
+      "constant": "MOVE_FREEZING_GLARE",
+      "name": "Freezing Glare",
+      "pp": 10
+    },
+    {
+      "id": 822,
+      "constant": "MOVE_FIERY_WRATH",
+      "name": "Fiery Wrath",
+      "pp": 10
+    },
+    {
+      "id": 823,
+      "constant": "MOVE_THUNDEROUS_KICK",
+      "name": "Thunderous Kick",
+      "pp": 10
+    },
+    {
+      "id": 824,
+      "constant": "MOVE_GLACIAL_LANCE",
+      "name": "Glacial Lance",
+      "pp": 5
+    },
+    {
+      "id": 825,
+      "constant": "MOVE_ASTRAL_BARRAGE",
+      "name": "Astral Barrage",
+      "pp": 5
+    },
+    {
+      "id": 826,
+      "constant": "MOVE_EERIE_SPELL",
+      "name": "Eerie Spell",
+      "pp": 5
+    },
+    {
+      "id": 827,
+      "constant": "MOVE_DIRE_CLAW",
+      "name": "Dire Claw",
+      "pp": 15
+    },
+    {
+      "id": 828,
+      "constant": "MOVE_PSYSHIELD_BASH",
+      "name": "Psyshield Bash",
+      "pp": 10
+    },
+    {
+      "id": 829,
+      "constant": "MOVE_POWER_SHIFT",
+      "name": "Power Shift",
+      "pp": 10
+    },
+    {
+      "id": 830,
+      "constant": "MOVE_STONE_AXE",
+      "name": "Stone Axe",
+      "pp": 15
+    },
+    {
+      "id": 831,
+      "constant": "MOVE_SPRINGTIDE_STORM",
+      "name": "Springtide Storm",
+      "pp": 5
+    },
+    {
+      "id": 832,
+      "constant": "MOVE_MYSTICAL_POWER",
+      "name": "Mystical Power",
+      "pp": 10
+    },
+    {
+      "id": 833,
+      "constant": "MOVE_RAGING_FURY",
+      "name": "Raging Fury",
+      "pp": 10
+    },
+    {
+      "id": 834,
+      "constant": "MOVE_WAVE_CRASH",
+      "name": "Wave Crash",
+      "pp": 10
+    },
+    {
+      "id": 835,
+      "constant": "MOVE_CHLOROBLAST",
+      "name": "Chloroblast",
+      "pp": 5
+    },
+    {
+      "id": 836,
+      "constant": "MOVE_MOUNTAIN_GALE",
+      "name": "Mountain Gale",
+      "pp": 10
+    },
+    {
+      "id": 837,
+      "constant": "MOVE_VICTORY_DANCE",
+      "name": "Victory Dance",
+      "pp": 10
+    },
+    {
+      "id": 838,
+      "constant": "MOVE_HEADLONG_RUSH",
+      "name": "Headlong Rush",
+      "pp": 5
+    },
+    {
+      "id": 839,
+      "constant": "MOVE_BARB_BARRAGE",
+      "name": "Barb Barrage",
+      "pp": 10
+    },
+    {
+      "id": 840,
+      "constant": "MOVE_ESPER_WING",
+      "name": "Esper Wing",
+      "pp": 10
+    },
+    {
+      "id": 841,
+      "constant": "MOVE_BITTER_MALICE",
+      "name": "Bitter Malice",
+      "pp": 10
+    },
+    {
+      "id": 842,
+      "constant": "MOVE_SHELTER",
+      "name": "Shelter",
+      "pp": 10
+    },
+    {
+      "id": 843,
+      "constant": "MOVE_TRIPLE_ARROWS",
+      "name": "Triple Arrows",
+      "pp": 10
+    },
+    {
+      "id": 844,
+      "constant": "MOVE_INFERNAL_PARADE",
+      "name": "Infernal Parade",
+      "pp": 15
+    },
+    {
+      "id": 845,
+      "constant": "MOVE_CEASELESS_EDGE",
+      "name": "Ceaseless Edge",
+      "pp": 15
+    },
+    {
+      "id": 846,
+      "constant": "MOVE_BLEAKWIND_STORM",
+      "name": "Bleakwind Storm",
+      "pp": 10
+    },
+    {
+      "id": 847,
+      "constant": "MOVE_WILDBOLT_STORM",
+      "name": "Wildbolt Storm",
+      "pp": 10
+    },
+    {
+      "id": 848,
+      "constant": "MOVE_SANDSEAR_STORM",
+      "name": "Sandsear Storm",
+      "pp": 10
+    },
+    {
+      "id": 849,
+      "constant": "MOVE_LUNAR_BLESSING",
+      "name": "Lunar Blessing",
+      "pp": 5
+    },
+    {
+      "id": 850,
+      "constant": "MOVE_TAKE_HEART",
+      "name": "Take Heart",
+      "pp": 5
+    },
+    {
+      "id": 851,
+      "constant": "MOVE_TERA_BLAST",
+      "name": "Tera Blast",
+      "pp": 10
+    },
+    {
+      "id": 852,
+      "constant": "MOVE_SILK_TRAP",
+      "name": "Silk Trap",
+      "pp": 10
+    },
+    {
+      "id": 853,
+      "constant": "MOVE_AXE_KICK",
+      "name": "Axe Kick",
+      "pp": 10
+    },
+    {
+      "id": 854,
+      "constant": "MOVE_LAST_RESPECTS",
+      "name": "Last Respects",
+      "pp": 10
+    },
+    {
+      "id": 855,
+      "constant": "MOVE_LUMINA_CRASH",
+      "name": "Lumina Crash",
+      "pp": 10
+    },
+    {
+      "id": 856,
+      "constant": "MOVE_ORDER_UP",
+      "name": "Order Up",
+      "pp": 10
+    },
+    {
+      "id": 857,
+      "constant": "MOVE_JET_PUNCH",
+      "name": "Jet Punch",
+      "pp": 15
+    },
+    {
+      "id": 858,
+      "constant": "MOVE_SPICY_EXTRACT",
+      "name": "Spicy Extract",
+      "pp": 15
+    },
+    {
+      "id": 859,
+      "constant": "MOVE_SPIN_OUT",
+      "name": "Spin Out",
+      "pp": 5
+    },
+    {
+      "id": 860,
+      "constant": "MOVE_POPULATION_BOMB",
+      "name": "Population Bomb",
+      "pp": 10
+    },
+    {
+      "id": 861,
+      "constant": "MOVE_ICE_SPINNER",
+      "name": "Ice Spinner",
+      "pp": 15
+    },
+    {
+      "id": 862,
+      "constant": "MOVE_GLAIVE_RUSH",
+      "name": "Glaive Rush",
+      "pp": 5
+    },
+    {
+      "id": 863,
+      "constant": "MOVE_REVIVAL_BLESSING",
+      "name": "Revival Blessing",
+      "pp": 1
+    },
+    {
+      "id": 864,
+      "constant": "MOVE_SALT_CURE",
+      "name": "Salt Cure",
+      "pp": 15
+    },
+    {
+      "id": 865,
+      "constant": "MOVE_TRIPLE_DIVE",
+      "name": "Triple Dive",
+      "pp": 10
+    },
+    {
+      "id": 866,
+      "constant": "MOVE_MORTAL_SPIN",
+      "name": "Mortal Spin",
+      "pp": 15
+    },
+    {
+      "id": 867,
+      "constant": "MOVE_DOODLE",
+      "name": "Doodle",
+      "pp": 10
+    },
+    {
+      "id": 868,
+      "constant": "MOVE_FILLET_AWAY",
+      "name": "Fillet Away",
+      "pp": 10
+    },
+    {
+      "id": 869,
+      "constant": "MOVE_KOWTOW_CLEAVE",
+      "name": "Kowtow Cleave",
+      "pp": 10
+    },
+    {
+      "id": 870,
+      "constant": "MOVE_FLOWER_TRICK",
+      "name": "Flower Trick",
+      "pp": 10
+    },
+    {
+      "id": 871,
+      "constant": "MOVE_TORCH_SONG",
+      "name": "Torch Song",
+      "pp": 10
+    },
+    {
+      "id": 872,
+      "constant": "MOVE_AQUA_STEP",
+      "name": "Aqua Step",
+      "pp": 10
+    },
+    {
+      "id": 873,
+      "constant": "MOVE_RAGING_BULL",
+      "name": "Raging Bull",
+      "pp": 10
+    },
+    {
+      "id": 874,
+      "constant": "MOVE_MAKE_IT_RAIN",
+      "name": "Make It Rain",
+      "pp": 5
+    },
+    {
+      "id": 875,
+      "constant": "MOVE_PSYBLADE",
+      "name": "Psyblade",
+      "pp": 15
+    },
+    {
+      "id": 876,
+      "constant": "MOVE_HYDRO_STEAM",
+      "name": "Hydro Steam",
+      "pp": 15
+    },
+    {
+      "id": 877,
+      "constant": "MOVE_RUINATION",
+      "name": "Ruination",
+      "pp": 10
+    },
+    {
+      "id": 878,
+      "constant": "MOVE_COLLISION_COURSE",
+      "name": "Collision Course",
+      "pp": 5
+    },
+    {
+      "id": 879,
+      "constant": "MOVE_ELECTRO_DRIFT",
+      "name": "Electro Drift",
+      "pp": 5
+    },
+    {
+      "id": 880,
+      "constant": "MOVE_SHED_TAIL",
+      "name": "Shed Tail",
+      "pp": 10
+    },
+    {
+      "id": 881,
+      "constant": "MOVE_CHILLY_RECEPTION",
+      "name": "Chilly Reception",
+      "pp": 10
+    },
+    {
+      "id": 882,
+      "constant": "MOVE_TIDY_UP",
+      "name": "Tidy Up",
+      "pp": 10
+    },
+    {
+      "id": 883,
+      "constant": "MOVE_SNOWSCAPE",
+      "name": "Snowscape",
+      "pp": 10
+    },
+    {
+      "id": 884,
+      "constant": "MOVE_POUNCE",
+      "name": "Pounce",
+      "pp": 20
+    },
+    {
+      "id": 885,
+      "constant": "MOVE_TRAILBLAZE",
+      "name": "Trailblaze",
+      "pp": 20
+    },
+    {
+      "id": 886,
+      "constant": "MOVE_CHILLING_WATER",
+      "name": "Chilling Water",
+      "pp": 20
+    },
+    {
+      "id": 887,
+      "constant": "MOVE_HYPER_DRILL",
+      "name": "Hyper Drill",
+      "pp": 5
+    },
+    {
+      "id": 888,
+      "constant": "MOVE_TWIN_BEAM",
+      "name": "Twin Beam",
+      "pp": 10
+    },
+    {
+      "id": 889,
+      "constant": "MOVE_RAGE_FIST",
+      "name": "Rage Fist",
+      "pp": 10
+    },
+    {
+      "id": 890,
+      "constant": "MOVE_ARMOR_CANNON",
+      "name": "Armor Cannon",
+      "pp": 5
+    },
+    {
+      "id": 891,
+      "constant": "MOVE_BITTER_BLADE",
+      "name": "Bitter Blade",
+      "pp": 10
+    },
+    {
+      "id": 892,
+      "constant": "MOVE_DOUBLE_SHOCK",
+      "name": "Double Shock",
+      "pp": 5
+    },
+    {
+      "id": 893,
+      "constant": "MOVE_GIGATON_HAMMER",
+      "name": "Gigaton Hammer",
+      "pp": 5
+    },
+    {
+      "id": 894,
+      "constant": "MOVE_COMEUPPANCE",
+      "name": "Comeuppance",
+      "pp": 10
+    },
+    {
+      "id": 895,
+      "constant": "MOVE_AQUA_CUTTER",
+      "name": "Aqua Cutter",
+      "pp": 20
+    },
+    {
+      "id": 896,
+      "constant": "MOVE_BLAZING_TORQUE",
+      "name": "Blazing Torque",
+      "pp": 10
+    },
+    {
+      "id": 897,
+      "constant": "MOVE_WICKED_TORQUE",
+      "name": "Wicked Torque",
+      "pp": 10
+    },
+    {
+      "id": 898,
+      "constant": "MOVE_NOXIOUS_TORQUE",
+      "name": "Noxious Torque",
+      "pp": 10
+    },
+    {
+      "id": 899,
+      "constant": "MOVE_COMBAT_TORQUE",
+      "name": "Combat Torque",
+      "pp": 10
+    },
+    {
+      "id": 900,
+      "constant": "MOVE_MAGICAL_TORQUE",
+      "name": "Magical Torque",
+      "pp": 10
+    },
+    {
+      "id": 901,
+      "constant": "MOVE_BLOOD_MOON",
+      "name": "Blood Moon",
+      "pp": 5
+    },
+    {
+      "id": 902,
+      "constant": "MOVE_MATCHA_GOTCHA",
+      "name": "Matcha Gotcha",
+      "pp": 15
+    },
+    {
+      "id": 903,
+      "constant": "MOVE_SYRUP_BOMB",
+      "name": "Syrup Bomb",
+      "pp": 10
+    },
+    {
+      "id": 904,
+      "constant": "MOVE_IVY_CUDGEL",
+      "name": "Ivy Cudgel",
+      "pp": 10
+    },
+    {
+      "id": 905,
+      "constant": "MOVE_ELECTRO_SHOT",
+      "name": "Electro Shot",
+      "pp": 10
+    },
+    {
+      "id": 906,
+      "constant": "MOVE_TERA_STARSTORM",
+      "name": "Tera Starstorm",
+      "pp": 5
+    },
+    {
+      "id": 907,
+      "constant": "MOVE_FICKLE_BEAM",
+      "name": "Fickle Beam",
+      "pp": 5
+    },
+    {
+      "id": 908,
+      "constant": "MOVE_BURNING_BULWARK",
+      "name": "Burning Bulwark",
+      "pp": 10
+    },
+    {
+      "id": 909,
+      "constant": "MOVE_THUNDERCLAP",
+      "name": "Thunderclap",
+      "pp": 5
+    },
+    {
+      "id": 910,
+      "constant": "MOVE_MIGHTY_CLEAVE",
+      "name": "Mighty Cleave",
+      "pp": 5
+    },
+    {
+      "id": 911,
+      "constant": "MOVE_TACHYON_CUTTER",
+      "name": "Tachyon Cutter",
+      "pp": 10
+    },
+    {
+      "id": 912,
+      "constant": "MOVE_HARD_PRESS",
+      "name": "Hard Press",
+      "pp": 10
+    },
+    {
+      "id": 913,
+      "constant": "MOVE_DRAGON_CHEER",
+      "name": "Dragon Cheer",
+      "pp": 15
+    },
+    {
+      "id": 914,
+      "constant": "MOVE_ALLURING_VOICE",
+      "name": "Alluring Voice",
+      "pp": 10
+    },
+    {
+      "id": 915,
+      "constant": "MOVE_TEMPER_FLARE",
+      "name": "Temper Flare",
+      "pp": 10
+    },
+    {
+      "id": 916,
+      "constant": "MOVE_SUPERCELL_SLAM",
+      "name": "Supercell Slam",
+      "pp": 15
+    },
+    {
+      "id": 917,
+      "constant": "MOVE_PSYCHIC_NOISE",
+      "name": "Psychic Noise",
+      "pp": 10
+    },
+    {
+      "id": 918,
+      "constant": "MOVE_UPPER_HAND",
+      "name": "Upper Hand",
+      "pp": 15
+    },
+    {
+      "id": 919,
+      "constant": "MOVE_MALIGNANT_CHAIN",
+      "name": "Malignant Chain",
+      "pp": 5
     }
   ],
   "items": [
@@ -36612,8 +38682,8 @@
     },
     {
       "id": 113,
-      "constant": "ITEM_113",
-      "name": "113"
+      "constant": "ITEM_MEGITE",
+      "name": "Megite"
     },
     {
       "id": 114,

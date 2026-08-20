@@ -3,8 +3,9 @@
 
   const STORAGE_KEY = "white2expansion.progress.v1";
   const UI_STORAGE_KEY = "white2expansion.ui.v1";
-  const DATA_VERSION = "20260626-gen89-moves-unmarked";
+  const DATA_VERSION = "20260820-progress-rom";
   const COUNTED_FILTERS = new Set(["open", "missingSprites", "missingAnimation"]);
+  const TRACKED_GENERATIONS = [6, 7, 8, 9];
   const CREDIT_LINKS = new Map([
     ["retronc", "https://www.deviantart.com/retronc"],
     ["aronousqui20", "https://www.deviantart.com/aronousqui20"],
@@ -68,6 +69,7 @@
   const state = {
     activeTab: loadSavedTab(),
     filter: "all",
+    generation: "all",
     search: "",
     canEdit: isLocalhost(),
     seeds: {},
@@ -89,7 +91,8 @@
 
   const els = {
     tabs: Array.from(document.querySelectorAll(".tab")),
-    segments: Array.from(document.querySelectorAll(".segment")),
+    segments: Array.from(document.querySelectorAll(".segment[data-filter]")),
+    generationSegments: Array.from(document.querySelectorAll(".generation-segment")),
     search: document.getElementById("search-input"),
     head: document.getElementById("tracker-head"),
     body: document.getElementById("tracker-body"),
@@ -227,6 +230,57 @@
     ].filter(Boolean).join(" ").toLowerCase();
   }
 
+  function generationForSpeciesId(speciesId) {
+    if (speciesId >= 650 && speciesId <= 721) return 6;
+    if (speciesId >= 722 && speciesId <= 809) return 7;
+    if (speciesId >= 810 && speciesId <= 905) return 8;
+    if (speciesId >= 906 && speciesId <= 1025) return 9;
+    return null;
+  }
+
+  function generationForRow(category, row) {
+    const explicitGeneration = Number(row.generation ?? row.gen);
+    if (TRACKED_GENERATIONS.includes(explicitGeneration)) {
+      return explicitGeneration;
+    }
+
+    const id = Number(row.id);
+    if (category === "moves") {
+      if (id >= 560 && id <= 621) return 6;
+      if (id >= 622 && id <= 742) return 7;
+      if (id >= 743 && id <= 850) return 8;
+      if (id >= 851) return 9;
+      return null;
+    }
+    if (category === "abilities") {
+      if (id >= 165 && id <= 191) return 6;
+      if (id >= 192 && id <= 233) return 7;
+      if (id >= 234 && id <= 267) return 8;
+      if (id >= 268) return 9;
+      return null;
+    }
+    if (category === "items") {
+      // These entries use free Gen V item slots rather than canonical modern
+      // IDs. The current list is Gen 6 except for Gen 9's Fairy Feather.
+      return row.key === "ITEM_FAIRY_FEATHER" ? 9 : 6;
+    }
+    if (category === "pokemon") {
+      if (String(row.key).startsWith("REGIONAL_ALOLA_")) return 7;
+      if (/^REGIONAL_(GALAR|HISUI)_/.test(String(row.key))) return 8;
+      if (String(row.key).startsWith("REGIONAL_PALDEA_")) return 9;
+      if (String(row.key).startsWith("MEGA_ZA_")) return 9;
+      if (row.kind === "mega form") return 6;
+      const baseGeneration = generationForSpeciesId(Number(row.baseSpeciesId));
+      if (baseGeneration) return baseGeneration;
+      return generationForSpeciesId(id);
+    }
+    return null;
+  }
+
+  function rowMatchesGeneration(category, row, generation = state.generation) {
+    return generation === "all" || generationForRow(category, row) === Number(generation);
+  }
+
   function rowMatchesFilter(category, row, filter = state.filter) {
     const merged = mergeProgress(category, row);
     const fields = CATEGORIES[category].fields.map(([field]) => field);
@@ -253,14 +307,18 @@
     if (!rows) {
       return null;
     }
-    return rows.filter((row) => rowMatchesFilter(category, row, filter)).length;
+    return rows.filter((row) =>
+      rowMatchesGeneration(category, row) && rowMatchesFilter(category, row, filter)
+    ).length;
   }
 
   function getVisibleRows() {
     const category = state.activeTab;
     const term = state.search.trim().toLowerCase();
     return (state.seeds[category] || []).filter((row) => {
-      return (!term || rowSearchText(row).includes(term)) && rowMatchesFilter(category, row);
+      return (!term || rowSearchText(row).includes(term)) &&
+        rowMatchesFilter(category, row) &&
+        rowMatchesGeneration(category, row);
     });
   }
 
@@ -348,7 +406,9 @@
   }
 
   function renderNameCell(row) {
+    const generation = generationForRow(state.activeTab, row);
     const meta = [
+      generation ? makePill(`Gen ${generation}`, "generation") : "",
       row.constant ? makePill(row.constant, "ok") : "",
       row.id != null ? makePill(`#${row.id}`, "") : "",
       ...splitCredits(row.credits).map(renderCreditPill)
@@ -422,6 +482,7 @@
     renderRows();
     renderSummary();
     renderFilterCounts();
+    renderGenerationCounts();
   }
 
   function escapeHtml(value) {
@@ -451,6 +512,12 @@
     }
     state.filter = filter;
     syncFilterControls();
+    render();
+  }
+
+  function setGeneration(generation) {
+    state.generation = generation === "all" ? "all" : String(Number(generation));
+    syncGenerationControls();
     render();
   }
 
@@ -489,6 +556,26 @@
     });
   }
 
+  function syncGenerationControls() {
+    els.generationSegments.forEach((button) => {
+      button.classList.toggle("is-active", button.dataset.generation === state.generation);
+    });
+  }
+
+  function renderGenerationCounts() {
+    const rows = state.seeds[state.activeTab] || [];
+    els.generationSegments.forEach((button) => {
+      if (!button.dataset.generationLabel) {
+        button.dataset.generationLabel = button.textContent.trim();
+      }
+      const generation = button.dataset.generation;
+      const count = generation === "all"
+        ? rows.length
+        : rows.filter((row) => rowMatchesGeneration(state.activeTab, row, generation)).length;
+      button.textContent = `${button.dataset.generationLabel} (${count})`;
+    });
+  }
+
   function updateRowProgress(category, key, field, value) {
     if (!state.canEdit) {
       return;
@@ -507,6 +594,10 @@
 
     els.segments.forEach((button) => {
       button.addEventListener("click", () => setFilter(button.dataset.filter));
+    });
+
+    els.generationSegments.forEach((button) => {
+      button.addEventListener("click", () => setGeneration(button.dataset.generation));
     });
 
     els.search.addEventListener("input", () => {
@@ -575,6 +666,7 @@
 
   async function init() {
     syncEditControls();
+    syncGenerationControls();
     if (state.canEdit) {
       const stored = loadStoredProgress();
       state.progress = stored.progress;
