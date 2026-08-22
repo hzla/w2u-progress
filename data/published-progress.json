@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-20T01:03:30.803Z",
+  "updatedAt": "2026-08-22T16:45:25.919Z",
   "progress": {
     "pokemon": {
       "SPECIES_CHESPIN": {
@@ -5806,8 +5806,8 @@
       },
       "MOVE_GEAR_UP": {
         "animation": true,
-        "effectHandler": false,
-        "verified": false,
+        "effectHandler": true,
+        "verified": true,
         "notes": "skipped for now"
       },
       "MOVE_GIGATON_HAMMER": {
@@ -5932,8 +5932,8 @@
       },
       "MOVE_LASER_FOCUS": {
         "animation": true,
-        "effectHandler": false,
-        "verified": false,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_LASH_OUT": {
@@ -6147,9 +6147,9 @@
         "notes": ""
       },
       "MOVE_MIND_BLOWN": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_MISTY_EXPLOSION": {
@@ -6159,9 +6159,9 @@
         "notes": ""
       },
       "MOVE_MOONGEIST_BEAM": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_MORTAL_SPIN": {
@@ -6180,7 +6180,7 @@
         "animation": false,
         "effectHandler": false,
         "verified": false,
-        "notes": ""
+        "notes": "save for after items"
       },
       "MOVE_MYSTICAL_POWER": {
         "animation": false,
@@ -6189,9 +6189,9 @@
         "notes": ""
       },
       "MOVE_NATURES_MADNESS": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_NO_RETREAT": {
@@ -6231,27 +6231,27 @@
         "notes": ""
       },
       "MOVE_PHOTON_GEYSER": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_PIKA_PAPOW": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_PLASMA_FISTS": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_POLLEN_PUFF": {
         "animation": true,
-        "effectHandler": false,
-        "verified": false,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_POLTERGEIST": {
@@ -6280,14 +6280,14 @@
       },
       "MOVE_POWER_TRIP": {
         "animation": true,
-        "effectHandler": false,
-        "verified": false,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_PRISMATIC_LASER": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_PSYBLADE": {
@@ -6309,9 +6309,9 @@
         "notes": ""
       },
       "MOVE_PSYCHIC_TERRAIN": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_PSYSHIELD_BASH": {
@@ -6321,9 +6321,9 @@
         "notes": ""
       },
       "MOVE_PURIFY": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_PYRO_BALL": {
@@ -6351,9 +6351,9 @@
         "notes": ""
       },
       "MOVE_REVELATION_DANCE": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_REVIVAL_BLESSING": {
@@ -6387,9 +6387,9 @@
         "notes": ""
       },
       "MOVE_SAPPY_SEED": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_SCALE_SHOT": {
@@ -6405,9 +6405,9 @@
         "notes": ""
       },
       "MOVE_SHADOW_BONE": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_SHED_TAIL": {
@@ -6423,9 +6423,9 @@
         "notes": ""
       },
       "MOVE_SHELL_TRAP": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_SHELTER": {
@@ -6435,9 +6435,9 @@
         "notes": ""
       },
       "MOVE_SHORE_UP": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_SILK_TRAP": {
@@ -6447,9 +6447,9 @@
         "notes": ""
       },
       "MOVE_SIZZLY_SLIDE": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_SKITTER_SMACK": {
@@ -6484,32 +6484,32 @@
       },
       "MOVE_SOLAR_BLADE": {
         "animation": true,
-        "effectHandler": false,
-        "verified": false,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_SPARKLING_ARIA": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_SPARKLY_SWIRL": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_SPECTRAL_THIEF": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_SPEED_SWAP": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_SPICY_EXTRACT": {
@@ -6531,21 +6531,21 @@
         "notes": ""
       },
       "MOVE_SPIRIT_SHACKLE": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_SPLISHY_SPLASH": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_SPOTLIGHT": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_SPRINGTIDE_STORM": {
@@ -6568,8 +6568,8 @@
       },
       "MOVE_STOMPING_TANTRUM": {
         "animation": true,
-        "effectHandler": false,
-        "verified": false,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_STONE_AXE": {
@@ -6585,9 +6585,9 @@
         "notes": ""
       },
       "MOVE_STRENGTH_SAP": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_STUFF_CHEEKS": {
@@ -6597,9 +6597,9 @@
         "notes": ""
       },
       "MOVE_SUNSTEEL_STRIKE": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_SUPERCELL_SLAM": {
@@ -6639,9 +6639,9 @@
         "notes": ""
       },
       "MOVE_TEARFUL_LOOK": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_TEATIME": {
@@ -6675,9 +6675,9 @@
         "notes": ""
       },
       "MOVE_THROAT_CHOP": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_THUNDER_CAGE": {
@@ -6711,9 +6711,9 @@
         "notes": ""
       },
       "MOVE_TOXIC_THREAD": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_TRAILBLAZE": {
@@ -6759,9 +6759,9 @@
         "notes": ""
       },
       "MOVE_VEEVEE_VOLLEY": {
-        "animation": false,
-        "effectHandler": false,
-        "verified": false,
+        "animation": true,
+        "effectHandler": true,
+        "verified": true,
         "notes": ""
       },
       "MOVE_VICTORY_DANCE": {
@@ -6801,9 +6801,9 @@
         "notes": ""
       },
       "MOVE_ZIPPY_ZAP": {
-        "animation": false,
+        "animation": true,
         "effectHandler": true,
-        "verified": false,
+        "verified": true,
         "notes": ""
       }
     },
