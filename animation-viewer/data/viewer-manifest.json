@@ -1,6 +1,6 @@
 {
   "format": "white2expansion-animation-viewer",
-  "version": 2,
+  "version": 3,
   "sourceRomSha256": "23b3ee6e0c42e6e30fc583f45f8cacb004439430b477bb6c5cc51e416a7d8712",
   "moves": [
     {
@@ -15534,6 +15534,24 @@
       "path": "data/move-backgrounds.narc",
       "sha256": "d54d5e855fb1c15898125a796f6d1b2dae0169f542274afb9cbdca82355b4d0c",
       "bytes": 3319756
+    }
+  },
+  "battleEnvironment": {
+    "backgroundIndex": 1,
+    "backgroundSeasonIndex": 0,
+    "background": {
+      "path": "data/battle-background.nsbmd",
+      "resourceId": 77,
+      "sha256": "9149bba7a497afe33f415a0416dc391971d84bd0dfa70c4b671496613202a16f",
+      "bytes": 17092
+    },
+    "platformIndex": 6,
+    "platformSeasonIndex": 0,
+    "platform": {
+      "path": "data/battle-platform.nsbmd",
+      "resourceId": 15,
+      "sha256": "60014ac11445d59e7ac551356f65943a186c925e12fc777cbc913b9a2bd6e214",
+      "bytes": 8728
     }
   }
 }
