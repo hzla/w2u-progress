@@ -3,7 +3,7 @@
 
   const STORAGE_KEY = "white2expansion.progress.v1";
   const UI_STORAGE_KEY = "white2expansion.ui.v1";
-  const DATA_VERSION = "20260822-progress-rom";
+  const DATA_VERSION = "20260904-gen8-animation-import";
   const COUNTED_FILTERS = new Set(["open", "missingSprites", "missingAnimation"]);
   const TRACKED_GENERATIONS = [6, 7, 8, 9];
   const CREDIT_LINKS = new Map([

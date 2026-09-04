@@ -1,7 +1,7 @@
 {
   "format": "white2expansion-animation-viewer",
   "version": 3,
-  "sourceRomSha256": "23b3ee6e0c42e6e30fc583f45f8cacb004439430b477bb6c5cc51e416a7d8712",
+  "sourceRomSha256": "92c97a1e89973078f03b23044c6c2568edd503eb585fa6a3aa8c00545c07b3bf",
   "moves": [
     {
       "id": 560,
@@ -770,6 +770,144 @@
       "key": "MOVE_DOUBLE_IRON_BASH",
       "name": "Double Iron Bash",
       "generation": 7
+    },
+    {
+      "id": 776,
+      "key": "MOVE_BODY_PRESS",
+      "name": "Body Press",
+      "generation": 8
+    },
+    {
+      "id": 779,
+      "key": "MOVE_SNAP_TRAP",
+      "name": "Snap Trap",
+      "generation": 8
+    },
+    {
+      "id": 784,
+      "key": "MOVE_BREAKING_SWIPE",
+      "name": "Breaking Swipe",
+      "generation": 8
+    },
+    {
+      "id": 789,
+      "key": "MOVE_SPIRIT_BREAK",
+      "name": "Spirit Break",
+      "generation": 8
+    },
+    {
+      "id": 792,
+      "key": "MOVE_OBSTRUCT",
+      "name": "Obstruct",
+      "generation": 8
+    },
+    {
+      "id": 796,
+      "key": "MOVE_STEEL_BEAM",
+      "name": "Steel Beam",
+      "generation": 8
+    },
+    {
+      "id": 799,
+      "key": "MOVE_SCALE_SHOT",
+      "name": "Scale Shot",
+      "generation": 8
+    },
+    {
+      "id": 800,
+      "key": "MOVE_METEOR_BEAM",
+      "name": "Meteor Beam",
+      "generation": 8
+    },
+    {
+      "id": 806,
+      "key": "MOVE_SKITTER_SMACK",
+      "name": "Skitter Smack",
+      "generation": 8
+    },
+    {
+      "id": 812,
+      "key": "MOVE_FLIP_TURN",
+      "name": "Flip Turn",
+      "generation": 8
+    },
+    {
+      "id": 813,
+      "key": "MOVE_TRIPLE_AXEL",
+      "name": "Triple Axel",
+      "generation": 8
+    },
+    {
+      "id": 814,
+      "key": "MOVE_DUAL_WINGBEAT",
+      "name": "Dual Wingbeat",
+      "generation": 8
+    },
+    {
+      "id": 815,
+      "key": "MOVE_SCORCHING_SANDS",
+      "name": "Scorching Sands",
+      "generation": 8
+    },
+    {
+      "id": 817,
+      "key": "MOVE_WICKED_BLOW",
+      "name": "Wicked Blow",
+      "generation": 8
+    },
+    {
+      "id": 828,
+      "key": "MOVE_PSYSHIELD_BASH",
+      "name": "Psyshield Bash",
+      "generation": 8
+    },
+    {
+      "id": 833,
+      "key": "MOVE_RAGING_FURY",
+      "name": "Raging Fury",
+      "generation": 8
+    },
+    {
+      "id": 834,
+      "key": "MOVE_WAVE_CRASH",
+      "name": "Wave Crash",
+      "generation": 8
+    },
+    {
+      "id": 837,
+      "key": "MOVE_VICTORY_DANCE",
+      "name": "Victory Dance",
+      "generation": 8
+    },
+    {
+      "id": 838,
+      "key": "MOVE_HEADLONG_RUSH",
+      "name": "Headlong Rush",
+      "generation": 8
+    },
+    {
+      "id": 839,
+      "key": "MOVE_BARB_BARRAGE",
+      "name": "Barb Barrage",
+      "generation": 8
+    },
+    {
+      "id": 840,
+      "key": "MOVE_ESPER_WING",
+      "name": "Esper Wing",
+      "generation": 8
+    },
+    {
+      "id": 841,
+      "key": "MOVE_BITTER_MALICE",
+      "name": "Bitter Malice",
+      "generation": 8
+    },
+    {
+      "id": 844,
+      "key": "MOVE_INFERNAL_PARADE",
+      "name": "Infernal Parade",
+      "generation": 8
     }
   ],
   "sprites": [
@@ -15522,13 +15660,13 @@
   "archives": {
     "moveAnimations": {
       "path": "data/move-animations.narc",
-      "sha256": "42abf168369d6de4297aa5063d15dcb6da098cea724007ef686aafedd8961f80",
-      "bytes": 547192
+      "sha256": "7e272ee1ca2d57fe4234ea0f6ae87e2a53278f8645645eeabd02574c9791eeaf",
+      "bytes": 569560
     },
     "moveSpas": {
       "path": "data/move-spas.narc",
-      "sha256": "24041e22153b464e7355b7f3f1da2c2bae8b8792160e596c0fec161cea4aeacc",
-      "bytes": 8702672
+      "sha256": "c13680e785bab3eb256220d5519cc580de325db0951bde4352e3dcc401bb8a28",
+      "bytes": 8776456
     },
     "moveBackgrounds": {
       "path": "data/move-backgrounds.narc",
