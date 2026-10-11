@@ -10,11 +10,13 @@
     "description": "Accelerock description.",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Cascade White",
+    "animationId": 709,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_ALLURING_VOICE",
@@ -26,12 +28,14 @@
     "accuracy": "100",
     "description": "Alluring Voice description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 914,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_ANCHOR_SHOT",
@@ -43,12 +47,14 @@
     "accuracy": "100",
     "description": "Anchor Shot description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 677,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_APPLE_ACID",
@@ -60,12 +66,14 @@
     "accuracy": "100",
     "description": "Apple Acid description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 787,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_AQUA_CUTTER",
@@ -77,12 +85,14 @@
     "accuracy": "100",
     "description": "Aqua Cutter description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 895,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_AQUA_STEP",
@@ -94,12 +104,14 @@
     "accuracy": "100",
     "description": "Aqua Step description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 872,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_ARMOR_CANNON",
@@ -111,12 +123,14 @@
     "accuracy": "100",
     "description": "Armor Cannon description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 890,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_AROMATIC_MIST",
@@ -130,10 +144,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 597,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_ASTRAL_BARRAGE",
@@ -145,12 +161,14 @@
     "accuracy": "100",
     "description": "Astral Barrage description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 825,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_AURA_WHEEL",
@@ -162,12 +180,14 @@
     "accuracy": "100",
     "description": "Aura Wheel description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 783,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_AURORA_VEIL",
@@ -179,12 +199,14 @@
     "accuracy": "--",
     "description": "Aurora Veil description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 694,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_AXE_KICK",
@@ -196,12 +218,14 @@
     "accuracy": "90",
     "description": "Axe Kick description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 853,
+    "implementationNotes": "Resident alias of a native move handler; current build remains unverified."
   },
   {
     "key": "MOVE_BABYDOLL_EYES",
@@ -215,10 +239,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 608,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_BADDY_BAD",
@@ -230,12 +256,14 @@
     "accuracy": "100",
     "description": "Baddy Bad description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 737,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_BANEFUL_BUNKER",
@@ -248,11 +276,13 @@
     "description": "Baneful Bunker description.",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Cascade White",
+    "animationId": 661,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_BARB_BARRAGE",
@@ -264,12 +294,14 @@
     "accuracy": "100",
     "description": "Barb Barrage description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Log(n)",
+    "animationId": 839,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_BEAK_BLAST",
@@ -281,12 +313,14 @@
     "accuracy": "100",
     "description": "Beak Blast description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 690,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_BEHEMOTH_BASH",
@@ -298,12 +332,14 @@
     "accuracy": "100",
     "description": "Behemoth Bash description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 782,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_BEHEMOTH_BLADE",
@@ -315,12 +351,14 @@
     "accuracy": "100",
     "description": "Behemoth Blade description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 781,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_BELCH",
@@ -334,10 +372,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Selection blocked until the user has consumed a Berry."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 562,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_BITTER_BLADE",
@@ -349,12 +389,14 @@
     "accuracy": "100",
     "description": "Bitter Blade description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 891,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_BITTER_MALICE",
@@ -366,12 +408,14 @@
     "accuracy": "100",
     "description": "Bitter Malice description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Log(n)",
+    "animationId": 841,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_BLAZING_TORQUE",
@@ -383,12 +427,14 @@
     "accuracy": "100",
     "description": "Blazing Torque description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 896,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_BLEAKWIND_STORM",
@@ -400,12 +446,14 @@
     "accuracy": "80",
     "description": "Bleakwind Storm description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 846,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_BLOOD_MOON",
@@ -417,12 +465,14 @@
     "accuracy": "100",
     "description": "Blood Moon description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 901,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_BODY_PRESS",
@@ -434,12 +484,14 @@
     "accuracy": "100",
     "description": "Body Press description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Log(n)",
+    "animationId": 776,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_BOLT_BEAK",
@@ -451,12 +503,14 @@
     "accuracy": "100",
     "description": "Bolt Beak description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 754,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_BOOMBURST",
@@ -470,10 +524,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Blaze Black 2 Redux"
+    "credits": "Blaze Black/Volt White 2 Redux",
+    "animationId": 586,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_BOUNCY_BUBBLE",
@@ -485,12 +541,14 @@
     "accuracy": "100",
     "description": "Bouncy Bubble description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 733,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_BRANCH_POKE",
@@ -502,12 +560,14 @@
     "accuracy": "100",
     "description": "Branch Poke description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 785,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_BREAKING_SWIPE",
@@ -519,12 +579,14 @@
     "accuracy": "100",
     "description": "Breaking Swipe description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Volt White 2"
+    "credits": "Log(n)",
+    "animationId": 784,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_BRUTAL_SWING",
@@ -537,11 +599,13 @@
     "description": "Brutal Swing description.",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Cascade White",
+    "animationId": 693,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_BURN_UP",
@@ -553,12 +617,14 @@
     "accuracy": "100",
     "description": "Burn Up description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 682,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_BURNING_BULWARK",
@@ -570,12 +636,14 @@
     "accuracy": "--",
     "description": "Burning Bulwark description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 908,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_BURNING_JEALOUSY",
@@ -587,12 +655,14 @@
     "accuracy": "100",
     "description": "Burning Jealousy description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 807,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_BUZZY_BUZZ",
@@ -604,12 +674,14 @@
     "accuracy": "100",
     "description": "Buzzy Buzz description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 734,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_CEASELESS_EDGE",
@@ -621,12 +693,14 @@
     "accuracy": "90",
     "description": "Ceaseless Edge description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 845,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_CELEBRATE",
@@ -639,11 +713,13 @@
     "description": "The Pokemon congratulates you on your special day!",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": true,
-      "verified": true,
+      "effectHandler": false,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 606,
+    "implementationNotes": "Animation is present; successful cosmetic-only execution has not been established."
   },
   {
     "key": "MOVE_CHILLING_WATER",
@@ -655,12 +731,14 @@
     "accuracy": "100",
     "description": "Chilling Water description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 886,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_CHILLY_RECEPTION",
@@ -672,12 +750,14 @@
     "accuracy": "--",
     "description": "Chilly Reception description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 881,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_CHLOROBLAST",
@@ -689,12 +769,14 @@
     "accuracy": "95",
     "description": "Chloroblast description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 835,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_CLANGING_SCALES",
@@ -707,11 +789,13 @@
     "description": "Clanging Scales description.",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Cascade White",
+    "animationId": 691,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_CLANGOROUS_SOUL",
@@ -723,12 +807,14 @@
     "accuracy": "--",
     "description": "Clangorous Soul description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 775,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_COACHING",
@@ -740,12 +826,14 @@
     "accuracy": "--",
     "description": "Coaching description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 811,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_COLLISION_COURSE",
@@ -757,12 +845,14 @@
     "accuracy": "100",
     "description": "Collision Course description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 878,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_COMBAT_TORQUE",
@@ -774,12 +864,14 @@
     "accuracy": "100",
     "description": "Combat Torque description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 899,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_COMEUPPANCE",
@@ -791,12 +883,14 @@
     "accuracy": "100",
     "description": "Comeuppance description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 894,
+    "implementationNotes": "Resident alias of a native move handler; current build remains unverified."
   },
   {
     "key": "MOVE_CONFIDE",
@@ -810,10 +904,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 590,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_CORE_ENFORCER",
@@ -825,12 +921,14 @@
     "accuracy": "100",
     "description": "Core Enforcer description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 687,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_CORROSIVE_GAS",
@@ -842,12 +940,14 @@
     "accuracy": "100",
     "description": "Corrosive Gas description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 810,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_COURT_CHANGE",
@@ -859,12 +959,14 @@
     "accuracy": "--",
     "description": "Court Change description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 756,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_CRAFTY_SHIELD",
@@ -878,10 +980,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Static W2U pos effect blocks status moves for allies."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 578,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_DARKEST_LARIAT",
@@ -893,12 +997,14 @@
     "accuracy": "100",
     "description": "Darkest Lariat description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 663,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_DAZZLING_GLEAM",
@@ -912,10 +1018,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Blaze Black 2 Redux"
+    "credits": "Blaze Black/Volt White 2 Redux",
+    "animationId": 605,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_DECORATE",
@@ -927,12 +1035,14 @@
     "accuracy": "--",
     "description": "Decorate description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 777,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_DIAMOND_STORM",
@@ -946,10 +1056,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "W2U move data raises user Defense as a secondary effect."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 591,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_DIRE_CLAW",
@@ -961,12 +1073,14 @@
     "accuracy": "100",
     "description": "Dire Claw description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 827,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_DISARMING_VOICE",
@@ -980,10 +1094,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Blaze Black 2 Redux"
+    "credits": "Blaze Black/Volt White 2 Redux",
+    "animationId": 574,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_DOODLE",
@@ -995,12 +1111,14 @@
     "accuracy": "100",
     "description": "Doodle description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 867,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_DOUBLE_IRON_BASH",
@@ -1012,12 +1130,14 @@
     "accuracy": "100",
     "description": "Double Iron Bash description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 742,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_DOUBLE_SHOCK",
@@ -1029,12 +1149,14 @@
     "accuracy": "100",
     "description": "Double Shock description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 892,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_DRAGON_ASCENT",
@@ -1046,12 +1168,14 @@
     "accuracy": "100",
     "description": "The user tackles the target while descending from the sky at high speed. This lowers the user's Defense and Sp. Def stats.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": "W2U move data lowers the user's Defense and Sp. Def after damage."
     },
-    "credits": "W2U"
+    "credits": "Hzla",
+    "animationId": 620,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_DRAGON_CHEER",
@@ -1063,12 +1187,14 @@
     "accuracy": "--",
     "description": "Dragon Cheer description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 913,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_DRAGON_DARTS",
@@ -1080,12 +1206,14 @@
     "accuracy": "100",
     "description": "Dragon Darts description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 751,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_DRAGON_ENERGY",
@@ -1097,12 +1225,14 @@
     "accuracy": "100",
     "description": "Dragon Energy description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 820,
+    "implementationNotes": "Resident alias of a native move handler; current build remains unverified."
   },
   {
     "key": "MOVE_DRAGON_HAMMER",
@@ -1114,12 +1244,14 @@
     "accuracy": "100",
     "description": "Dragon Hammer description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 692,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_DRAINING_KISS",
@@ -1133,10 +1265,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Blaze Black 2 Redux"
+    "credits": "Blaze Black/Volt White 2 Redux",
+    "animationId": 577,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_DRUM_BEATING",
@@ -1148,12 +1282,14 @@
     "accuracy": "100",
     "description": "Drum Beating description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 778,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_DUAL_WINGBEAT",
@@ -1165,12 +1301,14 @@
     "accuracy": "90",
     "description": "Dual Wingbeat description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Volt White 2"
+    "credits": "Log(n)",
+    "animationId": 814,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_DYNAMAX_CANNON",
@@ -1182,12 +1320,14 @@
     "accuracy": "100",
     "description": "Dynamax Cannon description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 744,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_EERIE_IMPULSE",
@@ -1201,10 +1341,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Hzla",
+    "animationId": 598,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_EERIE_SPELL",
@@ -1216,12 +1358,14 @@
     "accuracy": "100",
     "description": "Eerie Spell description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 826,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_ELECTRIC_TERRAIN",
@@ -1235,10 +1379,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Animation generated from Discharge: keeps the user-side charge/burst, removes the target camera cut, and replaces target sparks with flattened floor spark emitters. Static W2U terrain blocks sleep and boosts grounded Electric moves."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 604,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_ELECTRIFY",
@@ -1252,10 +1398,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Static W2U pos effect rewrites the target's move type to Electric."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 582,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_ELECTRO_DRIFT",
@@ -1267,12 +1415,14 @@
     "accuracy": "100",
     "description": "Electro Drift description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 879,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_ELECTRO_SHOT",
@@ -1284,12 +1434,14 @@
     "accuracy": "100",
     "description": "Electro Shot description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 905,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_ESPER_WING",
@@ -1301,12 +1453,14 @@
     "accuracy": "100",
     "description": "Esper Wing description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Volt White 2"
+    "credits": "Log(n)",
+    "animationId": 840,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_ETERNABEAM",
@@ -1318,12 +1472,14 @@
     "accuracy": "90",
     "description": "Eternabeam description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 795,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_EXPANDING_FORCE",
@@ -1335,12 +1491,14 @@
     "accuracy": "100",
     "description": "Expanding Force description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 797,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_FAIRY_LOCK",
@@ -1354,10 +1512,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Reuses vanilla Spider Web as PW2's Fairy Lock approximation."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 587,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_FAIRY_WIND",
@@ -1371,10 +1531,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Hzla",
+    "animationId": 584,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_FALSE_SURRENDER",
@@ -1386,12 +1548,14 @@
     "accuracy": "--",
     "description": "False Surrender description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 793,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_FELL_STINGER",
@@ -1405,10 +1569,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Static handler raises Attack by 2 after the user KOs a target."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 565,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_FICKLE_BEAM",
@@ -1420,12 +1586,14 @@
     "accuracy": "100",
     "description": "Fickle Beam description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 907,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_FIERY_WRATH",
@@ -1437,12 +1605,14 @@
     "accuracy": "100",
     "description": "Fiery Wrath description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 822,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_FILLET_AWAY",
@@ -1454,12 +1624,14 @@
     "accuracy": "--",
     "description": "Fillet Away description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 868,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_FIRE_LASH",
@@ -1472,11 +1644,13 @@
     "description": "Fire Lash description.",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Cascade White",
+    "animationId": 680,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_FIRST_IMPRESSION",
@@ -1489,11 +1663,13 @@
     "description": "First Impression description.",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Cascade White",
+    "animationId": 660,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_FISHIOUS_REND",
@@ -1505,12 +1681,14 @@
     "accuracy": "100",
     "description": "Fishious Rend description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 755,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_FLEUR_CANNON",
@@ -1522,12 +1700,14 @@
     "accuracy": "90",
     "description": "Fleur Cannon description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 705,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_FLIP_TURN",
@@ -1539,12 +1719,14 @@
     "accuracy": "100",
     "description": "Flip Turn description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Log(n)",
+    "animationId": 812,
+    "implementationNotes": "Resident alias of a native move handler; current build remains unverified."
   },
   {
     "key": "MOVE_FLOATY_FALL",
@@ -1556,12 +1738,14 @@
     "accuracy": "95",
     "description": "Floaty Fall description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 731,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_FLORAL_HEALING",
@@ -1573,12 +1757,14 @@
     "accuracy": "--",
     "description": "Floral Healing description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 666,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_FLOWER_SHIELD",
@@ -1592,10 +1778,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Reuses the Rototiller-style Grass-type stat handler."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 579,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_FLOWER_TRICK",
@@ -1607,12 +1795,14 @@
     "accuracy": "--",
     "description": "Flower Trick description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 870,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_FLYING_PRESS",
@@ -1626,10 +1816,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Type-effectiveness hook applies Fighting plus Flying effectiveness."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 560,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_FORESTS_CURSE",
@@ -1643,10 +1835,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Static handler adds Grass as a W2U extra type."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 571,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_FREEZEDRY",
@@ -1660,10 +1854,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Type-effectiveness hook treats Water targets as super effective."
     },
-    "credits": "Cascade White"
+    "credits": "Hzla",
+    "animationId": 573,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_FREEZING_GLARE",
@@ -1675,12 +1871,14 @@
     "accuracy": "100",
     "description": "Freezing Glare description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 821,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_FREEZY_FROST",
@@ -1692,12 +1890,14 @@
     "accuracy": "90",
     "description": "Freezy Frost description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 739,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_GEAR_UP",
@@ -1709,12 +1909,14 @@
     "accuracy": "--",
     "description": "Gear Up description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 674,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_GEOMANCY",
@@ -1728,10 +1930,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Static handler adds the charge message; move data handles charge and stat boosts."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 601,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_GIGATON_HAMMER",
@@ -1743,12 +1947,14 @@
     "accuracy": "100",
     "description": "Gigaton Hammer description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 893,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_GLACIAL_LANCE",
@@ -1760,12 +1966,14 @@
     "accuracy": "100",
     "description": "Glacial Lance description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 824,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_GLAIVE_RUSH",
@@ -1777,12 +1985,14 @@
     "accuracy": "100",
     "description": "Glaive Rush description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 862,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_GLITZY_GLOW",
@@ -1794,12 +2004,14 @@
     "accuracy": "100",
     "description": "Glitzy Glow description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 736,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_GRASSY_GLIDE",
@@ -1811,12 +2023,14 @@
     "accuracy": "100",
     "description": "Grassy Glide description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 803,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_GRASSY_TERRAIN",
@@ -1830,10 +2044,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Static W2U terrain heals grounded Pokemon and boosts Grass moves."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 580,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_GRAV_APPLE",
@@ -1845,12 +2061,14 @@
     "accuracy": "100",
     "description": "Grav Apple description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 788,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_HAPPY_HOUR",
@@ -1864,9 +2082,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Static handler sets BW2's money-double battle flag."
-    }
+    },
+    "credits": "Hzla",
+    "animationId": 603,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_HARD_PRESS",
@@ -1878,12 +2099,14 @@
     "accuracy": "100",
     "description": "Hard Press description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 912,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_HEADLONG_RUSH",
@@ -1895,12 +2118,14 @@
     "accuracy": "100",
     "description": "Headlong Rush description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Volt White 2"
+    "credits": "Log(n)",
+    "animationId": 838,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_HIGH_HORSEPOWER",
@@ -1913,11 +2138,13 @@
     "description": "High Horsepower description.",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Cascade White",
+    "animationId": 667,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_HOLD_BACK",
@@ -1931,9 +2158,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Reuses vanilla False Swipe handler."
-    }
+    },
+    "credits": "Hzla",
+    "animationId": 610,
+    "implementationNotes": "Resident alias of a native move handler; current build remains unverified."
   },
   {
     "key": "MOVE_HOLD_HANDS",
@@ -1945,12 +2175,14 @@
     "accuracy": "--",
     "description": "The user and an ally hold hands. This makes them very happy.",
     "defaultProgress": {
-      "animation": false,
+      "animation": true,
       "effectHandler": false,
       "verified": false,
       "notes": "Status move with friend targeting; W2U uses animation ID 370."
     },
-    "credits": "W2U"
+    "credits": "Hzla",
+    "animationId": 607,
+    "implementationNotes": "Animation is present; successful cosmetic-only execution has not been established."
   },
   {
     "key": "MOVE_HYDRO_STEAM",
@@ -1962,12 +2194,14 @@
     "accuracy": "100",
     "description": "Hydro Steam description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 876,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_HYPER_DRILL",
@@ -1979,12 +2213,14 @@
     "accuracy": "100",
     "description": "Hyper Drill description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 887,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_HYPERSPACE_FURY",
@@ -1996,12 +2232,14 @@
     "accuracy": "--",
     "description": "Using its many arms, the user unleashes a barrage of attacks that ignore Protect and Detect. This lowers the user's Defense stat.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": "W2U move data marks this as must-hit, hits through Substitute/Protect-style blocking, and lowers the user's Defense."
     },
-    "credits": "W2U"
+    "credits": "Hzla",
+    "animationId": 621,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_HYPERSPACE_HOLE",
@@ -2013,12 +2251,14 @@
     "accuracy": "--",
     "description": "Using a hyperspace hole, the user appears right next to the target and strikes. This attack can hit through Protect and Detect.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": "W2U move data marks this as must-hit and hits through Substitute/Protect-style blocking."
     },
-    "credits": "W2U"
+    "credits": "Hzla",
+    "animationId": 593,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_ICE_HAMMER",
@@ -2031,11 +2271,13 @@
     "description": "Ice Hammer description.",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Cascade White",
+    "animationId": 665,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_ICE_SPINNER",
@@ -2047,12 +2289,14 @@
     "accuracy": "100",
     "description": "Ice Spinner description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 861,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_INFERNAL_PARADE",
@@ -2064,12 +2308,14 @@
     "accuracy": "100",
     "description": "Infernal Parade description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Log(n)",
+    "animationId": 844,
+    "implementationNotes": "Resident alias of a native move handler; current build remains unverified."
   },
   {
     "key": "MOVE_INFESTATION",
@@ -2083,10 +2329,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Reuses vanilla Bind handler."
     },
-    "credits": "Blaze Black 2 Redux"
+    "credits": "Blaze Black/Volt White 2 Redux",
+    "animationId": 611,
+    "implementationNotes": "Resident alias of a native move handler; current build remains unverified."
   },
   {
     "key": "MOVE_INSTRUCT",
@@ -2098,12 +2346,14 @@
     "accuracy": "--",
     "description": "Instruct description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 689,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_ION_DELUGE",
@@ -2117,10 +2367,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Static W2U pos effect rewrites Normal moves to Electric."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 569,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_IVY_CUDGEL",
@@ -2132,12 +2384,14 @@
     "accuracy": "100",
     "description": "Ivy Cudgel description.",
     "defaultProgress": {
-      "animation": false,
+      "animation": true,
       "effectHandler": false,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 904,
+    "implementationNotes": "Deferred: Ogerpon masks and mask-dependent type selection are not integrated."
   },
   {
     "key": "MOVE_JAW_LOCK",
@@ -2149,12 +2403,14 @@
     "accuracy": "100",
     "description": "Jaw Lock description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 746,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_JET_PUNCH",
@@ -2166,12 +2422,14 @@
     "accuracy": "100",
     "description": "Jet Punch description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 857,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_JUNGLE_HEALING",
@@ -2183,12 +2441,14 @@
     "accuracy": "--",
     "description": "Jungle Healing description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 816,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_KINGS_SHIELD",
@@ -2202,9 +2462,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Static protect clone lowers contact attackers' Attack by 2."
-    }
+    },
+    "credits": "Hzla",
+    "animationId": 588,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_KOWTOW_CLEAVE",
@@ -2216,12 +2479,14 @@
     "accuracy": "--",
     "description": "Kowtow Cleave description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 869,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_LANDS_WRATH",
@@ -2235,10 +2500,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 616,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_LASER_FOCUS",
@@ -2250,12 +2517,14 @@
     "accuracy": "--",
     "description": "Laser Focus description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 673,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_LASH_OUT",
@@ -2267,12 +2536,14 @@
     "accuracy": "100",
     "description": "Lash Out description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 808,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_LAST_RESPECTS",
@@ -2284,12 +2555,14 @@
     "accuracy": "100",
     "description": "Last Respects description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 854,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_LEAFAGE",
@@ -2301,12 +2574,14 @@
     "accuracy": "100",
     "description": "Leafage description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 670,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_LIFE_DEW",
@@ -2318,12 +2593,14 @@
     "accuracy": "--",
     "description": "Life Dew description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 791,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_LIGHT_OF_RUIN",
@@ -2335,12 +2612,14 @@
     "accuracy": "90",
     "description": "Drawing power from the Eternal Flower, the user fires a powerful beam of light. This also damages the user quite a lot.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": "W2U move data applies 50% recoil."
     },
-    "credits": "W2U"
+    "credits": "Hzla",
+    "animationId": 617,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_LIQUIDATION",
@@ -2353,11 +2632,13 @@
     "description": "Liquidation description.",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Cascade White",
+    "animationId": 710,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_LUMINA_CRASH",
@@ -2369,12 +2650,14 @@
     "accuracy": "100",
     "description": "Lumina Crash description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 855,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_LUNAR_BLESSING",
@@ -2386,12 +2669,14 @@
     "accuracy": "--",
     "description": "Lunar Blessing description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 849,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_LUNGE",
@@ -2404,11 +2689,13 @@
     "description": "Lunge description.",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Cascade White",
+    "animationId": 679,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_MAGIC_POWDER",
@@ -2420,12 +2707,14 @@
     "accuracy": "100",
     "description": "Magic Powder description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 750,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_MAGICAL_TORQUE",
@@ -2437,12 +2726,14 @@
     "accuracy": "100",
     "description": "Magical Torque description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 900,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_MAGNETIC_FLUX",
@@ -2456,10 +2747,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Static handler filters targets without Plus or Minus."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 602,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_MAKE_IT_RAIN",
@@ -2471,12 +2764,14 @@
     "accuracy": "100",
     "description": "Make It Rain description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 874,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_MALIGNANT_CHAIN",
@@ -2488,12 +2783,14 @@
     "accuracy": "100",
     "description": "Malignant Chain description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 919,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_MAT_BLOCK",
@@ -2507,10 +2804,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Static protect clone shields allies from damaging moves."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 561,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_MATCHA_GOTCHA",
@@ -2522,12 +2821,14 @@
     "accuracy": "90",
     "description": "Matcha Gotcha description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 902,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_MAX_AIRSTREAM",
@@ -2544,7 +2845,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_MAX_DARKNESS",
@@ -2561,7 +2863,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_MAX_FLARE",
@@ -2578,7 +2881,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_MAX_FLUTTERBY",
@@ -2595,7 +2899,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_MAX_GEYSER",
@@ -2612,7 +2917,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_MAX_GUARD",
@@ -2629,7 +2935,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_MAX_HAILSTORM",
@@ -2646,7 +2953,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_MAX_KNUCKLE",
@@ -2663,7 +2971,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_MAX_LIGHTNING",
@@ -2680,7 +2989,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_MAX_MINDSTORM",
@@ -2697,7 +3007,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_MAX_OOZE",
@@ -2714,7 +3025,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_MAX_OVERGROWTH",
@@ -2731,7 +3043,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_MAX_PHANTASM",
@@ -2748,7 +3061,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_MAX_QUAKE",
@@ -2765,7 +3079,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_MAX_ROCKFALL",
@@ -2782,7 +3097,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_MAX_STARFALL",
@@ -2799,7 +3115,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_MAX_STEELSPIKE",
@@ -2816,7 +3133,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_MAX_STRIKE",
@@ -2833,7 +3151,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_MAX_WYRMWIND",
@@ -2850,7 +3169,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Max Move behavior is outside the integration scope."
   },
   {
     "key": "MOVE_METEOR_ASSAULT",
@@ -2862,12 +3182,14 @@
     "accuracy": "100",
     "description": "Meteor Assault description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 794,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_METEOR_BEAM",
@@ -2879,12 +3201,14 @@
     "accuracy": "90",
     "description": "Meteor Beam description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Log(n)",
+    "animationId": 800,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_MIGHTY_CLEAVE",
@@ -2896,12 +3220,14 @@
     "accuracy": "100",
     "description": "Mighty Cleave description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 910,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_MIND_BLOWN",
@@ -2913,12 +3239,14 @@
     "accuracy": "100",
     "description": "Mind Blown description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 720,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_MISTY_EXPLOSION",
@@ -2930,12 +3258,14 @@
     "accuracy": "100",
     "description": "Misty Explosion description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 802,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_MISTY_TERRAIN",
@@ -2949,9 +3279,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Static W2U terrain blocks status and weakens Dragon moves."
-    }
+    },
+    "credits": "Hzla",
+    "animationId": 581,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_MOONBLAST",
@@ -2965,10 +3298,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Blaze Black 2 Redux"
+    "credits": "Blaze Black/Volt White 2 Redux",
+    "animationId": 585,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_MOONGEIST_BEAM",
@@ -2980,12 +3315,14 @@
     "accuracy": "100",
     "description": "Moongeist Beam description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 714,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_MORTAL_SPIN",
@@ -2997,12 +3334,14 @@
     "accuracy": "100",
     "description": "Mortal Spin description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 866,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_MOUNTAIN_GALE",
@@ -3014,12 +3353,14 @@
     "accuracy": "85",
     "description": "Mountain Gale description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 836,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_MULTIATTACK",
@@ -3036,7 +3377,8 @@
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Deferred: Memory items and item-dependent type selection are not integrated."
   },
   {
     "key": "MOVE_MYSTICAL_FIRE",
@@ -3050,10 +3392,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Blaze Black 2 Redux"
+    "credits": "Blaze Black/Volt White 2 Redux",
+    "animationId": 595,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_MYSTICAL_POWER",
@@ -3065,12 +3409,14 @@
     "accuracy": "90",
     "description": "Mystical Power description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 832,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_NATURES_MADNESS",
@@ -3082,12 +3428,14 @@
     "accuracy": "90",
     "description": "Nature's Madness description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 717,
+    "implementationNotes": "Resident alias of a native move handler; current build remains unverified."
   },
   {
     "key": "MOVE_NO_RETREAT",
@@ -3099,12 +3447,14 @@
     "accuracy": "--",
     "description": "No Retreat description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 748,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_NOBLE_ROAR",
@@ -3118,10 +3468,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 568,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_NOXIOUS_TORQUE",
@@ -3133,12 +3485,14 @@
     "accuracy": "100",
     "description": "Noxious Torque description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 898,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_NUZZLE",
@@ -3152,10 +3506,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Blaze Black 2 Redux"
+    "credits": "Blaze Black/Volt White 2 Redux",
+    "animationId": 609,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_OBLIVION_WING",
@@ -3169,10 +3525,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 613,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_OBSTRUCT",
@@ -3184,12 +3542,14 @@
     "accuracy": "--",
     "description": "Obstruct description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Log(n)",
+    "animationId": 792,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_OCTOLOCK",
@@ -3201,12 +3561,14 @@
     "accuracy": "100",
     "description": "Octolock description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 753,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_ORDER_UP",
@@ -3218,12 +3580,14 @@
     "accuracy": "100",
     "description": "Order Up description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 856,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_ORIGIN_PULSE",
@@ -3235,12 +3599,14 @@
     "accuracy": "85",
     "description": "The user attacks opposing Pokemon with countless beams of light that glow deep blue.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": "W2U move data is complete but still points at animation ID 0."
     },
-    "credits": "W2U"
+    "credits": "Hzla",
+    "animationId": 618,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_OVERDRIVE",
@@ -3252,12 +3618,14 @@
     "accuracy": "100",
     "description": "Overdrive description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 786,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_PARABOLIC_CHARGE",
@@ -3271,9 +3639,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
-    }
+    },
+    "credits": "Hzla",
+    "animationId": 570,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_PARTING_SHOT",
@@ -3287,10 +3658,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Static handler lowers offenses, then queues the user switch."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 575,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_PETAL_BLIZZARD",
@@ -3304,10 +3677,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Hzla",
+    "animationId": 572,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_PHANTOM_FORCE",
@@ -3321,10 +3696,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Reuses vanilla Shadow Force as PW2's Phantom Force approximation."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 566,
+    "implementationNotes": "Resident alias of a native move handler; current build remains unverified."
   },
   {
     "key": "MOVE_PHOTON_GEYSER",
@@ -3336,12 +3713,14 @@
     "accuracy": "100",
     "description": "Photon Geyser description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 722,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_PIKA_PAPOW",
@@ -3353,12 +3732,14 @@
     "accuracy": "--",
     "description": "Pika Papow description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 732,
+    "implementationNotes": "Resident alias of a native move handler; current build remains unverified."
   },
   {
     "key": "MOVE_PLASMA_FISTS",
@@ -3370,12 +3751,14 @@
     "accuracy": "100",
     "description": "Plasma Fists description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 721,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_PLAY_NICE",
@@ -3389,9 +3772,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
-    }
+    },
+    "credits": "Hzla",
+    "animationId": 589,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_PLAY_ROUGH",
@@ -3405,10 +3791,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Blaze Black 2 Redux"
+    "credits": "Blaze Black/Volt White 2 Redux",
+    "animationId": 583,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_POLLEN_PUFF",
@@ -3421,11 +3809,13 @@
     "description": "Pollen Puff description.",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Cascade White",
+    "animationId": 676,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_POLTERGEIST",
@@ -3437,12 +3827,14 @@
     "accuracy": "90",
     "description": "Poltergeist description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 809,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_POPULATION_BOMB",
@@ -3454,12 +3846,14 @@
     "accuracy": "90",
     "description": "Population Bomb description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 860,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_POUNCE",
@@ -3471,12 +3865,14 @@
     "accuracy": "100",
     "description": "Pounce description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 884,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_POWDER",
@@ -3490,10 +3886,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Static transient handler marks the target and cancels Fire moves with damage."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 600,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_POWER_SHIFT",
@@ -3505,12 +3903,14 @@
     "accuracy": "--",
     "description": "Power Shift description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 829,
+    "implementationNotes": "Resident alias of a native move handler; current build remains unverified."
   },
   {
     "key": "MOVE_POWER_TRIP",
@@ -3523,11 +3923,13 @@
     "description": "Power Trip description.",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Cascade White",
+    "animationId": 681,
+    "implementationNotes": "Resident alias of a native move handler; current build remains unverified."
   },
   {
     "key": "MOVE_POWERUP_PUNCH",
@@ -3541,10 +3943,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Blaze Black 2 Redux"
+    "credits": "Blaze Black/Volt White 2 Redux",
+    "animationId": 612,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_PRECIPICE_BLADES",
@@ -3556,12 +3960,14 @@
     "accuracy": "85",
     "description": "The user attacks opposing Pokemon by manifesting the power of the land in fearsome blades of stone.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": "W2U move data is complete but still points at animation ID 0."
     },
-    "credits": "W2U"
+    "credits": "Hzla",
+    "animationId": 619,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_PRISMATIC_LASER",
@@ -3573,12 +3979,14 @@
     "accuracy": "100",
     "description": "Prismatic Laser description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 711,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_PSYBLADE",
@@ -3590,12 +3998,14 @@
     "accuracy": "100",
     "description": "Psyblade description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 875,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_PSYCHIC_FANGS",
@@ -3608,11 +4018,13 @@
     "description": "Psychic Fangs description.",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Volt White 2 QoL",
+    "animationId": 706,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_PSYCHIC_NOISE",
@@ -3624,12 +4036,14 @@
     "accuracy": "100",
     "description": "Psychic Noise description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 917,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_PSYCHIC_TERRAIN",
@@ -3642,11 +4056,12 @@
     "description": "Psychic Terrain description.",
     "defaultProgress": {
       "animation": false,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "",
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_PSYSHIELD_BASH",
@@ -3658,12 +4073,14 @@
     "accuracy": "90",
     "description": "Psyshield Bash description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Volt White 2"
+    "credits": "Log(n)",
+    "animationId": 828,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_PURIFY",
@@ -3675,12 +4092,14 @@
     "accuracy": "--",
     "description": "Purify description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 685,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_PYRO_BALL",
@@ -3692,12 +4111,14 @@
     "accuracy": "90",
     "description": "Pyro Ball description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 780,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_RAGE_FIST",
@@ -3709,12 +4130,14 @@
     "accuracy": "100",
     "description": "Rage Fist description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 889,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_RAGING_BULL",
@@ -3726,12 +4149,14 @@
     "accuracy": "100",
     "description": "Raging Bull description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 873,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_RAGING_FURY",
@@ -3743,12 +4168,14 @@
     "accuracy": "100",
     "description": "Raging Fury description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Volt White 2"
+    "credits": "Log(n)",
+    "animationId": 833,
+    "implementationNotes": "Resident alias of a native move handler; current build remains unverified."
   },
   {
     "key": "MOVE_REVELATION_DANCE",
@@ -3760,12 +4187,14 @@
     "accuracy": "100",
     "description": "Revelation Dance description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 686,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_REVIVAL_BLESSING",
@@ -3777,12 +4206,14 @@
     "accuracy": "--",
     "description": "Revival Blessing description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 863,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_RISING_VOLTAGE",
@@ -3794,12 +4225,14 @@
     "accuracy": "100",
     "description": "Rising Voltage description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 804,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_ROTOTILLER",
@@ -3813,10 +4246,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Static handler raises Attack and Sp. Atk for grounded Grass Pokemon."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 563,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_RUINATION",
@@ -3828,12 +4263,14 @@
     "accuracy": "90",
     "description": "Ruination description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 877,
+    "implementationNotes": "Resident alias of a native move handler; current build remains unverified."
   },
   {
     "key": "MOVE_SALT_CURE",
@@ -3845,12 +4282,14 @@
     "accuracy": "100",
     "description": "Salt Cure description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 864,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SANDSEAR_STORM",
@@ -3862,12 +4301,14 @@
     "accuracy": "80",
     "description": "Sandsear Storm description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 848,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SAPPY_SEED",
@@ -3879,12 +4320,14 @@
     "accuracy": "100",
     "description": "Sappy Seed description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 738,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SCALE_SHOT",
@@ -3896,12 +4339,14 @@
     "accuracy": "100",
     "description": "Scale Shot description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Log(n)",
+    "animationId": 799,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SCORCHING_SANDS",
@@ -3913,12 +4358,14 @@
     "accuracy": "100",
     "description": "Scorching Sands description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Volt White 2"
+    "credits": "Log(n)",
+    "animationId": 815,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_SHADOW_BONE",
@@ -3930,12 +4377,14 @@
     "accuracy": "100",
     "description": "Shadow Bone description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 708,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_SHED_TAIL",
@@ -3947,12 +4396,14 @@
     "accuracy": "--",
     "description": "Shed Tail description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 880,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SHELL_SIDE_ARM",
@@ -3964,12 +4415,14 @@
     "accuracy": "100",
     "description": "Shell Side Arm description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 801,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SHELL_TRAP",
@@ -3981,12 +4434,14 @@
     "accuracy": "100",
     "description": "Shell Trap description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 704,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SHELTER",
@@ -3998,12 +4453,14 @@
     "accuracy": "--",
     "description": "Shelter description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 842,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_SHORE_UP",
@@ -4015,12 +4472,14 @@
     "accuracy": "--",
     "description": "Shore Up description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 659,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SILK_TRAP",
@@ -4032,12 +4491,14 @@
     "accuracy": "--",
     "description": "Silk Trap description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 852,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SIZZLY_SLIDE",
@@ -4049,12 +4510,14 @@
     "accuracy": "100",
     "description": "Sizzly Slide description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 735,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_SKITTER_SMACK",
@@ -4066,12 +4529,14 @@
     "accuracy": "90",
     "description": "Skitter Smack description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Log(n)",
+    "animationId": 806,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_SMART_STRIKE",
@@ -4084,11 +4549,13 @@
     "description": "Smart Strike description.",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Blaze Black 2 Redux"
+    "credits": "Blaze Black/Volt White 2 Redux",
+    "animationId": 684,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_SNAP_TRAP",
@@ -4100,12 +4567,14 @@
     "accuracy": "100",
     "description": "Snap Trap description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Log(n)",
+    "animationId": 779,
+    "implementationNotes": "Resident alias of a native move handler; current build remains unverified."
   },
   {
     "key": "MOVE_SNIPE_SHOT",
@@ -4117,12 +4586,14 @@
     "accuracy": "100",
     "description": "Snipe Shot description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 745,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SNOWSCAPE",
@@ -4134,12 +4605,14 @@
     "accuracy": "--",
     "description": "Snowscape description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 883,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SOLAR_BLADE",
@@ -4152,11 +4625,13 @@
     "description": "Solar Blade description.",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Cascade White",
+    "animationId": 669,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SPARKLING_ARIA",
@@ -4168,12 +4643,14 @@
     "accuracy": "100",
     "description": "Sparkling Aria description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 664,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SPARKLY_SWIRL",
@@ -4185,12 +4662,14 @@
     "accuracy": "100",
     "description": "Sparkly Swirl description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 740,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SPECTRAL_THIEF",
@@ -4202,12 +4681,14 @@
     "accuracy": "100",
     "description": "Spectral Thief description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 712,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SPEED_SWAP",
@@ -4219,12 +4700,14 @@
     "accuracy": "--",
     "description": "Speed Swap description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 683,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SPICY_EXTRACT",
@@ -4236,12 +4719,14 @@
     "accuracy": "--",
     "description": "Spicy Extract description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 858,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_SPIKY_SHIELD",
@@ -4255,10 +4740,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Protect clone with W2U contact damage hook."
     },
-    "credits": "Cascade White"
+    "credits": "Hzla",
+    "animationId": 596,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SPIN_OUT",
@@ -4270,12 +4757,14 @@
     "accuracy": "100",
     "description": "Spin Out description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 859,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_SPIRIT_BREAK",
@@ -4287,12 +4776,14 @@
     "accuracy": "100",
     "description": "Spirit Break description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Log(n)",
+    "animationId": 789,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_SPIRIT_SHACKLE",
@@ -4304,12 +4795,14 @@
     "accuracy": "100",
     "description": "Spirit Shackle description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 662,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SPLISHY_SPLASH",
@@ -4321,12 +4814,14 @@
     "accuracy": "100",
     "description": "Splishy Splash description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 730,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_SPOTLIGHT",
@@ -4338,12 +4833,14 @@
     "accuracy": "--",
     "description": "Spotlight description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 671,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SPRINGTIDE_STORM",
@@ -4355,12 +4852,14 @@
     "accuracy": "80",
     "description": "Springtide Storm description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 831,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_STEAM_ERUPTION",
@@ -4372,12 +4871,14 @@
     "accuracy": "95",
     "description": "The user immerses the target in superheated steam. This may also leave the target with a burn.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": "W2U move data uses Water Spout animation ID 4 and applies 30% burn plus defrost."
     },
-    "credits": "W2U"
+    "credits": "Hzla",
+    "animationId": 592,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_STEEL_BEAM",
@@ -4389,12 +4890,14 @@
     "accuracy": "95",
     "description": "Steel Beam description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Log(n)",
+    "animationId": 796,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_STEEL_ROLLER",
@@ -4406,12 +4909,14 @@
     "accuracy": "100",
     "description": "Steel Roller description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 798,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_STICKY_WEB",
@@ -4425,10 +4930,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Static W2U side effect lowers grounded switch-ins' Speed."
     },
-    "credits": "Cascade White"
+    "credits": "Hzla",
+    "animationId": 564,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_STOMPING_TANTRUM",
@@ -4441,11 +4948,13 @@
     "description": "Stomping Tantrum description.",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Cascade White",
+    "animationId": 707,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_STONE_AXE",
@@ -4457,12 +4966,14 @@
     "accuracy": "90",
     "description": "Stone Axe description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 830,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_STRANGE_STEAM",
@@ -4474,12 +4985,14 @@
     "accuracy": "95",
     "description": "Strange Steam description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 790,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_STRENGTH_SAP",
@@ -4491,12 +5004,14 @@
     "accuracy": "100",
     "description": "Strength Sap description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 668,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_STUFF_CHEEKS",
@@ -4508,12 +5023,14 @@
     "accuracy": "--",
     "description": "Stuff Cheeks description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 747,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SUNSTEEL_STRIKE",
@@ -4525,12 +5042,14 @@
     "accuracy": "100",
     "description": "Sunsteel Strike description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 713,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SUPERCELL_SLAM",
@@ -4542,12 +5061,14 @@
     "accuracy": "95",
     "description": "Supercell Slam description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 916,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_SURGING_STRIKES",
@@ -4559,12 +5080,14 @@
     "accuracy": "100",
     "description": "Surging Strikes description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 818,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_SYRUP_BOMB",
@@ -4576,12 +5099,14 @@
     "accuracy": "85",
     "description": "Syrup Bomb description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 903,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_TACHYON_CUTTER",
@@ -4593,12 +5118,14 @@
     "accuracy": "--",
     "description": "Tachyon Cutter description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 911,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_TAKE_HEART",
@@ -4610,12 +5137,14 @@
     "accuracy": "--",
     "description": "Take Heart description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 850,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_TAR_SHOT",
@@ -4627,12 +5156,14 @@
     "accuracy": "100",
     "description": "Tar Shot description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 749,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_TEARFUL_LOOK",
@@ -4644,12 +5175,14 @@
     "accuracy": "--",
     "description": "Tearful Look description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 715,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_TEATIME",
@@ -4661,12 +5194,14 @@
     "accuracy": "--",
     "description": "Teatime description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 752,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_TEMPER_FLARE",
@@ -4678,12 +5213,14 @@
     "accuracy": "100",
     "description": "Temper Flare description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 915,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_TERA_BLAST",
@@ -4695,12 +5232,14 @@
     "accuracy": "100",
     "description": "Tera Blast description.",
     "defaultProgress": {
-      "animation": false,
+      "animation": true,
       "effectHandler": false,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 851,
+    "implementationNotes": "Terastallization-specific behavior is outside the integration scope."
   },
   {
     "key": "MOVE_TERA_STARSTORM",
@@ -4712,12 +5251,14 @@
     "accuracy": "100",
     "description": "Tera Starstorm description.",
     "defaultProgress": {
-      "animation": false,
+      "animation": true,
       "effectHandler": false,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 906,
+    "implementationNotes": "Terastallization-specific behavior is outside the integration scope."
   },
   {
     "key": "MOVE_TERRAIN_PULSE",
@@ -4729,12 +5270,14 @@
     "accuracy": "100",
     "description": "Terrain Pulse description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 805,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_THOUSAND_ARROWS",
@@ -4746,12 +5289,14 @@
     "accuracy": "100",
     "description": "This move also hits opposing Pokemon that are in the air. Those Pokemon are knocked down to the ground.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": "Custom W2U animation rains arrow particles; move data marks the grounded-hit special code."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 614,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_THOUSAND_WAVES",
@@ -4763,12 +5308,14 @@
     "accuracy": "100",
     "description": "The user attacks with a wave that crawls along the ground. Those hit cannot flee from battle.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": "W2U move data currently targets all foes as a standard Ground attack."
     },
-    "credits": "W2U"
+    "credits": "Hzla",
+    "animationId": 615,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_THROAT_CHOP",
@@ -4780,12 +5327,14 @@
     "accuracy": "100",
     "description": "Throat Chop description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 675,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_THUNDER_CAGE",
@@ -4797,12 +5346,14 @@
     "accuracy": "90",
     "description": "Thunder Cage description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 819,
+    "implementationNotes": "Resident alias of a native move handler; current build remains unverified."
   },
   {
     "key": "MOVE_THUNDERCLAP",
@@ -4814,12 +5365,14 @@
     "accuracy": "100",
     "description": "Thunderclap description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 909,
+    "implementationNotes": "Resident alias of a native move handler; current build remains unverified."
   },
   {
     "key": "MOVE_THUNDEROUS_KICK",
@@ -4831,12 +5384,14 @@
     "accuracy": "100",
     "description": "Thunderous Kick description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 823,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_TIDY_UP",
@@ -4848,12 +5403,14 @@
     "accuracy": "--",
     "description": "Tidy Up description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 882,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_TOPSYTURVY",
@@ -4867,10 +5424,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Static handler inverts target stat stages."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 576,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_TORCH_SONG",
@@ -4882,12 +5441,14 @@
     "accuracy": "100",
     "description": "Torch Song description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 871,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_TOXIC_THREAD",
@@ -4899,12 +5460,14 @@
     "accuracy": "100",
     "description": "Toxic Thread description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 672,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_TRAILBLAZE",
@@ -4916,12 +5479,14 @@
     "accuracy": "100",
     "description": "Trailblaze description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 885,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_TRICKORTREAT",
@@ -4935,10 +5500,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Animation generated from Razor Leaf: custom transparent ghost texture rises from the user, then projectile ghosts fly through the target while the field is dimmed. Static handler adds Ghost as a W2U extra type."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 567,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_TRIPLE_ARROWS",
@@ -4950,12 +5517,14 @@
     "accuracy": "100",
     "description": "Triple Arrows description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 843,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_TRIPLE_AXEL",
@@ -4967,12 +5536,14 @@
     "accuracy": "90",
     "description": "Triple Axel description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Volt White 2"
+    "credits": "Log(n)",
+    "animationId": 813,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_TRIPLE_DIVE",
@@ -4984,12 +5555,14 @@
     "accuracy": "95",
     "description": "Triple Dive description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 865,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_TROP_KICK",
@@ -5002,11 +5575,13 @@
     "description": "Trop Kick description.",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Cascade White",
+    "animationId": 688,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_TWIN_BEAM",
@@ -5018,12 +5593,14 @@
     "accuracy": "100",
     "description": "Twin Beam description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 888,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_UPPER_HAND",
@@ -5035,12 +5612,14 @@
     "accuracy": "100",
     "description": "Upper Hand description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 918,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_VEEVEE_VOLLEY",
@@ -5052,12 +5631,14 @@
     "accuracy": "--",
     "description": "Veevee Volley description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 741,
+    "implementationNotes": "Resident alias of a native move handler; current build remains unverified."
   },
   {
     "key": "MOVE_VENOM_DRENCH",
@@ -5071,10 +5652,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": "Static handler filters targets that are not poisoned."
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 599,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_VICTORY_DANCE",
@@ -5086,12 +5669,14 @@
     "accuracy": "--",
     "description": "Victory Dance description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Log(n)",
+    "animationId": 837,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_WATER_SHURIKEN",
@@ -5105,10 +5690,12 @@
     "defaultProgress": {
       "animation": true,
       "effectHandler": true,
-      "verified": true,
+      "verified": false,
       "notes": ""
     },
-    "credits": "Agent"
+    "credits": "Hzla",
+    "animationId": 594,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_WAVE_CRASH",
@@ -5120,12 +5707,14 @@
     "accuracy": "100",
     "description": "Wave Crash description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Volt White 2"
+    "credits": "Log(n)",
+    "animationId": 834,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_WICKED_BLOW",
@@ -5137,12 +5726,14 @@
     "accuracy": "100",
     "description": "Wicked Blow description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Log(n)",
+    "animationId": 817,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_WICKED_TORQUE",
@@ -5154,12 +5745,14 @@
     "accuracy": "100",
     "description": "Wicked Torque description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 897,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_WILDBOLT_STORM",
@@ -5171,12 +5764,14 @@
     "accuracy": "80",
     "description": "Wildbolt Storm description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Log(n)",
+    "animationId": 847,
+    "implementationNotes": "Registered in an on-demand White 2 battle module; current build remains unverified."
   },
   {
     "key": "MOVE_ZING_ZAP",
@@ -5189,11 +5784,13 @@
     "description": "Zing Zap description.",
     "defaultProgress": {
       "animation": true,
-      "effectHandler": false,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "Cascade White"
+    "credits": "Cascade White",
+    "animationId": 716,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   },
   {
     "key": "MOVE_ZIPPY_ZAP",
@@ -5205,11 +5802,13 @@
     "accuracy": "100",
     "description": "Zippy Zap description.",
     "defaultProgress": {
-      "animation": false,
-      "effectHandler": false,
+      "animation": true,
+      "effectHandler": true,
       "verified": false,
       "notes": ""
     },
-    "credits": "PW2Code"
+    "credits": "Hzla",
+    "animationId": 729,
+    "implementationNotes": "Native move data and resident hooks provide the effect; current build remains unverified."
   }
 ]

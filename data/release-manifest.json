@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-11T22:04:10.274Z",
+  "status": "Integration build; behavior and visuals not fully verified",
+  "sourceRom": {
+    "name": "cleanwhite2.nds",
+    "sha256": "3e50aec3db401332175a5d2b5fe2a68ac1a05ec63995dba9d1506b1b51837446",
+    "bytes": 536870912
+  },
+  "integrationRom": {
+    "name": "White2Upgrade.nds",
+    "sha256": "41ec23667f7e8ce0d6269a84d910a34a841ae8b5987d47654042bf4a95461140",
+    "bytes": 364826624
+  },
+  "patch": {
+    "path": "downloads/White2Upgrade.xdelta",
+    "sha256": "df5e68058dd566c4e29a210326fe14029d40765a8f54de32f40fc76b37789b15",
+    "bytes": 29253457,
+    "decodedByteIdentical": true
+  },
+  "save": {
+    "path": "downloads/demosave.dsv",
+    "sha256": "474a89b2e4a1984726bfd2505e1afd2e4ce3bf25c60945ff97d198cddef199fd",
+    "bytes": 524410,
+    "rawSha256": "8acf8070686368e395b5e694dbb10d3350fb45f46e95a0b207c79ca80604f813",
+    "rawBytes": 524288,
+    "description": "Current Gen 6–9 PC collection; raw save preserved in a DeSmuME-compatible wrapper"
+  }
+}

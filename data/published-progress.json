@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T18:09:41Z",
+  "updatedAt": "2026-10-11T22:05:14.265Z",
   "progress": {
     "pokemon": {
       "SPECIES_CHESPIN": {
@@ -8,7 +8,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -17,7 +17,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -26,7 +26,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -35,7 +35,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -44,7 +44,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -53,7 +53,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -62,7 +62,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -71,7 +71,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -80,7 +80,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -89,7 +89,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -98,7 +98,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -107,7 +107,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -116,7 +116,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -125,7 +125,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -134,7 +134,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -143,7 +143,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -152,7 +152,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -161,7 +161,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -170,7 +170,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -179,7 +179,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -188,7 +188,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -197,7 +197,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -206,7 +206,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -215,7 +215,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -224,7 +224,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -233,7 +233,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -242,7 +242,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -251,7 +251,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -260,7 +260,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -269,7 +269,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -278,7 +278,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -287,7 +287,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -296,7 +296,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -305,7 +305,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -314,7 +314,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -323,7 +323,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -332,7 +332,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -341,7 +341,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -350,7 +350,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -359,7 +359,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -386,7 +386,7 @@
         "partyIcon": true,
         "frontSprite": true,
         "backSprite": true,
-        "verified": true,
+        "verified": false,
         "notes": "",
         "shinyPalette": false
       },
@@ -1537,7 +1537,7 @@
         "personalData": true,
         "partyIcon": true,
         "frontSprite": true,
-        "backSprite": true,
+        "backSprite": false,
         "verified": false,
         "notes": "",
         "shinyPalette": false
@@ -1708,7 +1708,7 @@
         "personalData": true,
         "partyIcon": true,
         "frontSprite": true,
-        "backSprite": true,
+        "backSprite": false,
         "verified": false,
         "notes": "",
         "shinyPalette": false
@@ -1726,7 +1726,7 @@
         "personalData": true,
         "partyIcon": true,
         "frontSprite": true,
-        "backSprite": true,
+        "backSprite": false,
         "verified": false,
         "notes": "",
         "shinyPalette": false
@@ -1771,7 +1771,7 @@
         "personalData": true,
         "partyIcon": true,
         "frontSprite": true,
-        "backSprite": true,
+        "backSprite": false,
         "verified": false,
         "notes": "",
         "shinyPalette": false
@@ -4961,335 +4961,706 @@
         "verified": false,
         "notes": "",
         "shinyPalette": true
+      },
+      "PWAN_681_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_ALCREMIE_63": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_APPLETUN_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "PWAN_658_2": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_BLASTOISE_2": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_BUTTERFREE_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_CENTISKORCH_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_CHARIZARD_3": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_CINDERACE_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_COALOSSAL_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_COPPERAJAH_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_CORVIKNIGHT_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_DREDNAW_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_DURALUDON_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_EEVEE_2": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_FLAPPLE_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_GARBODOR_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_GENGAR_2": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_GRIMMSNARL_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_HATTERENE_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "PWAN_720_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_INTELEON_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_KINGLER_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_LAPRAS_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_MACHAMP_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_MELMETAL_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_MEOWTH_3": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "PWAN_778_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "MINIOR_CORE_BLUE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "MINIOR_METEOR_BLUE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "MINIOR_CORE_GREEN": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "MINIOR_METEOR_GREEN": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "MINIOR_CORE_INDIGO": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "MINIOR_METEOR_INDIGO": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "MINIOR_CORE_ORANGE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "MINIOR_METEOR_ORANGE": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "MINIOR_CORE_RED": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "MINIOR_CORE_VIOLET": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "MINIOR_METEOR_VIOLET": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "MINIOR_CORE_YELLOW": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "MINIOR_METEOR_YELLOW": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_ORBEETLE_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_PIKACHU_17": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_RILLABOOM_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_SNORLAX_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_TOXTRICITY_3": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_TOXTRICITY_2": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_URSHIFU_2": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_URSHIFU_3": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "GMAX_MEGA_VENUSAUR_2": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "PWAN_746_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "PWAN_718_2": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
+      },
+      "PWAN_718_1": {
+        "personalData": true,
+        "partyIcon": true,
+        "frontSprite": true,
+        "backSprite": true,
+        "verified": false
       }
     },
     "moves": {
       "MOVE_AROMATIC_MIST": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_BABYDOLL_EYES": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_BELCH": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Selection blocked until the user has consumed a Berry."
       },
       "MOVE_BOOMBURST": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_CELEBRATE": {
         "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "effectHandler": false,
+        "verified": false,
         "notes": ""
       },
       "MOVE_CONFIDE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_CRAFTY_SHIELD": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Static W2U pos effect blocks status moves for allies."
       },
       "MOVE_DAZZLING_GLEAM": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_DIAMOND_STORM": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "W2U move data raises user Defense as a secondary effect."
       },
       "MOVE_DISARMING_VOICE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_DRAINING_KISS": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_EERIE_IMPULSE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_ELECTRIC_TERRAIN": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Animation generated from Discharge: keeps the user-side charge/burst, removes the target camera cut, and replaces target sparks with flattened floor spark emitters. Static W2U terrain blocks sleep and boosts grounded Electric moves."
       },
       "MOVE_ELECTRIFY": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Static W2U pos effect rewrites the target's move type to Electric."
       },
       "MOVE_FAIRY_LOCK": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Reuses vanilla Spider Web as PW2's Fairy Lock approximation."
       },
       "MOVE_FAIRY_WIND": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_FELL_STINGER": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Static handler raises Attack by 2 after the user KOs a target."
       },
       "MOVE_FLOWER_SHIELD": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Reuses the Rototiller-style Grass-type stat handler."
       },
       "MOVE_FLYING_PRESS": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Type-effectiveness hook applies Fighting plus Flying effectiveness."
       },
       "MOVE_FORESTS_CURSE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Static handler adds Grass as a W2U extra type."
       },
       "MOVE_FREEZEDRY": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Type-effectiveness hook treats Water targets as super effective."
       },
       "MOVE_GEOMANCY": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Static handler adds the charge message; move data handles charge and stat boosts."
       },
       "MOVE_GRASSY_TERRAIN": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Static W2U terrain heals grounded Pokemon and boosts Grass moves."
       },
       "MOVE_HAPPY_HOUR": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Static handler sets BW2's money-double battle flag."
       },
       "MOVE_HOLD_BACK": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Reuses vanilla False Swipe handler."
       },
       "MOVE_INFESTATION": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Reuses vanilla Bind handler."
       },
       "MOVE_ION_DELUGE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Static W2U pos effect rewrites Normal moves to Electric."
       },
       "MOVE_KINGS_SHIELD": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Static protect clone lowers contact attackers' Attack by 2."
       },
       "MOVE_LANDS_WRATH": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_MAGNETIC_FLUX": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Static handler filters targets without Plus or Minus."
       },
       "MOVE_MAT_BLOCK": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Static protect clone shields allies from damaging moves."
       },
       "MOVE_MISTY_TERRAIN": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Static W2U terrain blocks status and weakens Dragon moves."
       },
       "MOVE_MOONBLAST": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_MYSTICAL_FIRE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_NOBLE_ROAR": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_NUZZLE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_OBLIVION_WING": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_PARABOLIC_CHARGE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_PARTING_SHOT": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Static handler lowers offenses, then queues the user switch."
       },
       "MOVE_PETAL_BLIZZARD": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_PHANTOM_FORCE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Reuses vanilla Shadow Force as PW2's Phantom Force approximation."
       },
       "MOVE_PLAY_NICE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_PLAY_ROUGH": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_POWDER": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Static transient handler marks the target and cancels Fire moves with damage."
       },
       "MOVE_POWERUP_PUNCH": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_ROTOTILLER": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Static handler raises Attack and Sp. Atk for grounded Grass Pokemon."
       },
       "MOVE_SPIKY_SHIELD": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Protect clone with W2U contact damage hook."
       },
       "MOVE_STICKY_WEB": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Static W2U side effect lowers grounded switch-ins' Speed."
       },
       "MOVE_TOPSYTURVY": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Static handler inverts target stat stages."
       },
       "MOVE_TRICKORTREAT": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Animation generated from Razor Leaf: custom transparent ghost texture rises from the user, then projectile ghosts fly through the target while the field is dimmed. Static handler adds Ghost as a W2U extra type."
       },
       "MOVE_VENOM_DRENCH": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Static handler filters targets that are not poisoned."
       },
       "MOVE_WATER_SHURIKEN": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_STEAM_ERUPTION": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "W2U move data uses Water Spout animation ID 4 and applies 30% burn plus defrost."
       },
       "MOVE_HYPERSPACE_HOLE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "W2U move data marks this as must-hit and hits through Substitute/Protect-style blocking."
       },
       "MOVE_HOLD_HANDS": {
-        "animation": false,
+        "animation": true,
         "effectHandler": false,
         "verified": false,
         "notes": "Status move with friend targeting; W2U uses animation ID 370."
@@ -5297,882 +5668,882 @@
       "MOVE_THOUSAND_ARROWS": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "Custom W2U animation rains arrow particles; move data marks the grounded-hit special code."
       },
       "MOVE_THOUSAND_WAVES": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "W2U move data currently targets all foes as a standard Ground attack."
       },
       "MOVE_LIGHT_OF_RUIN": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "W2U move data applies 50% recoil."
       },
       "MOVE_ORIGIN_PULSE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "W2U move data is complete but still points at animation ID 0."
       },
       "MOVE_PRECIPICE_BLADES": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "W2U move data is complete but still points at animation ID 0."
       },
       "MOVE_DRAGON_ASCENT": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "W2U move data lowers the user's Defense and Sp. Def after damage."
       },
       "MOVE_HYPERSPACE_FURY": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "W2U move data marks this as must-hit, hits through Substitute/Protect-style blocking, and lowers the user's Defense."
       },
       "MOVE_ACCELEROCK": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_ALLURING_VOICE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_ANCHOR_SHOT": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_APPLE_ACID": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_AQUA_CUTTER": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_AQUA_STEP": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_ARMOR_CANNON": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_ASTRAL_BARRAGE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_AURA_WHEEL": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_AURORA_VEIL": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_AXE_KICK": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_BADDY_BAD": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_BANEFUL_BUNKER": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_BARB_BARRAGE": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_BEAK_BLAST": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_BEHEMOTH_BASH": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_BEHEMOTH_BLADE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_BITTER_BLADE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_BITTER_MALICE": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_BLAZING_TORQUE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_BLEAKWIND_STORM": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_BLOOD_MOON": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_BODY_PRESS": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_BOLT_BEAK": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_BOUNCY_BUBBLE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_BRANCH_POKE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_BREAKING_SWIPE": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_BRUTAL_SWING": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_BURN_UP": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_BURNING_BULWARK": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_BURNING_JEALOUSY": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_BUZZY_BUZZ": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_CEASELESS_EDGE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_CHILLING_WATER": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_CHILLY_RECEPTION": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_CHLOROBLAST": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_CLANGING_SCALES": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_CLANGOROUS_SOUL": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_COACHING": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_COLLISION_COURSE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_COMBAT_TORQUE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_COMEUPPANCE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_CORE_ENFORCER": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_CORROSIVE_GAS": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_COURT_CHANGE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_DARKEST_LARIAT": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_DECORATE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_DIRE_CLAW": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_DOODLE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_DOUBLE_IRON_BASH": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_DOUBLE_SHOCK": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_DRAGON_CHEER": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_DRAGON_DARTS": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_DRAGON_ENERGY": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_DRAGON_HAMMER": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_DRUM_BEATING": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_DUAL_WINGBEAT": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_DYNAMAX_CANNON": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_EERIE_SPELL": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_ELECTRO_DRIFT": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_ELECTRO_SHOT": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_ESPER_WING": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_ETERNABEAM": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_EXPANDING_FORCE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_FALSE_SURRENDER": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_FICKLE_BEAM": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_FIERY_WRATH": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_FILLET_AWAY": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_FIRE_LASH": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_FIRST_IMPRESSION": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_FISHIOUS_REND": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_FLEUR_CANNON": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_FLIP_TURN": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_FLOATY_FALL": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_FLORAL_HEALING": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_FLOWER_TRICK": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_FREEZING_GLARE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_FREEZY_FROST": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_GEAR_UP": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "skipped for now"
       },
       "MOVE_GIGATON_HAMMER": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_GLACIAL_LANCE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_GLAIVE_RUSH": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_GLITZY_GLOW": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_GRASSY_GLIDE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_GRAV_APPLE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_HARD_PRESS": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_HEADLONG_RUSH": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_HIGH_HORSEPOWER": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_HYDRO_STEAM": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_HYPER_DRILL": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_ICE_HAMMER": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_ICE_SPINNER": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_INFERNAL_PARADE": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_INSTRUCT": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": "going to need a bunch of in depth testing"
       },
       "MOVE_IVY_CUDGEL": {
-        "animation": false,
+        "animation": true,
         "effectHandler": false,
         "verified": false,
         "notes": ""
       },
       "MOVE_JAW_LOCK": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_JET_PUNCH": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_JUNGLE_HEALING": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_KOWTOW_CLEAVE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_LASER_FOCUS": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_LASH_OUT": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_LAST_RESPECTS": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_LEAFAGE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_LIFE_DEW": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_LIQUIDATION": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_LUMINA_CRASH": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_LUNAR_BLESSING": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_LUNGE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_MAGIC_POWDER": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_MAGICAL_TORQUE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_MAKE_IT_RAIN": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_MALIGNANT_CHAIN": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_MATCHA_GOTCHA": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_MAX_AIRSTREAM": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_MAX_DARKNESS": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_MAX_FLARE": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_MAX_FLUTTERBY": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_MAX_GEYSER": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_MAX_GUARD": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_MAX_HAILSTORM": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_MAX_KNUCKLE": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_MAX_LIGHTNING": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_MAX_MINDSTORM": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_MAX_OOZE": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_MAX_OVERGROWTH": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_MAX_PHANTASM": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_MAX_QUAKE": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_MAX_ROCKFALL": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_MAX_STARFALL": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_MAX_STEELSPIKE": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_MAX_STRIKE": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_MAX_WYRMWIND": {
-        "animation": true,
-        "effectHandler": true,
-        "verified": true,
+        "animation": false,
+        "effectHandler": false,
+        "verified": false,
         "notes": "Skipped"
       },
       "MOVE_METEOR_ASSAULT": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_METEOR_BEAM": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_MIGHTY_CLEAVE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_MIND_BLOWN": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_MISTY_EXPLOSION": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_MOONGEIST_BEAM": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_MORTAL_SPIN": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_MOUNTAIN_GALE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
@@ -6183,627 +6554,627 @@
         "notes": "save for after items"
       },
       "MOVE_MYSTICAL_POWER": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_NATURES_MADNESS": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_NO_RETREAT": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_NOXIOUS_TORQUE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_OBSTRUCT": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_OCTOLOCK": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_ORDER_UP": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_OVERDRIVE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_PHOTON_GEYSER": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_PIKA_PAPOW": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_PLASMA_FISTS": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_POLLEN_PUFF": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_POLTERGEIST": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_POPULATION_BOMB": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_POUNCE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_POWER_SHIFT": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_POWER_TRIP": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_PRISMATIC_LASER": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_PSYBLADE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_PSYCHIC_FANGS": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_PSYCHIC_NOISE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_PSYCHIC_TERRAIN": {
-        "animation": true,
+        "animation": false,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_PSYSHIELD_BASH": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_PURIFY": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_PYRO_BALL": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_RAGE_FIST": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_RAGING_BULL": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_RAGING_FURY": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_REVELATION_DANCE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_REVIVAL_BLESSING": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_RISING_VOLTAGE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_RUINATION": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SALT_CURE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SANDSEAR_STORM": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SAPPY_SEED": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_SCALE_SHOT": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SCORCHING_SANDS": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SHADOW_BONE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_SHED_TAIL": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SHELL_SIDE_ARM": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SHELL_TRAP": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_SHELTER": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SHORE_UP": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_SILK_TRAP": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SIZZLY_SLIDE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_SKITTER_SMACK": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SMART_STRIKE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_SNAP_TRAP": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SNIPE_SHOT": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SNOWSCAPE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SOLAR_BLADE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_SPARKLING_ARIA": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_SPARKLY_SWIRL": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_SPECTRAL_THIEF": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_SPEED_SWAP": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_SPICY_EXTRACT": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SPIN_OUT": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SPIRIT_BREAK": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SPIRIT_SHACKLE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_SPLISHY_SPLASH": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_SPOTLIGHT": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_SPRINGTIDE_STORM": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_STEEL_BEAM": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_STEEL_ROLLER": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_STOMPING_TANTRUM": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_STONE_AXE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_STRANGE_STEAM": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_STRENGTH_SAP": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_STUFF_CHEEKS": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SUNSTEEL_STRIKE": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_SUPERCELL_SLAM": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SURGING_STRIKES": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_SYRUP_BOMB": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_TACHYON_CUTTER": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_TAKE_HEART": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_TAR_SHOT": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_TEARFUL_LOOK": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_TEATIME": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_TEMPER_FLARE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_TERA_BLAST": {
-        "animation": false,
+        "animation": true,
         "effectHandler": false,
         "verified": false,
         "notes": ""
       },
       "MOVE_TERA_STARSTORM": {
-        "animation": false,
+        "animation": true,
         "effectHandler": false,
         "verified": false,
         "notes": ""
       },
       "MOVE_TERRAIN_PULSE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_THROAT_CHOP": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_THUNDER_CAGE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_THUNDERCLAP": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_THUNDEROUS_KICK": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_TIDY_UP": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_TORCH_SONG": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_TOXIC_THREAD": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_TRAILBLAZE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_TRIPLE_ARROWS": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_TRIPLE_AXEL": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_TRIPLE_DIVE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_TROP_KICK": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_TWIN_BEAM": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_UPPER_HAND": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_VEEVEE_VOLLEY": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_VICTORY_DANCE": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_WAVE_CRASH": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_WICKED_BLOW": {
         "animation": true,
-        "effectHandler": false,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_WICKED_TORQUE": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_WILDBOLT_STORM": {
-        "animation": false,
-        "effectHandler": false,
+        "animation": true,
+        "effectHandler": true,
         "verified": false,
         "notes": ""
       },
       "MOVE_ZING_ZAP": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       },
       "MOVE_ZIPPY_ZAP": {
         "animation": true,
         "effectHandler": true,
-        "verified": true,
+        "verified": false,
         "notes": ""
       }
     },
@@ -7143,6 +7514,42 @@
         "itemIcon": true,
         "verified": true,
         "notes": ""
+      },
+      "ITEM_PROTECTIVE_PADS": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Resident contact-effect suppression corrected for Iron Barbs and Rough Skin; item icon implemented; needs in-game retest."
+      },
+      "ITEM_TERRAIN_EXTENDER": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Battle handler and item icon implemented; needs in-game verification."
+      },
+      "ITEM_ELECTRIC_SEED": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Battle handler and item icon implemented; needs in-game verification."
+      },
+      "ITEM_GRASSY_SEED": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Battle handler and item icon implemented; needs in-game verification."
+      },
+      "ITEM_MISTY_SEED": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Battle handler and item icon implemented; needs in-game verification."
+      },
+      "ITEM_PSYCHIC_SEED": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Battle handler and item icon implemented; needs in-game verification."
       }
     },
     "abilities": {

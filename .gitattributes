@@ -1,0 +1,4 @@
+# Compiled viewer bundles contain embedded source strings whose trailing spaces
+# are intentional. Keep source-file whitespace checks enabled everywhere else.
+animation-viewer/assets/*.js linguist-generated=true whitespace=-blank-at-eol
+animation-viewer/assets/*.css linguist-generated=true

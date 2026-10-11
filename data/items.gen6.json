@@ -726,5 +726,89 @@
       "verified": true,
       "notes": ""
     }
+  },
+  {
+    "key": "ITEM_PROTECTIVE_PADS",
+    "id": 114,
+    "constant": "ITEM_PROTECTIVE_PADS",
+    "name": "Protective Pads",
+    "generation": 7,
+    "description": "An item to be held by a Pokemon. These pads protect the holder from effects caused by making direct contact with the target.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident contact-effect suppression corrected for Iron Barbs and Rough Skin; item icon implemented; needs in-game retest."
+    }
+  },
+  {
+    "key": "ITEM_TERRAIN_EXTENDER",
+    "id": 115,
+    "constant": "ITEM_TERRAIN_EXTENDER",
+    "name": "Terrain Extender",
+    "generation": 7,
+    "description": "An item to be held by a Pokemon. It extends the duration of terrain caused by the holder's move or Ability.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Battle handler and item icon implemented; needs in-game verification."
+    }
+  },
+  {
+    "key": "ITEM_ELECTRIC_SEED",
+    "id": 485,
+    "constant": "ITEM_ELECTRIC_SEED",
+    "name": "Electric Seed",
+    "generation": 7,
+    "description": "An item to be held by a Pokemon. It boosts Defense on Electric Terrain and is consumed when used.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Battle handler and item icon implemented; needs in-game verification."
+    }
+  },
+  {
+    "key": "ITEM_GRASSY_SEED",
+    "id": 486,
+    "constant": "ITEM_GRASSY_SEED",
+    "name": "Grassy Seed",
+    "generation": 7,
+    "description": "An item to be held by a Pokemon. It boosts Defense on Grassy Terrain and is consumed when used.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Battle handler and item icon implemented; needs in-game verification."
+    }
+  },
+  {
+    "key": "ITEM_MISTY_SEED",
+    "id": 488,
+    "constant": "ITEM_MISTY_SEED",
+    "name": "Misty Seed",
+    "generation": 7,
+    "description": "An item to be held by a Pokemon. It boosts Sp. Def on Misty Terrain and is consumed when used.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Battle handler and item icon implemented; needs in-game verification."
+    }
+  },
+  {
+    "key": "ITEM_PSYCHIC_SEED",
+    "id": 487,
+    "constant": "ITEM_PSYCHIC_SEED",
+    "name": "Psychic Seed",
+    "generation": 7,
+    "description": "An item to be held by a Pokemon. It boosts Sp. Def on Psychic Terrain and is consumed when used.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Battle handler and item icon implemented; needs in-game verification."
+    }
   }
 ]

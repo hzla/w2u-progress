@@ -38687,13 +38687,13 @@
     },
     {
       "id": 114,
-      "constant": "ITEM_114",
-      "name": "114"
+      "constant": "ITEM_PROTECTIVE_PADS",
+      "name": "Protective Pads"
     },
     {
       "id": 115,
-      "constant": "ITEM_115",
-      "name": "115"
+      "constant": "ITEM_TERRAIN_EXTENDER",
+      "name": "Terrain Extender"
     },
     {
       "id": 116,
@@ -40542,23 +40542,23 @@
     },
     {
       "id": 485,
-      "constant": "ITEM_485",
-      "name": "Red Apricorn"
+      "constant": "ITEM_ELECTRIC_SEED",
+      "name": "Electric Seed"
     },
     {
       "id": 486,
-      "constant": "ITEM_486",
-      "name": "Blu Apricorn"
+      "constant": "ITEM_GRASSY_SEED",
+      "name": "Grassy Seed"
     },
     {
       "id": 487,
-      "constant": "ITEM_487",
-      "name": "Ylw Apricorn"
+      "constant": "ITEM_PSYCHIC_SEED",
+      "name": "Psychic Seed"
     },
     {
       "id": 488,
-      "constant": "ITEM_488",
-      "name": "Grn Apricorn"
+      "constant": "ITEM_MISTY_SEED",
+      "name": "Misty Seed"
     },
     {
       "id": 489,

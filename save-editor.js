@@ -66,7 +66,7 @@
   const ALL_BADGES = 0xFF;
   const ITEM_ENTRY_SIZE = 4;
   const SAVE_STORAGE_KEY = "white2Expansion.saveEditor.lastSave.v1";
-  const SAVE_EDITOR_DATA_VERSION = "20260727-gen79-moves";
+  const SAVE_EDITOR_DATA_VERSION = "20260901-gen7-items";
   const BASE64_CHUNK_SIZE = 0x8000;
   const POUCHES = {
     items: { name: "Items", offset: 0x000, capacity: 261, maxCount: 999 },

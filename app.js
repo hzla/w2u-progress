@@ -3,7 +3,7 @@
 
   const STORAGE_KEY = "white2expansion.progress.v1";
   const UI_STORAGE_KEY = "white2expansion.ui.v1";
-  const DATA_VERSION = "20260904-gen8-animation-credits";
+  const DATA_VERSION = "20261011-integration-assets";
   const COUNTED_FILTERS = new Set(["open", "missingSprites", "missingAnimation"]);
   const TRACKED_GENERATIONS = [6, 7, 8, 9];
   const CREDIT_LINKS = new Map([
@@ -38,7 +38,8 @@
       ],
       readonlyColumns: [
         ["stats", "PP / Pow / Acc"],
-        ["description", "Description"]
+        ["description", "Description"],
+        ["implementationNotes", "Implementation"]
       ]
     },
     items: {
@@ -260,8 +261,8 @@
       return null;
     }
     if (category === "items") {
-      // These entries use free Gen V item slots rather than canonical modern
-      // IDs. The current list is Gen 6 except for Gen 9's Fairy Feather.
+      // These entries use repurposed Gen V item slots rather than canonical
+      // modern IDs. Later-generation additions carry an explicit generation.
       return row.key === "ITEM_FAIRY_FEATHER" ? 9 : 6;
     }
     if (category === "pokemon") {
