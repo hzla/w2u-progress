@@ -52,5 +52,10 @@ test('effect filter hides on Pokemon and no frontend script/data cache key is st
   for(const category of ['moves','items','abilities'])assert.equal(unit.filterAvailableForTab('missingEffect',category),true);
   const html=readFileSync(path.join(root,'index.html'),'utf8'),js=readFileSync(path.join(root,'app.js'),'utf8');
   const version=/const DATA_VERSION = "([^"]+)"/.exec(js)[1];
-  assert.ok(html.includes(`app.js?v=${version}`));assert.ok(html.includes(`battle-progress-audit.json?v=${version}`));
+  assert.ok(html.includes(`app.js?v=${version}`));
+});
+test('tracker introduction uses the requested project description',()=>{
+  const html=readFileSync(path.join(root,'index.html'),'utf8');
+  assert.ok(html.includes('<p class="save-status">This is an artifact of an auto-generated tracker I made to better help me keep track of sprite/animation credits as well as a way to keep track of which moves/abilities have been implemented/verified in w2u-project</p>'));
+  assert.ok(!html.includes('Current White 2 integration assets.'));
 });
