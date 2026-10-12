@@ -13,7 +13,7 @@ function model() {
     window:{location:{hostname:'hzla.github.io'}},localStorage:{getItem:()=>null}};
   // Exercise the site's real filter/merge functions without starting its DOM
   // or network layer. The production source is not modified by this harness.
-  vm.runInNewContext(source.replace('  init();', 'globalThis.unit={state,generationForRow,rowMatchesFilter,filterAvailableForTab,getVisibleRows};'),sandbox);
+  vm.runInNewContext(source.replace('  init();', 'globalThis.unit={state,els,generationForRow,rowMatchesFilter,filterAvailableForTab,getVisibleRows,renderHead,renderRows,rowSearchText};'),sandbox);
   const {unit}=sandbox;
   for(const category of ['pokemon','moves','items','abilities'])
     unit.state.seeds[category]=JSON.parse(readFileSync(path.join(root,`data/${category}.gen6.json`),'utf8'));
@@ -58,4 +58,26 @@ test('tracker introduction uses the requested project description',()=>{
   const html=readFileSync(path.join(root,'index.html'),'utf8');
   assert.ok(html.includes('<p class="save-status">This is an artifact of an auto-generated tracker I made to better help me keep track of sprite/animation credits as well as a way to keep track of which moves/abilities have been implemented/verified in w2u-project</p>'));
   assert.ok(!html.includes('Current White 2 integration assets.'));
+});
+test('public tables omit all notes while local editing retains them',()=>{
+  const unit=model();
+  for(const category of ['pokemon','moves','items','abilities']) {
+    unit.state.activeTab=category;
+    const row=unit.state.seeds[category][0];
+    row.runtimeNotes='private runtime note';row.implementationNotes='private implementation note';
+    unit.state.publishedProgress[category][row.key].notes='private progress note';
+    unit.state.canEdit=false;unit.renderHead();unit.renderRows();
+    assert.ok(!unit.els.head.innerHTML.includes('>Notes<'));
+    assert.ok(!unit.els.head.innerHTML.includes('>Runtime<'));
+    assert.ok(!unit.els.body.innerHTML.includes('notes-input'));
+    assert.ok(!unit.els.body.innerHTML.includes('private '));
+    assert.ok(!unit.rowSearchText(row).includes('private runtime note'));
+    assert.ok(unit.els.head.innerHTML.includes('>Verified<'));
+    unit.state.canEdit=true;unit.renderHead();unit.renderRows();
+    assert.ok(unit.els.head.innerHTML.includes('>Notes<'));
+    assert.ok(unit.els.body.innerHTML.includes('private progress note'));
+    assert.ok(unit.rowSearchText(row).includes('private runtime note'));
+    if(category==='pokemon')assert.ok(unit.els.body.innerHTML.includes('private runtime note'));
+    if(category==='moves')assert.ok(unit.els.body.innerHTML.includes('private implementation note'));
+  }
 });

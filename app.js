@@ -3,7 +3,7 @@
 
   const STORAGE_KEY = "white2expansion.progress.v1";
   const UI_STORAGE_KEY = "white2expansion.ui.v1";
-  const DATA_VERSION = "20261012-gen89-battle-progress";
+  const DATA_VERSION = "20261012-public-notes-cleanup";
   const COUNTED_FILTERS = new Set(["open", "missingSprites", "missingAnimation", "missingEffect"]);
   const TRACKED_GENERATIONS = [6, 7, 8, 9];
   const CREDIT_LINKS = new Map([
@@ -227,7 +227,7 @@
       row.megaItem,
       row.description,
       row.assetStatus,
-      row.runtimeNotes,
+      state.canEdit ? row.runtimeNotes : "",
       row.implementationStatus,
       row.implementationMethod,
       row.credits,
@@ -378,12 +378,17 @@
       "<tr>",
       "<th scope=\"col\">ID</th>",
       "<th scope=\"col\">Name</th>",
-      ...category.readonlyColumns.map(([, label]) => `<th scope="col">${label}</th>`),
+      ...visibleReadonlyColumns(category).map(([, label]) => `<th scope="col">${label}</th>`),
       ...category.fields.map(([, label]) => `<th scope="col" class="compact-cell">${label}</th>`),
-      "<th scope=\"col\">Notes</th>",
+      ...(state.canEdit ? ["<th scope=\"col\">Notes</th>"] : []),
       "</tr>"
     ];
     els.head.innerHTML = columns.join("");
+  }
+
+  function visibleReadonlyColumns(category) {
+    return state.canEdit ? category.readonlyColumns
+      : category.readonlyColumns.filter(([key]) => !["runtimeNotes", "implementationNotes"].includes(key));
   }
 
   function makePill(text, className) {
@@ -461,11 +466,11 @@
         <tr>
           <td class="id-cell">${row.id == null ? "Unassigned" : row.id}</td>
           ${renderNameCell(row)}
-          ${category.readonlyColumns.map(([key]) => renderReadonlyCell(row, key)).join("")}
+          ${visibleReadonlyColumns(category).map(([key]) => renderReadonlyCell(row, key)).join("")}
           ${category.fields.map(([field]) => renderCheckbox(categoryKey, row, field, merged[field] === true)).join("")}
-          <td class="notes-cell">
-            <textarea class="notes-input" data-key="${escapeHtml(row.key)}" data-field="notes" rows="1" ${state.canEdit ? "" : "readonly"} aria-label="${escapeHtml(row.name)} notes">${escapeHtml(merged.notes || "")}</textarea>
-          </td>
+          ${state.canEdit ? `<td class="notes-cell">
+            <textarea class="notes-input" data-key="${escapeHtml(row.key)}" data-field="notes" rows="1" aria-label="${escapeHtml(row.name)} notes">${escapeHtml(merged.notes || "")}</textarea>
+          </td>` : ""}
         </tr>
       `;
     }).join("");
