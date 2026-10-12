@@ -1,0 +1,240 @@
+{
+  "version": 1,
+  "auditDate": "2026-10-12",
+  "sourceCommit": "3ff00d2cd93c28a3d923031bf3651b8108fb3b07",
+  "inspectedSourcesDirty": true,
+  "sourceScope": "White 2 integration; source/data/registration inspection, not new battle verification.",
+  "sourceFiles": {
+    "include/w2u_abilities.h": "3df1cc23f5d316a57ca9b02f013856612170fec9e7b6dca498fa5c5297f8999a",
+    "include/Items.h": "27ab9850fae56dadabd349ebe44dc64adb30a05b56d7b5702d2acf6ed7ff6ed3",
+    "src/pokeweb_gameplay/battle_modules/registry.json": "cc05378b3ea09c31252058f45384d4ba27ee773bf9c0f012351bb1304ca5a82c",
+    "src/pokeweb_gameplay/w2u_abilities.cpp": "44792da2d40eeac57e5eda7c4f69bd1c9db6cade2c50949aee9c9dd016ebd2be",
+    "src/pokeweb_gameplay/w2u_field_items.cpp": "5df323913d3c92ed7c46d2dddc357fb6533663c7aeab62f743194c228267778c",
+    "src/pokeweb_gameplay/w2u_mega.cpp": "2fdd6a2552b193c9d04b28652fb2cdfe79cd012634169060fcf38d56a7a8d54a",
+    "src/pokeweb_gameplay/megab2w2/abilities/Protosynthesis.cpp": "f33f1e942d9593de758388b75c80b711fabde3754dd1e6be45d614ab851a50ea",
+    "data/text/system/374.toml": "71fb4dd13f63a16dd96eb3c215c4bdaf00fa3c44fb50d10029bf8406a1056ef2",
+    "data/text/system/375.toml": "4caeca1913621fc1b0455ad23eec6eb1e39276228624c9d16ad7603a9928ff0e",
+    "data/text/system/64.toml": "0eaad744436a0a05969158cda28a6dd0a28d28967d27818907f8fdfedf295052"
+  },
+  "catalogPolicy": "Gen 6–9 abilities (As One variants separate, Embody Aspect family one ID); existing items plus Gen 8/9 battle-held/form items and the existing field Ability Patch. New Mega routes use Megite; no invented ROM item IDs. Excludes crafting, mints, evolution-only and Dynamax/Max/Z/Tera activation items.",
+  "catalogReferences": [
+    "https://bulbapedia.bulbagarden.net/wiki/Category:Abilities_introduced_in_Generation_VIII",
+    "https://bulbapedia.bulbagarden.net/wiki/Category:Abilities_introduced_in_Generation_IX",
+    "https://bulbapedia.bulbagarden.net/wiki/List_of_items_by_name"
+  ],
+  "abilityGenerations": {
+    "6": {
+      "rows": 27,
+      "implemented": 27,
+      "verified": 0
+    },
+    "7": {
+      "rows": 42,
+      "implemented": 41,
+      "verified": 0
+    },
+    "8": {
+      "rows": 34,
+      "implemented": 32,
+      "verified": 0
+    },
+    "9": {
+      "rows": 47,
+      "implemented": 44,
+      "verified": 0
+    }
+  },
+  "itemGenerations": {
+    "6": {
+      "rows": 56,
+      "implemented": 56,
+      "verified": 0
+    },
+    "7": {
+      "rows": 6,
+      "implemented": 6,
+      "verified": 0
+    },
+    "8": {
+      "rows": 12,
+      "implemented": 1,
+      "verified": 0
+    },
+    "9": {
+      "rows": 11,
+      "implemented": 2,
+      "verified": 0
+    }
+  },
+  "pendingAbilities": [
+    {
+      "key": "ABIL_RKS_SYSTEM",
+      "id": 225,
+      "name": "RKS System",
+      "notes": "Memory items and Silvally's item-driven typing/form service are not integrated. Current integration remains unverified."
+    },
+    {
+      "key": "ABIL_BALL_FETCH",
+      "id": 237,
+      "name": "Ball Fetch",
+      "notes": "Failed-Poké-Ball retrieval in wild battles is not implemented. Current integration remains unverified."
+    },
+    {
+      "key": "ABIL_NEUTRALIZING_GAS",
+      "id": 256,
+      "name": "Neutralizing Gas",
+      "notes": "Global ability suppression and restoration are not implemented. Current integration remains unverified."
+    },
+    {
+      "key": "ABIL_EMBODY_ASPECT",
+      "id": 303,
+      "name": "Embody Aspect",
+      "notes": "Ogerpon masks and Terastallization-dependent stat effects are not integrated. Current integration remains unverified."
+    },
+    {
+      "key": "ABIL_TERA_SHIFT",
+      "id": 304,
+      "name": "Tera Shift",
+      "notes": "Terapagos's automatic entry form change is not integrated. Current integration remains unverified."
+    },
+    {
+      "key": "ABIL_TERAFORM_ZERO",
+      "id": 306,
+      "name": "Teraform Zero",
+      "notes": "Stellar-form activation and its weather/terrain reset are not integrated. Current integration remains unverified."
+    }
+  ],
+  "pendingItems": [
+    {
+      "key": "ITEM_ABILITY_SHIELD",
+      "id": null,
+      "name": "Ability Shield",
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_ADAMANT_CRYSTAL",
+      "id": null,
+      "name": "Adamant Crystal",
+      "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_BLUNDER_POLICY",
+      "id": null,
+      "name": "Blunder Policy",
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_CLEAR_AMULET",
+      "id": null,
+      "name": "Clear Amulet",
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_CORNERSTONE_MASK",
+      "id": null,
+      "name": "Cornerstone Mask",
+      "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_COVERT_CLOAK",
+      "id": null,
+      "name": "Covert Cloak",
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_EJECT_PACK",
+      "id": null,
+      "name": "Eject Pack",
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_GRISEOUS_CORE",
+      "id": null,
+      "name": "Griseous Core",
+      "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_HEARTHFLAME_MASK",
+      "id": null,
+      "name": "Hearthflame Mask",
+      "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_HEAVY_DUTY_BOOTS",
+      "id": null,
+      "name": "Heavy-Duty Boots",
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_LOADED_DICE",
+      "id": null,
+      "name": "Loaded Dice",
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_LUSTROUS_GLOBE",
+      "id": null,
+      "name": "Lustrous Globe",
+      "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_MIRROR_HERB",
+      "id": null,
+      "name": "Mirror Herb",
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_PUNCHING_GLOVE",
+      "id": null,
+      "name": "Punching Glove",
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_ROOM_SERVICE",
+      "id": null,
+      "name": "Room Service",
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_RUSTED_SHIELD",
+      "id": null,
+      "name": "Rusted Shield",
+      "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_RUSTED_SWORD",
+      "id": null,
+      "name": "Rusted Sword",
+      "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_THROAT_SPRAY",
+      "id": null,
+      "name": "Throat Spray",
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_UTILITY_UMBRELLA",
+      "id": null,
+      "name": "Utility Umbrella",
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    {
+      "key": "ITEM_WELLSPRING_MASK",
+      "id": null,
+      "name": "Wellspring Mask",
+      "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+    }
+  ],
+  "formDependentMoves": [
+    "MOVE_MULTI_ATTACK",
+    "MOVE_IVY_CUDGEL"
+  ],
+  "unchanged": [
+    "Pokemon progress",
+    "move animation flags and credits",
+    "animation viewer assets",
+    "patch and save downloads"
+  ],
+  "verified": false
+}

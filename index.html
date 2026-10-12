@@ -23,7 +23,7 @@
       </header>
 
       <main>
-        <p class="save-status">Current White 2 integration assets. Implementation checkmarks do not mean verified behavior; newly reconciled moves and sprites require testing.</p>
+        <p class="save-status">Current White 2 integration assets. Implementation checkmarks do not mean verified behavior. Gen 6–9 abilities and battle items are source-audited but unverified; unfinished mechanics remain unchecked. Use “Missing effect” to find code gaps. <a href="data/battle-progress-audit.json?v=20261012-gen89-battle-progress">Mechanic audit</a>.</p>
         <section class="summary-strip" aria-label="Progress overview">
           <div class="summary-item">
             <span class="summary-label">Rows</span>
@@ -116,6 +116,7 @@
               <button class="segment" type="button" data-filter="open">Open</button>
               <button class="segment" type="button" data-filter="missingSprites" data-filter-category="pokemon">Missing art</button>
               <button class="segment" type="button" data-filter="missingAnimation" data-filter-category="moves" hidden>Missing animation</button>
+              <button class="segment" type="button" data-filter="missingEffect" hidden>Missing effect</button>
               <button class="segment" type="button" data-filter="verified">Verified</button>
             </div>
             <div class="segmented generation-filters" role="group" aria-label="Generation filter">
@@ -152,7 +153,7 @@
     <datalist id="ability-options"></datalist>
     <datalist id="move-options"></datalist>
 
-    <script src="app.js?v=20261011-integration-assets" defer></script>
+    <script src="app.js?v=20261012-gen89-battle-progress" defer></script>
     <script src="save-editor.js?v=20260901-bundled-save-items" defer></script>
   </body>
 </html>

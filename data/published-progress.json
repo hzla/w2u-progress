@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T22:05:14.265Z",
+  "updatedAt": "2026-10-12T14:59:00.938Z",
   "progress": {
     "pokemon": {
       "SPECIES_CHESPIN": {
@@ -6275,7 +6275,7 @@
         "animation": true,
         "effectHandler": false,
         "verified": false,
-        "notes": ""
+        "notes": "Deferred: Ogerpon masks and mask-dependent type selection are not integrated."
       },
       "MOVE_JAW_LOCK": {
         "animation": true,
@@ -7182,701 +7182,1264 @@
       "ITEM_ABILITY_CAPSULE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Implemented field ability-slot change; not an in-battle consumable. Current integration remains unverified."
       },
       "ITEM_ABOMASITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_ABSOLITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_AERODACTYLITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_AGGRONITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_ALAKAZITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_ALTARIANITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 597; placeholder icon copied."
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_AMPHAROSITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_ASSAULT_VEST": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "items/gen6: AssaultVestHandlers. Current integration remains unverified."
       },
       "ITEM_AUDINITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 610; placeholder icon copied."
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_BANETTITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_BEEDRILLITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 509; placeholder icon copied."
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_BLASTOISINITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_BLAZIKENITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_CAMERUPTITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 596; placeholder icon copied."
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_CHARIZARDITE_X": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_CHARIZARDITE_Y": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_GALLADITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 609; placeholder icon copied."
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_GARCHOMPITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_GARDEVOIRITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_GENGARITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_GLALITITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 600; placeholder icon copied."
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_GYARADOSITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_HERACRONITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_HOUNDOOMINITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_KANGASKHANITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_LATIASITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 603; placeholder icon copied."
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_LATIOSITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 604; placeholder icon copied."
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_LOPUNNITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 605; placeholder icon copied."
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_LUCARIONITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_LUMINOUS_MOSS": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "items/gen6: LuminousMossHandlers. Current integration remains unverified."
       },
       "ITEM_MANECTITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_MARANGA_BERRY": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "items/gen6: MarangaBerryHandlers. Current integration remains unverified."
       },
       "ITEM_MAWILITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_MEDICHAMITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_MEGA_RING": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_METAGROSSITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 602; placeholder icon copied."
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_MEWTWONITE_X": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_MEWTWONITE_Y": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_PIDGEOTITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 510; placeholder icon copied."
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_PINSIRITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_FAIRY_FEATHER": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "items/gen6: FairyFeatherHandlers. Current integration remains unverified."
       },
       "ITEM_ROSELI_BERRY": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "items/gen6: RoseliBerryHandlers. Current integration remains unverified."
       },
       "ITEM_SABLENITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 530; placeholder icon copied."
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_SAFETY_GOGGLES": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "items/gen6: SafetyGogglesHandlers. Current integration remains unverified."
       },
       "ITEM_SALAMENCITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 601; placeholder icon copied."
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_SCEPTILITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 526; placeholder icon copied."
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_SCIZORITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_SHARPEDONITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 595; placeholder icon copied."
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_SLOWBRONITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 512; placeholder icon copied."
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_SNOWBALL": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "items/gen6: SnowballHandlers. Current integration remains unverified."
       },
       "ITEM_STEELIXITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 521; placeholder icon copied."
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_SWAMPERTITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": "Replaced vanilla item slot 528; placeholder icon copied."
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_TYRANITARITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_VENUSAURITE": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
       },
       "ITEM_WEAKNESS_POLICY": {
         "battleCode": true,
         "itemIcon": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "items/gen6: WeaknessPolicyHandlers. Current integration remains unverified."
       },
       "ITEM_PROTECTIVE_PADS": {
         "battleCode": true,
         "itemIcon": true,
         "verified": false,
-        "notes": "Resident contact-effect suppression corrected for Iron Barbs and Rough Skin; item icon implemented; needs in-game retest."
+        "notes": "Resident contact-reaction checks suppress the protected contact effects. Current integration remains unverified."
       },
       "ITEM_TERRAIN_EXTENDER": {
         "battleCode": true,
         "itemIcon": true,
         "verified": false,
-        "notes": "Battle handler and item icon implemented; needs in-game verification."
+        "notes": "items/gen6: TerrainExtenderHandlers. Current integration remains unverified."
       },
       "ITEM_ELECTRIC_SEED": {
         "battleCode": true,
         "itemIcon": true,
         "verified": false,
-        "notes": "Battle handler and item icon implemented; needs in-game verification."
+        "notes": "items/gen6: ElectricSeedHandlers. Current integration remains unverified."
       },
       "ITEM_GRASSY_SEED": {
         "battleCode": true,
         "itemIcon": true,
         "verified": false,
-        "notes": "Battle handler and item icon implemented; needs in-game verification."
+        "notes": "items/gen6: GrassySeedHandlers. Current integration remains unverified."
       },
       "ITEM_MISTY_SEED": {
         "battleCode": true,
         "itemIcon": true,
         "verified": false,
-        "notes": "Battle handler and item icon implemented; needs in-game verification."
+        "notes": "items/gen6: MistySeedHandlers. Current integration remains unverified."
       },
       "ITEM_PSYCHIC_SEED": {
         "battleCode": true,
         "itemIcon": true,
         "verified": false,
-        "notes": "Battle handler and item icon implemented; needs in-game verification."
+        "notes": "items/gen6: PsychicSeedHandlers. Current integration remains unverified."
+      },
+      "ITEM_MEGITE": {
+        "battleCode": true,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Custom universal stone; uses the integration's existing Mega/G-Max-derived routes. Current integration remains unverified."
+      },
+      "ITEM_ABILITY_PATCH": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "Implemented field ability-slot change; not an in-battle consumable. Current integration remains unverified."
+      },
+      "ITEM_THROAT_SPRAY": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_EJECT_PACK": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_HEAVY_DUTY_BOOTS": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_BLUNDER_POLICY": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_ROOM_SERVICE": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_UTILITY_UMBRELLA": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_RUSTED_SWORD": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_RUSTED_SHIELD": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_ADAMANT_CRYSTAL": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_LUSTROUS_GLOBE": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_GRISEOUS_CORE": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_ABILITY_SHIELD": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_CLEAR_AMULET": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_MIRROR_HERB": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_PUNCHING_GLOVE": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_COVERT_CLOAK": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_LOADED_DICE": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_BOOSTER_ENERGY": {
+        "battleCode": true,
+        "itemIcon": true,
+        "verified": false,
+        "notes": "abilities/mb_terrain owns activation and consumption through Protosynthesis/Quark Drive. Current integration remains unverified."
+      },
+      "ITEM_WELLSPRING_MASK": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_HEARTHFLAME_MASK": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+      },
+      "ITEM_CORNERSTONE_MASK": {
+        "battleCode": false,
+        "itemIcon": false,
+        "verified": false,
+        "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
       }
     },
     "abilities": {
       "ABIL_AERILATE": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
+        "verified": false,
+        "notes": "abilities/type: NormalMoveConversionHandlers. Current integration remains unverified."
       },
       "ABIL_AROMA_VEIL": {
         "battleCode": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "abilities/veils: AromaVeilHandlers. Current integration remains unverified."
       },
       "ABIL_AURA_BREAK": {
         "battleCode": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "abilities/auras: AuraFamilyHandlers. Current integration remains unverified."
       },
       "ABIL_BATTERY": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade ally special-power handler ported from PW2Code Battery.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "abilities/power: BatteryHandlers. Current integration remains unverified."
       },
       "ABIL_BATTLE_BOND": {
-        "battleCode": false,
+        "battleCode": true,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/BattleBond.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "notes": "abilities/forms: BattleBondHandlers. Uses the integration's Greninja form-change policy. Current integration remains unverified."
       },
       "ABIL_BEAST_BOOST": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade KO stat-boost handler ported from PW2Code BeastBoost.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "abilities/reactive: BeastBoostHandlers. Current integration remains unverified."
       },
       "ABIL_BERSERK": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade HP-threshold stat-boost handler ported from PW2Code Berserk.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "abilities/reactive: BerserkHandlers. Current integration remains unverified."
       },
       "ABIL_BULLETPROOF": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade battle handler ported with expanded high-bit move flag; message ID 210 still needs in-game verification."
+        "verified": false,
+        "notes": "abilities/defense: BulletProofHandlers. Current integration remains unverified."
       },
       "ABIL_CHEEK_POUCH": {
         "battleCode": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "abilities/item_ops: CheekPouchHandlers. Current integration remains unverified."
       },
       "ABIL_COMATOSE": {
         "battleCode": true,
         "verified": false,
-        "notes": "White2Upgrade condition-fail, permanent-condition, Hex, and common status-reaction hooks ported from PW2Code BattleEngine.cpp; builds in w2u_main.dll. Needs in-game verification."
+        "notes": "Resident battle hooks own this mechanic. Current integration remains unverified."
       },
       "ABIL_COMPETITIVE": {
         "battleCode": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "abilities/reactive: CompetitiveHandlers. Current integration remains unverified."
       },
       "ABIL_CORROSION": {
         "battleCode": true,
         "verified": false,
-        "notes": "White2Upgrade condition-fail hook ported from PW2Code BattleEngine.cpp so Corrosion bypasses native Poison/Steel poison immunity; builds in w2u_main.dll. Needs in-game verification."
+        "notes": "Resident battle hooks own this mechanic. Current integration remains unverified."
       },
       "ABIL_DANCER": {
         "battleCode": true,
         "verified": false,
-        "notes": "White2Upgrade Dancer extra-action queue, dance-move copy handlers, movelock Thrash hooks, and dance move data flags ported from PW2Code Dancer.cpp/BattleEngine.cpp/assets; builds in w2u_main.dll. Needs in-game verification."
+        "notes": "abilities/battle_flow: DancerHandlers. Current integration remains unverified."
       },
       "ABIL_DARK_AURA": {
         "battleCode": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "abilities/auras: AuraFamilyHandlers. Current integration remains unverified."
       },
       "ABIL_DAZZLING": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Mapped to the ported Queenly Majesty priority-block handler, matching PW2Code. Builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "abilities/priority_speed: QueenlyMajestyHandlers. Current integration remains unverified."
       },
       "ABIL_DISGUISE": {
         "battleCode": true,
         "verified": false,
-        "notes": "White2Upgrade Disguise damage-prevention handler, CheckDamageToRecover event hook, switch-out form preservation, and battle message ported from PW2Code. Uses Mimikyu species 778 instead of PW2Code's placeholder species check; builds in w2u_main.dll. Needs in-game verification."
+        "notes": "abilities/forms: DisguiseHandlers. Mimikyu-only; one 1/8-max-HP bust cost. Current integration remains unverified."
       },
       "ABIL_ELECTRIC_SURGE": {
         "battleCode": true,
         "verified": false,
-        "notes": "Shared White2Upgrade terrain-surge handler activates Electric Terrain and plays move 604's animation; builds in w2u_main.dll. Needs in-game verification."
+        "notes": "abilities/terrain: TerrainSurgeHandlers. Current integration remains unverified."
       },
       "ABIL_EMERGENCY_EXIT": {
-        "battleCode": false,
+        "battleCode": true,
         "verified": false,
-        "notes": "Partial White2Upgrade direct-damage Emergency Exit/Wimp Out behavior was manually verified, but PW2Code simple-damage/end-turn switch hook behavior is not yet ported; battleCode remains unchecked."
+        "notes": "abilities/battle_flow: EmergencyExitAndWimpOutHandlers. Current integration remains unverified."
       },
       "ABIL_FAIRY_AURA": {
         "battleCode": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "abilities/auras: AuraFamilyHandlers. Current integration remains unverified."
       },
       "ABIL_FLOWER_VEIL": {
         "battleCode": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "abilities/veils: FlowerVeilHandlers. Current integration remains unverified."
       },
       "ABIL_FLUFFY": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade damage-ratio handler ported from PW2Code Fluffy.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "abilities/defense: FluffyHandlers. Current integration remains unverified."
       },
       "ABIL_FULL_METAL_BODY": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Mapped to the vanilla Clear Body handler through a White2Upgrade ability-event alias, matching PW2Code. Builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "Resident alias of native ability 29. Current integration remains unverified."
       },
       "ABIL_FUR_COAT": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
+        "verified": false,
+        "notes": "abilities/defense: FurCoatHandlers. Current integration remains unverified."
       },
       "ABIL_GALE_WINGS": {
         "battleCode": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "abilities/priority_speed: GaleWingsHandlers. Current integration remains unverified."
       },
       "ABIL_GALVANIZE": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade normal-move conversion handler ported by extending the existing -ate family path; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "abilities/type: NormalMoveConversionHandlers. Current integration remains unverified."
       },
       "ABIL_GOOEY": {
         "battleCode": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "abilities/reactive: GooeyHandlers. Current integration remains unverified."
       },
       "ABIL_GRASS_PELT": {
         "battleCode": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "abilities/mb_terrain: MB_GrassPeltHandlers. Current integration remains unverified."
       },
       "ABIL_GRASSY_SURGE": {
         "battleCode": true,
         "verified": false,
-        "notes": "Shared White2Upgrade terrain-surge handler activates Grassy Terrain and plays move 580's animation; builds in w2u_main.dll. Needs in-game verification."
+        "notes": "abilities/terrain: TerrainSurgeHandlers. Current integration remains unverified."
       },
       "ABIL_INNARDS_OUT": {
-        "battleCode": false,
+        "battleCode": true,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/InnardsOut.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "notes": "abilities/battle_flow: InnardsOutHandlers. Current integration remains unverified."
       },
       "ABIL_LIQUID_VOICE": {
-        "battleCode": false,
+        "battleCode": true,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/LiquidVoice.cpp plus sound-move hooks in Patches/BattleUpgrade/BattleEngine.cpp."
+        "notes": "abilities/type: LiquidVoiceHandlers. Current integration remains unverified."
       },
       "ABIL_LONG_REACH": {
-        "battleCode": false,
+        "battleCode": true,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Patches/BattleUpgrade/BattleEngine.cpp contact hook; no standalone ability library."
+        "notes": "Resident battle hooks own this mechanic. Current integration remains unverified."
       },
       "ABIL_MAGICIAN": {
         "battleCode": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "abilities/item_ops: MagicianHandlers. Current integration remains unverified."
       },
       "ABIL_MEGA_LAUNCHER": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade battle handler ported with expanded high-bit pulse flag; needs in-game verification."
+        "verified": false,
+        "notes": "abilities/power: MegaLauncherHandlers. Current integration remains unverified."
       },
       "ABIL_MERCILESS": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade critical-check handler ported from PW2Code Merciless.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "abilities/power: MercilessHandlers. Current integration remains unverified."
       },
       "ABIL_MISTY_SURGE": {
         "battleCode": true,
         "verified": false,
-        "notes": "Shared White2Upgrade terrain-surge handler activates Misty Terrain and plays move 581's animation; builds in w2u_main.dll. Needs in-game verification."
+        "notes": "abilities/terrain: TerrainSurgeHandlers. Current integration remains unverified."
       },
       "ABIL_PARENTAL_BOND": {
         "battleCode": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "abilities/power: ParentalBondHandlers. Second ordinary hit uses quarter final damage; existing fixed-damage exceptions remain. Current integration remains unverified."
       },
       "ABIL_PIXILATE": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
+        "verified": false,
+        "notes": "abilities/type: NormalMoveConversionHandlers. Current integration remains unverified."
       },
       "ABIL_POWER_CONSTRUCT": {
-        "battleCode": false,
+        "battleCode": true,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/PowerConstruct.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "notes": "abilities/forms: PowerConstructHandlers. Current integration remains unverified."
       },
       "ABIL_POWER_OF_ALCHEMY": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Mapped to the ported Receiver handler, matching PW2Code. Builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "abilities/battle_flow: ReceiverHandlers. Current integration remains unverified."
       },
       "ABIL_PRISM_ARMOR": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade supereffective damage-reduction handler ported from PW2Code PrismArmor.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "abilities/defense: PrismArmorHandlers. Current integration remains unverified."
       },
       "ABIL_PROTEAN": {
         "battleCode": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "abilities/type: ProteanHandlers. Current integration remains unverified."
       },
       "ABIL_PSYCHIC_SURGE": {
         "battleCode": true,
         "verified": false,
-        "notes": "Shared White2Upgrade terrain-surge handler activates full Psychic Terrain mechanics and plays move 678's placeholder animation; builds in w2u_main.dll. Needs in-game verification."
+        "notes": "abilities/terrain: TerrainSurgeHandlers. Current integration remains unverified."
       },
       "ABIL_QUEENLY_MAGESTY": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade priority-block handler ported from PW2Code QueenlyMagesty.cpp; compatibility spelling preserved with a clean alias in code. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "abilities/priority_speed: QueenlyMajestyHandlers. Current integration remains unverified."
       },
       "ABIL_RECEIVER": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade fainted-ally ability-copy handler ported from PW2Code Receiver.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "abilities/battle_flow: ReceiverHandlers. Current integration remains unverified."
       },
       "ABIL_REFRIGERATE": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade battle handler ported; needs in-game verification."
+        "verified": false,
+        "notes": "abilities/type: NormalMoveConversionHandlers. Current integration remains unverified."
       },
       "ABIL_RKS_SYSTEM": {
         "battleCode": false,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code defines/list-checks ABIL_RKS_SYSTEM, but README says RKS System is not implemented; this likely needs a fresh Memory/Multitype-style implementation."
+        "notes": "Memory items and Silvally's item-driven typing/form service are not integrated. Current integration remains unverified."
       },
       "ABIL_SCHOOLING": {
-        "battleCode": false,
+        "battleCode": true,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Schooling.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "notes": "abilities/forms: SchoolingHandlers. Current integration remains unverified."
       },
       "ABIL_SHADOW_SHIELD": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Mapped to the vanilla Multiscale handler through a White2Upgrade ability-event alias, matching PW2Code. Builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "Resident alias of native ability 136. Current integration remains unverified."
       },
       "ABIL_SHIELDS_DOWN": {
-        "battleCode": false,
+        "battleCode": true,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/ShieldsDown.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "notes": "abilities/forms: ShieldsDownHandlers. Current integration remains unverified."
       },
       "ABIL_SLUSH_RUSH": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade speed-ratio handler ported from PW2Code SlushRush.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "abilities/priority_speed: SlushRushHandlers. Current integration remains unverified."
       },
       "ABIL_SOUL_HEART": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade faint-reaction stat-boost handler ported from PW2Code SoulHeart.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "abilities/reactive: SoulHeartHandlers. Current integration remains unverified."
       },
       "ABIL_STAKEOUT": {
-        "battleCode": false,
+        "battleCode": true,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Stakeout.cpp plus switch-in tracking in Patches/BattleUpgrade/BattleEngine.cpp."
+        "notes": "abilities/power: StakeoutHandlers. Current integration remains unverified."
       },
       "ABIL_STAMINA": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade battle handler ported from PW2Code Stamina.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "abilities/reactive: StaminaHandlers. Current integration remains unverified."
       },
       "ABIL_STANCE_CHANGE": {
         "battleCode": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "abilities/forms: StanceChangeHandlers. Current integration remains unverified."
       },
       "ABIL_STEELWORKER": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade move-power handler ported from PW2Code Steelworker.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "abilities/power: SteelworkerHandlers. Current integration remains unverified."
       },
       "ABIL_STRONG_JAW": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade battle handler ported with expanded high-bit bite flag; needs in-game verification."
+        "verified": false,
+        "notes": "abilities/power: MoveFlagPowerBoostHandlers. Current integration remains unverified."
       },
       "ABIL_SURGE_SURFER": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade Electric Terrain speed-ratio handler ported from PW2Code SurgeSurfer.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "abilities/priority_speed: SurgeSurferHandlers. Current integration remains unverified."
       },
       "ABIL_SWEET_VEIL": {
         "battleCode": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "abilities/veils: SweetVeilHandlers. Current integration remains unverified."
       },
       "ABIL_SYMBIOSIS": {
         "battleCode": true,
-        "verified": true,
-        "notes": ""
+        "verified": false,
+        "notes": "abilities/item_ops: SymbiosisHandlers. Current integration remains unverified."
       },
       "ABIL_TANGLING_HAIR": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Mapped to the existing Gooey contact Speed-drop handler, matching PW2Code. Builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "abilities/reactive: GooeyHandlers. Current integration remains unverified."
       },
       "ABIL_TOUGH_CLAWS": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade battle handler ported using FLAG_CONTACT fallback because MakesContact is not exported here; needs in-game verification."
+        "verified": false,
+        "notes": "abilities/power: MoveFlagPowerBoostHandlers. Current integration remains unverified."
       },
       "ABIL_TRIAGE": {
-        "battleCode": false,
+        "battleCode": true,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/Triage.cpp; event table in Patches/BattleUpgrade/BattleEngine.cpp."
+        "notes": "abilities/priority_speed: TriageHandlers. Current integration remains unverified."
       },
       "ABIL_WATER_BUBBLE": {
-        "battleCode": false,
+        "battleCode": true,
         "verified": false,
-        "notes": "Not ported to White2Upgrade-Original yet. PW2Code source: Libraries/Abilities/BurnPrevention.cpp via EventAddWaterBubble; verify any Water Bubble damage multiplier hooks during port."
+        "notes": "abilities/defense: WaterBubbleHandlers. Current integration remains unverified."
       },
       "ABIL_WATER_COMPACTION": {
         "battleCode": true,
-        "verified": true,
-        "notes": "Static White2Upgrade battle handler ported from PW2Code WaterCompaction.cpp; builds in w2u_main.dll. Manually verified in White2Upgrade-Original on 2026-06-15."
+        "verified": false,
+        "notes": "abilities/reactive: WaterCompactionHandlers. Current integration remains unverified."
       },
       "ABIL_WIMP_OUT": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/battle_flow: EmergencyExitAndWimpOutHandlers. Current integration remains unverified."
+      },
+      "ABIL_PRIMORDIAL_SEA": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/strong_weather: PrimordialSeaHandlers. Current integration remains unverified."
+      },
+      "ABIL_DESOLATE_LAND": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/strong_weather: DesolateLandHandlers. Current integration remains unverified."
+      },
+      "ABIL_DELTA_STREAM": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/strong_weather: DeltaStreamHandlers. Current integration remains unverified."
+      },
+      "ABIL_NEUROFORCE": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_NeuroforceHandlers. Current integration remains unverified."
+      },
+      "ABIL_INTREPID_SWORD": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_entry: MB_IntrepidSwordHandlers. Current integration remains unverified."
+      },
+      "ABIL_DAUNTLESS_SHIELD": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_entry: MB_IntrepidSwordHandlers. Current integration remains unverified."
+      },
+      "ABIL_LIBERO": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_ProteanHandlers. Current integration remains unverified."
+      },
+      "ABIL_BALL_FETCH": {
         "battleCode": false,
         "verified": false,
-        "notes": "Partial White2Upgrade direct-damage Emergency Exit/Wimp Out behavior was manually verified, but PW2Code simple-damage/end-turn switch hook behavior is not yet ported; battleCode remains unchecked."
+        "notes": "Failed-Poké-Ball retrieval in wild battles is not implemented. Current integration remains unverified."
+      },
+      "ABIL_COTTON_DOWN": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_reactive: MB_CottonDownHandlers. Current integration remains unverified."
+      },
+      "ABIL_PROPELLER_TAIL": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_hooked: MB_PropellerTailHandlers. Current integration remains unverified."
+      },
+      "ABIL_MIRROR_ARMOR": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_defense: MB_MirrorArmorHandlers. Current integration remains unverified."
+      },
+      "ABIL_GULP_MISSILE": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_forms: MB_GulpMissileHandlers. Prey damage/status mechanics exist; dedicated Gulping/Gorging artwork is not bundled. Current integration remains unverified."
+      },
+      "ABIL_STALWART": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_hooked: MB_PropellerTailHandlers. Current integration remains unverified."
+      },
+      "ABIL_STEAM_ENGINE": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_reactive: MB_StaminaHandlers. Current integration remains unverified."
+      },
+      "ABIL_PUNK_ROCK": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_PunkRockHandlers. Current integration remains unverified."
+      },
+      "ABIL_SAND_SPIT": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_terrain: MB_SandSpitHandlers. Current integration remains unverified."
+      },
+      "ABIL_ICE_SCALES": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_defense: MB_FluffyHandlers. Current integration remains unverified."
+      },
+      "ABIL_RIPEN": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_hooked: MB_RipenHandlers. Current integration remains unverified."
+      },
+      "ABIL_ICE_FACE": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_forms: MB_IceFaceHandlers. Current integration remains unverified."
+      },
+      "ABIL_POWER_SPOT": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_PowerSpotHandlers. Current integration remains unverified."
+      },
+      "ABIL_MIMICRY": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_terrain: MB_MimicryHandlers. Current integration remains unverified."
+      },
+      "ABIL_SCREEN_CLEANER": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_entry: MB_ScreenCleanerHandlers. Current integration remains unverified."
+      },
+      "ABIL_STEELY_SPIRIT": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_PowerSpotHandlers. Current integration remains unverified."
+      },
+      "ABIL_PERISH_BODY": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_reactive: MB_PerishBodyHandlers. Current integration remains unverified."
+      },
+      "ABIL_WANDERING_SPIRIT": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_reactive: MB_LingeringAromaHandlers. Current integration remains unverified."
+      },
+      "ABIL_GORILLA_TACTICS": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_hooked: MB_GorillaTacticsHandlers. Current integration remains unverified."
+      },
+      "ABIL_NEUTRALIZING_GAS": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Global ability suppression and restoration are not implemented. Current integration remains unverified."
+      },
+      "ABIL_PASTEL_VEIL": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_defense: MB_VeilHandlers. Current integration remains unverified."
+      },
+      "ABIL_HUNGER_SWITCH": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_forms: MB_HungerSwitchHandlers. Current integration remains unverified."
+      },
+      "ABIL_QUICK_DRAW": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_hooked: MB_QuickDrawHandlers. Current integration remains unverified."
+      },
+      "ABIL_UNSEEN_FIST": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_hooked: MB_UnseenFistHandlers. Current integration remains unverified."
+      },
+      "ABIL_CURIOUS_MEDICINE": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_entry: MB_CuriousMedicineHandlers. Current integration remains unverified."
+      },
+      "ABIL_TRANSISTOR": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_BoostHandlers. Current integration remains unverified."
+      },
+      "ABIL_DRAGONS_MAW": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_BoostHandlers. Current integration remains unverified."
+      },
+      "ABIL_CHILLING_NEIGH": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "Resident alias of native ability 153. Current integration remains unverified."
+      },
+      "ABIL_GRIM_NEIGH": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_entry: MB_NeighHandlers. Current integration remains unverified."
+      },
+      "ABIL_AS_ONE_GLASTRIER": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_entry: MB_NeighHandlers. Unnerve plus Chilling Neigh; access to Calyrex fusion forms is a separate feature. Current integration remains unverified."
+      },
+      "ABIL_AS_ONE_SPECTRIER": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_entry: MB_NeighHandlers. Unnerve plus Grim Neigh; access to Calyrex fusion forms is a separate feature. Current integration remains unverified."
+      },
+      "ABIL_LINGERING_AROMA": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_reactive: MB_LingeringAromaHandlers. Current integration remains unverified."
+      },
+      "ABIL_SEED_SOWER": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_terrain: MB_SandSpitHandlers. Current integration remains unverified."
+      },
+      "ABIL_THERMAL_EXCHANGE": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_reactive: MB_ThermalExchangeHandlers. Current integration remains unverified."
+      },
+      "ABIL_ANGER_SHELL": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_reactive: MB_BerserkHandlers. Current integration remains unverified."
+      },
+      "ABIL_PURIFYING_SALT": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_defense: MB_PurifyingSaltHandlers. Current integration remains unverified."
+      },
+      "ABIL_WELL_BAKED_BODY": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_defense: MB_WellBakedBodyHandlers. Current integration remains unverified."
+      },
+      "ABIL_WIND_RIDER": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_defense: MB_WindRiderHandlers. Current integration remains unverified."
+      },
+      "ABIL_GUARD_DOG": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_defense: MB_GuardDogHandlers. Current integration remains unverified."
+      },
+      "ABIL_ROCKY_PAYLOAD": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_BoostHandlers. Current integration remains unverified."
+      },
+      "ABIL_WIND_POWER": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_ChargeHandlers. Current integration remains unverified."
+      },
+      "ABIL_ZERO_TO_HERO": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_forms: MB_ZeroToHeroHandlers. Current integration remains unverified."
+      },
+      "ABIL_COMMANDER": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_forms: MB_CommanderHandlers. Current integration remains unverified."
+      },
+      "ABIL_ELECTROMORPHOSIS": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_ChargeHandlers. Current integration remains unverified."
+      },
+      "ABIL_PROTOSYNTHESIS": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_terrain: MB_ProtosynthesisHandlers. Current integration remains unverified."
+      },
+      "ABIL_QUARK_DRIVE": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_terrain: MB_ProtosynthesisHandlers. Current integration remains unverified."
+      },
+      "ABIL_GOOD_AS_GOLD": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_defense: MB_GoodAsGoldHandlers. Current integration remains unverified."
+      },
+      "ABIL_VESSEL_OF_RUIN": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_RuinHandlers. Current integration remains unverified."
+      },
+      "ABIL_SWORD_OF_RUIN": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_RuinHandlers. Current integration remains unverified."
+      },
+      "ABIL_TABLETS_OF_RUIN": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_RuinHandlers. Current integration remains unverified."
+      },
+      "ABIL_BEADS_OF_RUIN": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_RuinHandlers. Current integration remains unverified."
+      },
+      "ABIL_ORICHALCUM_PULSE": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_terrain: MB_PulseHandlers. Current integration remains unverified."
+      },
+      "ABIL_HADRON_ENGINE": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_terrain: MB_PulseHandlers. Current integration remains unverified."
+      },
+      "ABIL_OPPORTUNIST": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_hooked: MB_OpportunistHandlers. Current integration remains unverified."
+      },
+      "ABIL_CUD_CHEW": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_hooked: MB_CudChewHandlers. Current integration remains unverified."
+      },
+      "ABIL_SHARPNESS": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_BoostHandlers. Current integration remains unverified."
+      },
+      "ABIL_SUPREME_OVERLORD": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_SupremeOverlordHandlers. Current integration remains unverified."
+      },
+      "ABIL_COSTAR": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_entry: MB_CostarHandlers. Current integration remains unverified."
+      },
+      "ABIL_TOXIC_DEBRIS": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_reactive: MB_ToxicDebrisHandlers. Current integration remains unverified."
+      },
+      "ABIL_ARMOR_TAIL": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_defense: MB_QueenlyMajestyHandlers. Current integration remains unverified."
+      },
+      "ABIL_EARTH_EATER": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_defense: MB_EarthEaterHandlers. Current integration remains unverified."
+      },
+      "ABIL_MYCELIUM_MIGHT": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_hooked: MB_MyceliumMightHandlers. Current integration remains unverified."
+      },
+      "ABIL_MINDS_EYE": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_MindsEyeHandlers. Current integration remains unverified."
+      },
+      "ABIL_SUPERSWEET_SYRUP": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_entry: MB_SupersweetSyrupHandlers. Current integration remains unverified."
+      },
+      "ABIL_HOSPITALITY": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_entry: MB_HospitalityHandlers. Current integration remains unverified."
+      },
+      "ABIL_TOXIC_CHAIN": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_ToxicChainHandlers. Current integration remains unverified."
+      },
+      "ABIL_EMBODY_ASPECT": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Ogerpon masks and Terastallization-dependent stat effects are not integrated. Current integration remains unverified."
+      },
+      "ABIL_TERA_SHIFT": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Terapagos's automatic entry form change is not integrated. Current integration remains unverified."
+      },
+      "ABIL_TERA_SHELL": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_defense: MB_TeraShellHandlers. Registered full-HP damage effect only; Terapagos form access and Terastallization are not supplied. Current integration remains unverified."
+      },
+      "ABIL_TERAFORM_ZERO": {
+        "battleCode": false,
+        "verified": false,
+        "notes": "Stellar-form activation and its weather/terrain reset are not integrated. Current integration remains unverified."
+      },
+      "ABIL_POISON_PUPPETEER": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_hooked: MB_PoisonPuppeteerHandlers. Current integration remains unverified."
+      },
+      "ABIL_PIERCING_DRILL": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_hooked: MB_UnseenFistHandlers. Current integration remains unverified."
+      },
+      "ABIL_DRAGONIZE": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/type: NormalMoveConversionHandlers. Current integration remains unverified."
+      },
+      "ABIL_MEGA_SOL": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_hooked: MB_MegaSolHandlers. Current integration remains unverified."
+      },
+      "ABIL_SPICY_SPRAY": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_reactive: MB_SpicySprayHandlers. Current integration remains unverified."
+      },
+      "ABIL_EELEVATE": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_defense: MB_EelevateHandlers. Current integration remains unverified."
+      },
+      "ABIL_FIRE_MANE": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_power: MB_BoostHandlers. Current integration remains unverified."
+      },
+      "ABIL_AURA_GUARD": {
+        "battleCode": true,
+        "verified": false,
+        "notes": "abilities/mb_defense: MB_FluffyHandlers. Current integration remains unverified."
       }
     }
   }

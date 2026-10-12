@@ -3,8 +3,8 @@
 
   const STORAGE_KEY = "white2expansion.progress.v1";
   const UI_STORAGE_KEY = "white2expansion.ui.v1";
-  const DATA_VERSION = "20261011-integration-assets";
-  const COUNTED_FILTERS = new Set(["open", "missingSprites", "missingAnimation"]);
+  const DATA_VERSION = "20261012-gen89-battle-progress";
+  const COUNTED_FILTERS = new Set(["open", "missingSprites", "missingAnimation", "missingEffect"]);
   const TRACKED_GENERATIONS = [6, 7, 8, 9];
   const CREDIT_LINKS = new Map([
     ["retronc", "https://www.deviantart.com/retronc"],
@@ -51,7 +51,8 @@
         ["verified", "Verified"]
       ],
       readonlyColumns: [
-        ["description", "Description"]
+        ["description", "Description"],
+        ["implementationStatus", "Implementation"]
       ]
     },
     abilities: {
@@ -62,7 +63,8 @@
         ["verified", "Verified"]
       ],
       readonlyColumns: [
-        ["description", "Description"]
+        ["description", "Description"],
+        ["implementationStatus", "Implementation"]
       ]
     }
   };
@@ -226,6 +228,8 @@
       row.description,
       row.assetStatus,
       row.runtimeNotes,
+      row.implementationStatus,
+      row.implementationMethod,
       row.credits,
       row.id
     ].filter(Boolean).join(" ").toLowerCase();
@@ -296,6 +300,10 @@
     }
     if (filter === "missingAnimation") {
       return category === "moves" && merged.animation !== true;
+    }
+    if (filter === "missingEffect") {
+      const field = category === "moves" ? "effectHandler" : "battleCode";
+      return category !== "pokemon" && merged[field] !== true;
     }
     return true;
   }
@@ -451,7 +459,7 @@
       const merged = mergeProgress(categoryKey, row);
       return `
         <tr>
-          <td class="id-cell">${row.id == null ? "" : row.id}</td>
+          <td class="id-cell">${row.id == null ? "Unassigned" : row.id}</td>
           ${renderNameCell(row)}
           ${category.readonlyColumns.map(([key]) => renderReadonlyCell(row, key)).join("")}
           ${category.fields.map(([field]) => renderCheckbox(categoryKey, row, field, merged[field] === true)).join("")}
@@ -529,13 +537,14 @@
     if (filter === "missingAnimation") {
       return tab === "moves";
     }
+    if (filter === "missingEffect") return tab === "moves" || tab === "items" || tab === "abilities";
     return true;
   }
 
   function syncFilterControls() {
     els.segments.forEach((button) => {
       const category = button.dataset.filterCategory;
-      const available = !category || category === state.activeTab;
+      const available = (!category || category === state.activeTab) && filterAvailableForTab(button.dataset.filter, state.activeTab);
       button.hidden = !available;
       button.classList.toggle("is-active", available && button.dataset.filter === state.filter);
     });

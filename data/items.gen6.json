@@ -8,9 +8,51 @@
     "defaultProgress": {
       "battleCode": true,
       "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
+      "verified": false,
+      "notes": "Implemented field ability-slot change; not an in-battle consumable. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "field-item service",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_field_items.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_ABILITY_PATCH",
+    "constant": "ITEM_ABILITY_PATCH",
+    "name": "Ability Patch",
+    "generation": 8,
+    "description": "Changes between the Hidden Ability and supported standard Ability slot.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Implemented field ability-slot change; not an in-battle consumable. Current integration remains unverified."
+    },
+    "id": 130,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "field-item service",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_field_items.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_ABILITY_SHIELD",
+    "constant": "ITEM_ABILITY_SHIELD",
+    "name": "Ability Shield",
+    "generation": 9,
+    "description": "Protects the holder's Ability from change, suppression and bypass.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
   },
   {
     "key": "ITEM_ABOMASITE",
@@ -21,9 +63,15 @@
     "defaultProgress": {
       "battleCode": true,
       "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
   },
   {
     "key": "ITEM_ABSOLITE",
@@ -34,9 +82,32 @@
     "defaultProgress": {
       "battleCode": true,
       "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_ADAMANT_CRYSTAL",
+    "constant": "ITEM_ADAMANT_CRYSTAL",
+    "name": "Adamant Crystal",
+    "generation": 8,
+    "description": "Selects Origin Dialga and strengthens Steel and Dragon moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
   },
   {
     "key": "ITEM_AERODACTYLITE",
@@ -47,9 +118,15 @@
     "defaultProgress": {
       "battleCode": true,
       "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
   },
   {
     "key": "ITEM_AGGRONITE",
@@ -60,9 +137,15 @@
     "defaultProgress": {
       "battleCode": true,
       "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
   },
   {
     "key": "ITEM_ALAKAZITE",
@@ -73,9 +156,15 @@
     "defaultProgress": {
       "battleCode": true,
       "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
   },
   {
     "key": "ITEM_ALTARIANITE",
@@ -86,9 +175,15 @@
     "defaultProgress": {
       "battleCode": true,
       "itemIcon": true,
-      "verified": true,
-      "notes": "Replaced vanilla item slot 597; placeholder icon copied."
-    }
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
   },
   {
     "key": "ITEM_AMPHAROSITE",
@@ -99,9 +194,15 @@
     "defaultProgress": {
       "battleCode": true,
       "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
   },
   {
     "key": "ITEM_ASSAULT_VEST",
@@ -112,9 +213,16 @@
     "defaultProgress": {
       "battleCode": true,
       "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
+      "verified": false,
+      "notes": "items/gen6: AssaultVestHandlers. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "on-demand module",
+    "evidence": [
+      "include/Items.h",
+      "src/pokeweb_gameplay/battle_modules/registry.json"
+    ]
   },
   {
     "key": "ITEM_AUDINITE",
@@ -125,9 +233,15 @@
     "defaultProgress": {
       "battleCode": true,
       "itemIcon": true,
-      "verified": true,
-      "notes": "Replaced vanilla item slot 610; placeholder icon copied."
-    }
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
   },
   {
     "key": "ITEM_BANETTITE",
@@ -138,9 +252,15 @@
     "defaultProgress": {
       "battleCode": true,
       "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
   },
   {
     "key": "ITEM_BEEDRILLITE",
@@ -151,9 +271,15 @@
     "defaultProgress": {
       "battleCode": true,
       "itemIcon": true,
-      "verified": true,
-      "notes": "Replaced vanilla item slot 509; placeholder icon copied."
-    }
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
   },
   {
     "key": "ITEM_BLASTOISINITE",
@@ -164,9 +290,15 @@
     "defaultProgress": {
       "battleCode": true,
       "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
   },
   {
     "key": "ITEM_BLAZIKENITE",
@@ -177,9 +309,51 @@
     "defaultProgress": {
       "battleCode": true,
       "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_BLUNDER_POLICY",
+    "constant": "ITEM_BLUNDER_POLICY",
+    "name": "Blunder Policy",
+    "generation": 8,
+    "description": "An accuracy miss consumes it to raise Speed by two stages.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
+  },
+  {
+    "key": "ITEM_BOOSTER_ENERGY",
+    "constant": "ITEM_BOOSTER_ENERGY",
+    "name": "Booster Energy",
+    "generation": 9,
+    "description": "Consumes to activate Protosynthesis or Quark Drive without their environment.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "abilities/mb_terrain owns activation and consumption through Protosynthesis/Quark Drive. Current integration remains unverified."
+    },
+    "id": 426,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "ability-owned module",
+    "evidence": [
+      "src/pokeweb_gameplay/megab2w2/abilities/Protosynthesis.cpp"
+    ]
   },
   {
     "key": "ITEM_CAMERUPTITE",
@@ -190,9 +364,15 @@
     "defaultProgress": {
       "battleCode": true,
       "itemIcon": true,
-      "verified": true,
-      "notes": "Replaced vanilla item slot 596; placeholder icon copied."
-    }
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
   },
   {
     "key": "ITEM_CHARIZARDITE_X",
@@ -203,9 +383,15 @@
     "defaultProgress": {
       "battleCode": true,
       "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
   },
   {
     "key": "ITEM_CHARIZARDITE_Y",
@@ -216,544 +402,83 @@
     "defaultProgress": {
       "battleCode": true,
       "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_GALLADITE",
-    "id": 609,
-    "constant": "ITEM_GALLADITE",
-    "name": "Galladite",
-    "description": "One of the mysterious Mega Stones. Have Gallade hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": "Replaced vanilla item slot 609; placeholder icon copied."
-    }
-  },
-  {
-    "key": "ITEM_GARCHOMPITE",
-    "id": 606,
-    "constant": "ITEM_GARCHOMPITE",
-    "name": "Garchompite",
-    "description": "One of the mysterious Mega Stones. Have Garchomp hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_GARDEVOIRITE",
-    "id": 529,
-    "constant": "ITEM_GARDEVOIRITE",
-    "name": "Gardevoirite",
-    "description": "One of the mysterious Mega Stones. Have Gardevoir hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_GENGARITE",
-    "id": 513,
-    "constant": "ITEM_GENGARITE",
-    "name": "Gengarite",
-    "description": "One of the mysterious Mega Stones. Have Gengar hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_GLALITITE",
-    "id": 600,
-    "constant": "ITEM_GLALITITE",
-    "name": "Glalitite",
-    "description": "One of the mysterious Mega Stones. Have Glalie hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": "Replaced vanilla item slot 600; placeholder icon copied."
-    }
-  },
-  {
-    "key": "ITEM_GYARADOSITE",
-    "id": 516,
-    "constant": "ITEM_GYARADOSITE",
-    "name": "Gyaradosite",
-    "description": "One of the mysterious Mega Stones. Have Gyarados hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_HERACRONITE",
-    "id": 523,
-    "constant": "ITEM_HERACRONITE",
-    "name": "Heracronite",
-    "description": "One of the mysterious Mega Stones. Have Heracross hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_HOUNDOOMINITE",
-    "id": 524,
-    "constant": "ITEM_HOUNDOOMINITE",
-    "name": "Houndoominite",
-    "description": "One of the mysterious Mega Stones. Have Houndoom hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_KANGASKHANITE",
-    "id": 514,
-    "constant": "ITEM_KANGASKHANITE",
-    "name": "Kangaskhanite",
-    "description": "One of the mysterious Mega Stones. Have Kangaskhan hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_LATIASITE",
-    "id": 603,
-    "constant": "ITEM_LATIASITE",
-    "name": "Latiasite",
-    "description": "One of the mysterious Mega Stones. Have Latias hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": "Replaced vanilla item slot 603; placeholder icon copied."
-    }
-  },
-  {
-    "key": "ITEM_LATIOSITE",
-    "id": 604,
-    "constant": "ITEM_LATIOSITE",
-    "name": "Latiosite",
-    "description": "One of the mysterious Mega Stones. Have Latios hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": "Replaced vanilla item slot 604; placeholder icon copied."
-    }
-  },
-  {
-    "key": "ITEM_LOPUNNITE",
-    "id": 605,
-    "constant": "ITEM_LOPUNNITE",
-    "name": "Lopunnite",
-    "description": "One of the mysterious Mega Stones. Have Lopunny hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": "Replaced vanilla item slot 605; placeholder icon copied."
-    }
-  },
-  {
-    "key": "ITEM_LUCARIONITE",
-    "id": 607,
-    "constant": "ITEM_LUCARIONITE",
-    "name": "Lucarionite",
-    "description": "One of the mysterious Mega Stones. Have Lucario hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_LUMINOUS_MOSS",
-    "id": 122,
-    "constant": "ITEM_LUMINOUS_MOSS",
-    "name": "Luminous Moss",
-    "description": "An item to be held by a Pokemon. It boosts Sp. Def if hit with a Water-type attack. It can only be used once.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_MANECTITE",
-    "id": 594,
-    "constant": "ITEM_MANECTITE",
-    "name": "Manectite",
-    "description": "One of the mysterious Mega Stones. Have Manectric hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_MARANGA_BERRY",
-    "id": 123,
-    "constant": "ITEM_MARANGA_BERRY",
-    "name": "Maranga Berry",
-    "description": "If held by a Pokemon, this Berry will increase the Pokemon's Sp. Defense stat when hit by a special attack",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_MAWILITE",
-    "id": 531,
-    "constant": "ITEM_MAWILITE",
-    "name": "Mawilite",
-    "description": "One of the mysterious Mega Stones. Have Mawile hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_MEDICHAMITE",
-    "id": 593,
-    "constant": "ITEM_MEDICHAMITE",
-    "name": "Medichamite",
-    "description": "One of the mysterious Mega Stones. Have Medicham hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_MEGA_RING",
-    "id": 124,
-    "constant": "ITEM_MEGA_RING",
-    "name": "Mega Ring",
-    "description": "This ring contains an untold power that somehow enables Pokemon carrying Mega Stones to Mega Evolve in Battle",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_METAGROSSITE",
-    "id": 602,
-    "constant": "ITEM_METAGROSSITE",
-    "name": "Metagrossite",
-    "description": "One of the mysterious Mega Stones. Have Metagross hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": "Replaced vanilla item slot 602; placeholder icon copied."
-    }
-  },
-  {
-    "key": "ITEM_MEWTWONITE_X",
-    "id": 518,
-    "constant": "ITEM_MEWTWONITE_X",
-    "name": "Mewtwonite X",
-    "description": "One of the mysterious Mega Stones. Have Mewtwo hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_MEWTWONITE_Y",
-    "id": 519,
-    "constant": "ITEM_MEWTWONITE_Y",
-    "name": "Mewtwonite Y",
-    "description": "One of the mysterious Mega Stones. Have Mewtwo hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_PIDGEOTITE",
-    "id": 510,
-    "constant": "ITEM_PIDGEOTITE",
-    "name": "Pidgeotite",
-    "description": "One of the mysterious Mega Stones. Have Pidgeot hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": "Replaced vanilla item slot 510; placeholder icon copied."
-    }
-  },
-  {
-    "key": "ITEM_PINSIRITE",
-    "id": 515,
-    "constant": "ITEM_PINSIRITE",
-    "name": "Pinsirite",
-    "description": "One of the mysterious Mega Stones. Have Pinsir hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_FAIRY_FEATHER",
-    "id": 125,
-    "constant": "ITEM_FAIRY_FEATHER",
-    "name": "Fairy Feather",
-    "description": "An item to be held by a Pokemon. This feather boosts the power of Fairy-type moves.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_ROSELI_BERRY",
-    "id": 126,
-    "constant": "ITEM_ROSELI_BERRY",
-    "name": "Roseli Berry",
-    "description": "If held by a Pokemon, this Berry will lessen the damage taken from one supereffective Fairy-type attack",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_SABLENITE",
-    "id": 530,
-    "constant": "ITEM_SABLENITE",
-    "name": "Sablenite",
-    "description": "One of the mysterious Mega Stones. Have Sableye hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": "Replaced vanilla item slot 530; placeholder icon copied."
-    }
-  },
-  {
-    "key": "ITEM_SAFETY_GOGGLES",
-    "id": 127,
-    "constant": "ITEM_SAFETY_GOGGLES",
-    "name": "Safety Goggles",
-    "description": "An item to be held by a Pokemon. These goggles protect the holder from both weather-related damage and powder.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_SALAMENCITE",
-    "id": 601,
-    "constant": "ITEM_SALAMENCITE",
-    "name": "Salamencite",
-    "description": "One of the mysterious Mega Stones. Have Salamence hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": "Replaced vanilla item slot 601; placeholder icon copied."
-    }
-  },
-  {
-    "key": "ITEM_SCEPTILITE",
-    "id": 526,
-    "constant": "ITEM_SCEPTILITE",
-    "name": "Sceptilite",
-    "description": "One of the mysterious Mega Stones. Have Sceptile hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": "Replaced vanilla item slot 526; placeholder icon copied."
-    }
-  },
-  {
-    "key": "ITEM_SCIZORITE",
-    "id": 522,
-    "constant": "ITEM_SCIZORITE",
-    "name": "Scizorite",
-    "description": "One of the mysterious Mega Stones. Have Scizor hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_SHARPEDONITE",
-    "id": 595,
-    "constant": "ITEM_SHARPEDONITE",
-    "name": "Sharpedonite",
-    "description": "One of the mysterious Mega Stones. Have Sharpedo hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": "Replaced vanilla item slot 595; placeholder icon copied."
-    }
-  },
-  {
-    "key": "ITEM_SLOWBRONITE",
-    "id": 512,
-    "constant": "ITEM_SLOWBRONITE",
-    "name": "Slowbronite",
-    "description": "One of the mysterious Mega Stones. Have Slowbro hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": "Replaced vanilla item slot 512; placeholder icon copied."
-    }
-  },
-  {
-    "key": "ITEM_SNOWBALL",
-    "id": 128,
-    "constant": "ITEM_SNOWBALL",
-    "name": "Snowball",
-    "description": "An item to be held by a Pokemon. It boosts Attack if hit with an Ice-type attack. It can only be used once.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_STEELIXITE",
-    "id": 521,
-    "constant": "ITEM_STEELIXITE",
-    "name": "Steelixite",
-    "description": "One of the mysterious Mega Stones. Have Steelix hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": "Replaced vanilla item slot 521; placeholder icon copied."
-    }
-  },
-  {
-    "key": "ITEM_SWAMPERTITE",
-    "id": 528,
-    "constant": "ITEM_SWAMPERTITE",
-    "name": "Swampertite",
-    "description": "One of the mysterious Mega Stones. Have Swampert hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": "Replaced vanilla item slot 528; placeholder icon copied."
-    }
-  },
-  {
-    "key": "ITEM_TYRANITARITE",
-    "id": 525,
-    "constant": "ITEM_TYRANITARITE",
-    "name": "Tyranitarite",
-    "description": "One of the mysterious Mega Stones. Have Tyranitar hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_VENUSAURITE",
-    "id": 505,
-    "constant": "ITEM_VENUSAURITE",
-    "name": "Venusaurite",
-    "description": "One of the mysterious Mega Stones. Have Venusaur hold it, and this stone will enable it to Mega Evolve in battle.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_WEAKNESS_POLICY",
-    "id": 129,
-    "constant": "ITEM_WEAKNESS_POLICY",
-    "name": "Weakness Policy",
-    "description": "An item to be held by a Pokemon. Attack and Sp. Atk sharply increase if the holder is hit with a move it's weak to.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
-      "verified": true,
-      "notes": ""
-    }
-  },
-  {
-    "key": "ITEM_PROTECTIVE_PADS",
-    "id": 114,
-    "constant": "ITEM_PROTECTIVE_PADS",
-    "name": "Protective Pads",
-    "generation": 7,
-    "description": "An item to be held by a Pokemon. These pads protect the holder from effects caused by making direct contact with the target.",
-    "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
       "verified": false,
-      "notes": "Resident contact-effect suppression corrected for Iron Barbs and Rough Skin; item icon implemented; needs in-game retest."
-    }
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
   },
   {
-    "key": "ITEM_TERRAIN_EXTENDER",
-    "id": 115,
-    "constant": "ITEM_TERRAIN_EXTENDER",
-    "name": "Terrain Extender",
-    "generation": 7,
-    "description": "An item to be held by a Pokemon. It extends the duration of terrain caused by the holder's move or Ability.",
+    "key": "ITEM_CLEAR_AMULET",
+    "constant": "ITEM_CLEAR_AMULET",
+    "name": "Clear Amulet",
+    "generation": 9,
+    "description": "Blocks stat reductions caused by opposing Pokémon.",
     "defaultProgress": {
-      "battleCode": true,
-      "itemIcon": true,
+      "battleCode": false,
+      "itemIcon": false,
       "verified": false,
-      "notes": "Battle handler and item icon implemented; needs in-game verification."
-    }
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
+  },
+  {
+    "key": "ITEM_CORNERSTONE_MASK",
+    "constant": "ITEM_CORNERSTONE_MASK",
+    "name": "Cornerstone Mask",
+    "generation": 9,
+    "description": "Selects Ogerpon's Cornerstone form and Rock-type Ivy Cudgel.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
+  },
+  {
+    "key": "ITEM_COVERT_CLOAK",
+    "constant": "ITEM_COVERT_CLOAK",
+    "name": "Covert Cloak",
+    "generation": 9,
+    "description": "Blocks additional effects of damaging moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
+  },
+  {
+    "key": "ITEM_EJECT_PACK",
+    "constant": "ITEM_EJECT_PACK",
+    "name": "Eject Pack",
+    "generation": 8,
+    "description": "A stat reduction consumes it and switches the holder out.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
   },
   {
     "key": "ITEM_ELECTRIC_SEED",
@@ -766,8 +491,129 @@
       "battleCode": true,
       "itemIcon": true,
       "verified": false,
-      "notes": "Battle handler and item icon implemented; needs in-game verification."
-    }
+      "notes": "items/gen6: ElectricSeedHandlers. Current integration remains unverified."
+    },
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "on-demand module",
+    "evidence": [
+      "include/Items.h",
+      "src/pokeweb_gameplay/battle_modules/registry.json"
+    ]
+  },
+  {
+    "key": "ITEM_FAIRY_FEATHER",
+    "id": 125,
+    "constant": "ITEM_FAIRY_FEATHER",
+    "name": "Fairy Feather",
+    "description": "An item to be held by a Pokemon. This feather boosts the power of Fairy-type moves.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "items/gen6: FairyFeatherHandlers. Current integration remains unverified."
+    },
+    "generation": 9,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "on-demand module",
+    "evidence": [
+      "include/Items.h",
+      "src/pokeweb_gameplay/battle_modules/registry.json"
+    ]
+  },
+  {
+    "key": "ITEM_GALLADITE",
+    "id": 609,
+    "constant": "ITEM_GALLADITE",
+    "name": "Galladite",
+    "description": "One of the mysterious Mega Stones. Have Gallade hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_GARCHOMPITE",
+    "id": 606,
+    "constant": "ITEM_GARCHOMPITE",
+    "name": "Garchompite",
+    "description": "One of the mysterious Mega Stones. Have Garchomp hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_GARDEVOIRITE",
+    "id": 529,
+    "constant": "ITEM_GARDEVOIRITE",
+    "name": "Gardevoirite",
+    "description": "One of the mysterious Mega Stones. Have Gardevoir hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_GENGARITE",
+    "id": 513,
+    "constant": "ITEM_GENGARITE",
+    "name": "Gengarite",
+    "description": "One of the mysterious Mega Stones. Have Gengar hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_GLALITITE",
+    "id": 600,
+    "constant": "ITEM_GLALITITE",
+    "name": "Glalitite",
+    "description": "One of the mysterious Mega Stones. Have Glalie hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
   },
   {
     "key": "ITEM_GRASSY_SEED",
@@ -780,8 +626,460 @@
       "battleCode": true,
       "itemIcon": true,
       "verified": false,
-      "notes": "Battle handler and item icon implemented; needs in-game verification."
-    }
+      "notes": "items/gen6: GrassySeedHandlers. Current integration remains unverified."
+    },
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "on-demand module",
+    "evidence": [
+      "include/Items.h",
+      "src/pokeweb_gameplay/battle_modules/registry.json"
+    ]
+  },
+  {
+    "key": "ITEM_GRISEOUS_CORE",
+    "constant": "ITEM_GRISEOUS_CORE",
+    "name": "Griseous Core",
+    "generation": 8,
+    "description": "Selects Origin Giratina and strengthens Ghost and Dragon moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
+  },
+  {
+    "key": "ITEM_GYARADOSITE",
+    "id": 516,
+    "constant": "ITEM_GYARADOSITE",
+    "name": "Gyaradosite",
+    "description": "One of the mysterious Mega Stones. Have Gyarados hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_HEARTHFLAME_MASK",
+    "constant": "ITEM_HEARTHFLAME_MASK",
+    "name": "Hearthflame Mask",
+    "generation": 9,
+    "description": "Selects Ogerpon's Hearthflame form and Fire-type Ivy Cudgel.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
+  },
+  {
+    "key": "ITEM_HEAVY_DUTY_BOOTS",
+    "constant": "ITEM_HEAVY_DUTY_BOOTS",
+    "name": "Heavy-Duty Boots",
+    "generation": 8,
+    "description": "Ignores entry hazards when switching in.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
+  },
+  {
+    "key": "ITEM_HERACRONITE",
+    "id": 523,
+    "constant": "ITEM_HERACRONITE",
+    "name": "Heracronite",
+    "description": "One of the mysterious Mega Stones. Have Heracross hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_HOUNDOOMINITE",
+    "id": 524,
+    "constant": "ITEM_HOUNDOOMINITE",
+    "name": "Houndoominite",
+    "description": "One of the mysterious Mega Stones. Have Houndoom hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_KANGASKHANITE",
+    "id": 514,
+    "constant": "ITEM_KANGASKHANITE",
+    "name": "Kangaskhanite",
+    "description": "One of the mysterious Mega Stones. Have Kangaskhan hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_LATIASITE",
+    "id": 603,
+    "constant": "ITEM_LATIASITE",
+    "name": "Latiasite",
+    "description": "One of the mysterious Mega Stones. Have Latias hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_LATIOSITE",
+    "id": 604,
+    "constant": "ITEM_LATIOSITE",
+    "name": "Latiosite",
+    "description": "One of the mysterious Mega Stones. Have Latios hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_LOADED_DICE",
+    "constant": "ITEM_LOADED_DICE",
+    "name": "Loaded Dice",
+    "generation": 9,
+    "description": "Biases multi-strike attacks toward more hits.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
+  },
+  {
+    "key": "ITEM_LOPUNNITE",
+    "id": 605,
+    "constant": "ITEM_LOPUNNITE",
+    "name": "Lopunnite",
+    "description": "One of the mysterious Mega Stones. Have Lopunny hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_LUCARIONITE",
+    "id": 607,
+    "constant": "ITEM_LUCARIONITE",
+    "name": "Lucarionite",
+    "description": "One of the mysterious Mega Stones. Have Lucario hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_LUMINOUS_MOSS",
+    "id": 122,
+    "constant": "ITEM_LUMINOUS_MOSS",
+    "name": "Luminous Moss",
+    "description": "An item to be held by a Pokemon. It boosts Sp. Def if hit with a Water-type attack. It can only be used once.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "items/gen6: LuminousMossHandlers. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "on-demand module",
+    "evidence": [
+      "include/Items.h",
+      "src/pokeweb_gameplay/battle_modules/registry.json"
+    ]
+  },
+  {
+    "key": "ITEM_LUSTROUS_GLOBE",
+    "constant": "ITEM_LUSTROUS_GLOBE",
+    "name": "Lustrous Globe",
+    "generation": 8,
+    "description": "Selects Origin Palkia and strengthens Water and Dragon moves.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
+  },
+  {
+    "key": "ITEM_MANECTITE",
+    "id": 594,
+    "constant": "ITEM_MANECTITE",
+    "name": "Manectite",
+    "description": "One of the mysterious Mega Stones. Have Manectric hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_MARANGA_BERRY",
+    "id": 123,
+    "constant": "ITEM_MARANGA_BERRY",
+    "name": "Maranga Berry",
+    "description": "If held by a Pokemon, this Berry will increase the Pokemon's Sp. Defense stat when hit by a special attack",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "items/gen6: MarangaBerryHandlers. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "on-demand module",
+    "evidence": [
+      "include/Items.h",
+      "src/pokeweb_gameplay/battle_modules/registry.json"
+    ]
+  },
+  {
+    "key": "ITEM_MAWILITE",
+    "id": 531,
+    "constant": "ITEM_MAWILITE",
+    "name": "Mawilite",
+    "description": "One of the mysterious Mega Stones. Have Mawile hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_MEDICHAMITE",
+    "id": 593,
+    "constant": "ITEM_MEDICHAMITE",
+    "name": "Medichamite",
+    "description": "One of the mysterious Mega Stones. Have Medicham hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_MEGA_RING",
+    "id": 124,
+    "constant": "ITEM_MEGA_RING",
+    "name": "Mega Ring",
+    "description": "This ring contains an untold power that somehow enables Pokemon carrying Mega Stones to Mega Evolve in Battle",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_MEGITE",
+    "constant": "ITEM_MEGITE",
+    "name": "Megite",
+    "generation": 6,
+    "description": "Custom universal Mega Evolution stone used by this integration.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Custom universal stone; uses the integration's existing Mega/G-Max-derived routes. Current integration remains unverified."
+    },
+    "id": 113,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_METAGROSSITE",
+    "id": 602,
+    "constant": "ITEM_METAGROSSITE",
+    "name": "Metagrossite",
+    "description": "One of the mysterious Mega Stones. Have Metagross hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_MEWTWONITE_X",
+    "id": 518,
+    "constant": "ITEM_MEWTWONITE_X",
+    "name": "Mewtwonite X",
+    "description": "One of the mysterious Mega Stones. Have Mewtwo hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_MEWTWONITE_Y",
+    "id": 519,
+    "constant": "ITEM_MEWTWONITE_Y",
+    "name": "Mewtwonite Y",
+    "description": "One of the mysterious Mega Stones. Have Mewtwo hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_MIRROR_HERB",
+    "constant": "ITEM_MIRROR_HERB",
+    "name": "Mirror Herb",
+    "generation": 9,
+    "description": "Copies an opponent's positive stat changes once.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
   },
   {
     "key": "ITEM_MISTY_SEED",
@@ -794,8 +1092,71 @@
       "battleCode": true,
       "itemIcon": true,
       "verified": false,
-      "notes": "Battle handler and item icon implemented; needs in-game verification."
-    }
+      "notes": "items/gen6: MistySeedHandlers. Current integration remains unverified."
+    },
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "on-demand module",
+    "evidence": [
+      "include/Items.h",
+      "src/pokeweb_gameplay/battle_modules/registry.json"
+    ]
+  },
+  {
+    "key": "ITEM_PIDGEOTITE",
+    "id": 510,
+    "constant": "ITEM_PIDGEOTITE",
+    "name": "Pidgeotite",
+    "description": "One of the mysterious Mega Stones. Have Pidgeot hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_PINSIRITE",
+    "id": 515,
+    "constant": "ITEM_PINSIRITE",
+    "name": "Pinsirite",
+    "description": "One of the mysterious Mega Stones. Have Pinsir hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_PROTECTIVE_PADS",
+    "id": 114,
+    "constant": "ITEM_PROTECTIVE_PADS",
+    "name": "Protective Pads",
+    "generation": 7,
+    "description": "An item to be held by a Pokemon. These pads protect the holder from effects caused by making direct contact with the target.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident contact-reaction checks suppress the protected contact effects. Current integration remains unverified."
+    },
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident hooks",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_abilities.cpp"
+    ]
   },
   {
     "key": "ITEM_PSYCHIC_SEED",
@@ -808,7 +1169,422 @@
       "battleCode": true,
       "itemIcon": true,
       "verified": false,
-      "notes": "Battle handler and item icon implemented; needs in-game verification."
-    }
+      "notes": "items/gen6: PsychicSeedHandlers. Current integration remains unverified."
+    },
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "on-demand module",
+    "evidence": [
+      "include/Items.h",
+      "src/pokeweb_gameplay/battle_modules/registry.json"
+    ]
+  },
+  {
+    "key": "ITEM_PUNCHING_GLOVE",
+    "constant": "ITEM_PUNCHING_GLOVE",
+    "name": "Punching Glove",
+    "generation": 9,
+    "description": "Boosts punching attacks and removes their contact effects.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
+  },
+  {
+    "key": "ITEM_ROOM_SERVICE",
+    "constant": "ITEM_ROOM_SERVICE",
+    "name": "Room Service",
+    "generation": 8,
+    "description": "Consumes under Trick Room to lower the holder's Speed.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
+  },
+  {
+    "key": "ITEM_ROSELI_BERRY",
+    "id": 126,
+    "constant": "ITEM_ROSELI_BERRY",
+    "name": "Roseli Berry",
+    "description": "If held by a Pokemon, this Berry will lessen the damage taken from one supereffective Fairy-type attack",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "items/gen6: RoseliBerryHandlers. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "on-demand module",
+    "evidence": [
+      "include/Items.h",
+      "src/pokeweb_gameplay/battle_modules/registry.json"
+    ]
+  },
+  {
+    "key": "ITEM_RUSTED_SHIELD",
+    "constant": "ITEM_RUSTED_SHIELD",
+    "name": "Rusted Shield",
+    "generation": 8,
+    "description": "Enables Zamazenta's Crowned Shield form.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
+  },
+  {
+    "key": "ITEM_RUSTED_SWORD",
+    "constant": "ITEM_RUSTED_SWORD",
+    "name": "Rusted Sword",
+    "generation": 8,
+    "description": "Enables Zacian's Crowned Sword form.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
+  },
+  {
+    "key": "ITEM_SABLENITE",
+    "id": 530,
+    "constant": "ITEM_SABLENITE",
+    "name": "Sablenite",
+    "description": "One of the mysterious Mega Stones. Have Sableye hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_SAFETY_GOGGLES",
+    "id": 127,
+    "constant": "ITEM_SAFETY_GOGGLES",
+    "name": "Safety Goggles",
+    "description": "An item to be held by a Pokemon. These goggles protect the holder from both weather-related damage and powder.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "items/gen6: SafetyGogglesHandlers. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "on-demand module",
+    "evidence": [
+      "include/Items.h",
+      "src/pokeweb_gameplay/battle_modules/registry.json"
+    ]
+  },
+  {
+    "key": "ITEM_SALAMENCITE",
+    "id": 601,
+    "constant": "ITEM_SALAMENCITE",
+    "name": "Salamencite",
+    "description": "One of the mysterious Mega Stones. Have Salamence hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_SCEPTILITE",
+    "id": 526,
+    "constant": "ITEM_SCEPTILITE",
+    "name": "Sceptilite",
+    "description": "One of the mysterious Mega Stones. Have Sceptile hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_SCIZORITE",
+    "id": 522,
+    "constant": "ITEM_SCIZORITE",
+    "name": "Scizorite",
+    "description": "One of the mysterious Mega Stones. Have Scizor hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_SHARPEDONITE",
+    "id": 595,
+    "constant": "ITEM_SHARPEDONITE",
+    "name": "Sharpedonite",
+    "description": "One of the mysterious Mega Stones. Have Sharpedo hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_SLOWBRONITE",
+    "id": 512,
+    "constant": "ITEM_SLOWBRONITE",
+    "name": "Slowbronite",
+    "description": "One of the mysterious Mega Stones. Have Slowbro hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_SNOWBALL",
+    "id": 128,
+    "constant": "ITEM_SNOWBALL",
+    "name": "Snowball",
+    "description": "An item to be held by a Pokemon. It boosts Attack if hit with an Ice-type attack. It can only be used once.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "items/gen6: SnowballHandlers. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "on-demand module",
+    "evidence": [
+      "include/Items.h",
+      "src/pokeweb_gameplay/battle_modules/registry.json"
+    ]
+  },
+  {
+    "key": "ITEM_STEELIXITE",
+    "id": 521,
+    "constant": "ITEM_STEELIXITE",
+    "name": "Steelixite",
+    "description": "One of the mysterious Mega Stones. Have Steelix hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_SWAMPERTITE",
+    "id": 528,
+    "constant": "ITEM_SWAMPERTITE",
+    "name": "Swampertite",
+    "description": "One of the mysterious Mega Stones. Have Swampert hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_TERRAIN_EXTENDER",
+    "id": 115,
+    "constant": "ITEM_TERRAIN_EXTENDER",
+    "name": "Terrain Extender",
+    "generation": 7,
+    "description": "An item to be held by a Pokemon. It extends the duration of terrain caused by the holder's move or Ability.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "items/gen6: TerrainExtenderHandlers. Current integration remains unverified."
+    },
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "on-demand module",
+    "evidence": [
+      "include/Items.h",
+      "src/pokeweb_gameplay/battle_modules/registry.json"
+    ]
+  },
+  {
+    "key": "ITEM_THROAT_SPRAY",
+    "constant": "ITEM_THROAT_SPRAY",
+    "name": "Throat Spray",
+    "generation": 8,
+    "description": "A sound move consumes it to raise Special Attack.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
+  },
+  {
+    "key": "ITEM_TYRANITARITE",
+    "id": 525,
+    "constant": "ITEM_TYRANITARITE",
+    "name": "Tyranitarite",
+    "description": "One of the mysterious Mega Stones. Have Tyranitar hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_UTILITY_UMBRELLA",
+    "constant": "ITEM_UTILITY_UMBRELLA",
+    "name": "Utility Umbrella",
+    "generation": 8,
+    "description": "Shields its holder from rain and sun effects.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Battle effect is not implemented. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
+  },
+  {
+    "key": "ITEM_VENUSAURITE",
+    "id": 505,
+    "constant": "ITEM_VENUSAURITE",
+    "name": "Venusaurite",
+    "description": "One of the mysterious Mega Stones. Have Venusaur hold it, and this stone will enable it to Mega Evolve in battle.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "Resident Mega system and item data are present; inventory/UI behavior remains unverified. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "resident Mega system",
+    "evidence": [
+      "src/pokeweb_gameplay/w2u_mega.cpp"
+    ]
+  },
+  {
+    "key": "ITEM_WEAKNESS_POLICY",
+    "id": 129,
+    "constant": "ITEM_WEAKNESS_POLICY",
+    "name": "Weakness Policy",
+    "description": "An item to be held by a Pokemon. Attack and Sp. Atk sharply increase if the holder is hit with a move it's weak to.",
+    "defaultProgress": {
+      "battleCode": true,
+      "itemIcon": true,
+      "verified": false,
+      "notes": "items/gen6: WeaknessPolicyHandlers. Current integration remains unverified."
+    },
+    "generation": 6,
+    "implementationStatus": "Implemented — unverified",
+    "implementationMethod": "on-demand module",
+    "evidence": [
+      "include/Items.h",
+      "src/pokeweb_gameplay/battle_modules/registry.json"
+    ]
+  },
+  {
+    "key": "ITEM_WELLSPRING_MASK",
+    "constant": "ITEM_WELLSPRING_MASK",
+    "name": "Wellspring Mask",
+    "generation": 9,
+    "description": "Selects Ogerpon's Wellspring form and Water-type Ivy Cudgel.",
+    "defaultProgress": {
+      "battleCode": false,
+      "itemIcon": false,
+      "verified": false,
+      "notes": "Form/item dependency is not integrated. No integration item slot or data record is assigned. Current integration remains unverified."
+    },
+    "id": null,
+    "implementationStatus": "Pending",
+    "implementationMethod": "not implemented",
+    "evidence": []
   }
 ]
