@@ -2,6 +2,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { assignedTrackerMap } from "./lib/battle-progress.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const siteRoot = path.resolve(here, "..");
@@ -168,7 +169,7 @@ function moveDataPath(id) {
 
 async function loadTrackerMap(name) {
   const rows = await readJson(path.join(siteRoot, "data", `${name}.gen6.json`));
-  return new Map(rows.map((row) => [Number(row.id), row]));
+  return assignedTrackerMap(rows);
 }
 
 async function loadPersonalInfo(id) {

@@ -1,4 +1,10 @@
 // Source-backed tracker reconciliation. A definition/name alone is not code.
+export function assignedTrackerMap(rows) {
+  // Pending catalog entries have no usable game ID. In particular, Number(null)
+  // must never replace item 0 in generated save-editor data.
+  return new Map(rows.filter(row => Number.isInteger(row.id) && row.id >= 0).map(row => [row.id, row]));
+}
+
 export function parseConstants(text, prefix) {
   const expressions = new Map();
   const patterns = [/^\s*#define\s+(\w+)\s+(0x[\da-f]+|\d+|[A-Z_]\w*)\b/gmi,

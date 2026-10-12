@@ -4,10 +4,16 @@ import { readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
-import { parseConstants, parseMessageBank, reconcileBattleProgress, ITEM_ADDITIONS } from '../lib/battle-progress.mjs';
+import { assignedTrackerMap, parseConstants, parseMessageBank, reconcileBattleProgress, ITEM_ADDITIONS } from '../lib/battle-progress.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const json = name => JSON.parse(readFileSync(path.join(root, 'data', name), 'utf8'));
+test('save-editor maps exclude unassigned rows without replacing item zero', () => {
+  const map=assignedTrackerMap([{id:0,name:'None'},{id:426,name:'Booster Energy'},{id:null,name:'Loaded Dice'},
+    {name:'No ID'},{id:-1,name:'Invalid'},{id:'',name:'Empty'}]);
+  assert.equal(map.size,2);assert.equal(map.get(0).name,'None');assert.equal(map.get(426).name,'Booster Energy');
+  assert.equal(assignedTrackerMap(json('items.gen6.json')).has(0),false);
+});
 function fixture() {
   const abilityIds = new Map([['ABIL_AROMA_VEIL', 165], ['ABIL_QUEENLY_MAGESTY', 214], ['ABIL_QUEENLY_MAJESTY', 214],
     ['ABIL_LONG_REACH', 203], ['ABIL_RKS_SYSTEM', 225], ['ABIL_BALL_FETCH', 237], ['ABIL_GULP_MISSILE', 241],
